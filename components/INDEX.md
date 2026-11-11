@@ -90,7 +90,7 @@ Base URL: `https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=`
 |---|---|---|---|---|
 | Communication design | Comms Templates | [2429:4649](https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=2429-4649) | 4 | ✅ [CommsTemplates](CommsTemplates/spec.md) |
 | Shadows, Blurs & Overlays | Blur/Small, Blur/Moderate, Blur/Large | [1663:7087](https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=1663-7087) … | 3 | documented in tokens/effects.json |
-| Rapido Assets | Logo_Rapido-customer, Logo_Ownly, Logo_Captain-app | [1558:13539](https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=1558-13539) … | 5 | assets/logos (stage 4) |
-| Service Manager Icons | Service Icons/Bike, /Auto, /Cab, /Special orders, Service Icons, Bundle Order Icons | [1905:602](https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=1905-602) … | 106 | assets/icons (stage 4) |
-| Icons | 2 086 Material icon sets + 147 custom icons + `account_balance` (State Default/Active) | [1701:173](https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=1701-173) | 10 579 | assets/icons (stage 4) |
+| Rapido Assets | Logo_Rapido-customer, Logo_Ownly, Logo_Captain-app | [1558:13539](https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=1558-13539) … | 5 | ✅ assets/logos |
+| Service Manager Icons | Service Icons/Bike, /Auto, /Cab, /Special orders, Service Icons, Bundle Order Icons | [1905:602](https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=1905-602) … | 106 | ✅ assets/icons/service |
+| Icons | 2 086 Material icon sets (×5 styles) + 147 custom icons + `GTA` (State Default/Active) | [1701:173](https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=1701-173) | 10 579 | ✅ [assets/icons](../assets/manifest.json) |
 | Utilities | .Typography explanation Card, .Type Token, .Label, .Color Token | [442:3894](https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=442-3894) | 5 | skipped — documentation helpers |

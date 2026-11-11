@@ -16,8 +16,8 @@ the raw float as `alphaRaw` / `opacityRaw`.
 | 1. Tokens (`tokens/`) | ✅ done |
 | 2. Core components (Button, TextField, Card) | ✅ done — reviewed (TextField font: Inter) |
 | 3. Remaining components | ✅ done — 26 more component folders |
-| 4. Icons / logos | ⏳ — needs bulk-export access, see "Blocked / needs input" |
-| 5. Screens | ⏳ |
+| 4. Icons / logos | ✅ done — 10 690 assets |
+| 5. Screens | ✅ done — 31 screens at 2x |
 
 ## Page checklist (Runway file)
 
@@ -223,8 +223,38 @@ Remote/other-library components that are **not** in Runway and are passed in as 
 - Guidance: title/body raw #253041 (Gray 800) instead of a text token; buttons override fill to `Surface/Brand/Primary-A` and drop the min-width binding (112 wide vs 140 token min); pagination dot P3 in Sheet3 is 17×16.
 - No spacing/size/radius variables bound in any of these three components.
 
-## Blocked / needs input
-- **Bulk icon export (stage 4).** The Icons page has 2 086 Material icon sets × 5 styles (Filled, Outlined, Round, Sharp, Two Tone) =
-  10 430 SVGs, plus 147 custom icons and the service-manager icons. Exporting these through the MCP one node at a time isn't practical.
-  Needs either Figma linked in Composio (`composio link figma`) or a Figma personal access token, so the REST images endpoint can write
-  SVGs straight to disk.
+## Icons & logos (stage 4)
+Exported with the Figma REST API (`GET /v1/images`, SVG with Figma's default export settings) using a read-only personal access token.
+Every exported file, its Figma name and node id is listed in `assets/manifest.json`.
+
+| Folder | Count | Source |
+|---|---|---|
+| `assets/icons/material/{filled,outlined,round,sharp,two-tone}/` | 2 086 each = **10 430** | Icons page — Material icon sets (`Style=` variants) |
+| `assets/icons/custom/` | **149** | Icons page — 147 custom components + `GTA` set (`gta-default`, `gta-active`) |
+| `assets/icons/service/` | **106** (6 SVG + 100 PNG @2x) | Service Manager Icons page — `Service Icons/Bike` (36), `/Auto` (21), `/Cab` (18), `/Special orders` (24), `Service Icons` (4), `Bundle Order Icons` (3) |
+| `assets/logos/` | **5** | Rapido Assets page — `Logo_Rapido-customer` yellow/black/white, `Logo_Ownly`, `Logo_Captain-app` |
+| **Total** | **10 690** | 0 failed, 0 missing |
+
+Naming: Figma name in kebab-case; variant values appended (`service-icons-bike/bike-taxi-oa.png`).
+- **Duplicate Figma names** on the Icons page (two components each): `Check_Circle_Filled`, `Info_Circle_Filled`, `Close_Stroke`, `Check_Circle_Stroke`,
+  `Info_Circle_Stroke` — the second copy is saved with a `-2` suffix. `account_balance` exists both as a custom icon and a Material set (no clash; different folders).
+- **Service icons are raster images** in Figma (image fills — photographic vehicle renders). Exported as SVG they were 1–3 MB each of embedded
+  bitmap, so those 100 are delivered as **PNG at 2x** instead; only the 6 Cab/Special-orders "AC" icons are real vectors and stay SVG.
+  The page also has loose, non-component render images (`Glossy Green Electric Scooter Render 1`, etc.) — not exported.
+- **Colours**: Material icons are single-colour `black` (≈99 %); the multi-colour ones (black + white knock-outs) can be found via the
+  `colors` field in `assets/manifest.json` — 29 filled, 29 outlined, 12 round, 27 sharp, 23 two-tone. 121 of the custom icons use **#1c1b1f** (Material's
+  default on-surface colour), which is **not a Runway token**; 25 use black. None are exported with `currentColor`; recolour at use site.
+- Icon `Hardware` text label on the Icons page is a section heading, not an icon.
+
+## Screens (stage 5)
+31 screens from the Master File (`tqSaYDOfJ1K1Fc51Zb9Fqz`) at 2x — see `screens/INDEX.md` for what each one is and its Figma frame.
+The Master File's *Index* page links only to pages inside the same file; no other Figma files were referenced.
+Pages with no phone frames (Logo & App Icon, My profile, Rewards, Service Icons +, Services & Features Information) and the
+Subscription / Autopay / Performance pages were not exported.
+
+## Not exported / open items
+- `.(Rejected) Button Tokens` collection (43 variables) — explicitly marked rejected in Figma.
+- Utilities page doc helpers, cover and divider pages.
+- Remote-library components used inside Runway (Reject Button, GTA Icon, header Toggle, Filter Pills, Orders Button, Bottom Nav Icons) — they live in other files.
+- Comms Templates have no content in Figma (empty frames) — only sizes exported.
+- Components are type-checked but have not been rendered/visually compared in a browser.
