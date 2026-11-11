@@ -14,8 +14,8 @@ the raw float as `alphaRaw` / `opacityRaw`.
 | Stage | Status |
 |---|---|
 | 1. Tokens (`tokens/`) | ✅ done |
-| 2. Core components (Button, TextField, Card) | ✅ done — **awaiting your review** before stage 3 |
-| 3. Remaining components | ⏳ |
+| 2. Core components (Button, TextField, Card) | ✅ done — reviewed (TextField font: Inter) |
+| 3. Remaining components | ✅ done — 26 more component folders |
 | 4. Icons / logos | ⏳ — needs bulk-export access, see "Blocked / needs input" |
 | 5. Screens | ⏳ |
 
@@ -157,6 +157,71 @@ Per-component details are recorded in each `components/<Name>/spec.md`.
 - `components/_shared/textStyles.ts` maps each Runway text style to its typography tokens (used by every component).
 - The `.tsx` files are type-checked (`tsc --strict`, React 18 types) and every `var(--…)` they use is verified to exist in
   `tokens/tokens.css`. They haven't been rendered in a browser yet.
+
+## Components — notes from stage 3
+26 component folders (spec.md + .tsx + preview.png), 29 `.tsx` files in total including stage 2. All `.tsx` type-check together under `tsc --strict` (React 18 types); every `var(--…)` resolves to `tokens/tokens.css` (except `--runway-input-placeholder`, a local custom property `Input.tsx` sets itself). Where Figma uses an unbound hex that equals a Runway primitive, the code uses the primitive variable and says so in a comment; hexes that match no token stay raw with a comment.
+
+Remote/other-library components that are **not** in Runway and are passed in as `ReactNode` props: Reject Button, GTA Icon, header `Toggle`, Filter Pills, `Orders Button`, `Bottom Nav Icons` (the remote Refresh Button is rebuilt inside `OAMessageBox`).
+
+**Stamp artwork**: exported via the REST API as 2x PNG (`components/Stamp/assets/*.png`, used by `Stamp.tsx`) and as full SVG (`components/Stamp/assets/svg/`, 1.4–1.7 MB each — heavy vector art).
+
+#### Tool Tip, Snackbar, Comms Templates
+- Comms Templates: all 4 variants are empty white frames (no children); fill #ffffff unbound, radius 0, variant prop still named "Property 1". Only canvas sizes are defined (CT Banners 360×640, Pitch Center 264×352, Storyly 360×720, In-App Notification Banners 328×160).
+- Tool Tip: Plain is always `Surface/Information/Light`, Detailed always `Surface/Warning/Light` (no other colour option).
+- Tool Tip: Detailed Left/Right uses root gap −6; every other variant −8. Pointer inset Left/Right: 8 (Plain) vs 16 (Detailed); Top/Bottom 24.
+- Tool Tip: action labels override Tertiary-Info's `Text/Information/Dark` (#146edc) with `Colors - Maps/Mapped-Blue/Blue 500` (#1559ac) — a map token, not semantic.
+- Tool Tip: body frame named "Plain ToolTip" in Detailed variants; no text props, no close-icon swap; Title/Close Button/Buttons booleans exist on Plain variants but do nothing. All geometry unbound (width 328, padding 12, radius 16…).
+- Snackbar: Single variants have no Action text node, so "Show Action"/"Action Text" only work for Lines = Stack.
+- Snackbar: General/Low close icon is unbound #1c1b1f (no matching token); Single/General/Low title/body use unbound #1a202a where Stack binds `Text/OnSurface/Default`.
+- Snackbar: close icon size bound to `Button Tokens/Button/Icon-Size` (follows Button size mode), not a snackbar token. Label max width 298 (Single) vs 328 (Stack); padding, gaps, radius 8, min/max 220/360 all unbound.
+- Snackbar: every Type uses the same leading icon (Info_Circle_Filled); no description/documentation.
+#### Chip, Tag, Badge, Stamp, Toast, Modal
+- Chip: in State=Default the Close_Stroke layer is hidden and not linked to "Show Trailing Icon", so the trailing icon can never show in Default. Trailing icon not swappable. Selected switches label to Bold (chip widens).
+- Chip: Number Badge radius 100 raw; badge keeps black/white colours in Disabled.
+- Chip and Badge use `Button Tokens/Button/Radius` (a Button-only token) for their pill radius.
+- Badge: No Number fills with `Mapped-Yellow/Yellow 400`, Small/Large with `Mapped-Brand/Primary-A` (both #ffca20). Sizes, padding, gaps raw.
+- Tag: everything except colour/text style raw (radius 4, min-width 92, padding 4/12/4/8); uses the Button text style `Button/Small/SemiBold` for a label.
+- Stamp: binds no variables; some fills use remote styles `Color/Palette/Blue/500`, `Green/600`, `Purple/600`; teal #139f98 (both "work zone" variants) is raw and matches no token. Two variants have live text in Noto Sans ExtraBold at fractional sizes. "fixed commission" frame 198.67×164 with artwork spilling to ~211×204. Variant names inconsistent.
+- Modal: "Buttons" and "Secondary Button" boolean props are defined but not linked to any layer; hidden secondary button layer is named "Primary Button"; card slot named "Toast"; card at y=198 not centred (212); no auto-layout.
+- Toast vs Modal: body colour `Text/OnSurface/Default` vs `Text/Neutral/Dark` (same #1a202a); padding/gap 16/16 vs 24/24; graphic→text gap 16 vs 0; width fill (312) vs fixed 328.
+- Toast is a centred dialog without buttons, not a toast; its full-screen backdrop frame has radius 16 and clips content.
+- Toast/Modal: all spacing and radii raw; `.Graphic Box` icon colour #1c1b1f raw (no token).
+#### Header components
+- Tab underline (Highlighter/Dummy in .2 Tabs/.3 Tabs) radius is really 222/22/0/0. Figma clamps it to 2/2/0/0 on a 2px-high bar; CSS would scale differently, so code uses `2px 2px 0 0`.
+- Tab highlighter fill #1e4b82 is unbound (equals `Surface/Brand/Primary-B`).
+- Android status bar: clock is Roboto Medium 14 with no text style; icons/clock use remote paint styles `Color/Palette/Gray/400`, `Color/Palette/White`. Main component 360×28 but every instance is overridden to 360×32.
+- Duty Toggle: variant prop still `Property 1`, casing differs from Homepage Header's `Duty Type` (`Off duty` / `On Duty`). Knob shadows raw and differ by state (OFF x −1 @12 %, ON x +1 @16 %); track at x 2 (OFF) vs x 1 (ON). Nested toggle parts have ON/OFF icon props but no icon layers.
+- Secondary Tabs: unselected tabs use raw layer opacity 0.8 (dims label); root scrolls horizontally with clip content off, so it overflows in Figma.
+- Primary Tabs, Secondary Tabs and Internal Page Header title have no text properties.
+- Internal Page Header: `Show Icon Button` boolean is wired to nothing (`Icon Button` does the job); its "Icon Only Button" is a detached frame (stroke `Border/Neutral/Black` vs component's `Border/Neutral/Dark`); help Button instance overrides stroke to `Border/Neutral/Black`; title fill unbound #000000; layer typo "Leadign Icon + Label".
+- Homepage Header: row gap raw 27 (off the 4-pt scale); header icon vectors unbound #000000.
+- "Today's Earnings Accordian" (3291:9380) on the header page is a plain frame, not a component, and not used by either header — not exported.
+#### Service Chip, OA message Box, Home of Orders
+- Service Chips: default/premium chips bind a remote copy of `Surface/Neutral/Light`, `Surface/Neutral/Black`, `Text/OnSurface/Default`; corporate chips bind the local ones. Premium label #cbaa54 and gold gradients unbound and not in any Runway palette.
+- Service Chip Icons: Food/Grocery/Parcel/Pet backgrounds raw (#5e9076, #0a6b38, #bc7c46, #844301); Food and Parcel glyph whites come from two different remote colour styles. Cab Corporate reuses the Cab Sedan icon; Share/Pet labelled "Auto Share"/"Auto Pet"; a layer named `_ëÎÓÈ_1`.
+- OA message Box: Refresh Button in "Refresh Button"/"System check" is a remote component (remote `Button/Button Numbers/*` tokens); "Service Nudge" uses the local Secondary-Info Button — two different Refresh buttons (122 vs 140 px wide).
+- OA message Box: "Searching for orders..." and System-check text are unbound #000000 (others use `Text/Neutral/Dark`); uses remote `Body/Moderate/Reg`; Service Nudge body colour is remote style `Color/Palette/Gray/800`; layer typo "Refersh Button"; hidden Duty Toggles/Refresh buttons left inside variants.
+- Home of Orders: no auto-layout (absolute positions); raw radii 0/4/4/0, 20/20/0/0, 1000, 0/12/12/12, 8, 222 (remote toggle). Header title uses a remote text style and remote colour `Typography/Dark 1` (#0c0d0f); header toggle is a remote `Toggle` with raw shadows (#4ad189, #015127).
+- Home of Orders: side-bar fare text style mixed (Med local, Reg local, Reg remote); Go To filter pill is remote while Services/Stay In are local frames; Services chip gradient renders solid white; hidden filter panels raw #ffb9bf; Orders slot overlaps bottom nav by 3 px and Filters slot overflows the 360 px screen by 3 px.
+#### Radio Button, Checkbox, Toggle, .Input, .Input Caption
+- Unselected Active Radio ring is `Surface/Neutral/Dark`; unselected Active Checkbox outline is `Surface/Information/Dark`.
+- Radio/Checkbox Disabled+unselected fill the centre with `Surface/Neutral/Light`; Disabled+selected leave it transparent. Check mark is a transparent knock-out, not a white fill.
+- Variant axis is `Selection` on Radio but `Selected` on Checkbox; State option order differs.
+- Toggle: knob drop shadow (raw 1,1 r4 #101010 @10 %) only on Type=No Text + Active; Active knob icon unbound #1c1b1f; `Show Icon` does nothing on No Text variants; all dimensions raw (72×32, radius 222).
+- `.Input` Medium+Error (Default and Secondary) shows the normal Caption instead of the Error caption; Default/Medium/Error has a stray `Text` frame with a hidden Icon L.
+- `.Input` Medium gap is spacing/5 (8) in Focused/Typing but spacing/6 (10) elsewhere; Secondary/Large/Focused bottom stroke 3 unbound (others bound); Disabled has no stroke in Default/Secondary but 1 px `Surface Dim` in Combo Box; Combo Box Large padding-left spacing/8 (16) vs Default/Large spacing/9 (20); Default/Small/Focused text frame padding 2/0/2/0 gap 20 unlike other Focused variants.
+- `.Input` `Label` text prop is not connected (layer reads literal "Label Text"); `Icon R` prop unused; same colour bound to different variables per state (`On Surface 3` vs `On Surface Container 3`); input heights 36/44/56, width and 2×18 cursor raw.
+- `.Input Caption`: root fixed at 24 high but Large text is 28 (overflows); Medium and Large icons both 24; Password is fixed 163 wide with strength baked at 3/4 bars; sample text typos ("Succes", "At least 8 character").
+#### Bottom Navigation, Bottom Sheet, Guidance Bottom Sheet
+- Radius 758.62 is on the ring ellipses in Order Button Animation F1/F8 (scaled layer, 1000 × 44/58; no visible effect on an ellipse). Radius 8.38 is on `Ellipse 1` inside the Credit Line nav icon (scaled), not on the nav itself.
+- Order-button ring stroke weight 0 in F1/F8, 2.5 in F2–F7; stroke align switches INSIDE/CENTER.
+- Both sheets' visible radius is 16/16/0/0; the 10/10/0/0 is only on Guidance's hidden "Head" frame.
+- Nav labels and order button use remote copies of `Label/Moderate/Med`, `SubTitle/X-Small/Med|SemiBold`, `Title/Small/SemiBold`; Hide icon bound to remote `Surface/Neutral/White`.
+- `.Order Button` uses a remote `Bottom Nav Icons` set instead of local `.Nav Icons`; the Incoming Orders pill is the remote `Orders Button` component. Local order-count bubble has no text style (Noto Sans 20, line-height 100 %).
+- Order label weight Med in Default/Hide but SemiBold in Incoming Orders. Credit Line icon uses `Border/Neutral/Dark`, other line icons `Surface/Neutral/Dark` (same hex).
+- Bottom Sheet container/CTA fills unbound #ffffff (Guidance binds `Surface/Neutral/White`). "Horizontally/Vertically Stacked Buttons" booleans only work in Basic; Half/Full contain a stray hidden horizontal-buttons frame; horizontal button order Secondary→Primary in Basic but Primary→Secondary elsewhere. Points "Content" fixed height 464; Half illustration gap 24.7999…; `.Radio Points` text #1a202a and icon #1c1b1f unbound.
+- Guidance: title/body raw #253041 (Gray 800) instead of a text token; buttons override fill to `Surface/Brand/Primary-A` and drop the min-width binding (112 wide vs 140 token min); pagination dot P3 in Sheet3 is 17×16.
+- No spacing/size/radius variables bound in any of these three components.
 
 ## Blocked / needs input
 - **Bulk icon export (stage 4).** The Icons page has 2 086 Material icon sets × 5 styles (Filled, Outlined, Round, Sharp, Two Tone) =
