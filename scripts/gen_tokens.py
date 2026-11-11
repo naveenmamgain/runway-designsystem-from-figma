@@ -152,7 +152,7 @@ for n, v in NUMBERS:
     path = ["number", "Base - 4 Multiple", n]
     leaf = OD([("$value", f"{v}px"), ("$type", "dimension"), ("$extensions", ext("Numbers Base", name, []))])
     put(prim, path, leaf)
-    css = "--number-" + kebab(n)
+    css = "--" + kebab(name)
     REF["Numbers Base/" + name] = ("Primitives." + ".".join(path), css)
     CSS_ROOT.append((css, f"{v}px"))
 
@@ -161,7 +161,7 @@ for v in FONT_SIZES:
     path = ["typography", "Font Size", f"Base-Size-{v}"]
     leaf = OD([("$value", f"{v}px"), ("$type", "dimension"), ("$extensions", ext("Typography - Base Tokens", name, []))])
     put(prim, path, leaf)
-    css = f"--font-size-{v}"
+    css = "--" + kebab(name)
     REF["Typography - Base Tokens/" + name] = ("Primitives." + ".".join(path), css)
     CSS_ROOT.append((css, f"{v}px"))
 for n, v in LINE_HEIGHTS:
@@ -169,7 +169,7 @@ for n, v in LINE_HEIGHTS:
     path = ["typography", "Line Height", f"Base-Height-{n}"]
     leaf = OD([("$value", f"{v}px"), ("$type", "dimension"), ("$extensions", ext("Typography - Base Tokens", name, []))])
     put(prim, path, leaf)
-    css = "--line-height-" + kebab(n)
+    css = "--" + kebab(name)
     REF["Typography - Base Tokens/" + name] = ("Primitives." + ".".join(path), css)
     CSS_ROOT.append((css, f"{v}px"))
 CSS_WEIGHT = {"Regular": 400, "Medium": 500, "SemiBold": 600, "Bold": 700}
@@ -180,15 +180,15 @@ for w in WEIGHTS:
                ("$description", f"Figma stores this as the font style string \"{w}\". CSS numeric equivalent for Inter: {CSS_WEIGHT[w]}."),
                ("$extensions", ext("Typography - Base Tokens", name, []))])
     put(prim, path, leaf)
-    css = "--font-weight-" + kebab(w)
+    css = "--" + kebab(name)
     REF["Typography - Base Tokens/" + name] = ("Primitives." + ".".join(path), css)
     CSS_ROOT.append((css, str(CSS_WEIGHT[w])))
 
 put(prim, ["typeface", "Cap App - Typeface"], OD([
     ("$value", "Inter"), ("$type", "fontFamily"),
     ("$extensions", ext("Typography - Typeface", "Cap App - Typeface", ["ALL_SCOPES"], {"mode": "Primary"}))]))
-REF["Typography - Typeface/Cap App - Typeface"] = ("Primitives.typeface.Cap App - Typeface", "--font-family-cap-app")
-CSS_ROOT.append(("--font-family-cap-app", "'Inter'"))
+REF["Typography - Typeface/Cap App - Typeface"] = ("Primitives.typeface.Cap App - Typeface", "--cap-app-typeface")
+CSS_ROOT.append(("--cap-app-typeface", "'Inter'"))
 
 # Figma collection literally named "Primitives" (see EXPORT_NOTES: looks like sample/test data)
 SAMPLE_PRIM = [("gray/50", "#f9fafb", None), ("gray/100", "#f3f4f6", None), ("gray/300", "#d1d5db", None),

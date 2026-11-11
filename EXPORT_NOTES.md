@@ -14,7 +14,7 @@ the raw float as `alphaRaw` / `opacityRaw`.
 | Stage | Status |
 |---|---|
 | 1. Tokens (`tokens/`) | ✅ done |
-| 2. Core components (Button, TextField, Card) | ⏳ next — paused for review after this |
+| 2. Core components (Button, TextField, Card) | ✅ done — **awaiting your review** before stage 3 |
 | 3. Remaining components | ⏳ |
 | 4. Icons / logos | ⏳ — needs bulk-export access, see "Blocked / needs input" |
 | 5. Screens | ⏳ |
@@ -145,6 +145,18 @@ Runway's components bind variables from **other** libraries, which means some co
 The `Hopr Font Family`/Poppins binding suggests the input field was copied from the **Hopr Design System**. "Remote copy" means a
 same-named collection from another file (likely an older publish of this library or "Captain Design System"), not the local one.
 Per-component details are recorded in each `components/<Name>/spec.md`.
+
+## Components — notes from stage 2
+- **Card**: Runway has no generic Card; `OA Cards` (order-alert card) is exported as `Card`. See `components/Card/spec.md`.
+- **TextField** = Figma `Input Field`. The private `.Input` / `.Input Caption` sets on the same page are bound to other libraries'
+  variables (Hopr `Poppins`, `Radius`, `Sizing`) and are not used by `Input Field`.
+- Input/message/caption text in `Input Field` resolves to **Noto Sans** (remote `Captain App Font` variable) while the rest of Runway is Inter.
+  The `.tsx` uses Runway's local typography tokens (Inter) and the spec records the remote binding.
+- Button icons in neutral types use unbound `#000000`; Icon Only Button padding is larger than its fixed box; icon-only Secondary
+  Pressed stroke differs from text Secondary Pressed.
+- `components/_shared/textStyles.ts` maps each Runway text style to its typography tokens (used by every component).
+- The `.tsx` files are type-checked (`tsc --strict`, React 18 types) and every `var(--…)` they use is verified to exist in
+  `tokens/tokens.css`. They haven't been rendered in a browser yet.
 
 ## Blocked / needs input
 - **Bulk icon export (stage 4).** The Icons page has 2 086 Material icon sets × 5 styles (Filled, Outlined, Round, Sharp, Two Tone) =
