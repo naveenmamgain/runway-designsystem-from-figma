@@ -1,105 +1,4643 @@
 {
-  "light": {
+  "$description": "Runway (Cap-App) semantic tokens exported from Figma file GEdvNUzFqwB2gAbQKZRsIn. Every token lists its value per Figma mode in $extensions.com.figma.modes; $value is the collection's default mode. Aliases use {Primitives.<path>} / {Semantic.<path>}.",
+  "Colors - Maps": {
+    "Mapped-Neutral": {
+      "Black": {
+        "$value": "{Primitives.color.Base-Neutral.Black}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Neutral/Black",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Neutral.Black}"
+            }
+          }
+        }
+      },
+      "White": {
+        "$value": "{Primitives.color.Base-Neutral.White}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Neutral/White",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Neutral.White}"
+            }
+          }
+        }
+      }
+    },
+    "Mapped-Brand": {
+      "Primary-A": {
+        "$value": "{Primitives.color.Base-Brand.Primary-A}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Brand/Primary-A",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Brand.Primary-A}"
+            }
+          }
+        }
+      },
+      "Primary-B": {
+        "$value": "{Primitives.color.Base-Brand.Primary-B}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Brand/Primary-B",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Brand.Primary-B}"
+            }
+          }
+        }
+      }
+    },
+    "Mapped-Gray": {
+      "Gray 50": {
+        "$value": "{Primitives.color.Base-Gray.Gray 50}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Gray/Gray 50",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Gray.Gray 50}"
+            }
+          }
+        }
+      },
+      "Gray 100": {
+        "$value": "{Primitives.color.Base-Gray.Gray 100}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Gray/Gray 100",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Gray.Gray 100}"
+            }
+          }
+        }
+      },
+      "Gray 200": {
+        "$value": "{Primitives.color.Base-Gray.Gray 200}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Gray/Gray 200",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Gray.Gray 200}"
+            }
+          }
+        }
+      },
+      "Gray 300": {
+        "$value": "{Primitives.color.Base-Gray.Gray 300}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Gray/Gray 300",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Gray.Gray 300}"
+            }
+          }
+        }
+      },
+      "Gray 400": {
+        "$value": "{Primitives.color.Base-Gray.Gray 400}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Gray/Gray 400",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Gray.Gray 400}"
+            }
+          }
+        }
+      },
+      "Gray 500": {
+        "$value": "{Primitives.color.Base-Gray.Gray 500}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Gray/Gray 500",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Gray.Gray 500}"
+            }
+          }
+        }
+      },
+      "Gray 600": {
+        "$value": "{Primitives.color.Base-Gray.Gray 600}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Gray/Gray 600",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Gray.Gray 600}"
+            }
+          }
+        }
+      },
+      "Gray 700": {
+        "$value": "{Primitives.color.Base-Gray.Gray 700}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Gray/Gray 700",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Gray.Gray 700}"
+            }
+          }
+        }
+      },
+      "Gray 800": {
+        "$value": "{Primitives.color.Base-Gray.Gray 800}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Gray/Gray 800",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Gray.Gray 800}"
+            }
+          }
+        }
+      },
+      "Gray 900": {
+        "$value": "{Primitives.color.Base-Gray.Gray 900}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Gray/Gray 900",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Gray.Gray 900}"
+            }
+          }
+        }
+      }
+    },
+    "Mapped-Yellow": {
+      "Yellow 50": {
+        "$value": "{Primitives.color.Base-Yellow.Yellow 50}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Yellow/Yellow 50",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Yellow.Yellow 50}"
+            }
+          }
+        }
+      },
+      "Yellow 100": {
+        "$value": "{Primitives.color.Base-Yellow.Yellow 100}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Yellow/Yellow 100",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Yellow.Yellow 100}"
+            }
+          }
+        }
+      },
+      "Yellow 200": {
+        "$value": "{Primitives.color.Base-Yellow.Yellow 200}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Yellow/Yellow 200",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Yellow.Yellow 200}"
+            }
+          }
+        }
+      },
+      "Yellow 300": {
+        "$value": "{Primitives.color.Base-Yellow.Yellow 300}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Yellow/Yellow 300",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Yellow.Yellow 300}"
+            }
+          }
+        }
+      },
+      "Yellow 400": {
+        "$value": "{Primitives.color.Base-Yellow.Yellow 400}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Yellow/Yellow 400",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Yellow.Yellow 400}"
+            }
+          }
+        }
+      },
+      "Yellow 500": {
+        "$value": "{Primitives.color.Base-Yellow.Yellow 500}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Yellow/Yellow 500",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Yellow.Yellow 500}"
+            }
+          }
+        }
+      },
+      "Yellow 600": {
+        "$value": "{Primitives.color.Base-Yellow.Yellow 600}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Yellow/Yellow 600",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Yellow.Yellow 600}"
+            }
+          }
+        }
+      },
+      "Yellow 700": {
+        "$value": "{Primitives.color.Base-Yellow.Yellow 700}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Yellow/Yellow 700",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Yellow.Yellow 700}"
+            }
+          }
+        }
+      }
+    },
+    "Mapped-Red": {
+      "Red 50": {
+        "$value": "{Primitives.color.Base-Red.Red 50}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Red/Red 50",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Red.Red 50}"
+            }
+          }
+        }
+      },
+      "Red 100": {
+        "$value": "{Primitives.color.Base-Red.Red 100}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Red/Red 100",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Red.Red 100}"
+            }
+          }
+        }
+      },
+      "Red 200": {
+        "$value": "{Primitives.color.Base-Red.Red 200}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Red/Red 200",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Red.Red 200}"
+            }
+          }
+        }
+      },
+      "Red 300": {
+        "$value": "{Primitives.color.Base-Red.Red 300}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Red/Red 300",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Red.Red 300}"
+            }
+          }
+        }
+      },
+      "Red 400": {
+        "$value": "{Primitives.color.Base-Red.Red 400}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Red/Red 400",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Red.Red 400}"
+            }
+          }
+        }
+      },
+      "Red 500": {
+        "$value": "{Primitives.color.Base-Red.Red 500}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Red/Red 500",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Red.Red 500}"
+            }
+          }
+        }
+      },
+      "Red 600": {
+        "$value": "{Primitives.color.Base-Red.Red 600}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Red/Red 600",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Red.Red 600}"
+            }
+          }
+        }
+      },
+      "Red 700": {
+        "$value": "{Primitives.color.Base-Red.Red 700}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Red/Red 700",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Red.Red 700}"
+            }
+          }
+        }
+      }
+    },
+    "Mapped-Orange": {
+      "Orange 50": {
+        "$value": "{Primitives.color.Base-Orange.Orange 50}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Orange/Orange 50",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Orange.Orange 50}"
+            }
+          }
+        }
+      },
+      "Orange 100": {
+        "$value": "{Primitives.color.Base-Orange.Orange 100}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Orange/Orange 100",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Orange.Orange 100}"
+            }
+          }
+        }
+      },
+      "Orange 200": {
+        "$value": "{Primitives.color.Base-Orange.Orange 200}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Orange/Orange 200",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Orange.Orange 200}"
+            }
+          }
+        }
+      },
+      "Orange 300": {
+        "$value": "{Primitives.color.Base-Orange.Orange 300}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Orange/Orange 300",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Orange.Orange 300}"
+            }
+          }
+        }
+      },
+      "Orange 400": {
+        "$value": "{Primitives.color.Base-Orange.Orange 400}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Orange/Orange 400",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Orange.Orange 400}"
+            }
+          }
+        }
+      },
+      "Orange 500": {
+        "$value": "{Primitives.color.Base-Orange.Orange 500}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Orange/Orange 500",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Orange.Orange 500}"
+            }
+          }
+        }
+      },
+      "Orange 600": {
+        "$value": "{Primitives.color.Base-Orange.Orange 600}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Orange/Orange 600",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Orange.Orange 600}"
+            }
+          }
+        }
+      },
+      "Orange 700": {
+        "$value": "{Primitives.color.Base-Orange.Orange 700}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Orange/Orange 700",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Orange.Orange 700}"
+            }
+          }
+        }
+      }
+    },
+    "Mapped-Green": {
+      "Green 50": {
+        "$value": "{Primitives.color.Base-Green.Green 50}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Green/Green 50",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Green.Green 50}"
+            }
+          }
+        }
+      },
+      "Green 100": {
+        "$value": "{Primitives.color.Base-Green.Green 100}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Green/Green 100",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Green.Green 100}"
+            }
+          }
+        }
+      },
+      "Green 200": {
+        "$value": "{Primitives.color.Base-Green.Green 200}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Green/Green 200",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Green.Green 200}"
+            }
+          }
+        }
+      },
+      "Green 300": {
+        "$value": "{Primitives.color.Base-Green.Green 300}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Green/Green 300",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Green.Green 300}"
+            }
+          }
+        }
+      },
+      "Green 400": {
+        "$value": "{Primitives.color.Base-Green.Green 400}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Green/Green 400",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Green.Green 400}"
+            }
+          }
+        }
+      },
+      "Green 500": {
+        "$value": "{Primitives.color.Base-Green.Green 500}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Green/Green 500",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Green.Green 500}"
+            }
+          }
+        }
+      },
+      "Green 600": {
+        "$value": "{Primitives.color.Base-Green.Green 600}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Green/Green 600",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Green.Green 600}"
+            }
+          }
+        }
+      },
+      "Green 700": {
+        "$value": "{Primitives.color.Base-Green.Green 700}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Green/Green 700",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Green.Green 700}"
+            }
+          }
+        }
+      }
+    },
+    "Mapped-Blue": {
+      "Blue 50": {
+        "$value": "{Primitives.color.Base-Blue.Blue 50}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Blue/Blue 50",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Blue.Blue 50}"
+            }
+          }
+        }
+      },
+      "Blue 100": {
+        "$value": "{Primitives.color.Base-Blue.Blue 100}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Blue/Blue 100",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Blue.Blue 100}"
+            }
+          }
+        }
+      },
+      "Blue 200": {
+        "$value": "{Primitives.color.Base-Blue.Blue 200}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Blue/Blue 200",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Blue.Blue 200}"
+            }
+          }
+        }
+      },
+      "Blue 300": {
+        "$value": "{Primitives.color.Base-Blue.Blue 300}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Blue/Blue 300",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Blue.Blue 300}"
+            }
+          }
+        }
+      },
+      "Blue 400": {
+        "$value": "{Primitives.color.Base-Blue.Blue 400}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Blue/Blue 400",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Blue.Blue 400}"
+            }
+          }
+        }
+      },
+      "Blue 500": {
+        "$value": "{Primitives.color.Base-Blue.Blue 500}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Blue/Blue 500",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Blue.Blue 500}"
+            }
+          }
+        }
+      },
+      "Blue 600": {
+        "$value": "{Primitives.color.Base-Blue.Blue 600}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Blue/Blue 600",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Blue.Blue 600}"
+            }
+          }
+        }
+      },
+      "Blue 700": {
+        "$value": "{Primitives.color.Base-Blue.Blue 700}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Blue/Blue 700",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Blue.Blue 700}"
+            }
+          }
+        }
+      }
+    },
+    "Mapped-Teal": {
+      "Teal 50": {
+        "$value": "{Primitives.color.Base-Teal.Teal 50}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Teal/Teal 50",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Teal.Teal 50}"
+            }
+          }
+        }
+      },
+      "Teal 100": {
+        "$value": "{Primitives.color.Base-Teal.Teal 100}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Teal/Teal 100",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Teal.Teal 100}"
+            }
+          }
+        }
+      },
+      "Teal 200": {
+        "$value": "{Primitives.color.Base-Teal.Teal 200}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Teal/Teal 200",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Teal.Teal 200}"
+            }
+          }
+        }
+      },
+      "Teal 300": {
+        "$value": "{Primitives.color.Base-Teal.Teal 300}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Teal/Teal 300",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Teal.Teal 300}"
+            }
+          }
+        }
+      },
+      "Teal 400": {
+        "$value": "{Primitives.color.Base-Teal.Teal 400}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Teal/Teal 400",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Teal.Teal 400}"
+            }
+          }
+        }
+      },
+      "Teal 500": {
+        "$value": "{Primitives.color.Base-Teal.Teal 500}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Teal/Teal 500",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Teal.Teal 500}"
+            }
+          }
+        }
+      },
+      "Teal 600": {
+        "$value": "{Primitives.color.Base-Teal.Teal 600}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Teal/Teal 600",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Teal.Teal 600}"
+            }
+          }
+        }
+      },
+      "Teal 700": {
+        "$value": "{Primitives.color.Base-Teal.Teal 700}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Teal/Teal 700",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Teal.Teal 700}"
+            }
+          }
+        }
+      }
+    },
+    "Mapped-Purple": {
+      "Purple 50": {
+        "$value": "{Primitives.color.Base-Purple.Purple 50}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Purple/Purple 50",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Purple.Purple 50}"
+            }
+          }
+        }
+      },
+      "Purple 100": {
+        "$value": "{Primitives.color.Base-Purple.Purple 100}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Purple/Purple 100",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Purple.Purple 100}"
+            }
+          }
+        }
+      },
+      "Purple 200": {
+        "$value": "{Primitives.color.Base-Purple.Purple 200}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Purple/Purple 200",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Purple.Purple 200}"
+            }
+          }
+        }
+      },
+      "Purple 300": {
+        "$value": "{Primitives.color.Base-Purple.Purple 300}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Purple/Purple 300",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Purple.Purple 300}"
+            }
+          }
+        }
+      },
+      "Purple 400": {
+        "$value": "{Primitives.color.Base-Purple.Purple 400}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Purple/Purple 400",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Purple.Purple 400}"
+            }
+          }
+        }
+      },
+      "Purple 500": {
+        "$value": "{Primitives.color.Base-Purple.Purple 500}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Purple/Purple 500",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Purple.Purple 500}"
+            }
+          }
+        }
+      },
+      "Purple 600": {
+        "$value": "{Primitives.color.Base-Purple.Purple 600}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Purple/Purple 600",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Purple.Purple 600}"
+            }
+          }
+        }
+      },
+      "Purple 700": {
+        "$value": "{Primitives.color.Base-Purple.Purple 700}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Purple/Purple 700",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Purple.Purple 700}"
+            }
+          }
+        }
+      }
+    },
+    "Mapped-Pink": {
+      "Pink 50": {
+        "$value": "{Primitives.color.Base-Pink.Pink 50}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Pink/Pink 50",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Pink.Pink 50}"
+            }
+          }
+        }
+      },
+      "Pink 100": {
+        "$value": "{Primitives.color.Base-Pink.Pink 100}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Pink/Pink 100",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Pink.Pink 100}"
+            }
+          }
+        }
+      },
+      "Pink 200": {
+        "$value": "{Primitives.color.Base-Pink.Pink 200}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Pink/Pink 200",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Pink.Pink 200}"
+            }
+          }
+        }
+      },
+      "Pink 300": {
+        "$value": "{Primitives.color.Base-Pink.Pink 300}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Pink/Pink 300",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Pink.Pink 300}"
+            }
+          }
+        }
+      },
+      "Pink 400": {
+        "$value": "{Primitives.color.Base-Pink.Pink 400}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Pink/Pink 400",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Pink.Pink 400}"
+            }
+          }
+        }
+      },
+      "Pink 500": {
+        "$value": "{Primitives.color.Base-Pink.Pink 500}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Pink/Pink 500",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Pink.Pink 500}"
+            }
+          }
+        }
+      },
+      "Pink 600": {
+        "$value": "{Primitives.color.Base-Pink.Pink 600}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Pink/Pink 600",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Pink.Pink 600}"
+            }
+          }
+        }
+      },
+      "Pink 700": {
+        "$value": "{Primitives.color.Base-Pink.Pink 700}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Maps",
+            "variable": "Mapped-Pink/Pink 700",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Pink.Pink 700}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Colors - Semantic Tokens": {
+    "Surface": {
+      "APP BG": {
+        "Light": {
+          "$value": "{Primitives.color.Base-Gray.Gray 50}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Surface/APP BG/Light",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Gray.Gray 50}"
+              }
+            }
+          }
+        }
+      },
+      "Brand": {
+        "Primary-A": {
+          "$value": "{Primitives.color.Base-Brand.Primary-A}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Surface/Brand/Primary-A",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Brand.Primary-A}"
+              }
+            }
+          }
+        },
+        "Primary-B": {
+          "$value": "{Primitives.color.Base-Brand.Primary-B}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Surface/Brand/Primary-B",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Brand.Primary-B}"
+              }
+            }
+          }
+        }
+      },
+      "Neutral": {
+        "Black": {
+          "$value": "{Primitives.color.Base-Neutral.Black}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Surface/Neutral/Black",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Neutral.Black}"
+              }
+            }
+          }
+        },
+        "Dark": {
+          "$value": "{Primitives.color.Base-Gray.Gray 600}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Surface/Neutral/Dark",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Gray.Gray 600}"
+              }
+            }
+          }
+        },
+        "Medium": {
+          "$value": "{Primitives.color.Base-Gray.Gray 400}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Surface/Neutral/Medium",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Gray.Gray 400}"
+              }
+            }
+          }
+        },
+        "Light": {
+          "$value": "{Primitives.color.Base-Gray.Gray 100}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Surface/Neutral/Light",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Gray.Gray 100}"
+              }
+            }
+          }
+        },
+        "White": {
+          "$value": "{Primitives.color.Base-Neutral.White}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Surface/Neutral/White",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Neutral.White}"
+              }
+            }
+          }
+        }
+      },
+      "Error": {
+        "Dark": {
+          "$value": "{Primitives.color.Base-Red.Red 400}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Surface/Error/Dark",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Red.Red 400}"
+              }
+            }
+          }
+        },
+        "Light": {
+          "$value": "{Primitives.color.Base-Red.Red 50}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Surface/Error/Light",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Red.Red 50}"
+              }
+            }
+          }
+        }
+      },
+      "Warning": {
+        "Dark": {
+          "$value": "{Primitives.color.Base-Orange.Orange 400}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Surface/Warning/Dark",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Orange.Orange 400}"
+              }
+            }
+          }
+        },
+        "Light": {
+          "$value": "{Primitives.color.Base-Orange.Orange 50}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Surface/Warning/Light",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Orange.Orange 50}"
+              }
+            }
+          }
+        }
+      },
+      "Success": {
+        "Dark": {
+          "$value": "{Primitives.color.Base-Green.Green 500}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Surface/Success/Dark",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Green.Green 500}"
+              }
+            }
+          }
+        },
+        "Light": {
+          "$value": "{Primitives.color.Base-Green.Green 50}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Surface/Success/Light",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Green.Green 50}"
+              }
+            }
+          }
+        }
+      },
+      "Information": {
+        "Dark": {
+          "$value": "{Primitives.color.Base-Blue.Blue 400}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Surface/Information/Dark",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Blue.Blue 400}"
+              }
+            }
+          }
+        },
+        "Light": {
+          "$value": "{Primitives.color.Base-Blue.Blue 50}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Surface/Information/Light",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Blue.Blue 50}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Border": {
+      "Brand": {
+        "Primary-A": {
+          "$value": "{Primitives.color.Base-Brand.Primary-A}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Border/Brand/Primary-A",
+              "scopes": [
+                "STROKE_COLOR"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Brand.Primary-A}"
+              }
+            }
+          }
+        },
+        "Primary-B": {
+          "$value": "{Primitives.color.Base-Brand.Primary-B}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Border/Brand/Primary-B",
+              "scopes": [
+                "STROKE_COLOR"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Brand.Primary-B}"
+              }
+            }
+          }
+        }
+      },
+      "Neutral": {
+        "Black": {
+          "$value": "{Primitives.color.Base-Neutral.Black}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Border/Neutral/Black",
+              "scopes": [
+                "STROKE_COLOR"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Neutral.Black}"
+              }
+            }
+          }
+        },
+        "Dark": {
+          "$value": "{Primitives.color.Base-Gray.Gray 600}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Border/Neutral/Dark",
+              "scopes": [
+                "STROKE_COLOR"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Gray.Gray 600}"
+              }
+            }
+          }
+        },
+        "Medium": {
+          "$value": "{Primitives.color.Base-Gray.Gray 400}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Border/Neutral/Medium",
+              "scopes": [
+                "STROKE_COLOR"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Gray.Gray 400}"
+              }
+            }
+          }
+        },
+        "Light": {
+          "$value": "{Primitives.color.Base-Gray.Gray 200}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Border/Neutral/Light",
+              "scopes": [
+                "STROKE_COLOR"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Gray.Gray 200}"
+              }
+            }
+          }
+        },
+        "White": {
+          "$value": "{Primitives.color.Base-Neutral.White}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Border/Neutral/White",
+              "scopes": [
+                "STROKE_COLOR"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Neutral.White}"
+              }
+            }
+          }
+        }
+      },
+      "Error": {
+        "Dark": {
+          "$value": "{Primitives.color.Base-Red.Red 400}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Border/Error/Dark",
+              "scopes": [
+                "STROKE_COLOR"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Red.Red 400}"
+              }
+            }
+          }
+        },
+        "Light": {
+          "$value": "{Primitives.color.Base-Red.Red 50}",
+          "$type": "color",
+          "$description": "Discontinued",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Border/Error/Light",
+              "scopes": [
+                "STROKE_COLOR"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Red.Red 50}"
+              },
+              "hiddenFromPublishing": true
+            }
+          }
+        }
+      },
+      "Warning": {
+        "Dark": {
+          "$value": "{Primitives.color.Base-Orange.Orange 400}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Border/Warning/Dark",
+              "scopes": [
+                "STROKE_COLOR"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Orange.Orange 400}"
+              }
+            }
+          }
+        },
+        "Light": {
+          "$value": "{Primitives.color.Base-Orange.Orange 50}",
+          "$type": "color",
+          "$description": "Discontinued",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Border/Warning/Light",
+              "scopes": [
+                "STROKE_COLOR"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Orange.Orange 50}"
+              },
+              "hiddenFromPublishing": true
+            }
+          }
+        }
+      },
+      "Success": {
+        "dark": {
+          "$value": "{Primitives.color.Base-Green.Green 500}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Border/Success/dark",
+              "scopes": [
+                "STROKE_COLOR"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Green.Green 500}"
+              }
+            }
+          }
+        },
+        "Light": {
+          "$value": "{Primitives.color.Base-Green.Green 50}",
+          "$type": "color",
+          "$description": "Discontinued",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Border/Success/Light",
+              "scopes": [
+                "STROKE_COLOR"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Green.Green 50}"
+              },
+              "hiddenFromPublishing": true
+            }
+          }
+        }
+      },
+      "Information": {
+        "Dark": {
+          "$value": "{Primitives.color.Base-Blue.Blue 400}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Border/Information/Dark",
+              "scopes": [
+                "STROKE_COLOR"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Blue.Blue 400}"
+              }
+            }
+          }
+        },
+        "Light": {
+          "$value": "{Primitives.color.Base-Blue.Blue 50}",
+          "$type": "color",
+          "$description": "Discontinued",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Border/Information/Light",
+              "scopes": [
+                "STROKE_COLOR"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Blue.Blue 50}"
+              },
+              "hiddenFromPublishing": true
+            }
+          }
+        }
+      }
+    },
+    "Text": {
+      "Brand": {
+        "Primary-A": {
+          "$value": "{Primitives.color.Base-Brand.Primary-A}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Text/Brand/Primary-A",
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Brand.Primary-A}"
+              }
+            }
+          }
+        },
+        "Primary-B": {
+          "$value": "{Primitives.color.Base-Brand.Primary-B}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Text/Brand/Primary-B",
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Brand.Primary-B}"
+              }
+            }
+          }
+        }
+      },
+      "OnSurface": {
+        "Default": {
+          "$value": "{Primitives.color.Base-Gray.Gray 900}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Text/OnSurface/Default",
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Gray.Gray 900}"
+              }
+            }
+          }
+        },
+        "Disabled": {
+          "$value": "{Primitives.color.Base-Gray.Gray 400}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Text/OnSurface/Disabled",
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Gray.Gray 400}"
+              }
+            }
+          }
+        },
+        "Inverse": {
+          "$value": "{Primitives.color.Base-Gray.Gray 50}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Text/OnSurface/Inverse",
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Gray.Gray 50}"
+              }
+            }
+          }
+        }
+      },
+      "Neutral": {
+        "Black": {
+          "$value": "{Primitives.color.Base-Neutral.Black}",
+          "$type": "color",
+          "$description": "Discontinued",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Text/Neutral/Black",
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Neutral.Black}"
+              },
+              "hiddenFromPublishing": true
+            }
+          }
+        },
+        "Dark": {
+          "$value": "{Primitives.color.Base-Gray.Gray 900}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Text/Neutral/Dark",
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Gray.Gray 900}"
+              }
+            }
+          }
+        },
+        "Medium": {
+          "$value": "{Primitives.color.Base-Gray.Gray 600}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Text/Neutral/Medium",
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Gray.Gray 600}"
+              }
+            }
+          }
+        },
+        "Light": {
+          "$value": "{Primitives.color.Base-Gray.Gray 400}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Text/Neutral/Light",
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Gray.Gray 400}"
+              }
+            }
+          }
+        },
+        "White": {
+          "$value": "{Primitives.color.Base-Neutral.White}",
+          "$type": "color",
+          "$description": "Discontinued",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Text/Neutral/White",
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Neutral.White}"
+              },
+              "hiddenFromPublishing": true
+            }
+          }
+        }
+      },
+      "Error": {
+        "Dark": {
+          "$value": "{Primitives.color.Base-Red.Red 400}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Text/Error/Dark",
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Red.Red 400}"
+              }
+            }
+          }
+        },
+        "Light": {
+          "$value": "{Primitives.color.Base-Red.Red 50}",
+          "$type": "color",
+          "$description": "Discontinued",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Text/Error/Light",
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Red.Red 50}"
+              },
+              "hiddenFromPublishing": true
+            }
+          }
+        }
+      },
+      "Warning": {
+        "Dark": {
+          "$value": "{Primitives.color.Base-Orange.Orange 400}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Text/Warning/Dark",
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Orange.Orange 400}"
+              }
+            }
+          }
+        },
+        "Light": {
+          "$value": "{Primitives.color.Base-Orange.Orange 50}",
+          "$type": "color",
+          "$description": "Discontinued",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Text/Warning/Light",
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Orange.Orange 50}"
+              },
+              "hiddenFromPublishing": true
+            }
+          }
+        }
+      },
+      "Success": {
+        "dark": {
+          "$value": "{Primitives.color.Base-Green.Green 500}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Text/Success/dark",
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Green.Green 500}"
+              }
+            }
+          }
+        },
+        "Light": {
+          "$value": "{Primitives.color.Base-Green.Green 50}",
+          "$type": "color",
+          "$description": "Discontinued",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Text/Success/Light",
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Green.Green 50}"
+              },
+              "hiddenFromPublishing": true
+            }
+          }
+        }
+      },
+      "Information": {
+        "Dark": {
+          "$value": "{Primitives.color.Base-Blue.Blue 400}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Text/Information/Dark",
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Blue.Blue 400}"
+              }
+            }
+          }
+        },
+        "Light": {
+          "$value": "{Primitives.color.Base-Blue.Blue 50}",
+          "$type": "color",
+          "$description": "Discontinued",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Colors - Semantic Tokens",
+              "variable": "Text/Information/Light",
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "modes": {
+                "Mode 1": "{Primitives.color.Base-Blue.Blue 50}"
+              },
+              "hiddenFromPublishing": true
+            }
+          }
+        }
+      }
+    },
+    "Overlays": {
+      "Large (75% Black)": {
+        "$value": "{Primitives.color.Base-Neutral.75% Black}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Semantic Tokens",
+            "variable": "Overlays/Large (75% Black)",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Neutral.75% Black}"
+            }
+          }
+        }
+      },
+      "Moderate (50% Black)": {
+        "$value": "{Primitives.color.Base-Neutral.50% Black}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Semantic Tokens",
+            "variable": "Overlays/Moderate (50% Black)",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Neutral.50% Black}"
+            }
+          }
+        }
+      },
+      "Small (25% Black)": {
+        "$value": "{Primitives.color.Base-Neutral.25% Black}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Colors - Semantic Tokens",
+            "variable": "Overlays/Small (25% Black)",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Mode 1": "{Primitives.color.Base-Neutral.25% Black}"
+            }
+          }
+        }
+      }
+    },
+    "Boolean": {
+      "$value": true,
+      "$type": "boolean",
+      "$description": "Boolean variable stored in the colour collection; purpose not documented in Figma.",
+      "$extensions": {
+        "com.figma": {
+          "collection": "Colors - Semantic Tokens",
+          "variable": "Boolean",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "modes": {
+            "Mode 1": true
+          }
+        }
+      }
+    }
+  },
+  "Typography - Semantic Tokens": {
+    "Display": {
+      "Large (40)": {
+        "Bold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-40}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Display/Large (40)/Bold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-40}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Bold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Display/Large (40)/Bold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Bold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-3XL (44)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Display/Large (40)/Bold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-3XL (44)}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "X-Large (48)": {
+        "Bold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-48}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Display/X-Large (48)/Bold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-48}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Bold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Display/X-Large (48)/Bold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Bold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-5XL (52)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Display/X-Large (48)/Bold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-5XL (52)}"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Title": {
+      "2X-Small (16)": {
+        "SemiBold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-16}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/2X-Small (16)/SemiBold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-16}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-SemiBold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/2X-Small (16)/SemiBold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-SemiBold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-S (24)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/2X-Small (16)/SemiBold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-S (24)}"
+                }
+              }
+            }
+          }
+        },
+        "Bold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-16}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/2X-Small (16)/Bold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-16}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Bold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/2X-Small (16)/Bold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Bold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-S (24)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/2X-Small (16)/Bold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-S (24)}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "X-Small (18)": {
+        "SemiBold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-18}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/X-Small (18)/SemiBold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-18}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-SemiBold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/X-Small (18)/SemiBold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-SemiBold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-S (24)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/X-Small (18)/SemiBold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-S (24)}"
+                }
+              }
+            }
+          }
+        },
+        "Bold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-18}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/X-Small (18)/Bold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-18}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Bold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/X-Small (18)/Bold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Bold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-S (24)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/X-Small (18)/Bold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-S (24)}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Small (20)": {
+        "SemiBold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-20}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/Small (20)/SemiBold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-20}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-SemiBold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/Small (20)/SemiBold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-SemiBold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-Mod (28)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/Small (20)/SemiBold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-Mod (28)}"
+                }
+              }
+            }
+          }
+        },
+        "Bold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-20}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/Small (20)/Bold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-20}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Bold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/Small (20)/Bold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Bold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-Mod (28)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/Small (20)/Bold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-Mod (28)}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Moderate (24)": {
+        "SemiBold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-24}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/Moderate (24)/SemiBold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-24}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-SemiBold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/Moderate (24)/SemiBold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-SemiBold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-L (32)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/Moderate (24)/SemiBold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-L (32)}"
+                }
+              }
+            }
+          }
+        },
+        "Bold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-24}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/Moderate (24)/Bold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-24}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Bold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/Moderate (24)/Bold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Bold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-L (32)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/Moderate (24)/Bold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-L (32)}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Large (32)": {
+        "SemiBold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-32}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/Large (32)/SemiBold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-32}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-SemiBold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/Large (32)/SemiBold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-SemiBold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-3XL (44)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/Large (32)/SemiBold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-3XL (44)}"
+                }
+              }
+            }
+          }
+        },
+        "Bold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-32}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/Large (32)/Bold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-32}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Bold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/Large (32)/Bold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Bold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-3XL (44)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Title/Large (32)/Bold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-3XL (44)}"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "SubTitle": {
+      "X-Small (14)": {
+        "Med": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-14}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/X-Small (14)/Med/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-14}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Medium}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/X-Small (14)/Med/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Medium}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-XS (20)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/X-Small (14)/Med/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-XS (20)}"
+                }
+              }
+            }
+          }
+        },
+        "SemiBold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-14}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/X-Small (14)/SemiBold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-14}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-SemiBold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/X-Small (14)/SemiBold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-SemiBold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-XS (20)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/X-Small (14)/SemiBold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-XS (20)}"
+                }
+              }
+            }
+          }
+        },
+        "Bold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-14}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/X-Small (14)/Bold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-14}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Bold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/X-Small (14)/Bold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Bold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-XS (20)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/X-Small (14)/Bold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-XS (20)}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Small (16)": {
+        "Med": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-16}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Small (16)/Med/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-16}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Medium}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Small (16)/Med/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Medium}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-S (24)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Small (16)/Med/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-S (24)}"
+                }
+              }
+            }
+          }
+        },
+        "SemiBold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-16}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Small (16)/SemiBold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-16}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-SemiBold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Small (16)/SemiBold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-SemiBold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-S (24)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Small (16)/SemiBold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-S (24)}"
+                }
+              }
+            }
+          }
+        },
+        "Bold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-16}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Small (16)/Bold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-16}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Bold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Small (16)/Bold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Bold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-S (24)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Small (16)/Bold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-S (24)}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Moderate (20)": {
+        "Med": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-20}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Moderate (20)/Med/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-20}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Medium}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Moderate (20)/Med/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Medium}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-Mod (28)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Moderate (20)/Med/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-Mod (28)}"
+                }
+              }
+            }
+          }
+        },
+        "SemiBold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-20}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Moderate (20)/SemiBold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-20}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-SemiBold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Moderate (20)/SemiBold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-SemiBold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-Mod (28)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Moderate (20)/SemiBold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-Mod (28)}"
+                }
+              }
+            }
+          }
+        },
+        "Bold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-20}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Moderate (20)/Bold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-20}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Bold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Moderate (20)/Bold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Bold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-Mod (28)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Moderate (20)/Bold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-Mod (28)}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Large (24)": {
+        "Med": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-24}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Large (24)/Med/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-24}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Medium}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Large (24)/Med/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Medium}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-L (32)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Large (24)/Med/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-L (32)}"
+                }
+              }
+            }
+          }
+        },
+        "SemiBold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-24}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Large (24)/SemiBold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-24}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-SemiBold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Large (24)/SemiBold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-SemiBold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-L (32)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Large (24)/SemiBold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-L (32)}"
+                }
+              }
+            }
+          }
+        },
+        "Bold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-24}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Large (24)/Bold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-24}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Bold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Large (24)/Bold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Bold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-L (32)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "SubTitle/Large (24)/Bold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-L (32)}"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Body": {
+      "Small (14)": {
+        "Reg": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-14}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Body/Small (14)/Reg/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-14}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Regular}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Body/Small (14)/Reg/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Regular}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-XS (20)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Body/Small (14)/Reg/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-XS (20)}"
+                }
+              }
+            }
+          }
+        },
+        "Med": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-14}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Body/Small (14)/Med/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-14}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Medium}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Body/Small (14)/Med/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Medium}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-XS (20)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Body/Small (14)/Med/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-XS (20)}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Moderate (16)": {
+        "Reg": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-16}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Body/Moderate (16)/Reg/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-16}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Regular}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Body/Moderate (16)/Reg/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Regular}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-S (24)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Body/Moderate (16)/Reg/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-S (24)}"
+                }
+              }
+            }
+          }
+        },
+        "Med": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-16}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Body/Moderate (16)/Med/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-16}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Medium}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Body/Moderate (16)/Med/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Medium}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-S (24)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Body/Moderate (16)/Med/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-S (24)}"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Label": {
+      "Small (10)": {
+        "Reg": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-10}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Label/Small (10)/Reg/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-10}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Regular}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Label/Small (10)/Reg/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Regular}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-2XS (16)}",
+            "$type": "dimension",
+            "$description": "Label font has both line height & Vertical trim set to it.",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Label/Small (10)/Reg/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-2XS (16)}"
+                }
+              }
+            }
+          }
+        },
+        "Med": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-10}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Label/Small (10)/Med/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-10}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Medium}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Label/Small (10)/Med/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Medium}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-2XS (16)}",
+            "$type": "dimension",
+            "$description": "Label font has both line height & Vertical trim set to it.",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Label/Small (10)/Med/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-2XS (16)}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Moderate (12)": {
+        "Reg": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-12}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Label/Moderate (12)/Reg/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-12}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Regular}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Label/Moderate (12)/Reg/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Regular}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-2XS (16)}",
+            "$type": "dimension",
+            "$description": "Label font has both line height & Vertical trim set to it.",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Label/Moderate (12)/Reg/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-2XS (16)}"
+                }
+              }
+            }
+          }
+        },
+        "Med": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-12}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Label/Moderate (12)/Med/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-12}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Medium}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Label/Moderate (12)/Med/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Medium}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-2XS (16)}",
+            "$type": "dimension",
+            "$description": "Label font has both line height & Vertical trim set to it.",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Label/Moderate (12)/Med/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-2XS (16)}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Large (14)": {
+        "Reg": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-14}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Label/Large (14)/Reg/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-14}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Regular}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Label/Large (14)/Reg/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Regular}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-XS (20)}",
+            "$type": "dimension",
+            "$description": "Label font has both line height & Vertical trim set to it.",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Label/Large (14)/Reg/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-XS (20)}"
+                }
+              }
+            }
+          }
+        },
+        "Med": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-14}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Label/Large (14)/Med/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-14}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Medium}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Label/Large (14)/Med/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Medium}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-XS (20)}",
+            "$type": "dimension",
+            "$description": "Label font has both line height & Vertical trim set to it.",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Label/Large (14)/Med/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-XS (20)}"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Botton": {
+      "Small (14)": {
+        "Med": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-14}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Botton/Small (14)/Med/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-14}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Medium}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Botton/Small (14)/Med/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Medium}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-2XS (16)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Botton/Small (14)/Med/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-2XS (16)}"
+                }
+              }
+            }
+          }
+        },
+        "SemiBold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-14}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Botton/Small (14)/SemiBold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-14}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-SemiBold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Botton/Small (14)/SemiBold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-SemiBold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-2XS (16)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Botton/Small (14)/SemiBold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-2XS (16)}"
+                }
+              }
+            }
+          }
+        },
+        "Bold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-14}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Botton/Small (14)/Bold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-14}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Bold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Botton/Small (14)/Bold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Bold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-2XS (16)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Botton/Small (14)/Bold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-2XS (16)}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Moderate (16)": {
+        "Med": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-16}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Botton/Moderate (16)/Med/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-16}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Medium}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Botton/Moderate (16)/Med/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Medium}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-XS (20)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Botton/Moderate (16)/Med/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-XS (20)}"
+                }
+              }
+            }
+          }
+        },
+        "SemiBold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-16}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Botton/Moderate (16)/SemiBold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-16}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-SemiBold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Botton/Moderate (16)/SemiBold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-SemiBold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-XS (20)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Botton/Moderate (16)/SemiBold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-XS (20)}"
+                }
+              }
+            }
+          }
+        },
+        "Bold": {
+          "Size": {
+            "$value": "{Primitives.typography.Font Size.Base-Size-16}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Botton/Moderate (16)/Bold/Size",
+                "scopes": [
+                  "FONT_SIZE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Size.Base-Size-16}"
+                }
+              }
+            }
+          },
+          "Weight": {
+            "$value": "{Primitives.typography.Font Weight.Base-Bold}",
+            "$type": "fontWeight",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Botton/Moderate (16)/Bold/Weight",
+                "scopes": [
+                  "FONT_STYLE"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Font Weight.Base-Bold}"
+                }
+              }
+            }
+          },
+          "Height": {
+            "$value": "{Primitives.typography.Line Height.Base-Height-XS (20)}",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Typography - Semantic Tokens",
+                "variable": "Botton/Moderate (16)/Bold/Height",
+                "scopes": [
+                  "LINE_HEIGHT"
+                ],
+                "modes": {
+                  "Mode 1": "{Primitives.typography.Line Height.Base-Height-XS (20)}"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Button Tokens": {
+    "Button": {
+      "Button Height": {
+        "$value": "52px",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Button Tokens",
+            "variable": "Button/Button Height",
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Large": "52px",
+              "Medium": "44px",
+              "Small": "32px"
+            }
+          }
+        }
+      },
+      "Button Max-Width": {
+        "$value": "328px",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Button Tokens",
+            "variable": "Button/Button Max-Width",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Large": "328px",
+              "Medium": "296px",
+              "Small": "264px"
+            }
+          }
+        }
+      },
+      "Button Min-Width": {
+        "$value": "188px",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Button Tokens",
+            "variable": "Button/Button Min-Width",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "Large": "188px",
+              "Medium": "140px",
+              "Small": "80px"
+            }
+          }
+        }
+      },
+      "Radius": {
+        "$value": "{Primitives.number.Base - 4 Multiple.Full (999)}",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Button Tokens",
+            "variable": "Button/Radius",
+            "scopes": [
+              "CORNER_RADIUS"
+            ],
+            "modes": {
+              "Large": "{Primitives.number.Base - 4 Multiple.Full (999)}",
+              "Medium": "{Primitives.number.Base - 4 Multiple.Full (999)}",
+              "Small": "{Primitives.number.Base - 4 Multiple.Full (999)}"
+            }
+          }
+        }
+      },
+      "H-Padding": {
+        "$value": "{Primitives.number.Base - 4 Multiple.L (16)}",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Button Tokens",
+            "variable": "Button/H-Padding",
+            "scopes": [
+              "GAP"
+            ],
+            "modes": {
+              "Large": "{Primitives.number.Base - 4 Multiple.L (16)}",
+              "Medium": "{Primitives.number.Base - 4 Multiple.L (16)}",
+              "Small": "{Primitives.number.Base - 4 Multiple.M (12)}"
+            }
+          }
+        }
+      },
+      "H-Pad Extra": {
+        "$value": "24px",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Button Tokens",
+            "variable": "Button/H-Pad Extra",
+            "scopes": [
+              "GAP"
+            ],
+            "modes": {
+              "Large": "24px",
+              "Medium": "24px",
+              "Small": "16px"
+            }
+          }
+        }
+      },
+      "V-Padding": {
+        "$value": "{Primitives.number.Base - 4 Multiple.L (16)}",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Button Tokens",
+            "variable": "Button/V-Padding",
+            "scopes": [
+              "GAP"
+            ],
+            "modes": {
+              "Large": "{Primitives.number.Base - 4 Multiple.L (16)}",
+              "Medium": "{Primitives.number.Base - 4 Multiple.M (12)}",
+              "Small": "{Primitives.number.Base - 4 Multiple.S (8)}"
+            }
+          }
+        }
+      },
+      "Icon-Size": {
+        "$value": "{Primitives.number.Base - 4 Multiple.XL (20)}",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Button Tokens",
+            "variable": "Button/Icon-Size",
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Large": "{Primitives.number.Base - 4 Multiple.XL (20)}",
+              "Medium": "{Primitives.number.Base - 4 Multiple.XL (20)}",
+              "Small": "{Primitives.number.Base - 4 Multiple.L (16)}"
+            }
+          }
+        }
+      },
+      "Space-Number": {
+        "$value": "{Primitives.number.Base - 4 Multiple.S (8)}",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Button Tokens",
+            "variable": "Button/Space-Number",
+            "scopes": [
+              "GAP"
+            ],
+            "modes": {
+              "Large": "{Primitives.number.Base - 4 Multiple.S (8)}",
+              "Medium": "{Primitives.number.Base - 4 Multiple.S (8)}",
+              "Small": "{Primitives.number.Base - 4 Multiple.XS (4)}"
+            }
+          }
+        }
+      }
+    },
+    "Un-common": {
+      "Label Layout": {
+        "Max Width": {
+          "No Icon": {
+            "$value": "296px",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Button Tokens",
+                "variable": "Un-common/Label Layout/Max Width/No Icon",
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "modes": {
+                  "Large": "296px",
+                  "Medium": "264px",
+                  "Small": "240px"
+                }
+              }
+            }
+          },
+          "Any One Icon": {
+            "$value": "264px",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Button Tokens",
+                "variable": "Un-common/Label Layout/Max Width/Any One Icon",
+                "scopes": [
+                  "WIDTH_HEIGHT"
+                ],
+                "modes": {
+                  "Large": "264px",
+                  "Medium": "236px",
+                  "Small": "216px"
+                }
+              }
+            }
+          },
+          "Both Icon": {
+            "$value": "232px",
+            "$type": "dimension",
+            "$extensions": {
+              "com.figma": {
+                "collection": "Button Tokens",
+                "variable": "Un-common/Label Layout/Max Width/Both Icon",
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "modes": {
+                  "Large": "232px",
+                  "Medium": "208px",
+                  "Small": "192px"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Semantic": {
+    "$description": "Figma collection \"Semantic\" (modes light, dark; 8 variables). Not used by any Runway component; aliases the sample \"Primitives\" collection. Flagged in EXPORT_NOTES.md.",
     "color": {
       "bg": {
         "default": {
           "$value": "#ffffff",
-          "$type": "color"
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Semantic",
+              "variable": "color/bg/default",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "modes": {
+                "light": "#ffffff",
+                "dark": "#0b0f19"
+              }
+            }
+          }
         },
         "surface": {
-          "$value": "{Primitives.gray.50}",
-          "$type": "color"
+          "$value": "{Primitives.Primitives.gray.50}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Semantic",
+              "variable": "color/bg/surface",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "modes": {
+                "light": "{Primitives.Primitives.gray.50}",
+                "dark": "{Primitives.Primitives.gray.900}"
+              }
+            }
+          }
         }
       },
       "text": {
         "primary": {
-          "$value": "{Primitives.gray.900}",
-          "$type": "color"
+          "$value": "{Primitives.Primitives.gray.900}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Semantic",
+              "variable": "color/text/primary",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "modes": {
+                "light": "{Primitives.Primitives.gray.900}",
+                "dark": "{Primitives.Primitives.gray.50}"
+              }
+            }
+          }
         },
         "secondary": {
-          "$value": "{Primitives.gray.500}",
-          "$type": "color"
+          "$value": "{Primitives.Primitives.gray.500}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Semantic",
+              "variable": "color/text/secondary",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "modes": {
+                "light": "{Primitives.Primitives.gray.500}",
+                "dark": "{Primitives.Primitives.gray.300}"
+              }
+            }
+          }
         }
       },
       "action": {
         "primary": {
-          "$value": "{Primitives.blue.500}",
+          "$value": "{Primitives.Primitives.blue.500}",
           "$type": "color",
           "$description": "Primary buttons and links",
           "$extensions": {
-            "com.example.build": {
-              "cssVariable": "--action-primary"
+            "com.figma": {
+              "collection": "Semantic",
+              "variable": "color/action/primary",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "modes": {
+                "light": "{Primitives.Primitives.blue.500}",
+                "dark": "{Primitives.Primitives.blue.500}"
+              }
             }
           }
         },
         "primary-hover": {
-          "$value": "{Primitives.blue.700}",
-          "$type": "color"
+          "$value": "{Primitives.Primitives.blue.700}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Semantic",
+              "variable": "color/action/primary-hover",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "modes": {
+                "light": "{Primitives.Primitives.blue.700}",
+                "dark": "{Primitives.Primitives.blue.100}"
+              }
+            }
+          }
         }
       },
       "border": {
         "default": {
-          "$value": "{Primitives.gray.300}",
-          "$type": "color"
+          "$value": "{Primitives.Primitives.gray.300}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Semantic",
+              "variable": "color/border/default",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "modes": {
+                "light": "{Primitives.Primitives.gray.300}",
+                "dark": "{Primitives.Primitives.gray.700}"
+              }
+            }
+          }
         }
       }
     },
     "space": {
       "inset": {
-        "$value": "{Primitives.space.md}",
-        "$type": "number"
-      }
-    }
-  },
-  "dark": {
-    "color": {
-      "bg": {
-        "default": {
-          "$value": "#0b0f19",
-          "$type": "color"
-        },
-        "surface": {
-          "$value": "{Primitives.gray.900}",
-          "$type": "color"
-        }
-      },
-      "text": {
-        "primary": {
-          "$value": "{Primitives.gray.50}",
-          "$type": "color"
-        },
-        "secondary": {
-          "$value": "{Primitives.gray.300}",
-          "$type": "color"
-        }
-      },
-      "action": {
-        "primary": {
-          "$value": "{Primitives.blue.500}",
-          "$type": "color",
-          "$description": "Primary buttons and links",
-          "$extensions": {
-            "com.example.build": {
-              "cssVariable": "--action-primary"
+        "$value": "{Primitives.Primitives.space.md}",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "collection": "Semantic",
+            "variable": "space/inset",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "modes": {
+              "light": "{Primitives.Primitives.space.md}",
+              "dark": "{Primitives.Primitives.space.md}"
             }
           }
-        },
-        "primary-hover": {
-          "$value": "{Primitives.blue.100}",
-          "$type": "color"
         }
-      },
-      "border": {
-        "default": {
-          "$value": "{Primitives.gray.700}",
-          "$type": "color"
-        }
-      }
-    },
-    "space": {
-      "inset": {
-        "$value": "{Primitives.space.md}",
-        "$type": "number"
       }
     }
   }

@@ -1,0 +1,463 @@
+{
+  "$description": "Corner radii used by components in Figma file GEdvNUzFqwB2gAbQKZRsIn. Runway has no dedicated radius collection: components bind 'Button Tokens/Button/Radius' (-> Numbers Base Full = 999). Other values are raw (unbound) and listed with where they occur. Values in 'external' are bound to variables from other libraries (see EXPORT_NOTES.md).",
+  "variables": {
+    "Button/Radius": {
+      "$value": "{Semantic.Button Tokens.Button.Radius}",
+      "$type": "dimension",
+      "$description": "Resolves to 999px in all modes (Large/Medium/Small) via {Primitives.number.Base - 4 Multiple.Full (999)}.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            "Buttons",
+            "Icon Only Button",
+            "Input Field",
+            ".Base OA",
+            ".Bike OA",
+            ".Auto OA",
+            ".Cab OA",
+            ".OA message Box",
+            "OA Cards",
+            "Home of Orders",
+            "Duty Toggle",
+            "Secondary Tabs",
+            "Homepage Header",
+            "Internal Page Header",
+            ".Sec Tab Box",
+            "Bottom Sheet",
+            "Guidance Bottom Sheet",
+            "Chip",
+            "Badge",
+            "Modal",
+            "Tool Tip"
+          ]
+        }
+      }
+    }
+  },
+  "external": {
+    "Radius/radi-0": {
+      "$value": "0px",
+      "$type": "dimension",
+      "$description": "Remote library collection 'Radius' (modes Default=0, Rounded=0, Sharp=0).",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            ".Input"
+          ],
+          "variableKey": "d8811d19ae43a5cc9ecde30a10f57d2ae6bd10d3",
+          "modes": {
+            "Default": 0,
+            "Rounded": 0,
+            "Sharp": 0
+          }
+        }
+      }
+    },
+    "Radius/radi-1": {
+      "$value": "2px",
+      "$type": "dimension",
+      "$description": "Remote library collection 'Radius' (modes Default=2, Rounded=4, Sharp=0).",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            ".Input Caption"
+          ],
+          "variableKey": "99956a8ea4556670faa179438bd919425352be66",
+          "modes": {
+            "Default": 2,
+            "Rounded": 4,
+            "Sharp": 0
+          }
+        }
+      }
+    },
+    "Radius/radi-6": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Remote library collection 'Radius' (modes Default=12, Rounded=18, Sharp=0).",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            ".Input"
+          ],
+          "variableKey": "1f93f4080d47763c7d56ee6bf895c7a1ed07f45b",
+          "modes": {
+            "Default": 12,
+            "Rounded": 18,
+            "Sharp": 0
+          }
+        }
+      }
+    },
+    "Button/Button Numbers/Radius-Full": {
+      "$value": "999px",
+      "$type": "dimension",
+      "$description": "Remote library variable (collection 'Button'). Value read as resolved on the node.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            ".OA message Box"
+          ]
+        }
+      }
+    }
+  },
+  "raw": {
+    "2": {
+      "$value": "2px",
+      "$type": "dimension",
+      "$description": "Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            ".Base OA",
+            ".Bike OA",
+            ".Auto OA",
+            ".Cab OA",
+            "Home of Orders"
+          ]
+        }
+      }
+    },
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            ".Base OA",
+            ".Cab OA",
+            "Tag"
+          ]
+        }
+      }
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            "Home of Orders",
+            "Bottom Sheet",
+            "Snackbar"
+          ]
+        }
+      }
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            "Input Field"
+          ]
+        }
+      }
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            ".Base OA",
+            ".Bike OA",
+            ".Auto OA",
+            ".Cab OA",
+            "OA Cards",
+            "Home of Orders",
+            "Toast",
+            "Modal",
+            "Tool Tip"
+          ]
+        }
+      }
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            ".Service Chip Icons",
+            ".Service Chips",
+            ".Base OA",
+            ".Bike OA",
+            ".Auto OA",
+            ".Cab OA",
+            "OA Cards",
+            "Home of Orders",
+            "Toggle"
+          ]
+        }
+      }
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            "Bottom Sheet"
+          ]
+        }
+      }
+    },
+    "100": {
+      "$value": "100px",
+      "$type": "dimension",
+      "$description": "Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            ".Service Chips",
+            ".Base OA",
+            ".Bike OA",
+            ".Auto OA",
+            ".Cab OA",
+            "OA Cards",
+            "Home of Orders",
+            "bottom navigation",
+            ".Order Button Animation",
+            ".Order Button",
+            "Chip"
+          ]
+        }
+      }
+    },
+    "200": {
+      "$value": "200px",
+      "$type": "dimension",
+      "$description": "Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            ".OA message Box",
+            "Home of Orders",
+            "Duty Toggle",
+            "Homepage Header",
+            ".Order Button Animation",
+            ".Order Button"
+          ]
+        }
+      }
+    },
+    "222": {
+      "$value": "222px",
+      "$type": "dimension",
+      "$description": "Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            "Home of Orders",
+            "Toggle"
+          ]
+        }
+      }
+    },
+    "999": {
+      "$value": "999px",
+      "$type": "dimension",
+      "$description": "Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            ".Base OA",
+            ".Bike OA",
+            ".Auto OA",
+            ".Cab OA",
+            "OA Cards",
+            "Home of Orders",
+            "Bottom Sheet"
+          ]
+        }
+      }
+    },
+    "1000": {
+      "$value": "1000px",
+      "$type": "dimension",
+      "$description": "Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            "Home of Orders",
+            ".Order Button Animation",
+            ".Color Token"
+          ]
+        }
+      }
+    },
+    "16 16 0 0": {
+      "$value": "16px 16px 0 0",
+      "$type": "dimension",
+      "$description": "Per-corner value in Figma order top-left top-right bottom-right bottom-left. Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            "Bottom Sheet",
+            "Guidance Bottom Sheet"
+          ]
+        }
+      }
+    },
+    "10 10 0 0": {
+      "$value": "10px 10px 0 0",
+      "$type": "dimension",
+      "$description": "Per-corner value in Figma order top-left top-right bottom-right bottom-left. Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            "Guidance Bottom Sheet"
+          ]
+        }
+      }
+    },
+    "20 20 0 0": {
+      "$value": "20px 20px 0 0",
+      "$type": "dimension",
+      "$description": "Per-corner value in Figma order top-left top-right bottom-right bottom-left. Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            "Home of Orders"
+          ]
+        }
+      }
+    },
+    "222 22 0 0": {
+      "$value": "222px 22px 0 0",
+      "$type": "dimension",
+      "$description": "Per-corner value in Figma order top-left top-right bottom-right bottom-left. Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            "Primary Tabs",
+            "Internal Page Header",
+            ".2 Tabs",
+            ".3 Tabs"
+          ]
+        }
+      }
+    },
+    "0 4 4 0": {
+      "$value": "0 4px 4px 0",
+      "$type": "dimension",
+      "$description": "Per-corner value in Figma order top-left top-right bottom-right bottom-left. Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            "Home of Orders"
+          ]
+        }
+      }
+    },
+    "0 12 12 12": {
+      "$value": "0 12px 12px 12px",
+      "$type": "dimension",
+      "$description": "Per-corner value in Figma order top-left top-right bottom-right bottom-left. Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            "Home of Orders"
+          ]
+        }
+      }
+    },
+    "1.0940780639648438": {
+      "$value": "1.0940780639648438px",
+      "$type": "dimension",
+      "$description": "Non-integer value, almost certainly from a scaled layer; see EXPORT_NOTES.md. Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            ".Bike OA"
+          ]
+        }
+      }
+    },
+    "1.9999998807907104": {
+      "$value": "1.9999998807907104px",
+      "$type": "dimension",
+      "$description": "Non-integer value, almost certainly from a scaled layer; see EXPORT_NOTES.md. Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            ".Bike OA"
+          ]
+        }
+      }
+    },
+    "4.624133110046387": {
+      "$value": "4.624133110046387px",
+      "$type": "dimension",
+      "$description": "Non-integer value, almost certainly from a scaled layer; see EXPORT_NOTES.md. Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            ".Cab OA"
+          ]
+        }
+      }
+    },
+    "8.380953788757324": {
+      "$value": "8.380953788757324px",
+      "$type": "dimension",
+      "$description": "Non-integer value, almost certainly from a scaled layer; see EXPORT_NOTES.md. Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            "Home of Orders",
+            "bottom navigation",
+            ".Nav Icons"
+          ]
+        }
+      }
+    },
+    "14.560223579406738": {
+      "$value": "14.560223579406738px",
+      "$type": "dimension",
+      "$description": "Non-integer value, almost certainly from a scaled layer; see EXPORT_NOTES.md. Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            ".Auto OA",
+            ".Cab OA"
+          ]
+        }
+      }
+    },
+    "141.96983337402344": {
+      "$value": "141.96983337402344px",
+      "$type": "dimension",
+      "$description": "Non-integer value, almost certainly from a scaled layer; see EXPORT_NOTES.md. Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            ".Bike OA"
+          ]
+        }
+      }
+    },
+    "758.6206665039062": {
+      "$value": "758.6206665039062px",
+      "$type": "dimension",
+      "$description": "Non-integer value, almost certainly from a scaled layer; see EXPORT_NOTES.md. Unbound (raw) in Figma.",
+      "$extensions": {
+        "runway": {
+          "usedBy": [
+            ".Order Button Animation",
+            ".Order Button"
+          ]
+        }
+      }
+    }
+  }
+}

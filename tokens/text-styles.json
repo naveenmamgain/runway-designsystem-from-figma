@@ -1,22 +1,754 @@
 {
-  "Heading-Large": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Bold",
-      "fontSize": 32,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 40
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": -1
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
+  "$description": "Every local text style in Figma file GEdvNUzFqwB2gAbQKZRsIn (43 total). Units are Figma's own (PIXELS / PERCENT / AUTO). fontWeight is the Figma font style name. $extensions.com.figma.boundVariables names the variable bound to each property.",
+  "Display": {
+    "Large": {
+      "Bold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Bold",
+          "fontSize": 40,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 44
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$description": "Display font style should be applied to the largest text on the screen which needs highest emphasis apart from headlines. display styles are reserved for short, important text or numerals.\n\nExample: Total earning number on Earnings screen.",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:1e844164ca0552b2639d507810d5de2d9d4863d4,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Display.Large (40).Bold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Display.Large (40).Bold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Display.Large (40).Bold.Height}"
+            }
+          }
+        }
+      }
     },
-    "$type": "typography",
-    "$description": "Page titles"
+    "X-Large": {
+      "Bold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Bold",
+          "fontSize": 48,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 52
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$description": "Display font style should be applied to the largest text on the screen which needs highest emphasis apart from headlines. display styles are reserved for short, important text or numerals.\n\nExample: Total earning number on Earnings screen.",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:fb6ca43011136a06b370bd590ae04f44412c98fa,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Display.X-Large (48).Bold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Display.X-Large (48).Bold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Display.X-Large (48).Bold.Height}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Title": {
+    "2X-Small": {
+      "SemiBold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Semi Bold",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:a59f257c155d9c6a3ca8b60b8fcb0ec034b5d678,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Title.2X-Small (16).SemiBold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Title.2X-Small (16).SemiBold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Title.2X-Small (16).SemiBold.Height}"
+            }
+          }
+        }
+      },
+      "Bold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Bold",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:79b69b19d6d84ba08d54604319f17448ecf6cb93,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Title.2X-Small (16).Bold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Title.2X-Small (16).Bold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Title.2X-Small (16).Bold.Height}"
+            }
+          }
+        }
+      }
+    },
+    "X-Small": {
+      "SemiBold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Semi Bold",
+          "fontSize": 18,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:37f60b7339df7bdceb20f5222b135a46813099f0,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Title.X-Small (18).SemiBold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Title.2X-Small (16).SemiBold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Title.X-Small (18).SemiBold.Height}"
+            }
+          }
+        }
+      },
+      "Bold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Bold",
+          "fontSize": 18,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:d9cef0bb5938b39cda7c1ed1fef4d18f8dd1457a,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Title.X-Small (18).Bold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Title.X-Small (18).Bold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Title.X-Small (18).Bold.Height}"
+            }
+          }
+        }
+      }
+    },
+    "Small": {
+      "SemiBold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Semi Bold",
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 28
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:3d433a36abac2d91298e8d497bb34a8f2c662f51,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Title.Small (20).SemiBold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Title.Small (20).SemiBold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Title.Small (20).SemiBold.Height}"
+            }
+          }
+        }
+      },
+      "Bold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Bold",
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 28
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:b537e0e15cf5e74093e6880f672aa636df6012d2,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Title.Small (20).Bold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Title.Small (20).Bold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Title.Small (20).Bold.Height}"
+            }
+          }
+        }
+      }
+    },
+    "Moderate": {
+      "SemiBold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Semi Bold",
+          "fontSize": 24,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 32
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:5fb6f4750e46b0ccc64340d55dfce34d9ebec8e4,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Title.Moderate (24).SemiBold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Title.Moderate (24).SemiBold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Title.Moderate (24).SemiBold.Height}"
+            }
+          }
+        }
+      },
+      "Bold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Bold",
+          "fontSize": 24,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 32
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:0fdef6e5e3a3970daf24319610632a55733e8a47,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Title.Moderate (24).Bold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Title.Moderate (24).Bold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Title.Moderate (24).Bold.Height}"
+            }
+          }
+        }
+      }
+    },
+    "Large": {
+      "SemiBold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Semi Bold",
+          "fontSize": 32,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 44
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:a419de39796aedbad2880a8da95d7f8462d504fe,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Title.Large (32).SemiBold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Title.Large (32).SemiBold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Title.Large (32).SemiBold.Height}"
+            }
+          }
+        }
+      },
+      "Bold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Bold",
+          "fontSize": 32,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 44
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:cf7ae526b72c0a0593ca5ce465fb0b2cfd654f82,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Title.Large (32).Bold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Title.Large (32).Bold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Title.Large (32).Bold.Height}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "SubTitle": {
+    "X-Small": {
+      "Med": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Medium",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:eab83dcdd4066e05b611891326aeb98df235fdb3,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.SubTitle.X-Small (14).Med.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.SubTitle.X-Small (14).Med.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.SubTitle.X-Small (14).Med.Height}"
+            }
+          }
+        }
+      },
+      "SemiBold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Semi Bold",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:3932a6b229570087ccb5ae10db95cfb2ccca0f7a,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.SubTitle.X-Small (14).SemiBold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.SubTitle.X-Small (14).SemiBold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.SubTitle.X-Small (14).SemiBold.Height}"
+            }
+          }
+        }
+      },
+      "Bold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Bold",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:18a3ae908efde317ac4c9dca883d2242018df4ea,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.SubTitle.X-Small (14).Bold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.SubTitle.X-Small (14).Bold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.SubTitle.X-Small (14).Bold.Height}"
+            }
+          }
+        }
+      }
+    },
+    "Small": {
+      "Med": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Medium",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:8fb68c109d79378a3b7d745d787758717bc5b7f2,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.SubTitle.Small (16).Med.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.SubTitle.Small (16).Med.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.SubTitle.Small (16).Med.Height}"
+            }
+          }
+        }
+      },
+      "SemiBold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Semi Bold",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:e93ca4c21a32d21b2a7ccd4de728b5b48de7f97f,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.SubTitle.Small (16).SemiBold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.SubTitle.Small (16).SemiBold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.SubTitle.Small (16).SemiBold.Height}"
+            }
+          }
+        }
+      },
+      "Bold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Bold",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:19fd45c24481f3f647f92b3f204831e681b0524c,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.SubTitle.Small (16).Bold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.SubTitle.Small (16).Bold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.SubTitle.Small (16).Bold.Height}"
+            }
+          }
+        }
+      }
+    },
+    "Moderate": {
+      "Med": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Medium",
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 28
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:6688a5fab3d464516f4cc49056d18ae24f5f455c,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.SubTitle.Moderate (20).Med.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.SubTitle.Moderate (20).Med.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.SubTitle.Moderate (20).Med.Height}"
+            }
+          }
+        }
+      },
+      "SemiBold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Semi Bold",
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 28
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:059db92d5062babc26089950c5bcc6026c98d201,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.SubTitle.Moderate (20).SemiBold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.SubTitle.Moderate (20).SemiBold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.SubTitle.Moderate (20).SemiBold.Height}"
+            }
+          }
+        }
+      },
+      "Bold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Bold",
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 28
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:9a1fafd59a293fe1dbe916415c75355fc0ae0a77,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.SubTitle.Moderate (20).Bold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.SubTitle.Moderate (20).Bold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.SubTitle.Moderate (20).Bold.Height}"
+            }
+          }
+        }
+      }
+    },
+    "Large": {
+      "Med": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Medium",
+          "fontSize": 24,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 32
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:cf33ddda1785d888faf28761b7e105c7232de403,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.SubTitle.Large (24).Med.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.SubTitle.Large (24).Med.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.SubTitle.Large (24).Med.Height}"
+            }
+          }
+        }
+      },
+      "SemiBold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Semi Bold",
+          "fontSize": 24,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 32
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:2519d0ae32000f6394276cf7b8b19d9a60d8dd56,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.SubTitle.Large (24).SemiBold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.SubTitle.Large (24).SemiBold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.SubTitle.Large (24).SemiBold.Height}"
+            }
+          }
+        }
+      },
+      "Bold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Bold",
+          "fontSize": 24,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 32
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:4e6577bd17f67d2dd06a0a50c711acafa64ee6f3,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.SubTitle.Large (24).Bold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.SubTitle.Large (24).Bold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.SubTitle.Large (24).Bold.Height}"
+            }
+          }
+        }
+      }
+    }
   },
   "Body": {
     "$value": {
@@ -32,9 +764,416 @@
         "value": 0
       },
       "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
+      "textDecoration": "NONE",
+      "leadingTrim": "NONE"
     },
-    "$type": "typography"
+    "$type": "typography",
+    "$extensions": {
+      "com.figma": {
+        "styleId": "S:254317dcb3389ccf40e7122e71378ed46c7e326f,",
+        "note": "Not bound to variables and not used by Runway components; matches the repo's earlier placeholder file. See EXPORT_NOTES.md."
+      }
+    }
+  },
+  "Label": {
+    "Small": {
+      "Reg": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Regular",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 16
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "CAP_HEIGHT"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:320b5375d8c8080812e49b7d04b6dcefb6a6374a,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Label.Small (10).Reg.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Label.Small (10).Reg.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Label.Small (10).Reg.Height}"
+            }
+          }
+        }
+      },
+      "Med": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Medium",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 16
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "CAP_HEIGHT"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:d78335b77cccd445360343e8721db50f036fe070,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Label.Small (10).Med.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Label.Small (10).Med.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Label.Small (10).Med.Height}"
+            }
+          }
+        }
+      }
+    },
+    "Moderate": {
+      "Reg": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Regular",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 16
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "CAP_HEIGHT"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:c0740b9de56c426ee2331b58d0a1fca308364706,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Label.Moderate (12).Reg.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Label.Moderate (12).Reg.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Label.Moderate (12).Reg.Height}"
+            }
+          }
+        }
+      },
+      "Med": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Medium",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 16
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "CAP_HEIGHT"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:bbd09537404edc0a3f7479b4d7a56514d9331e0c,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Label.Moderate (12).Med.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Label.Moderate (12).Med.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Label.Moderate (12).Med.Height}"
+            }
+          }
+        }
+      }
+    },
+    "Large": {
+      "Reg": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Regular",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "CAP_HEIGHT"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:911d60987b7eaff9d038a96792656e1a5bf078d1,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Label.Large (14).Reg.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Label.Large (14).Reg.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Label.Large (14).Reg.Height}"
+            }
+          }
+        }
+      },
+      "Med": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Medium",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "CAP_HEIGHT"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:af128204f62e766ca8fa17bc2584c8d251b13bd4,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Label.Large (14).Med.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Label.Large (14).Med.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Label.Large (14).Med.Height}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Button": {
+    "Small": {
+      "Med": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Medium",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 16
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:d69b6f3874980854f349580fecaf5f33c5958728,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Botton.Small (14).Med.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Botton.Small (14).Med.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Botton.Small (14).Med.Height}"
+            }
+          }
+        }
+      },
+      "SemiBold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Semi Bold",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 16
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:a362d61f79d7c802178ac145412ec6d0cd7ea823,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Botton.Small (14).SemiBold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Botton.Small (14).SemiBold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Botton.Small (14).SemiBold.Height}"
+            }
+          }
+        }
+      },
+      "Bold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Bold",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 16
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:657a10d1d9437f14ed1ac79c19d7f9543121b9a1,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Botton.Small (14).Bold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Botton.Small (14).Bold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Botton.Small (14).Bold.Height}"
+            }
+          }
+        }
+      }
+    },
+    "Moderate": {
+      "Med": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Medium",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:0e519059db1b73e5ce8c177a5ff54a447afc259b,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Botton.Moderate (16).Med.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Botton.Moderate (16).Med.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Botton.Moderate (16).Med.Height}"
+            }
+          }
+        }
+      },
+      "SemiBold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Semi Bold",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:8f20d7c5ff7f6d0791740c560955d31767ea7206,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Botton.Moderate (16).SemiBold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Botton.Moderate (16).SemiBold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Botton.Moderate (16).SemiBold.Height}"
+            }
+          }
+        }
+      },
+      "Bold": {
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": "Bold",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "leadingTrim": "NONE"
+        },
+        "$type": "typography",
+        "$extensions": {
+          "com.figma": {
+            "styleId": "S:45c89cc67b822c4a9599be76ca9d95bc7c8dd0ce,",
+            "boundVariables": {
+              "fontFamily": "{Primitives.typeface.Cap App - Typeface}",
+              "fontSize": "{Semantic.Typography - Semantic Tokens.Botton.Moderate (16).Bold.Size}",
+              "fontStyle": "{Semantic.Typography - Semantic Tokens.Botton.Moderate (16).Bold.Weight}",
+              "lineHeight": "{Semantic.Typography - Semantic Tokens.Botton.Moderate (16).Bold.Height}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Heading-Large": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Bold",
+      "fontSize": 32,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 40
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -1
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE",
+      "leadingTrim": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Page titles",
+    "$extensions": {
+      "com.figma": {
+        "styleId": "S:0caf10b26e468b8a0c380c1bbce6c2dcb058a921,",
+        "note": "Not bound to variables and not used by Runway components; matches the repo's earlier placeholder file. See EXPORT_NOTES.md."
+      }
+    }
   },
   "Caption": {
     "$value": {
@@ -49,735 +1188,15 @@
         "value": 2
       },
       "textCase": "UPPER",
-      "textDecoration": "NONE"
+      "textDecoration": "NONE",
+      "leadingTrim": "NONE"
     },
     "$type": "typography",
     "$extensions": {
-      "com.example.build": {
-        "cssClass": "caption"
+      "com.figma": {
+        "styleId": "S:168685ff92d7b25a1c0d8dd6c5cbbbff480a97ea,",
+        "note": "Not bound to variables and not used by Runway components; matches the repo's earlier placeholder file. See EXPORT_NOTES.md."
       }
     }
-  },
-  "Display-Large-Bold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Bold",
-      "fontSize": 40,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 44
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography",
-    "$description": "Display font style should be applied to the largest text on the screen which needs highest emphasis apart from headlines. display styles are reserved for short, important text or numerals.\n\nExample: Total earning number on Earnings screen."
-  },
-  "Display-X-Large-Bold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Bold",
-      "fontSize": 48,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 52
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography",
-    "$description": "Display font style should be applied to the largest text on the screen which needs highest emphasis apart from headlines. display styles are reserved for short, important text or numerals.\n\nExample: Total earning number on Earnings screen."
-  },
-  "Title-2X-Small-SemiBold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Semi Bold",
-      "fontSize": 16,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 24
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Title-2X-Small-Bold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Bold",
-      "fontSize": 16,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 24
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Title-X-Small-SemiBold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Semi Bold",
-      "fontSize": 18,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 24
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Title-X-Small-Bold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Bold",
-      "fontSize": 18,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 24
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Title-Small-SemiBold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Semi Bold",
-      "fontSize": 20,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 28
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Title-Small-Bold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Bold",
-      "fontSize": 20,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 28
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Title-Moderate-SemiBold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Semi Bold",
-      "fontSize": 24,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 32
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Title-Moderate-Bold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Bold",
-      "fontSize": 24,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 32
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Title-Large-SemiBold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Semi Bold",
-      "fontSize": 32,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 44
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Title-Large-Bold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Bold",
-      "fontSize": 32,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 44
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "SubTitle-X-Small-Med": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Medium",
-      "fontSize": 14,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 20
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "SubTitle-X-Small-SemiBold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Semi Bold",
-      "fontSize": 14,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 20
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "SubTitle-X-Small-Bold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Bold",
-      "fontSize": 14,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 20
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "SubTitle-Small-Med": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Medium",
-      "fontSize": 16,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 24
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "SubTitle-Small-SemiBold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Semi Bold",
-      "fontSize": 16,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 24
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "SubTitle-Small-Bold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Bold",
-      "fontSize": 16,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 24
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "SubTitle-Moderate-Med": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Medium",
-      "fontSize": 20,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 28
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "SubTitle-Moderate-SemiBold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Semi Bold",
-      "fontSize": 20,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 28
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "SubTitle-Moderate-Bold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Bold",
-      "fontSize": 20,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 28
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "SubTitle-Large-Med": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Medium",
-      "fontSize": 24,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 32
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "SubTitle-Large-SemiBold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Semi Bold",
-      "fontSize": 24,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 32
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "SubTitle-Large-Bold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Bold",
-      "fontSize": 24,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 32
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Body-Small-Reg": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Regular",
-      "fontSize": 14,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 20
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Body-Small-Med": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Medium",
-      "fontSize": 14,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 20
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Body-Moderate-Reg": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Regular",
-      "fontSize": 16,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 24
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Body-Moderate-Med": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Medium",
-      "fontSize": 16,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 24
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Label-Small-Reg": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Regular",
-      "fontSize": 10,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 16
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Label-Small-Med": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Medium",
-      "fontSize": 10,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 16
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Label-Moderate-Reg": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Regular",
-      "fontSize": 12,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 16
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Label-Moderate-Med": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Medium",
-      "fontSize": 12,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 16
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Label-Large-Reg": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Regular",
-      "fontSize": 14,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 20
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Label-Large-Med": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Medium",
-      "fontSize": 14,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 20
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Button-Small-Med": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Medium",
-      "fontSize": 14,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 16
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Button-Small-SemiBold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Semi Bold",
-      "fontSize": 14,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 16
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Button-Small-Bold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Bold",
-      "fontSize": 14,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 16
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Button-Moderate-Med": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Medium",
-      "fontSize": 16,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 20
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Button-Moderate-SemiBold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Semi Bold",
-      "fontSize": 16,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 20
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
-  },
-  "Button-Moderate-Bold": {
-    "$value": {
-      "fontFamily": "Inter",
-      "fontWeight": "Bold",
-      "fontSize": 16,
-      "lineHeight": {
-        "unit": "PIXELS",
-        "value": 20
-      },
-      "letterSpacing": {
-        "unit": "PERCENT",
-        "value": 0
-      },
-      "textCase": "ORIGINAL",
-      "textDecoration": "NONE"
-    },
-    "$type": "typography"
   }
 }

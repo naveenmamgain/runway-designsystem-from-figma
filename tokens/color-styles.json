@@ -1,20 +1,42 @@
 {
+  "$description": "Every local paint style in Figma file GEdvNUzFqwB2gAbQKZRsIn (3 total). None are bound to variables and none are used by Runway components; values match the Figma \"Primitives\" sample collection. See EXPORT_NOTES.md.",
   "Brand-Primary": {
     "$value": "#3b82f6",
     "$type": "color",
-    "$description": "Primary brand color style"
+    "$description": "Primary brand color style",
+    "$extensions": {
+      "com.figma": {
+        "styleId": "S:37edfed8157fac834938d7e9cb6c86a16ac328c7,",
+        "paint": "SOLID",
+        "opacity": 1,
+        "blendMode": "NORMAL"
+      }
+    }
   },
   "Brand-Primary-Hover": {
     "$value": "#1d4ed8",
-    "$type": "color"
+    "$type": "color",
+    "$extensions": {
+      "com.figma": {
+        "styleId": "S:971a84e79cfd658985a02c58df1796850c41be11,",
+        "paint": "SOLID",
+        "opacity": 1,
+        "blendMode": "NORMAL"
+      }
+    }
   },
   "Overlay-Scrim": {
     "$value": "rgba(17, 24, 39, 0.6)",
     "$type": "color",
     "$description": "Modal backdrop",
     "$extensions": {
-      "com.example.build": {
-        "cssVariable": "--overlay-scrim"
+      "com.figma": {
+        "styleId": "S:c39e4b936917c890c5f8a0624e387c93acb08075,",
+        "paint": "SOLID",
+        "color": "#111827",
+        "opacity": 0.6,
+        "opacityRaw": 0.6000000238418579,
+        "blendMode": "NORMAL"
       }
     }
   }

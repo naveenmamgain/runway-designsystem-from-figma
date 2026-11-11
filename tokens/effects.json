@@ -1,0 +1,305 @@
+{
+  "$description": "Effects from Figma file GEdvNUzFqwB2gAbQKZRsIn. 'Elevation' = the 3 local effect styles. 'Shadow' = shadow values documented on the 'Shadows, Blurs & Overlays' page that are NOT saved as styles. 'Blur' = background-blur values on that page. 'Overlay' = overlay fills (bound to colour variables). Colours are hex + separate alpha exactly as stored.",
+  "Elevation": {
+    "S": {
+      "$value": [
+        {
+          "offsetX": "0px",
+          "offsetY": "0px",
+          "blur": "4px",
+          "spread": "0px",
+          "color": "#101010",
+          "alpha": 0.16,
+          "alphaRaw": 0.1599999964237213
+        }
+      ],
+      "$type": "shadow",
+      "$extensions": {
+        "com.figma": {
+          "styleId": "S:9cb0355e772f24170597d31b89d6d0aee22b5b29,",
+          "effectType": "DROP_SHADOW",
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        }
+      }
+    },
+    "M": {
+      "$value": [
+        {
+          "offsetX": "0px",
+          "offsetY": "0px",
+          "blur": "8px",
+          "spread": "0px",
+          "color": "#101010",
+          "alpha": 0.2,
+          "alphaRaw": 0.20000000298023224
+        }
+      ],
+      "$type": "shadow",
+      "$extensions": {
+        "com.figma": {
+          "styleId": "S:6432aba9c81e496524d09a65feedad0cd8a25a94,",
+          "effectType": "DROP_SHADOW",
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        }
+      }
+    },
+    "L": {
+      "$value": [
+        {
+          "offsetX": "0px",
+          "offsetY": "0px",
+          "blur": "12px",
+          "spread": "0px",
+          "color": "#101010",
+          "alpha": 0.2,
+          "alphaRaw": 0.20000000298023224
+        }
+      ],
+      "$type": "shadow",
+      "$extensions": {
+        "com.figma": {
+          "styleId": "S:b95597894ee046da80b870a449345987e04766de,",
+          "effectType": "DROP_SHADOW",
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        }
+      }
+    }
+  },
+  "Shadow": {
+    "X-Small": {
+      "$value": [
+        {
+          "offsetX": "0px",
+          "offsetY": "1px",
+          "blur": "2px",
+          "spread": "0px",
+          "color": "#101828",
+          "alpha": 0.04,
+          "alphaRaw": 0.03999999910593033
+        },
+        {
+          "offsetX": "0px",
+          "offsetY": "1px",
+          "blur": "2px",
+          "spread": "0px",
+          "color": "#101828",
+          "alpha": 0.04,
+          "alphaRaw": 0.03999999910593033
+        }
+      ],
+      "$type": "shadow",
+      "$description": "Documented on canvas only (no effect style). Two stacked DROP_SHADOW layers, blendMode NORMAL.",
+      "$extensions": {
+        "com.figma": {
+          "node": "560:17970",
+          "label": "Shadow / X-Small"
+        }
+      }
+    },
+    "Small": {
+      "$value": [
+        {
+          "offsetX": "0px",
+          "offsetY": "2px",
+          "blur": "6px",
+          "spread": "0px",
+          "color": "#101828",
+          "alpha": 0.06,
+          "alphaRaw": 0.05999999865889549
+        },
+        {
+          "offsetX": "0px",
+          "offsetY": "2px",
+          "blur": "6px",
+          "spread": "0px",
+          "color": "#101828",
+          "alpha": 0.06,
+          "alphaRaw": 0.05999999865889549
+        }
+      ],
+      "$type": "shadow",
+      "$description": "Documented on canvas only (no effect style). Two stacked DROP_SHADOW layers, blendMode NORMAL.",
+      "$extensions": {
+        "com.figma": {
+          "node": "560:17974",
+          "label": "shadow / Small"
+        }
+      }
+    },
+    "Moderate": {
+      "$value": [
+        {
+          "offsetX": "0px",
+          "offsetY": "6px",
+          "blur": "15px",
+          "spread": "-2px",
+          "color": "#101828",
+          "alpha": 0.08,
+          "alphaRaw": 0.07999999821186066
+        },
+        {
+          "offsetX": "0px",
+          "offsetY": "6px",
+          "blur": "15px",
+          "spread": "-2px",
+          "color": "#101828",
+          "alpha": 0.08,
+          "alphaRaw": 0.07999999821186066
+        }
+      ],
+      "$type": "shadow",
+      "$description": "Documented on canvas only (no effect style). Two stacked DROP_SHADOW layers, blendMode NORMAL.",
+      "$extensions": {
+        "com.figma": {
+          "node": "560:17978",
+          "label": "Shadow / Moderate"
+        }
+      }
+    },
+    "Large": {
+      "$value": [
+        {
+          "offsetX": "0px",
+          "offsetY": "8px",
+          "blur": "24px",
+          "spread": "-3px",
+          "color": "#101828",
+          "alpha": 0.1,
+          "alphaRaw": 0.10000000149011612
+        },
+        {
+          "offsetX": "0px",
+          "offsetY": "8px",
+          "blur": "24px",
+          "spread": "-3px",
+          "color": "#101828",
+          "alpha": 0.05,
+          "alphaRaw": 0.05000000074505806
+        }
+      ],
+      "$type": "shadow",
+      "$description": "Documented on canvas only (no effect style). Two stacked DROP_SHADOW layers, blendMode NORMAL.",
+      "$extensions": {
+        "com.figma": {
+          "node": "560:17982",
+          "label": "Shadow / large"
+        }
+      }
+    },
+    "X-Large": {
+      "$value": [
+        {
+          "offsetX": "0px",
+          "offsetY": "20px",
+          "blur": "40px",
+          "spread": "-8px",
+          "color": "#101828",
+          "alpha": 0.1,
+          "alphaRaw": 0.10000000149011612
+        },
+        {
+          "offsetX": "0px",
+          "offsetY": "20px",
+          "blur": "40px",
+          "spread": "-8px",
+          "color": "#101828",
+          "alpha": 0.05,
+          "alphaRaw": 0.05000000074505806
+        }
+      ],
+      "$type": "shadow",
+      "$description": "Documented on canvas only (no effect style). Two stacked DROP_SHADOW layers, blendMode NORMAL.",
+      "$extensions": {
+        "com.figma": {
+          "node": "560:17986",
+          "label": "Shadow / X-Large"
+        }
+      }
+    },
+    "XX-Large": {
+      "$value": [
+        {
+          "offsetX": "0px",
+          "offsetY": "25px",
+          "blur": "60px",
+          "spread": "-15px",
+          "color": "#101828",
+          "alpha": 0.2,
+          "alphaRaw": 0.20000000298023224
+        },
+        {
+          "offsetX": "0px",
+          "offsetY": "25px",
+          "blur": "60px",
+          "spread": "-15px",
+          "color": "#101828",
+          "alpha": 0.12,
+          "alphaRaw": 0.11999999731779099
+        }
+      ],
+      "$type": "shadow",
+      "$description": "Documented on canvas only (no effect style). Two stacked DROP_SHADOW layers, blendMode NORMAL.",
+      "$extensions": {
+        "com.figma": {
+          "node": "560:17990",
+          "label": "Shadow / XX-Large"
+        }
+      }
+    }
+  },
+  "Blur": {
+    "Small": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "BACKGROUND_BLUR radius applied to the 'Blur/Small' sample on the Shadows page (no effect style; the Blur/Small component itself carries no effect).",
+      "$extensions": {
+        "com.figma": {
+          "effectType": "BACKGROUND_BLUR",
+          "component": "1663:7087"
+        }
+      }
+    },
+    "Moderate": {
+      "$value": "6px",
+      "$type": "dimension",
+      "$description": "BACKGROUND_BLUR radius applied to the 'Blur/Moderate' sample on the Shadows page (no effect style; the Blur/Moderate component itself carries no effect).",
+      "$extensions": {
+        "com.figma": {
+          "effectType": "BACKGROUND_BLUR",
+          "component": "1663:7088"
+        }
+      }
+    },
+    "Large": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "BACKGROUND_BLUR radius applied to the 'Blur/Large' sample on the Shadows page (no effect style; the Blur/Large component itself carries no effect).",
+      "$extensions": {
+        "com.figma": {
+          "effectType": "BACKGROUND_BLUR",
+          "component": "1663:7089"
+        }
+      }
+    }
+  },
+  "Overlay": {
+    "Small": {
+      "$value": "{Semantic.Colors - Semantic Tokens.Overlays.Small (25% Black)}",
+      "$type": "color",
+      "$description": "Overlay / Small / 25% of Black"
+    },
+    "Moderate": {
+      "$value": "{Semantic.Colors - Semantic Tokens.Overlays.Moderate (50% Black)}",
+      "$type": "color",
+      "$description": "Overlay / Moderate / 50% of Black"
+    },
+    "Large": {
+      "$value": "{Semantic.Colors - Semantic Tokens.Overlays.Large (75% Black)}",
+      "$type": "color",
+      "$description": "Overlay / Large / 75% of Black"
+    }
+  }
+}
