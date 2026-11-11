@@ -11,7 +11,9 @@
       "letterSpacing": {
         "unit": "PERCENT",
         "value": -1
-      }
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
     },
     "$type": "typography",
     "$description": "Page titles"
@@ -28,7 +30,9 @@
       "letterSpacing": {
         "unit": "PERCENT",
         "value": 0
-      }
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
     },
     "$type": "typography"
   },
@@ -44,7 +48,8 @@
         "unit": "PERCENT",
         "value": 2
       },
-      "textCase": "UPPER"
+      "textCase": "UPPER",
+      "textDecoration": "NONE"
     },
     "$type": "typography",
     "$extensions": {
@@ -52,5 +57,727 @@
         "cssClass": "caption"
       }
     }
+  },
+  "Display-Large-Bold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Bold",
+      "fontSize": 40,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 44
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Display font style should be applied to the largest text on the screen which needs highest emphasis apart from headlines. display styles are reserved for short, important text or numerals.\n\nExample: Total earning number on Earnings screen."
+  },
+  "Display-X-Large-Bold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Bold",
+      "fontSize": 48,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 52
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Display font style should be applied to the largest text on the screen which needs highest emphasis apart from headlines. display styles are reserved for short, important text or numerals.\n\nExample: Total earning number on Earnings screen."
+  },
+  "Title-2X-Small-SemiBold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Semi Bold",
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Title-2X-Small-Bold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Bold",
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Title-X-Small-SemiBold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Semi Bold",
+      "fontSize": 18,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Title-X-Small-Bold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Bold",
+      "fontSize": 18,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Title-Small-SemiBold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Semi Bold",
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Title-Small-Bold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Bold",
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Title-Moderate-SemiBold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Semi Bold",
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Title-Moderate-Bold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Bold",
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Title-Large-SemiBold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Semi Bold",
+      "fontSize": 32,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 44
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Title-Large-Bold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Bold",
+      "fontSize": 32,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 44
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "SubTitle-X-Small-Med": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Medium",
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "SubTitle-X-Small-SemiBold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Semi Bold",
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "SubTitle-X-Small-Bold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Bold",
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "SubTitle-Small-Med": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Medium",
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "SubTitle-Small-SemiBold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Semi Bold",
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "SubTitle-Small-Bold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Bold",
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "SubTitle-Moderate-Med": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Medium",
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "SubTitle-Moderate-SemiBold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Semi Bold",
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "SubTitle-Moderate-Bold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Bold",
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "SubTitle-Large-Med": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Medium",
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "SubTitle-Large-SemiBold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Semi Bold",
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "SubTitle-Large-Bold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Bold",
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Body-Small-Reg": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Regular",
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Body-Small-Med": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Medium",
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Body-Moderate-Reg": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Regular",
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Body-Moderate-Med": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Medium",
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Label-Small-Reg": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Regular",
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Label-Small-Med": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Medium",
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Label-Moderate-Reg": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Regular",
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Label-Moderate-Med": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Medium",
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Label-Large-Reg": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Regular",
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Label-Large-Med": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Medium",
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Button-Small-Med": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Medium",
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Button-Small-SemiBold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Semi Bold",
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Button-Small-Bold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Bold",
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Button-Moderate-Med": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Medium",
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Button-Moderate-SemiBold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Semi Bold",
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Button-Moderate-Bold": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Bold",
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
   }
 }
