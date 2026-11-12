@@ -39,3 +39,16 @@ Frames are 360 pt wide (720 px at 2x) unless noted; tall files are full scrollab
 | [31-rate-card-bike-taxi.png](31-rate-card-bike-taxi.png) | Rate Card | [Bike Taxi](https://www.figma.com/design/tqSaYDOfJ1K1Fc51Zb9Fqz/?node-id=157-47589) | Rate card (Bike Taxi): order fare, extra fare breakdown |
 
 Not exported: *Logo & App Icon*, *My profile (Screenshots)*, *Rewards (Screenshots)*, *Service Icons +* and *Services & Features Information* have no 340–420 px-wide phone frames at their top two levels; *Subscription*, *Autopay* and *Performance* (16, 16 and 67 frames) were left out to keep the set to key flows — ask if you want them.
+
+## Logistics — captain modes (`screens/logistics/`)
+From **Logistics** (`nJVb4xUWWcmIUArw5sAxIv`), page *Ready for Dev* → Section 1, exported at 2x on 2026-11-12. All frames are named "onduty" in Figma.
+
+| File | Figma frame | What it shows |
+|---|---|---|
+| [01-hub-home.png](logistics/01-hub-home.png) | [119:13782](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=119-13782) | Hub mode home (older header gradient #fffbe4 → #ffecac) |
+| [02-hub-home-new.png](logistics/02-hub-home-new.png) | [556:39547](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=556-39547) | Hub mode, new home page with no bottom sheet (header #fffbe4 → #fff092) |
+| [03-hub-switcher-open.png](logistics/03-hub-switcher-open.png) | [119:14117](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=119-14117) | Mode menu open, Hub selected |
+| [04-delivery-home.png](logistics/04-delivery-home.png) | [119:13985](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=119-13985) | Delivery mode home (content placeholders) |
+| [05-delivery-switcher-open.png](logistics/05-delivery-switcher-open.png) | [119:14011](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=119-14011) | Mode menu open, Delivery selected |
+| [06-bike-lift-home.png](logistics/06-bike-lift-home.png) | [119:14091](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=119-14091) | Bike Lift mode home (content placeholders) |
+| [07-bike-lift-switcher-open.png](logistics/07-bike-lift-switcher-open.png) | [119:14051](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=119-14051) | Mode menu open, Bike Lift selected |

@@ -4489,6 +4489,122 @@
       }
     }
   },
+  "Mode": {
+    "$description": "Per-mode theme colours for the captain app (Hub, Delivery, Bike Lift). Source: Logistics file nJVb4xUWWcmIUArw5sAxIv (frames 556:39547 Hub, 119:13985/119:14011 Delivery, 119:14091/119:14051 Bike Lift). Hub is the default. In CSS switch with data-mode=\"hub|delivery|bike-lift\".",
+    "Mode": {
+      "Header": {
+        "Start": {
+          "$value": "#fffbe4",
+          "$type": "color",
+          "$description": "Top stop of the home header gradient (vertical, top → bottom).",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Mode",
+              "variable": "Mode/Header/Start",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "modes": {
+                "Hub": "#fffbe4",
+                "Delivery": "#ffefde",
+                "Bike Lift": "#cbe3ff"
+              },
+              "status": "proposed — not a Figma variable yet; values read from Logistics frames"
+            }
+          }
+        },
+        "End": {
+          "$value": "#fff092",
+          "$type": "color",
+          "$description": "Bottom stop of the home header gradient. Hub uses #fff092 (frames 119:14117, 556:39547); frame 119:13782 uses #ffecac.",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Mode",
+              "variable": "Mode/Header/End",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "modes": {
+                "Hub": "#fff092",
+                "Delivery": "#ffcd96",
+                "Bike Lift": "#79a3d5"
+              },
+              "status": "proposed — not a Figma variable yet; values read from Logistics frames"
+            }
+          }
+        }
+      },
+      "Button": {
+        "Start": {
+          "$value": "{Primitives.color.Base-Neutral.White}",
+          "$type": "color",
+          "$description": "Mode button (closed switcher, 64×64) fill — top stop. Delivery and Bike Lift are solid (start = end).",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Mode",
+              "variable": "Mode/Button/Start",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "modes": {
+                "Hub": "{Primitives.color.Base-Neutral.White}",
+                "Delivery": "#ffddb8",
+                "Bike Lift": "#c9e1ff"
+              },
+              "status": "proposed — not a Figma variable yet; values read from Logistics frames"
+            }
+          }
+        },
+        "End": {
+          "$value": "#fff4cd",
+          "$type": "color",
+          "$description": "Mode button fill — bottom stop.",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Mode",
+              "variable": "Mode/Button/End",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "modes": {
+                "Hub": "#fff4cd",
+                "Delivery": "#ffddb8",
+                "Bike Lift": "#c9e1ff"
+              },
+              "status": "proposed — not a Figma variable yet; values read from Logistics frames"
+            }
+          }
+        }
+      },
+      "Pill": {
+        "Selected": {
+          "$value": "{Semantic.Colors - Maps.Mapped-Yellow.Yellow 200}",
+          "$type": "color",
+          "$description": "Fill of the selected mode pill in the open switcher.",
+          "$extensions": {
+            "com.figma": {
+              "collection": "Mode",
+              "variable": "Mode/Pill/Selected",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "modes": {
+                "Hub": "{Semantic.Colors - Maps.Mapped-Yellow.Yellow 200}",
+                "Delivery": "#ffddb8",
+                "Bike Lift": "#c9e1ff"
+              },
+              "status": "proposed — not a Figma variable yet; values read from Logistics frames"
+            }
+          }
+        }
+      }
+    }
+  },
   "Semantic": {
     "$description": "Figma collection \"Semantic\" (modes light, dark; 8 variables). Not used by any Runway component; aliases the sample \"Primitives\" collection. Flagged in EXPORT_NOTES.md.",
     "color": {

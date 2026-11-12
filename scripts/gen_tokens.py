@@ -390,6 +390,29 @@ BTN = [
 for name, scopes, (l, m, s) in BTN:
     sem_token("Button Tokens", name, "dimension", OD([("Large", l), ("Medium", m), ("Small", s)]), scopes)
 
+# Mode collection (Hub / Delivery / Bike Lift) — added 2026-11-12 from the Logistics file (nJVb4xUWWcmIUArw5sAxIv,
+# page "Ready for Dev", Section 1). Not a Figma variable collection yet: values are the raw fills used in the frames,
+# aliased to Runway tokens where an identical token exists. Decisions on conflicting frames are recorded in EXPORT_NOTES.md.
+MODE_SRC = "Logistics file nJVb4xUWWcmIUArw5sAxIv (frames 556:39547 Hub, 119:13985/119:14011 Delivery, 119:14091/119:14051 Bike Lift)"
+B = "Colors - Base Tookens/"
+MODES = [
+    ("Mode/Header/Start", "Top stop of the home header gradient (vertical, top → bottom).",
+     OD([("Hub", "#fffbe4"), ("Delivery", "#ffefde"), ("Bike Lift", "#cbe3ff")])),
+    ("Mode/Header/End", "Bottom stop of the home header gradient. Hub uses #fff092 (frames 119:14117, 556:39547); frame 119:13782 uses #ffecac.",
+     OD([("Hub", "#fff092"), ("Delivery", "#ffcd96"), ("Bike Lift", "#79a3d5")])),
+    ("Mode/Button/Start", "Mode button (closed switcher, 64×64) fill — top stop. Delivery and Bike Lift are solid (start = end).",
+     OD([("Hub", B + "Base-Neutral/White"), ("Delivery", "#ffddb8"), ("Bike Lift", "#c9e1ff")])),
+    ("Mode/Button/End", "Mode button fill — bottom stop.",
+     OD([("Hub", "#fff4cd"), ("Delivery", "#ffddb8"), ("Bike Lift", "#c9e1ff")])),
+    ("Mode/Pill/Selected", "Fill of the selected mode pill in the open switcher.",
+     OD([("Hub", "Colors - Maps/Mapped-Yellow/Yellow 200"), ("Delivery", "#ffddb8"), ("Bike Lift", "#c9e1ff")])),
+]
+sem["Mode"] = OD([("$description", "Per-mode theme colours for the captain app (Hub, Delivery, Bike Lift). Source: " + MODE_SRC +
+                                     ". Hub is the default. In CSS switch with data-mode=\"hub|delivery|bike-lift\".")])
+for name, desc, modes in MODES:
+    leaf = sem_token("Mode", name, "color", modes, ["FRAME_FILL", "SHAPE_FILL"], desc=desc)
+    leaf["$extensions"]["com.figma"]["status"] = "proposed — not a Figma variable yet; values read from Logistics frames"
+
 # Figma collection literally named "Semantic" (light/dark) — flagged as sample data
 P = "Primitives/"
 SAMPLE_SEM = [
@@ -444,6 +467,14 @@ for mode in ("Large", "Medium", "Small"):
     lines.append(f"[data-button-size=\"{mode.lower()}\"] {{")
     for k, mv in CSS_SEM:
         if "Large" in mv:
+            lines.append(f"  {k}: {css_val(mv[mode])};")
+    lines.append("}")
+lines.append("")
+lines.append("/* Mode tokens (Hub / Delivery / Bike Lift). Hub is the default (on :root); switch with data-mode. */")
+for mode in ("Hub", "Delivery", "Bike Lift"):
+    lines.append(f"[data-mode=\"{kebab(mode)}\"] {{")
+    for k, mv in CSS_SEM:
+        if "Delivery" in mv:
             lines.append(f"  {k}: {css_val(mv[mode])};")
     lines.append("}")
 lines.append("")

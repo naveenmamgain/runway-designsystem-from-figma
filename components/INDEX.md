@@ -85,6 +85,14 @@ Base URL: `https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=`
 | Tool Tips | Tool Tip | [1801:6125](https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=1801-6125) | 24 | ✅ [ToolTip](ToolTip/spec.md) |
 | Snackbars | Snackbar | [1484:741](https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=1484-741) | 20 | ✅ [Snackbar](Snackbar/spec.md) |
 
+## Captain modes (from the Logistics file `nJVb4xUWWcmIUArw5sAxIv`)
+Not components in Figma — built from loose frames on page *Ready for Dev*; added to Runway on 2026-11-12 together with the `Mode` tokens.
+
+| Component | Figma frames | Status |
+|---|---|---|
+| ModeSwitcher (mode button, mode menu, floating bottom bar) | [556:39547](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=556-39547), [119:14117](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=119-14117), [119:14011](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=119-14011), [119:14051](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=119-14051) | ✅ [ModeSwitcher](ModeSwitcher/spec.md) |
+| ModeHeader (home header gradient per mode) | [556:39547](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=556-39547), [119:14011](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=119-14011), [119:14091](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=119-14091) | ✅ [ModeHeader](ModeHeader/spec.md) |
+
 ## Other
 | Page | Component | Node | Variants | Status |
 |---|---|---|---|---|

@@ -389,6 +389,11 @@
   --un-common-label-layout-max-width-no-icon: 296px;
   --un-common-label-layout-max-width-any-one-icon: 264px;
   --un-common-label-layout-max-width-both-icon: 232px;
+  --mode-header-start: #fffbe4;
+  --mode-header-end: #fff092;
+  --mode-button-start: var(--base-neutral-white);
+  --mode-button-end: #fff4cd;
+  --mode-pill-selected: var(--mapped-yellow-yellow-200);
 }
 
 /* Button Tokens modes. Large is the default (on :root); apply a size with data-button-size. */
@@ -433,6 +438,29 @@
   --un-common-label-layout-max-width-no-icon: 240px;
   --un-common-label-layout-max-width-any-one-icon: 216px;
   --un-common-label-layout-max-width-both-icon: 192px;
+}
+
+/* Mode tokens (Hub / Delivery / Bike Lift). Hub is the default (on :root); switch with data-mode. */
+[data-mode="hub"] {
+  --mode-header-start: #fffbe4;
+  --mode-header-end: #fff092;
+  --mode-button-start: var(--base-neutral-white);
+  --mode-button-end: #fff4cd;
+  --mode-pill-selected: var(--mapped-yellow-yellow-200);
+}
+[data-mode="delivery"] {
+  --mode-header-start: #ffefde;
+  --mode-header-end: #ffcd96;
+  --mode-button-start: #ffddb8;
+  --mode-button-end: #ffddb8;
+  --mode-pill-selected: #ffddb8;
+}
+[data-mode="bike-lift"] {
+  --mode-header-start: #cbe3ff;
+  --mode-header-end: #79a3d5;
+  --mode-button-start: #c9e1ff;
+  --mode-button-end: #c9e1ff;
+  --mode-pill-selected: #c9e1ff;
 }
 
 /* Figma collections "Primitives" + "Semantic" (light/dark). Flagged as sample data in EXPORT_NOTES.md;

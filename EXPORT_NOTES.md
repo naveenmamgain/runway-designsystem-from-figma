@@ -252,9 +252,39 @@ The Master File's *Index* page links only to pages inside the same file; no othe
 Pages with no phone frames (Logo & App Icon, My profile, Rewards, Service Icons +, Services & Features Information) and the
 Subscription / Autopay / Performance pages were not exported.
 
+## Captain modes — Logistics file (added 2026-11-12)
+Source: **Logistics** (`nJVb4xUWWcmIUArw5sAxIv`), page *Ready for Dev* → Section 1 (7 frames). Verified that the file is built on
+Runway: its only subscribed library is *Runway design system (Cap-App)* and every bound variable collection and reused component
+(Homepage Header, Duty Toggle, .Nav Icons, .Order Button, Service Icons/Bike) has the same key as in Runway.
+
+Added:
+- **Tokens** — new `Mode` group in `semantic.json` (modes **Hub** (default), **Delivery**, **Bike Lift**) with `Mode/Header/Start|End`,
+  `Mode/Button/Start|End`, `Mode/Pill/Selected`; CSS `--mode-*` switched with `data-mode="hub|delivery|bike-lift"`. Marked
+  `status: proposed` — they are **not Figma variables yet**; values are the raw fills from the frames, aliased to a Runway token
+  where identical (Hub selected pill → `Mapped-Yellow/Yellow 200`, Hub button top → `Base-Neutral/White`).
+- **Components** — `ModeSwitcher` (mode button, mode menu overlay, floating bottom bar) and `ModeHeader` (header gradient).
+- **Assets** — `assets/icons/mode/bike-lift.png` (2x; raster in Figma). Hub/Delivery icons are Runway's
+  `service-icons-bike/bike-taxi-sm.png` and `bike-parcel-sm.png`.
+- **Screens** — `screens/logistics/` (7 frames, 2x).
+
+Decisions (agreed with the user; designer to confirm):
+- Hub header = `#fffbe4 → #fff092` (2 of 3 Hub frames incl. the newest); frame 119:13782 has `#fffbe4 → #ffecac`.
+- Delivery header = gradient `#ffefde → #ffcd96`; the closed Delivery frame uses solid `#ffddb8` on the Homepage Header inside a white
+  header with a shadow — treated as unfinished.
+- Open/close motion is an assumption (no prototype links exist): overlay fade 200 ms, pills rise + fade 220 ms with 40 ms stagger,
+  disabled under reduced motion.
+
+Inconsistencies: switcher is loose frames (no component/variants/prototype); mode colours are raw hex and mostly outside Runway's
+palette (#fffbe4, #fff092, #ffefde, #ffcd96, #cbe3ff, #79a3d5, #fff4cd, #ffddb8, #c9e1ff, #fbfdff); unselected pill fill bound to two
+different white tokens; hidden labels and an invisible 0.5 px stroke left inside the 64×64 mode buttons; Hub pill named "All" /
+"All Mode"; Bike Lift icon is a raster image; open frames use Elevation/M, width 276 and gap 4 for the nav pill vs Elevation/S, 272, gap 8
+when closed; all 7 frames are named "onduty". The Logistics frames also use styles/components from other libraries (paint styles
+`Handoff-off`, `Blues`, `Color/…`; text styles `Body 1`, `Subtitle 2`, `Bold 20`; components `all pills`, `small icons`, `CTA`,
+`map buttons`, `Spacer`) — not part of Runway and not exported.
+
 ## Not exported / open items
 - `.(Rejected) Button Tokens` collection (43 variables) — explicitly marked rejected in Figma.
 - Utilities page doc helpers, cover and divider pages.
 - Remote-library components used inside Runway (Reject Button, GTA Icon, header Toggle, Filter Pills, Orders Button, Bottom Nav Icons) — they live in other files.
 - Comms Templates have no content in Figma (empty frames) — only sizes exported.
-- Components are type-checked but have not been rendered/visually compared in a browser.
+- Components are type-checked but have not been rendered/visually compared in a browser (including ModeSwitcher's open/close motion).
