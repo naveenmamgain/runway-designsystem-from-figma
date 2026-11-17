@@ -1,0 +1,5572 @@
+{
+ "file": {
+  "key": "nJVb4xUWWcmIUArw5sAxIv",
+  "name": "Logistics",
+  "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/Logistics"
+ },
+ "pages": [
+  {
+   "id": "2326:32394",
+   "name": "Cover Page",
+   "tier": "B",
+   "frameCount": 1,
+   "summary": "Single 1920x1088 cover frame (2326:33128).",
+   "notes": "Uses Runway nav/header instances for illustration only."
+  },
+  {
+   "id": "108:22392",
+   "name": "Ready for Dev",
+   "tier": "A",
+   "frameCount": 60,
+   "summary": "Final specs in 5 sections: S1 modes (Hub/Delivery/Bike Lift switcher, 7 frames, already exported), S2 switching workspace + error, S4 Delivery homepage (interest collection, off/on duty, zone card states), S5 zone selection (map states, zone list sheet, confirmation/switch/full modals), S6 Incentives page (full scroll, empty/partial states, T&C sheet, audio language picker) + 3 loose payout-image frames.",
+   "notes": "Section 3 does not exist (numbering skips). Many frames named 'onduty' even when off duty."
+  },
+  {
+   "id": "391:13478",
+   "name": "Food OA",
+   "tier": "B",
+   "frameCount": 9,
+   "summary": "Food Delivery order-acceptance (OA) card explorations: 'Food Ready' badge/icon variants, Ownly price badge, exportable Food Ready icon (669:15647), Home of Orders with stacked food OA (406:20673).",
+   "notes": "Uses Runway OA Cards / Home of Orders; loose frames not instances in places."
+  },
+  {
+   "id": "373:16073",
+   "name": "Double acceptance for Food delivery",
+   "tier": "B",
+   "frameCount": 5,
+   "summary": "Home of Orders with food OA list (373:16741, 499:36144) and double-acceptance overlay: second food OA card over an active Auto order with countdown ring (435:32882) or Accept/reject buttons (435:34223).",
+   "notes": "Countdown '3' ring vs explicit Accept — two alternatives."
+  },
+  {
+   "id": "4347:35480",
+   "name": "Merchandising auth",
+   "tier": "B",
+   "frameCount": 25,
+   "summary": "Ownly merch (T-shirt/bag/raincoat) verification flow: off-duty explainer sheet, home nudge card (pending/failed/success), Verify Merch task-list page, camera capture per item (Selfie/Bag/Raincoat) with Verifying/Success overlays, failure overlay with Retry, 3-strike block sheet. Includes Slack PM brief screenshot (image 119) and prototype connectors.",
+   "notes": "Not named Ready for Dev but appears final-ish; treated with full tier-A records. Target 'Verify Merch' screen = 4417:37326."
+  },
+  {
+   "id": "4436:39840",
+   "name": "Batching",
+   "tier": "B",
+   "frameCount": 23,
+   "summary": "Batched (multi-pickup/multi-drop) Ownly orders in Order History + Order Details; 'Rough' section with card collapsed/expanded variants and Wallet home; Section 1 is the cleaned flow (4472:202251..202716).",
+   "notes": "Section 1 looks final; three Order Details variants = multi-pickup&multi-drop / single-pickup&multi-drop / multi-pickup&single-drop."
+  },
+  {
+   "id": "2166:7281",
+   "name": "For Comms",
+   "tier": "B",
+   "frameCount": 8,
+   "summary": "Copies of off-duty/on-duty/zone-select frames for comms/marketing.",
+   "notes": "Duplicates of Ready for Dev content."
+  },
+  {
+   "id": "3473:8277",
+   "name": "Presentation",
+   "tier": "B",
+   "frameCount": 15,
+   "summary": "Presentation copy of mode switching, homepage & zone selection, incentives with text labels.",
+   "notes": "Duplicates of Ready for Dev content (older incentive page 4666 tall)."
+  },
+  {
+   "id": "644:44428",
+   "name": "---------------",
+   "tier": "divider",
+   "frameCount": 0,
+   "summary": "Divider page, empty.",
+   "notes": ""
+  },
+  {
+   "id": "477:35145",
+   "name": "For Review",
+   "tier": "B",
+   "frameCount": 19,
+   "summary": "Review board: delivery-space video intro (4408:42013), mode switcher & switching modal, Delivery Space vs All Space Home of Orders empty/low-demand cross-sell states (4580:*), Off-duty home variants with hourly-earning tracker, 'In a new city?' cards (4596:*).",
+   "notes": "Low-demand cross-sell cards are not in Ready for Dev."
+  },
+  {
+   "id": "1836:22337",
+   "name": "Components",
+   "tier": "B",
+   "frameCount": 37,
+   "summary": "Local components: Slots chip, Zone card, Zones, Delivery, Zone highlights, Nav, Spaces, Header, Tracker, Incentives Tracker, Status Tag, Lock Tracker, Incentives Card + zone-select reference frames.",
+   "notes": "None of these are in Runway."
+  },
+  {
+   "id": "155:951",
+   "name": "Ideation",
+   "tier": "B",
+   "frameCount": 4,
+   "summary": "Early mode/space ideation: 3 onduty frames + a 545x1618 board (716:16595).",
+   "notes": ""
+  },
+  {
+   "id": "0:1",
+   "name": "Kitchen",
+   "tier": "B",
+   "frameCount": 488,
+   "summary": "Large WIP canvas: hamburger/menu overlays, ~81 onduty home variants, rooms/spaces explorations, Home of Orders (20), slot-selection, zone selection (Sections 4-6), header theme exploration (Section 7), Incentives explorations (Section 8 + loose), Off duty (19), header background images, concept notes (mode vs role, Logistics vs Transportation).",
+   "notes": "Enumerated by group (name x count) — not every frame individually."
+  },
+  {
+   "id": "379:17714",
+   "name": "Quick Ideations",
+   "tier": "B",
+   "frameCount": 16,
+   "summary": "Slot selection (light & dark), bottom-nav/space-switcher iterations (A-F, L1-L5), overlay, incentives 1-4 alt designs ('Extra Earning Offers'), payout rule 3 options (A/B/C).",
+   "notes": "Rejected/alternative explorations for nav + incentives."
+  },
+  {
+   "id": "2326:29445",
+   "name": "------------",
+   "tier": "divider",
+   "frameCount": 0,
+   "summary": "Divider page, empty.",
+   "notes": ""
+  },
+  {
+   "id": "2292:69868",
+   "name": "Ready for Dev Hindi (India)",
+   "tier": "C",
+   "frameCount": 42,
+   "summary": "Older snapshot of Ready for Dev translated to Hindi (India): S1 (7), S2 (6), S4 (3 — no zone-selected/Zones frames), S5 (10 — no confirmation modals), no S6 Incentives; plus loose frames (onduty, Zone card x4, Homepage Header x3, 'only incentive', 'slots full').",
+   "notes": "Structure mismatch vs current source (60 frames). Overflow heuristic: 25 overflowing texts: 'बाइक लिफ्ट' in mode pill (+73px), 'डिलीवरी' (+35), Credit nav label (+13), Duty Toggle 'ऑफ ड्यूटी' (+29), zone 'कहीं से भी ऑर्डर पाएं' (+24)"
+  },
+  {
+   "id": "2292:76072",
+   "name": "Ready for Dev Bengali (India)",
+   "tier": "C",
+   "frameCount": 42,
+   "summary": "Older snapshot of Ready for Dev translated to Bengali (India): S1 (7), S2 (6), S4 (3 — no zone-selected/Zones frames), S5 (10 — no confirmation modals), no S6 Incentives; plus loose frames (onduty, Zone card x4, Homepage Header x3, 'only incentive', 'slots full').",
+   "notes": "Structure mismatch vs current source (60 frames). Overflow heuristic: 2 overflows; 'Try other' button left in English"
+  },
+  {
+   "id": "2292:82276",
+   "name": "Ready for Dev Kannada (India)",
+   "tier": "C",
+   "frameCount": 42,
+   "summary": "Older snapshot of Ready for Dev translated to Kannada (India): S1 (7), S2 (6), S4 (3 — no zone-selected/Zones frames), S5 (10 — no confirmation modals), no S6 Incentives; plus loose frames (onduty, Zone card x4, Homepage Header x3, 'only incentive', 'slots full').",
+   "notes": "Structure mismatch vs current source (60 frames). Overflow heuristic: 47 overflows: Bike Lift pill (+89px x14), Orders button (+16 x10), Duty Toggle (+29 x10), Credit (+19 x8)"
+  },
+  {
+   "id": "2292:88480",
+   "name": "Ready for Dev Malayalam (India)",
+   "tier": "C",
+   "frameCount": 42,
+   "summary": "Older snapshot of Ready for Dev translated to Malayalam (India): S1 (7), S2 (6), S4 (3 — no zone-selected/Zones frames), S5 (10 — no confirmation modals), no S6 Incentives; plus loose frames (onduty, Zone card x4, Homepage Header x3, 'only incentive', 'slots full').",
+   "notes": "Structure mismatch vs current source (60 frames). Overflow heuristic: 37 overflows: Bike Lift pill (+154px x14), Orders button (+38 x10), Credit (+31 x8); 'Try other' untranslated"
+  },
+  {
+   "id": "2292:94684",
+   "name": "Ready for Dev Marathi",
+   "tier": "C",
+   "frameCount": 42,
+   "summary": "Older snapshot of Ready for Dev translated to Marathi: S1 (7), S2 (6), S4 (3 — no zone-selected/Zones frames), S5 (10 — no confirmation modals), no S6 Incentives; plus loose frames (onduty, Zone card x4, Homepage Header x3, 'only incentive', 'slots full').",
+   "notes": "Structure mismatch vs current source (60 frames). Overflow heuristic: 2 overflows; 'Try other' untranslated"
+  },
+  {
+   "id": "2292:100888",
+   "name": "Ready for Dev Tamil (India)",
+   "tier": "C",
+   "frameCount": 42,
+   "summary": "Older snapshot of Ready for Dev translated to Tamil (India): S1 (7), S2 (6), S4 (3 — no zone-selected/Zones frames), S5 (10 — no confirmation modals), no S6 Incentives; plus loose frames (onduty, Zone card x4, Homepage Header x3, 'only incentive', 'slots full').",
+   "notes": "Structure mismatch vs current source (60 frames). Overflow heuristic: 41 overflows: Bike Lift pill (+105px x14), Orders button (+20 x10), Credit (+19 x8), CTA Bar helper text (+8 x3)"
+  },
+  {
+   "id": "2292:107092",
+   "name": "Ready for Dev Telugu (India)",
+   "tier": "C",
+   "frameCount": 42,
+   "summary": "Older snapshot of Ready for Dev translated to Telugu (India): S1 (7), S2 (6), S4 (3 — no zone-selected/Zones frames), S5 (10 — no confirmation modals), no S6 Incentives; plus loose frames (onduty, Zone card x4, Homepage Header x3, 'only incentive', 'slots full').",
+   "notes": "Structure mismatch vs current source (60 frames). Overflow heuristic: 37 overflows: Duty Toggle (+29 x9), Bike Lift pill (+89 x14), Delivery (+35), Credit (+19 x8)"
+  },
+  {
+   "id": "3701:24251",
+   "name": "Ready for Dev Hindi (India) 1",
+   "tier": "C",
+   "frameCount": 47,
+   "summary": "Newer snapshot translated to Hindi (India) 1: S1 7, S2 6, S4 6, S5 16, S6 6 (+Spaces frame). Source S6 now has 18 (audio button, language picker, 4052:* partial-availability states, 3607/3609 empty+T&C not translated).",
+   "notes": "Overflow heuristic: 1 overflow (English annotation only)"
+  },
+  {
+   "id": "3701:33486",
+   "name": "Ready for Dev Bengali (India) 1",
+   "tier": "C",
+   "frameCount": 47,
+   "summary": "Newer snapshot translated to Bengali (India) 1: S1 7, S2 6, S4 6, S5 16, S6 6 (+Spaces frame). Source S6 now has 18 (audio button, language picker, 4052:* partial-availability states, 3607/3609 empty+T&C not translated).",
+   "notes": "Overflow heuristic: 8: incentive payout title 'আপনাকে কীভাবে পেমেন্ট করা…' +22px, slot labels +3-4px"
+  },
+  {
+   "id": "3701:42721",
+   "name": "Ready for Dev Kannada (India) 1",
+   "tier": "C",
+   "frameCount": 47,
+   "summary": "Newer snapshot translated to Kannada (India) 1: S1 7, S2 6, S4 6, S5 16, S6 6 (+Spaces frame). Source S6 now has 18 (audio button, language picker, 4052:* partial-availability states, 3607/3609 empty+T&C not translated).",
+   "notes": "Overflow heuristic: 20: Orders button label +16px in every home frame, incentive frames"
+  },
+  {
+   "id": "3701:51956",
+   "name": "Ready for Dev Malayalam (India) 1",
+   "tier": "C",
+   "frameCount": 47,
+   "summary": "Newer snapshot translated to Malayalam (India) 1: S1 7, S2 6, S4 6, S5 16, S6 6 (+Spaces frame). Source S6 now has 18 (audio button, language picker, 4052:* partial-availability states, 3607/3609 empty+T&C not translated).",
+   "notes": "Overflow heuristic: 38: Bike Lift pill +44px, Orders button +38px, incentives (7 in 3701:55188)"
+  },
+  {
+   "id": "3701:61191",
+   "name": "Ready for Dev Marathi 1",
+   "tier": "C",
+   "frameCount": 47,
+   "summary": "Newer snapshot translated to Marathi 1: S1 7, S2 6, S4 6, S5 16, S6 6 (+Spaces frame). Source S6 now has 18 (audio button, language picker, 4052:* partial-availability states, 3607/3609 empty+T&C not translated).",
+   "notes": "Overflow heuristic: 1 (annotation only)"
+  },
+  {
+   "id": "3701:70426",
+   "name": "Ready for Dev Tamil (India) 1",
+   "tier": "C",
+   "frameCount": 47,
+   "summary": "Newer snapshot translated to Tamil (India) 1: S1 7, S2 6, S4 6, S5 16, S6 6 (+Spaces frame). Source S6 now has 18 (audio button, language picker, 4052:* partial-availability states, 3607/3609 empty+T&C not translated).",
+   "notes": "Overflow heuristic: 49: Bike Lift pill +32px, Orders button +20px, many zone/incentive frames"
+  },
+  {
+   "id": "3701:79661",
+   "name": "Ready for Dev Telugu (India) 1",
+   "tier": "C",
+   "frameCount": 47,
+   "summary": "Newer snapshot translated to Telugu (India) 1: S1 7, S2 6, S4 6, S5 16, S6 6 (+Spaces frame). Source S6 now has 18 (audio button, language picker, 4052:* partial-availability states, 3607/3609 empty+T&C not translated).",
+   "notes": "Overflow heuristic: 7: payout title +15px, 'సాయంత్రం' +2px"
+  }
+ ],
+ "frames": [
+  {
+   "id": "119:13782",
+   "page": "Ready for Dev",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Modes > workspace switcher (Section 1, already exported)",
+   "task": "Choose working space Hub / Delivery / Bike Lift",
+   "container": "full-page",
+   "structure": "HomepageHeader(mode gradient) > Today's Earnings accordion > map/home content > floating bottom bar (Space button 56-64 + bottom nav pill) ; open = dim overlay + stacked mode pills + close FAB",
+   "components": {
+    "runway": [
+     "Homepage Header",
+     "Duty Toggle",
+     "Service Icons/Bike",
+     ".Nav Icons",
+     ".Order Button",
+     "Hamburger Menu",
+     "GTA",
+     "Notification"
+    ],
+    "other": [
+     "Today's Earnings Accordian (remote non-Runway)",
+     "Bottom Nav Icons (non-Runway)",
+     "Final (stories)",
+     "Nav (local)",
+     "Spacer",
+     "all pills",
+     "map buttons",
+     "CTA (non-Runway)"
+    ]
+   },
+   "cta": "Mode button bottom-left; pills tap to switch",
+   "states": "Hub mode, closed — map home with surge hexes, performance banner, stories",
+   "notes": "See EXPORT_NOTES 'Captain modes'.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=119-13782"
+  },
+  {
+   "id": "119:13985",
+   "page": "Ready for Dev",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Modes > workspace switcher (Section 1, already exported)",
+   "task": "Choose working space Hub / Delivery / Bike Lift",
+   "container": "full-page",
+   "structure": "HomepageHeader(mode gradient) > Today's Earnings accordion > map/home content > floating bottom bar (Space button 56-64 + bottom nav pill) ; open = dim overlay + stacked mode pills + close FAB",
+   "components": {
+    "runway": [
+     "Homepage Header",
+     "Duty Toggle",
+     "Service Icons/Bike",
+     ".Nav Icons",
+     ".Order Button",
+     "Hamburger Menu",
+     "GTA",
+     "Notification"
+    ],
+    "other": [
+     "Today's Earnings Accordian (remote non-Runway)",
+     "Bottom Nav Icons (non-Runway)",
+     "Final (stories)",
+     "Nav (local)",
+     "Spacer",
+     "all pills",
+     "map buttons",
+     "CTA (non-Runway)"
+    ]
+   },
+   "cta": "Mode button bottom-left; pills tap to switch",
+   "states": "Delivery mode closed (solid #ffddb8 header)",
+   "notes": "See EXPORT_NOTES 'Captain modes'.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=119-13985"
+  },
+  {
+   "id": "119:14011",
+   "page": "Ready for Dev",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Modes > workspace switcher (Section 1, already exported)",
+   "task": "Choose working space Hub / Delivery / Bike Lift",
+   "container": "home-overlay",
+   "structure": "HomepageHeader(mode gradient) > Today's Earnings accordion > map/home content > floating bottom bar (Space button 56-64 + bottom nav pill) ; open = dim overlay + stacked mode pills + close FAB",
+   "components": {
+    "runway": [
+     "Homepage Header",
+     "Duty Toggle",
+     "Service Icons/Bike",
+     ".Nav Icons",
+     ".Order Button",
+     "Hamburger Menu",
+     "GTA",
+     "Notification"
+    ],
+    "other": [
+     "Today's Earnings Accordian (remote non-Runway)",
+     "Bottom Nav Icons (non-Runway)",
+     "Final (stories)",
+     "Nav (local)",
+     "Spacer",
+     "all pills",
+     "map buttons",
+     "CTA (non-Runway)"
+    ]
+   },
+   "cta": "Mode button bottom-left; pills tap to switch",
+   "states": "Mode menu open over Delivery",
+   "notes": "See EXPORT_NOTES 'Captain modes'.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=119-14011"
+  },
+  {
+   "id": "119:14051",
+   "page": "Ready for Dev",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Modes > workspace switcher (Section 1, already exported)",
+   "task": "Choose working space Hub / Delivery / Bike Lift",
+   "container": "home-overlay",
+   "structure": "HomepageHeader(mode gradient) > Today's Earnings accordion > map/home content > floating bottom bar (Space button 56-64 + bottom nav pill) ; open = dim overlay + stacked mode pills + close FAB",
+   "components": {
+    "runway": [
+     "Homepage Header",
+     "Duty Toggle",
+     "Service Icons/Bike",
+     ".Nav Icons",
+     ".Order Button",
+     "Hamburger Menu",
+     "GTA",
+     "Notification"
+    ],
+    "other": [
+     "Today's Earnings Accordian (remote non-Runway)",
+     "Bottom Nav Icons (non-Runway)",
+     "Final (stories)",
+     "Nav (local)",
+     "Spacer",
+     "all pills",
+     "map buttons",
+     "CTA (non-Runway)"
+    ]
+   },
+   "cta": "Mode button bottom-left; pills tap to switch",
+   "states": "Mode menu open variant",
+   "notes": "See EXPORT_NOTES 'Captain modes'.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=119-14051"
+  },
+  {
+   "id": "119:14091",
+   "page": "Ready for Dev",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Modes > workspace switcher (Section 1, already exported)",
+   "task": "Choose working space Hub / Delivery / Bike Lift",
+   "container": "full-page",
+   "structure": "HomepageHeader(mode gradient) > Today's Earnings accordion > map/home content > floating bottom bar (Space button 56-64 + bottom nav pill) ; open = dim overlay + stacked mode pills + close FAB",
+   "components": {
+    "runway": [
+     "Homepage Header",
+     "Duty Toggle",
+     "Service Icons/Bike",
+     ".Nav Icons",
+     ".Order Button",
+     "Hamburger Menu",
+     "GTA",
+     "Notification"
+    ],
+    "other": [
+     "Today's Earnings Accordian (remote non-Runway)",
+     "Bottom Nav Icons (non-Runway)",
+     "Final (stories)",
+     "Nav (local)",
+     "Spacer",
+     "all pills",
+     "map buttons",
+     "CTA (non-Runway)"
+    ]
+   },
+   "cta": "Mode button bottom-left; pills tap to switch",
+   "states": "Bike Lift mode closed",
+   "notes": "See EXPORT_NOTES 'Captain modes'.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=119-14091"
+  },
+  {
+   "id": "119:14117",
+   "page": "Ready for Dev",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Modes > workspace switcher (Section 1, already exported)",
+   "task": "Choose working space Hub / Delivery / Bike Lift",
+   "container": "home-overlay",
+   "structure": "HomepageHeader(mode gradient) > Today's Earnings accordion > map/home content > floating bottom bar (Space button 56-64 + bottom nav pill) ; open = dim overlay + stacked mode pills + close FAB",
+   "components": {
+    "runway": [
+     "Homepage Header",
+     "Duty Toggle",
+     "Service Icons/Bike",
+     ".Nav Icons",
+     ".Order Button",
+     "Hamburger Menu",
+     "GTA",
+     "Notification"
+    ],
+    "other": [
+     "Today's Earnings Accordian (remote non-Runway)",
+     "Bottom Nav Icons (non-Runway)",
+     "Final (stories)",
+     "Nav (local)",
+     "Spacer",
+     "all pills",
+     "map buttons",
+     "CTA (non-Runway)"
+    ]
+   },
+   "cta": "Mode button bottom-left; pills tap to switch",
+   "states": "Hub home with mode menu open",
+   "notes": "See EXPORT_NOTES 'Captain modes'.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=119-14117"
+  },
+  {
+   "id": "556:39547",
+   "page": "Ready for Dev",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Modes > workspace switcher (Section 1, already exported)",
+   "task": "Choose working space Hub / Delivery / Bike Lift",
+   "container": "full-page",
+   "structure": "HomepageHeader(mode gradient) > Today's Earnings accordion > map/home content > floating bottom bar (Space button 56-64 + bottom nav pill) ; open = dim overlay + stacked mode pills + close FAB",
+   "components": {
+    "runway": [
+     "Homepage Header",
+     "Duty Toggle",
+     "Service Icons/Bike",
+     ".Nav Icons",
+     ".Order Button",
+     "Hamburger Menu",
+     "GTA",
+     "Notification"
+    ],
+    "other": [
+     "Today's Earnings Accordian (remote non-Runway)",
+     "Bottom Nav Icons (non-Runway)",
+     "Final (stories)",
+     "Nav (local)",
+     "Spacer",
+     "all pills",
+     "map buttons",
+     "CTA (non-Runway)"
+    ]
+   },
+   "cta": "Mode button bottom-left; pills tap to switch",
+   "states": "New home page with no bottom sheet ('Bad Performance 14 Orders Cancelled!' banner)",
+   "notes": "See EXPORT_NOTES 'Captain modes'.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=556-39547"
+  },
+  {
+   "id": "628:41939",
+   "page": "Ready for Dev",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Modes > Switching workspace",
+   "task": "Open mode menu from Hub home",
+   "container": "home-overlay",
+   "structure": "Hub home + overlay with Bike Lift/Delivery/Hub pills + close",
+   "components": {
+    "runway": [
+     "Homepage Header",
+     "Duty Toggle",
+     "Service Icons/Bike",
+     ".Nav Icons",
+     ".Order Button",
+     "Hamburger Menu",
+     "GTA",
+     "Notification"
+    ],
+    "other": [
+     "Today's Earnings Accordian (remote non-Runway)",
+     "Bottom Nav Icons (non-Runway)",
+     "Final (stories)",
+     "Nav (local)",
+     "Spacer",
+     "all pills",
+     "map buttons",
+     "CTA (non-Runway)"
+    ]
+   },
+   "cta": "Pill tap",
+   "states": "open",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=628-41939"
+  },
+  {
+   "id": "628:41149",
+   "page": "Ready for Dev",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Modes > Switching workspace > confirm",
+   "task": "Confirm switching to Delivery (audio explainer)",
+   "container": "modal",
+   "structure": "Home (dimmed) > Runway Modal: audio icon, 4 service illustrations, title 'Switching to Delivery', body 'Select your preferred zone to get Full-time Delivery orders.', primary 'Continue', secondary 'Go back'",
+   "components": {
+    "runway": [
+     "Modal",
+     "Homepage Header",
+     "Buttons"
+    ],
+    "other": [
+     "Today's Earnings Accordian",
+     "Bottom Nav Icons"
+    ]
+   },
+   "cta": "Stacked primary+secondary in modal",
+   "states": "default",
+   "notes": "Audio note 2053:26797 transcribes VO.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=628-41149"
+  },
+  {
+   "id": "628:41513",
+   "page": "Ready for Dev",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Modes > Switching workspace",
+   "task": "Hub home (start state)",
+   "container": "full-page",
+   "structure": "Hub home",
+   "components": {
+    "runway": [
+     "Homepage Header",
+     "Duty Toggle",
+     "Service Icons/Bike",
+     ".Nav Icons",
+     ".Order Button",
+     "Hamburger Menu",
+     "GTA",
+     "Notification"
+    ],
+    "other": [
+     "Today's Earnings Accordian (remote non-Runway)",
+     "Bottom Nav Icons (non-Runway)",
+     "Final (stories)",
+     "Nav (local)",
+     "Spacer",
+     "all pills",
+     "map buttons",
+     "CTA (non-Runway)"
+    ]
+   },
+   "cta": "-",
+   "states": "default",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=628-41513"
+  },
+  {
+   "id": "1041:16946",
+   "page": "Ready for Dev",
+   "name": "Bottom Sheet",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Modes > Switching error",
+   "task": "Switching failed",
+   "container": "bottom-sheet",
+   "structure": "Dim > close X > sheet: error illustration (bag + red alert triangle, 1041:16965) > red title 'Can not switch to Delivery' > body 'Something went wrong. Please try again or contact Captain Support.' > primary 'Okay'",
+   "components": {
+    "runway": [
+     "Buttons(Large Primary)",
+     "Close_Stroke",
+     "Alert_Triangle_Filled"
+    ],
+    "other": []
+   },
+   "cta": "Full-width primary bottom",
+   "states": "error",
+   "notes": "Error title uses red text — pattern for failure sheets.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1041-16946"
+  },
+  {
+   "id": "1717:48841",
+   "page": "Ready for Dev",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Delivery space > not launched",
+   "task": "Express interest in Delivery in an unserved city",
+   "container": "full-page",
+   "structure": "Header > hero illustration 360x452 with title 'Delivery', 'Coming soon to your location', primary 'Request Delivery' > stories > bottom bar",
+   "components": {
+    "runway": [
+     "Buttons(Medium Primary)",
+     "Homepage Header"
+    ],
+    "other": [
+     "Final",
+     "Nav(Delivery)"
+    ]
+   },
+   "cta": "Inline primary under hero",
+   "states": "default",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1717-48841"
+  },
+  {
+   "id": "1717:48737",
+   "page": "Ready for Dev",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Delivery space > not launched",
+   "task": "Interest registered",
+   "container": "full-page",
+   "structure": "Same as above; 'Thank you for your interest!', 'We are coming soon', secondary-positive 'Request Sent ✓'",
+   "components": {
+    "runway": [
+     "Buttons(Secondary-Positive Pressed, trailing icon)"
+    ],
+    "other": [
+     "Nav(Delivery)"
+    ]
+   },
+   "cta": "Button turns to confirmed state",
+   "states": "success",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1717-48737"
+  },
+  {
+   "id": "2314:26124",
+   "page": "Ready for Dev",
+   "name": "onduty",
+   "size": "360x1582",
+   "tier": "A",
+   "flow": "Delivery home > off duty",
+   "task": "Go on duty / pick zone",
+   "container": "full-page",
+   "structure": "Header(OFF DUTY) > greeting illustration 'Hi, Rajeshkumar Good Morning' + 'Go ON Duty' CTA > Zone card (Work Zone, Upto ₹2400 Incentives, 0.2 km, Select zone) > stories > 'Only for you' banner (Unlimited Parcel Orders ₹9/Day) > Shortcuts (Change Number/Update Document/Change Language) > city footer > bottom bar",
+   "components": {
+    "runway": [
+     "Homepage Header",
+     "Service Icons/Bike"
+    ],
+    "other": [
+     "CTA (non-Runway)",
+     "final animation",
+     "Zone card (local)",
+     "Nav(Delivery)"
+    ]
+   },
+   "cta": "Go ON Duty inline (non-Runway CTA)",
+   "states": "off duty",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2314-26124"
+  },
+  {
+   "id": "2314:25962",
+   "page": "Ready for Dev",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Delivery home > on duty, zone free",
+   "task": "Working zone-free",
+   "container": "full-page",
+   "structure": "Header(ON DUTY) > map card 328x208 'Your zone' 'Zone Free' > Zone card > stories > Shortcuts",
+   "components": {
+    "runway": [
+     "Homepage Header",
+     "Duty Toggle",
+     "Service Icons/Bike",
+     ".Nav Icons",
+     ".Order Button",
+     "Hamburger Menu",
+     "GTA",
+     "Notification"
+    ],
+    "other": [
+     "Zone card",
+     "Final",
+     "Nav(Delivery)"
+    ]
+   },
+   "cta": "Select zone link",
+   "states": "on duty zone-free",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2314-25962"
+  },
+  {
+   "id": "2314:26252",
+   "page": "Ready for Dev",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Delivery home > on duty, zone selected",
+   "task": "Working in Marathahalli zone",
+   "container": "full-page",
+   "structure": "Header(ON DUTY) > map card with selected hex zone > Zone card (Marathahalli Work Zone, Up to ₹1200 Incentives, Change) > stories",
+   "components": {
+    "runway": [
+     "Homepage Header",
+     "Duty Toggle",
+     "Service Icons/Bike",
+     ".Nav Icons",
+     ".Order Button",
+     "Hamburger Menu",
+     "GTA",
+     "Notification"
+    ],
+    "other": [
+     "Zone card",
+     "Final",
+     "Nav(Delivery)"
+    ]
+   },
+   "cta": "Change link",
+   "states": "on duty zone-selected",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2314-26252"
+  },
+  {
+   "id": "2326:27120",
+   "page": "Ready for Dev",
+   "name": "Zones",
+   "size": "572x355",
+   "tier": "A",
+   "flow": "Assets",
+   "task": "Exportable zone images",
+   "container": "other",
+   "structure": "Freezone / Selected zone illustrations",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "-",
+   "states": "asset",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2326-27120"
+  },
+  {
+   "id": "2053:26839",
+   "page": "Ready for Dev",
+   "name": "onduty",
+   "size": "360x1582",
+   "tier": "A",
+   "flow": "Zone selection > entry",
+   "task": "Off-duty home with Select Zone",
+   "container": "full-page",
+   "structure": "Same as 2314:26124 with ₹1200",
+   "components": {
+    "runway": [
+     "Homepage Header",
+     "Duty Toggle",
+     "Service Icons/Bike",
+     ".Nav Icons",
+     ".Order Button",
+     "Hamburger Menu",
+     "GTA",
+     "Notification"
+    ],
+    "other": [
+     "Zone card",
+     "CTA"
+    ]
+   },
+   "cta": "Select zone link",
+   "states": "off duty",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2053-26839"
+  },
+  {
+   "id": "2053:26987",
+   "page": "Ready for Dev",
+   "name": "Map",
+   "size": "360x254",
+   "tier": "A",
+   "flow": "Zone selection > map header states",
+   "task": "Show captain location vs zone",
+   "container": "other",
+   "structure": "Map tile with hex zones, route dashed line, zone tag",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "-",
+   "states": "GPS inside selected zone",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2053-26987"
+  },
+  {
+   "id": "2053:27046",
+   "page": "Ready for Dev",
+   "name": "Map",
+   "size": "360x254",
+   "tier": "A",
+   "flow": "Zone selection > map header states",
+   "task": "Show captain location vs zone",
+   "container": "other",
+   "structure": "Map tile with hex zones, route dashed line, zone tag",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "-",
+   "states": "Different zone selected (Sarjapura)",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2053-27046"
+  },
+  {
+   "id": "2053:27104",
+   "page": "Ready for Dev",
+   "name": "Map",
+   "size": "360x254",
+   "tier": "A",
+   "flow": "Zone selection > map header states",
+   "task": "Show captain location vs zone",
+   "container": "other",
+   "structure": "Map tile with hex zones, route dashed line, zone tag",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "-",
+   "states": "Zone-free (no zone)",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2053-27104"
+  },
+  {
+   "id": "2053:27154",
+   "page": "Ready for Dev",
+   "name": "Map",
+   "size": "360x254",
+   "tier": "A",
+   "flow": "Zone selection > map header states",
+   "task": "Show captain location vs zone",
+   "container": "other",
+   "structure": "Map tile with hex zones, route dashed line, zone tag",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "-",
+   "states": "GPS outside selected zone",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2053-27154"
+  },
+  {
+   "id": "2053:27217",
+   "page": "Ready for Dev",
+   "name": "zone-select / first time",
+   "size": "360x1779",
+   "tier": "A",
+   "flow": "Zone selection > list",
+   "task": "Pick a work zone or Zone Free",
+   "container": "full-page",
+   "structure": "Map 280 (back + locate buttons) > bottom sheet: 'Zone Free / Get orders from anywhere' radio card > 'Or' divider > zone radio cards (slots tag 100 Slots/10 Slots Only, name, Up to ₹1200 Incentives, distance; unavailable = grey 'No slots available!') > sticky CTA bar (helper 'You can change your zone when needed' + 'Confirm Zone')",
+   "components": {
+    "runway": [
+     "Buttons(Large Primary)"
+    ],
+    "other": [
+     "Zone card (local: Default/Selected/Unavailable)",
+     "Slots chip (local)"
+    ]
+   },
+   "cta": "Sticky bottom primary 'Confirm Zone'",
+   "states": "Zone Free selected",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2053-27217"
+  },
+  {
+   "id": "2053:27287",
+   "page": "Ready for Dev",
+   "name": "zone-select / first time",
+   "size": "360x1779",
+   "tier": "A",
+   "flow": "Zone selection > list",
+   "task": "Pick a work zone or Zone Free",
+   "container": "full-page",
+   "structure": "Map 280 (back + locate buttons) > bottom sheet: 'Zone Free / Get orders from anywhere' radio card > 'Or' divider > zone radio cards (slots tag 100 Slots/10 Slots Only, name, Up to ₹1200 Incentives, distance; unavailable = grey 'No slots available!') > sticky CTA bar (helper 'You can change your zone when needed' + 'Confirm Zone')",
+   "components": {
+    "runway": [
+     "Buttons(Large Primary)"
+    ],
+    "other": [
+     "Zone card (local: Default/Selected/Unavailable)",
+     "Slots chip (local)"
+    ]
+   },
+   "cta": "Sticky bottom primary 'Confirm Zone'",
+   "states": "Marathahalli selected",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2053-27287"
+  },
+  {
+   "id": "2053:27366",
+   "page": "Ready for Dev",
+   "name": "zone-select / first time",
+   "size": "360x1779",
+   "tier": "A",
+   "flow": "Zone selection > list",
+   "task": "Pick a work zone or Zone Free",
+   "container": "full-page",
+   "structure": "Map 280 (back + locate buttons) > bottom sheet: 'Zone Free / Get orders from anywhere' radio card > 'Or' divider > zone radio cards (slots tag 100 Slots/10 Slots Only, name, Up to ₹1200 Incentives, distance; unavailable = grey 'No slots available!') > sticky CTA bar (helper 'You can change your zone when needed' + 'Confirm Zone')",
+   "components": {
+    "runway": [
+     "Buttons(Large Primary)"
+    ],
+    "other": [
+     "Zone card (local: Default/Selected/Unavailable)",
+     "Slots chip (local)"
+    ]
+   },
+   "cta": "Sticky bottom primary 'Confirm Zone'",
+   "states": "Bellandur selected",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2053-27366"
+  },
+  {
+   "id": "2053:29253",
+   "page": "Ready for Dev",
+   "name": "Frame 1739327738",
+   "size": "360x897",
+   "tier": "A",
+   "flow": "Zone selection > alt (MC design)",
+   "task": "Current workzone / MC alternative",
+   "container": "full-page",
+   "structure": "Map + 'Work in the zone you want' + zone cards with 'Slots filling fast/10 slots left/0 slots left' tags + 'Proceed'",
+   "components": {
+    "runway": [],
+    "other": [
+     "Card (remote non-Runway)",
+     "CTA (non-Runway)",
+     "Group 28756"
+    ]
+   },
+   "cta": "Sticky 'Proceed'",
+   "states": "reference",
+   "notes": "Labelled as current MC design — comparison, not new spec.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2053-29253"
+  },
+  {
+   "id": "2303:5086",
+   "page": "Ready for Dev",
+   "name": "zone-select / first time",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Zone selection > confirm",
+   "task": "Confirm / feedback after choosing zone",
+   "container": "modal",
+   "structure": "Zone list (dimmed) > overlay with success modal: green check, zone name, 'Work zone confirmed' + close X",
+   "components": {
+    "runway": [
+     "Buttons(Large Primary/Secondary)"
+    ],
+    "other": [
+     "Zone card"
+    ]
+   },
+   "cta": "Primary (+secondary) stacked",
+   "states": "Marathahalli Work zone confirmed",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2303-5086"
+  },
+  {
+   "id": "2355:34630",
+   "page": "Ready for Dev",
+   "name": "zone-select / first time",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Zone selection > confirm",
+   "task": "Confirm / feedback after choosing zone",
+   "container": "modal",
+   "structure": "Zone list (dimmed) > overlay with success modal",
+   "components": {
+    "runway": [
+     "Buttons(Large Primary/Secondary)"
+    ],
+    "other": [
+     "Zone card"
+    ]
+   },
+   "cta": "Primary (+secondary) stacked",
+   "states": "Zone free → any zone: 'Marathahalli Work zone confirmed!'",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2355-34630"
+  },
+  {
+   "id": "2355:34863",
+   "page": "Ready for Dev",
+   "name": "zone-select / first time",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Zone selection > confirm",
+   "task": "Confirm / feedback after choosing zone",
+   "container": "modal",
+   "structure": "Zone list (dimmed) > overlay with success modal",
+   "components": {
+    "runway": [
+     "Buttons(Large Primary/Secondary)"
+    ],
+    "other": [
+     "Zone card"
+    ]
+   },
+   "cta": "Primary (+secondary) stacked",
+   "states": "Any zone → Zone Free: 'Zone Free Activated!'",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2355-34863"
+  },
+  {
+   "id": "2355:35095",
+   "page": "Ready for Dev",
+   "name": "zone-select / first time",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Zone selection > confirm",
+   "task": "Confirm / feedback after choosing zone",
+   "container": "modal",
+   "structure": "Zone list (dimmed) > overlay with success modal",
+   "components": {
+    "runway": [
+     "Buttons(Large Primary/Secondary)"
+    ],
+    "other": [
+     "Zone card"
+    ]
+   },
+   "cta": "Primary (+secondary) stacked",
+   "states": "Zone → zone switch: 'Switched to Bellandur Work zone'",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2355-35095"
+  },
+  {
+   "id": "2314:5690",
+   "page": "Ready for Dev",
+   "name": "zone-select / first time",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Zone selection > confirm",
+   "task": "Confirm / feedback after choosing zone",
+   "container": "bottom-sheet",
+   "structure": "Zone list (dimmed) > overlay with error card/sheet",
+   "components": {
+    "runway": [
+     "Buttons(Large Primary/Secondary)"
+    ],
+    "other": [
+     "Zone card"
+    ]
+   },
+   "cta": "Primary (+secondary) stacked",
+   "states": "All slots full: red ! icon, 'All slots are full for Marathahalli Work zone!', 'Please choose another zone to start getting orders.', 'Try Another Zone'",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2314-5690"
+  },
+  {
+   "id": "2353:34368",
+   "page": "Ready for Dev",
+   "name": "zone-select / first time",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Zone selection > confirm",
+   "task": "Confirm / feedback after choosing zone",
+   "container": "bottom-sheet",
+   "structure": "Zone list (dimmed) > overlay with confirmation sheet",
+   "components": {
+    "runway": [
+     "Buttons(Large Primary/Secondary)"
+    ],
+    "other": [
+     "Zone card"
+    ]
+   },
+   "cta": "Primary (+secondary) stacked",
+   "states": "'Do you want to Switch Zone?' Marathahalli → Bellandur 2nd line chips, warning box 'Your incentives will be reset to 0', 'Yes, Switch Zone' + 'Go Back'",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2353-34368"
+  },
+  {
+   "id": "3149:60892",
+   "page": "Ready for Dev",
+   "name": "Incentives",
+   "size": "360x5029",
+   "tier": "A",
+   "flow": "Incentives > Daily",
+   "task": "Review today's incentives (full scroll)",
+   "container": "full-page",
+   "structure": "InternalPageHeader-like FRAME (detached; status bar, back, 'Incentives', Help) + Secondary Tabs Daily/Weekly/Bonus > date strip (Day tap, arrows) > audio guide bar > filter Chips All(5)/Full-Day/Slot/Rain surge/surge > 'Know how you'll be paid' payout image > Incentive cards (Live/Coming soon/Ended/Missed) with ride milestones, offer conditions (login time, rejections, cancellations) > Upcoming / Completed-Expired accordions > 'Other ways to earn Bonus' Refer & Earn",
+   "components": {
+    "runway": [
+     "Chip",
+     "Android status bar",
+     "Buttons(Small Secondary Leading)",
+     "Secondary Tabs"
+    ],
+    "other": [
+     "Incentives Card (local)",
+     "Status Tag (local)",
+     "Day tap (remote non-Runway)",
+     "Group 47107",
+     "Lock Tracker"
+    ]
+   },
+   "cta": "None (info page); Help top-right",
+   "states": "live/coming/ended/missed",
+   "notes": "Header is a detached frame, not the Runway instance.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3149-60892"
+  },
+  {
+   "id": "4048:38567",
+   "page": "Ready for Dev",
+   "name": "Incentives",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Incentives",
+   "task": "Viewport of full page",
+   "container": "full-page",
+   "structure": "as 3149:60892",
+   "components": {
+    "runway": [
+     "Chip",
+     "Secondary Tabs"
+    ],
+    "other": [
+     "Incentives Card",
+     "Day tap"
+    ]
+   },
+   "cta": "-",
+   "states": "default",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4048-38567"
+  },
+  {
+   "id": "4048:39941",
+   "page": "Ready for Dev",
+   "name": "Incentives",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Incentives > audio language",
+   "task": "Choose audio guide language",
+   "container": "bottom-sheet",
+   "structure": "Dim > sheet 'Select Audio Language' > 2-col radio grid (हिंदी, English, తెలుగు, ಕನ್ನಡ, বাংলা, मराठी, தமிழ், മലയാളം) > 'Confirm'",
+   "components": {
+    "runway": [
+     "Radio Button",
+     "Buttons(Large Primary)"
+    ],
+    "other": [
+     "Incentives Card"
+    ]
+   },
+   "cta": "Full-width primary",
+   "states": "selected=Hindi",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4048-39941"
+  },
+  {
+   "id": "3607:5501",
+   "page": "Ready for Dev",
+   "name": "Incentives",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Incentives > empty",
+   "task": "No incentives today",
+   "container": "full-page",
+   "structure": "Header/tabs/date/chips (All(0)) > empty card 'Incentives are not available for now / Check after sometime' + calendar illustration > T&C link > Refer & Earn",
+   "components": {
+    "runway": [
+     "Chip",
+     "Secondary Tabs"
+    ],
+    "other": [
+     "Day tap"
+    ]
+   },
+   "cta": "-",
+   "states": "empty",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3607-5501"
+  },
+  {
+   "id": "3609:10736",
+   "page": "Ready for Dev",
+   "name": "Incentives",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Incentives > T&C",
+   "task": "Read terms",
+   "container": "bottom-sheet",
+   "structure": "Dim > close X > sheet 'Terms and Conditions' bullet list",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Close X",
+   "states": "t&c",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3609-10736"
+  },
+  {
+   "id": "4052:41794",
+   "page": "Ready for Dev",
+   "name": "Incentives",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Incentives > empty",
+   "task": "None available",
+   "container": "full-page",
+   "structure": "as 3607:5501",
+   "components": {
+    "runway": [
+     "Chip"
+    ],
+    "other": [
+     "Day tap"
+    ]
+   },
+   "cta": "-",
+   "states": "empty",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4052-41794"
+  },
+  {
+   "id": "4052:42013",
+   "page": "Ready for Dev",
+   "name": "Incentives",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Incentives > partial",
+   "task": "Only 1 incentive (Full-Day)",
+   "container": "full-page",
+   "structure": "one Live Full-Day card",
+   "components": {
+    "runway": [
+     "Chip"
+    ],
+    "other": [
+     "Incentives Card"
+    ]
+   },
+   "cta": "-",
+   "states": "partial",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4052-42013"
+  },
+  {
+   "id": "4052:42378",
+   "page": "Ready for Dev",
+   "name": "Incentives",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Incentives > partial",
+   "task": "Only 1 incentive, Full-Day chip selected",
+   "container": "full-page",
+   "structure": "one Live card, chip filter",
+   "components": {
+    "runway": [
+     "Chip"
+    ],
+    "other": [
+     "Incentives Card"
+    ]
+   },
+   "cta": "-",
+   "states": "partial",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4052-42378"
+  },
+  {
+   "id": "4052:42751",
+   "page": "Ready for Dev",
+   "name": "Incentives",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Incentives > filter empty",
+   "task": "Full-Day filter empty: 'Full-Day Incentives are not available for now / Check other incentives'",
+   "container": "full-page",
+   "structure": "filtered empty card",
+   "components": {
+    "runway": [
+     "Chip"
+    ],
+    "other": [
+     "Day tap"
+    ]
+   },
+   "cta": "-",
+   "states": "empty-filter",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4052-42751"
+  },
+  {
+   "id": "4052:43136",
+   "page": "Ready for Dev",
+   "name": "Incentives",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Incentives > filter empty",
+   "task": "Slot filter empty",
+   "container": "full-page",
+   "structure": "filtered empty card",
+   "components": {
+    "runway": [
+     "Chip"
+    ],
+    "other": [
+     "Day tap"
+    ]
+   },
+   "cta": "-",
+   "states": "empty-filter",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4052-43136"
+  },
+  {
+   "id": "4048:41566",
+   "page": "Ready for Dev",
+   "name": "Audio Button (play)",
+   "size": "328x44",
+   "tier": "A",
+   "flow": "Incentives > parts",
+   "task": "Component part",
+   "container": "other",
+   "structure": "Audio Button (play)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "-",
+   "states": "part",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4048-41566"
+  },
+  {
+   "id": "4048:41618",
+   "page": "Ready for Dev",
+   "name": "Audio Button (pause)",
+   "size": "328x44",
+   "tier": "A",
+   "flow": "Incentives > parts",
+   "task": "Component part",
+   "container": "other",
+   "structure": "Audio Button (pause)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "-",
+   "states": "part",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4048-41618"
+  },
+  {
+   "id": "3149:62520",
+   "page": "Ready for Dev",
+   "name": "Incentive payout Image ₹650",
+   "size": "328x281",
+   "tier": "A",
+   "flow": "Incentives > parts",
+   "task": "Component part",
+   "container": "other",
+   "structure": "Incentive payout Image ₹650",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "-",
+   "states": "part",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3149-62520"
+  },
+  {
+   "id": "3149:62572",
+   "page": "Ready for Dev",
+   "name": "Incentive payout Image ₹850",
+   "size": "328x281",
+   "tier": "A",
+   "flow": "Incentives > parts",
+   "task": "Component part",
+   "container": "other",
+   "structure": "Incentive payout Image ₹850",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "-",
+   "states": "part",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3149-62572"
+  },
+  {
+   "id": "3149:62138",
+   "page": "Ready for Dev",
+   "name": "Filters chip row",
+   "size": "328x281",
+   "tier": "A",
+   "flow": "Incentives > parts",
+   "task": "Component part",
+   "container": "other",
+   "structure": "Filters chip row",
+   "components": {
+    "runway": [
+     "Chip"
+    ],
+    "other": []
+   },
+   "cta": "-",
+   "states": "part",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3149-62138"
+  },
+  {
+   "id": "3843:30237",
+   "page": "Ready for Dev",
+   "name": "Incentive payout Image (loose)",
+   "size": "328x281",
+   "tier": "A",
+   "flow": "Incentives > parts",
+   "task": "Component part",
+   "container": "other",
+   "structure": "Incentive payout Image (loose)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "-",
+   "states": "part",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3843-30237"
+  },
+  {
+   "id": "3843:30288",
+   "page": "Ready for Dev",
+   "name": "Payout image alt gradient (loose)",
+   "size": "328x281",
+   "tier": "A",
+   "flow": "Incentives > parts",
+   "task": "Component part",
+   "container": "other",
+   "structure": "Payout image alt gradient (loose)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "-",
+   "states": "part",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3843-30288"
+  },
+  {
+   "id": "4348:376",
+   "page": "Merchandising auth",
+   "name": "Off duty",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > explainer",
+   "task": "Learn what to verify before going on duty",
+   "container": "bottom-sheet",
+   "structure": "Off-duty home (old header) dimmed > close X > sheet (584 tall): illustration 360x180 > 'Verify Ownly merch' (Bold 24) > bullets 'Take a selfie wearing Ownly Tshirt / raincoat', 'Upload clear photo of Ownly bag', 'Make sure the picture is clear so that you can go ON-DUTY' > red note 'Note: If selfie does not match with your profile photo, Rapido will take strict action' > primary 'Start' (Large, leading Camera icon)",
+   "components": {
+    "runway": [
+     "Buttons(Large Primary, Leading Camera_Stroke)",
+     "Close_Stroke"
+    ],
+    "other": [
+     "on duty (old toggle)",
+     "HOME SCREEN SWITCH",
+     "Today's Earnings Accordian"
+    ]
+   },
+   "cta": "Full-width primary 'Start' with camera icon",
+   "states": "default",
+   "notes": "Triggered when trying to go on duty (connector).",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4348-376"
+  },
+  {
+   "id": "4385:40902",
+   "page": "Merchandising auth",
+   "name": "onduty",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > trigger",
+   "task": "Off-duty home before verification",
+   "container": "full-page",
+   "structure": "Homepage Header(Off duty) > earnings accordion > greeting + 'Go ON Duty' > Zone card > stories > bottom bar",
+   "components": {
+    "runway": [
+     "Homepage Header"
+    ],
+    "other": [
+     "CTA (non-Runway)",
+     "final animation"
+    ]
+   },
+   "cta": "Go ON Duty",
+   "states": "default",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4385-40902"
+  },
+  {
+   "id": "4420:37619",
+   "page": "Merchandising auth",
+   "name": "onduty",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > home nudge",
+   "task": "See merch status on home",
+   "container": "card-on-home",
+   "structure": "Homepage Header(Off duty) > earnings accordion > Merch Auth card 328x122 (text left: 'Verify Ownly merch to go ON-DUTY' (SemiBold 18) + link 'Continue to verify'; image right: pink polo image + verify badge) > Zone card > stories > floating bottom bar",
+   "components": {
+    "runway": [
+     "Homepage Header",
+     "Service Icons/Bike",
+     ".Order Button"
+    ],
+    "other": [
+     "Zone card",
+     "Today's Earnings Accordian"
+    ]
+   },
+   "cta": "Inline text link in card",
+   "states": "pending",
+   "notes": "Card reuses Zone card frame shape.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4420-37619"
+  },
+  {
+   "id": "4420:37898",
+   "page": "Merchandising auth",
+   "name": "onduty",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > home nudge",
+   "task": "See merch status on home",
+   "container": "card-on-home",
+   "structure": "Homepage Header(Off duty) > earnings accordion > Merch Auth card 328x122 (text left: 'Ownly Merch verification failed!' + 'Photo not clear' + link 'Try again'; image right: grey polo + red error-circle; stray '0.2 km' text visible) > Zone card > stories > floating bottom bar",
+   "components": {
+    "runway": [
+     "Homepage Header",
+     "Service Icons/Bike",
+     ".Order Button"
+    ],
+    "other": [
+     "Zone card",
+     "Today's Earnings Accordian"
+    ]
+   },
+   "cta": "Inline text link in card",
+   "states": "failed",
+   "notes": "Card reuses Zone card frame shape.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4420-37898"
+  },
+  {
+   "id": "4489:32288",
+   "page": "Merchandising auth",
+   "name": "onduty",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > home nudge",
+   "task": "See merch status on home",
+   "container": "card-on-home",
+   "structure": "Homepage Header(Off duty) > earnings accordion > Merch Auth card 328x122 (text left: 'Ownly merch verified successfully!' + 'Bonus added to wallet'; image right: pink polo + green verify badge) > Zone card > stories > floating bottom bar",
+   "components": {
+    "runway": [
+     "Homepage Header",
+     "Service Icons/Bike",
+     ".Order Button"
+    ],
+    "other": [
+     "Zone card",
+     "Today's Earnings Accordian"
+    ]
+   },
+   "cta": "Inline text link in card",
+   "states": "success",
+   "notes": "Card reuses Zone card frame shape.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4489-32288"
+  },
+  {
+   "id": "4476:220923",
+   "page": "Merchandising auth",
+   "name": "onduty",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > blocked",
+   "task": "3 failures -> blocked",
+   "container": "bottom-sheet",
+   "structure": "Home (failed card) dimmed > close X > sheet: grey polo + error badge 120x120 > title 'Orders blocked for 2 hours' > body 'Ownly merch verification failed 3 times. you can not go on duty for next 2 hours.' > primary 'Okay'",
+   "components": {
+    "runway": [
+     "Buttons(Large Primary)",
+     "Close_Stroke"
+    ],
+    "other": []
+   },
+   "cta": "Full-width primary",
+   "states": "blocked",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4476-220923"
+  },
+  {
+   "id": "4417:37326",
+   "page": "Merchandising auth",
+   "name": "Selected Zone",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > Verify Merch (TARGET)",
+   "task": "See which merch items still need verification",
+   "container": "full-page",
+   "structure": "InternalPageHeader(back, 'Verify Merch', Help = Buttons Small Secondary-Default Leading) 64 > hero 'Ownly Pink Delivery Essentials' image 360x202 (y64) with 3 hidden/visible green verify badges > content stack x16 y290 w328 gap16: title 'Verify Ownly merch' (Title/Moderate/Bold 24/32, Text/OnSurface/Default) > 3 task rows > sticky CTAs footer. Rows: 'Take selfie wearing Ownly T-shirt' (selfie thumb, circular 27.5 radius), 'Verify Ownly Bag', 'Verify Ownly Raincoat', each with Right Arrow_Stroke. Footer 'CTAs' 360x148 at y572, VERTICAL pad16 gap12, white, drop shadow: Buttons Large Primary-Default State=Disabled 'Complete' (fill Surface/Neutral/Light #eceef2, radius 999) + 'Tertiary button' block: 'Don’t have Ownly merch?' (Body/Small/Reg 14) above Buttons Small Tertiary-Info Trailing-icon 'Apply for merch'. task row: 328 wide, HORIZONTAL auto-layout pad12 gap8, radius12, fill Surface/Neutral/White, 1px Border/Neutral/Light, drop-shadow effect style; left group gap8 = 44x44 thumbnail image + TextBox (VERTICAL gap4: label Body/Moderate/Med 16/24 + optional status caption Body/Small/Reg 14/20); trailing 24px icon (Right Arrow_Stroke or Check_Circle_Filled)",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Buttons",
+     "Right Arrow_Stroke",
+     "Check_Circle_Filled",
+     "Toast",
+     "Close_Stroke",
+     "Camera_Stroke",
+     "Buttons(Large Primary Disabled)",
+     "Buttons(Small Tertiary-Info Trailing)",
+     "Buttons(Small Secondary-Default Leading) Help"
+    ],
+    "other": []
+   },
+   "cta": "Sticky footer: disabled primary 'Complete' + helper text + tertiary link 'Apply for merch'",
+   "states": "initial/none verified",
+   "notes": "Footer (y572) overlaps last row bottom (row stack ends y584) by 12px; row 1 is 74 tall (2-line label) vs 70 for others; frame named 'Selected Zone'; brief calls the link 'Apply For Merch' but Figma text is 'Apply for merch'.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4417-37326"
+  },
+  {
+   "id": "4429:38955",
+   "page": "Merchandising auth",
+   "name": "Selected Zone",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > Verify Merch states",
+   "task": "Track verification progress",
+   "container": "full-page",
+   "structure": "InternalPageHeader(back, 'Verify Merch', Help = Buttons Small Secondary-Default Leading) 64 > hero 'Ownly Pink Delivery Essentials' image 360x202 (y64) with 3 hidden/visible green verify badges > content stack x16 y290 w328 gap16: title 'Verify Ownly merch' (Title/Moderate/Bold 24/32, Text/OnSurface/Default) > 3 task rows > sticky CTAs footer; labels shortened to 'Take selfie wearing Tshirt' / 'Verify Bag' / 'Verify Raincoat'; row1 caption 'Verified' (Text/Success/dark #058743) + Check_Circle_Filled; rows 2-3 arrow. Footer 'CTAs' 360x84 only (no 'Apply for merch' link).",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Buttons",
+     "Right Arrow_Stroke",
+     "Check_Circle_Filled",
+     "Toast",
+     "Close_Stroke",
+     "Camera_Stroke"
+    ],
+    "other": []
+   },
+   "cta": "Complete disabled",
+   "states": "selfie verified",
+   "notes": "Short label copy and missing Apply link differ from 4417:37326.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4429-38955"
+  },
+  {
+   "id": "4429:39030",
+   "page": "Merchandising auth",
+   "name": "Selected Zone",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > Verify Merch states",
+   "task": "Track verification progress",
+   "container": "full-page",
+   "structure": "InternalPageHeader(back, 'Verify Merch', Help = Buttons Small Secondary-Default Leading) 64 > hero 'Ownly Pink Delivery Essentials' image 360x202 (y64) with 3 hidden/visible green verify badges > content stack x16 y290 w328 gap16: title 'Verify Ownly merch' (Title/Moderate/Bold 24/32, Text/OnSurface/Default) > 3 task rows > sticky CTAs footer; labels shortened to 'Take selfie wearing Tshirt' / 'Verify Bag' / 'Verify Raincoat'; 2 Verified. Footer 'CTAs' 360x84 only (no 'Apply for merch' link).",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Buttons",
+     "Right Arrow_Stroke",
+     "Check_Circle_Filled",
+     "Toast",
+     "Close_Stroke",
+     "Camera_Stroke"
+    ],
+    "other": []
+   },
+   "cta": "Complete disabled",
+   "states": "selfie+bag verified",
+   "notes": "Short label copy and missing Apply link differ from 4417:37326.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4429-39030"
+  },
+  {
+   "id": "4429:39176",
+   "page": "Merchandising auth",
+   "name": "Selected Zone",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > Verify Merch states",
+   "task": "Track verification progress",
+   "container": "full-page",
+   "structure": "InternalPageHeader(back, 'Verify Merch', Help = Buttons Small Secondary-Default Leading) 64 > hero 'Ownly Pink Delivery Essentials' image 360x202 (y64) with 3 hidden/visible green verify badges > content stack x16 y290 w328 gap16: title 'Verify Ownly merch' (Title/Moderate/Bold 24/32, Text/OnSurface/Default) > 3 task rows > sticky CTAs footer; labels shortened to 'Take selfie wearing Tshirt' / 'Verify Bag' / 'Verify Raincoat'; 3 Verified + checks. Footer 'CTAs' 360x84 only (no 'Apply for merch' link).",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Buttons",
+     "Right Arrow_Stroke",
+     "Check_Circle_Filled",
+     "Toast",
+     "Close_Stroke",
+     "Camera_Stroke"
+    ],
+    "other": []
+   },
+   "cta": "Complete enabled (Primary-Default Active)",
+   "states": "all verified",
+   "notes": "Short label copy and missing Apply link differ from 4417:37326.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4429-39176"
+  },
+  {
+   "id": "4421:38131",
+   "page": "Merchandising auth",
+   "name": "Selected Zone",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > Verify Merch states",
+   "task": "Track verification progress",
+   "container": "full-page",
+   "structure": "InternalPageHeader(back, 'Verify Merch', Help = Buttons Small Secondary-Default Leading) 64 > hero 'Ownly Pink Delivery Essentials' image 360x202 (y64) with 3 hidden/visible green verify badges > content stack x16 y290 w328 gap16: title 'Verify Ownly merch' (Title/Moderate/Bold 24/32, Text/OnSurface/Default) > 3 task rows > sticky CTAs footer; labels shortened to 'Take selfie wearing Tshirt' / 'Verify Bag' / 'Verify Raincoat'; 3 Verified. Footer 'CTAs' 360x84 only (no 'Apply for merch' link).",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Buttons",
+     "Right Arrow_Stroke",
+     "Check_Circle_Filled",
+     "Toast",
+     "Close_Stroke",
+     "Camera_Stroke"
+    ],
+    "other": []
+   },
+   "cta": "Complete enabled",
+   "states": "all verified (top row of flow)",
+   "notes": "Short label copy and missing Apply link differ from 4417:37326.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4421-38131"
+  },
+  {
+   "id": "4421:38379",
+   "page": "Merchandising auth",
+   "name": "Selected Zone",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > Verify Merch states",
+   "task": "Track verification progress",
+   "container": "full-page",
+   "structure": "InternalPageHeader(back, 'Verify Merch', Help = Buttons Small Secondary-Default Leading) 64 > hero 'Ownly Pink Delivery Essentials' image 360x202 (y64) with 3 hidden/visible green verify badges > content stack x16 y290 w328 gap16: title 'Verify Ownly merch' (Title/Moderate/Bold 24/32, Text/OnSurface/Default) > 3 task rows > sticky CTAs footer; labels shortened to 'Take selfie wearing Tshirt' / 'Verify Bag' / 'Verify Raincoat'; caption 'Failed! Retry' (Text/Error/Dark #c42925) + Right Arrow. Footer 'CTAs' 360x84 only (no 'Apply for merch' link).",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Buttons",
+     "Right Arrow_Stroke",
+     "Check_Circle_Filled",
+     "Toast",
+     "Close_Stroke",
+     "Camera_Stroke"
+    ],
+    "other": []
+   },
+   "cta": "Complete disabled",
+   "states": "failed",
+   "notes": "Short label copy and missing Apply link differ from 4417:37326.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4421-38379"
+  },
+  {
+   "id": "4429:39247",
+   "page": "Merchandising auth",
+   "name": "Selected Zone",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > Verify Merch states",
+   "task": "Track verification progress",
+   "container": "full-page",
+   "structure": "InternalPageHeader(back, 'Verify Merch', Help = Buttons Small Secondary-Default Leading) 64 > hero 'Ownly Pink Delivery Essentials' image 360x202 (y64) with 3 hidden/visible green verify badges > content stack x16 y290 w328 gap16: title 'Verify Ownly merch' (Title/Moderate/Bold 24/32, Text/OnSurface/Default) > 3 task rows > sticky CTAs footer; labels shortened to 'Take selfie wearing Tshirt' / 'Verify Bag' / 'Verify Raincoat'; row1 'Failed! Retry'. Footer 'CTAs' 360x84 only (no 'Apply for merch' link).",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Buttons",
+     "Right Arrow_Stroke",
+     "Check_Circle_Filled",
+     "Toast",
+     "Close_Stroke",
+     "Camera_Stroke"
+    ],
+    "other": []
+   },
+   "cta": "Complete disabled",
+   "states": "selfie failed",
+   "notes": "Short label copy and missing Apply link differ from 4417:37326.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4429-39247"
+  },
+  {
+   "id": "4472:220804",
+   "page": "Merchandising auth",
+   "name": "Selected Zone",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > failure",
+   "task": "Photo rejected",
+   "container": "modal",
+   "structure": "Verify Merch page under Runway Toast instance used as full-screen 75% black overlay (Overlays/Large) with centred card: red ! icon, 'Verification failed' (red), 'Please make sure the photo is clear and surrounding has enough lighting', primary 'Retry'",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Buttons",
+     "Right Arrow_Stroke",
+     "Check_Circle_Filled",
+     "Toast",
+     "Close_Stroke",
+     "Camera_Stroke",
+     "Toast"
+    ],
+    "other": []
+   },
+   "cta": "Primary 'Retry' in card",
+   "states": "error",
+   "notes": "Runway Toast used as a centred modal card — misuse or undocumented variant.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4472-220804"
+  },
+  {
+   "id": "4428:38624",
+   "page": "Merchandising auth",
+   "name": "Frame",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > capture Selfie",
+   "task": "Take a live photo for verification",
+   "container": "fullscreen-takeover",
+   "structure": "Black background with full-bleed camera image > dark 'Internal page Header' (non-Runway remote, Buttons=None, black fill, white back + title) 64 > bottom panel 360x210 (75% black, pad32/24, gap24): title 'Take photo of the …' (Title/Small/SemiBold 20 white) + body 'Please make sure the photo is clear and surrounding has enough lighting' (14 white) + 54px shutter button; hidden 'Gallery' text",
+   "components": {
+    "runway": [],
+    "other": [
+     "Internal page Header (dark, non-Runway key 26c68a543b)"
+    ]
+   },
+   "cta": "Shutter button (no gallery)",
+   "states": "capture",
+   "notes": "Selfie frames still say 'Take photo of the Raincoat' (copy bug). Header title 'Verify Selfie'.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4428-38624"
+  },
+  {
+   "id": "4429:39286",
+   "page": "Merchandising auth",
+   "name": "Frame",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > capture Selfie",
+   "task": "Take a live photo for verification",
+   "container": "fullscreen-takeover",
+   "structure": "Black background with full-bleed camera image > dark 'Internal page Header' (non-Runway remote, Buttons=None, black fill, white back + title) 64 > bottom panel 360x210 (75% black, pad32/24, gap24): title 'Take photo of the …' (Title/Small/SemiBold 20 white) + body 'Please make sure the photo is clear and surrounding has enough lighting' (14 white) + 54px shutter button; hidden 'Gallery' text",
+   "components": {
+    "runway": [],
+    "other": [
+     "Internal page Header (dark, non-Runway key 26c68a543b)"
+    ]
+   },
+   "cta": "Shutter button (no gallery)",
+   "states": "capture (failure path)",
+   "notes": "Selfie frames still say 'Take photo of the Raincoat' (copy bug). Header title 'Verify Selfie'.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4429-39286"
+  },
+  {
+   "id": "4429:39095",
+   "page": "Merchandising auth",
+   "name": "Frame",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > capture Selfie",
+   "task": "Take a live photo for verification",
+   "container": "fullscreen-takeover",
+   "structure": "Black background with full-bleed camera image > dark 'Internal page Header' (non-Runway remote, Buttons=None, black fill, white back + title) 64 > bottom panel 360x210 (75% black, pad32/24, gap24): title 'Take photo of the …' (Title/Small/SemiBold 20 white) + body 'Please make sure the photo is clear and surrounding has enough lighting' (14 white) + 54px shutter button; hidden 'Gallery' text + Runway Toast overlay card: spinner, 'Verifying...', 'Please wait while we verify photo'",
+   "components": {
+    "runway": [
+     "Toast"
+    ],
+    "other": [
+     "Internal page Header (dark, non-Runway key 26c68a543b)"
+    ]
+   },
+   "cta": "Shutter button (no gallery)",
+   "states": "verifying",
+   "notes": "Selfie frames still say 'Take photo of the Raincoat' (copy bug). Header title 'Verify Selfie'.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4429-39095"
+  },
+  {
+   "id": "4429:39305",
+   "page": "Merchandising auth",
+   "name": "Frame",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > capture Selfie",
+   "task": "Take a live photo for verification",
+   "container": "fullscreen-takeover",
+   "structure": "Black background with full-bleed camera image > dark 'Internal page Header' (non-Runway remote, Buttons=None, black fill, white back + title) 64 > bottom panel 360x210 (75% black, pad32/24, gap24): title 'Take photo of the …' (Title/Small/SemiBold 20 white) + body 'Please make sure the photo is clear and surrounding has enough lighting' (14 white) + 54px shutter button; hidden 'Gallery' text + Runway Toast overlay card: spinner, 'Verifying...', 'Please wait while we verify photo'",
+   "components": {
+    "runway": [
+     "Toast"
+    ],
+    "other": [
+     "Internal page Header (dark, non-Runway key 26c68a543b)"
+    ]
+   },
+   "cta": "Shutter button (no gallery)",
+   "states": "verifying (failure path)",
+   "notes": "Selfie frames still say 'Take photo of the Raincoat' (copy bug). Header title 'Verify Selfie'.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4429-39305"
+  },
+  {
+   "id": "4429:39119",
+   "page": "Merchandising auth",
+   "name": "Frame",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > capture Selfie",
+   "task": "Take a live photo for verification",
+   "container": "fullscreen-takeover",
+   "structure": "Black background with full-bleed camera image > dark 'Internal page Header' (non-Runway remote, Buttons=None, black fill, white back + title) 64 > bottom panel 360x210 (75% black, pad32/24, gap24): title 'Take photo of the …' (Title/Small/SemiBold 20 white) + body 'Please make sure the photo is clear and surrounding has enough lighting' (14 white) + 54px shutter button; hidden 'Gallery' text + Runway Toast overlay card: green check, 'Successfully verified!'",
+   "components": {
+    "runway": [
+     "Toast"
+    ],
+    "other": [
+     "Internal page Header (dark, non-Runway key 26c68a543b)"
+    ]
+   },
+   "cta": "Shutter button (no gallery)",
+   "states": "success",
+   "notes": "Selfie frames still say 'Take photo of the Raincoat' (copy bug). Header title 'Verify Selfie'.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4429-39119"
+  },
+  {
+   "id": "4426:38594",
+   "page": "Merchandising auth",
+   "name": "Frame",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > capture Raincoat",
+   "task": "Take a live photo for verification",
+   "container": "fullscreen-takeover",
+   "structure": "Black background with full-bleed camera image > dark 'Internal page Header' (non-Runway remote, Buttons=None, black fill, white back + title) 64 > bottom panel 360x210 (75% black, pad32/24, gap24): title 'Take photo of the …' (Title/Small/SemiBold 20 white) + body 'Please make sure the photo is clear and surrounding has enough lighting' (14 white) + 54px shutter button; hidden 'Gallery' text",
+   "components": {
+    "runway": [],
+    "other": [
+     "Internal page Header (dark, non-Runway key 26c68a543b)"
+    ]
+   },
+   "cta": "Shutter button (no gallery)",
+   "states": "capture",
+   "notes": "Selfie frames still say 'Take photo of the Raincoat' (copy bug). Header title 'Verify Selfie'.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4426-38594"
+  },
+  {
+   "id": "4429:38834",
+   "page": "Merchandising auth",
+   "name": "Frame",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > capture Raincoat",
+   "task": "Take a live photo for verification",
+   "container": "fullscreen-takeover",
+   "structure": "Black background with full-bleed camera image > dark 'Internal page Header' (non-Runway remote, Buttons=None, black fill, white back + title) 64 > bottom panel 360x210 (75% black, pad32/24, gap24): title 'Take photo of the …' (Title/Small/SemiBold 20 white) + body 'Please make sure the photo is clear and surrounding has enough lighting' (14 white) + 54px shutter button; hidden 'Gallery' text + Runway Toast overlay card: spinner, 'Verifying...', 'Please wait while we verify photo'",
+   "components": {
+    "runway": [
+     "Toast"
+    ],
+    "other": [
+     "Internal page Header (dark, non-Runway key 26c68a543b)"
+    ]
+   },
+   "cta": "Shutter button (no gallery)",
+   "states": "verifying",
+   "notes": "Selfie frames still say 'Take photo of the Raincoat' (copy bug). Header title 'Verify Selfie'.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4429-38834"
+  },
+  {
+   "id": "4429:38899",
+   "page": "Merchandising auth",
+   "name": "Frame",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > capture Raincoat",
+   "task": "Take a live photo for verification",
+   "container": "fullscreen-takeover",
+   "structure": "Black background with full-bleed camera image > dark 'Internal page Header' (non-Runway remote, Buttons=None, black fill, white back + title) 64 > bottom panel 360x210 (75% black, pad32/24, gap24): title 'Take photo of the …' (Title/Small/SemiBold 20 white) + body 'Please make sure the photo is clear and surrounding has enough lighting' (14 white) + 54px shutter button; hidden 'Gallery' text + Runway Toast overlay card: green check, 'Successfully verified!'",
+   "components": {
+    "runway": [
+     "Toast"
+    ],
+    "other": [
+     "Internal page Header (dark, non-Runway key 26c68a543b)"
+    ]
+   },
+   "cta": "Shutter button (no gallery)",
+   "states": "success",
+   "notes": "Selfie frames still say 'Take photo of the Raincoat' (copy bug). Header title 'Verify Selfie'.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4429-38899"
+  },
+  {
+   "id": "4421:38348",
+   "page": "Merchandising auth",
+   "name": "Frame",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > capture Bag",
+   "task": "Take a live photo for verification",
+   "container": "fullscreen-takeover",
+   "structure": "Black background with full-bleed camera image > dark 'Internal page Header' (non-Runway remote, Buttons=None, black fill, white back + title) 64 > bottom panel 360x210 (75% black, pad32/24, gap24): title 'Take photo of the …' (Title/Small/SemiBold 20 white) + body 'Please make sure the photo is clear and surrounding has enough lighting' (14 white) + 54px shutter button; hidden 'Gallery' text",
+   "components": {
+    "runway": [],
+    "other": [
+     "Internal page Header (dark, non-Runway key 26c68a543b)"
+    ]
+   },
+   "cta": "Shutter button (no gallery)",
+   "states": "capture",
+   "notes": "Selfie frames still say 'Take photo of the Raincoat' (copy bug). Header title 'Verify Selfie'.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4421-38348"
+  },
+  {
+   "id": "4429:38652",
+   "page": "Merchandising auth",
+   "name": "Frame",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > capture Bag",
+   "task": "Take a live photo for verification",
+   "container": "fullscreen-takeover",
+   "structure": "Black background with full-bleed camera image > dark 'Internal page Header' (non-Runway remote, Buttons=None, black fill, white back + title) 64 > bottom panel 360x210 (75% black, pad32/24, gap24): title 'Take photo of the …' (Title/Small/SemiBold 20 white) + body 'Please make sure the photo is clear and surrounding has enough lighting' (14 white) + 54px shutter button; hidden 'Gallery' text + Runway Toast overlay card: spinner, 'Verifying...', 'Please wait while we verify photo'",
+   "components": {
+    "runway": [
+     "Toast"
+    ],
+    "other": [
+     "Internal page Header (dark, non-Runway key 26c68a543b)"
+    ]
+   },
+   "cta": "Shutter button (no gallery)",
+   "states": "verifying",
+   "notes": "Selfie frames still say 'Take photo of the Raincoat' (copy bug). Header title 'Verify Selfie'.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4429-38652"
+  },
+  {
+   "id": "4429:38703",
+   "page": "Merchandising auth",
+   "name": "Frame",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Merch auth > capture Bag",
+   "task": "Take a live photo for verification",
+   "container": "fullscreen-takeover",
+   "structure": "Black background with full-bleed camera image > dark 'Internal page Header' (non-Runway remote, Buttons=None, black fill, white back + title) 64 > bottom panel 360x210 (75% black, pad32/24, gap24): title 'Take photo of the …' (Title/Small/SemiBold 20 white) + body 'Please make sure the photo is clear and surrounding has enough lighting' (14 white) + 54px shutter button; hidden 'Gallery' text + Runway Toast overlay card: green check, 'Successfully verified!'",
+   "components": {
+    "runway": [
+     "Toast"
+    ],
+    "other": [
+     "Internal page Header (dark, non-Runway key 26c68a543b)"
+    ]
+   },
+   "cta": "Shutter button (no gallery)",
+   "states": "success",
+   "notes": "Selfie frames still say 'Take photo of the Raincoat' (copy bug). Header title 'Verify Selfie'.",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4429-38703"
+  },
+  {
+   "id": "398:14726",
+   "page": "Food OA",
+   "name": "OA Cards (instance)",
+   "size": "272x362",
+   "tier": "B",
+   "flow": "Food OA",
+   "task": "Accept food delivery order",
+   "container": "card-on-home",
+   "structure": "Food Delivery chip > fare ₹67 +23 (Rapido) > Food Ready badge/illustration > pickup 1.2 km + restaurant > drop 12.5 km + address > reject(–) + Accept",
+   "components": {
+    "runway": [
+     "OA Cards",
+     "Buttons"
+    ],
+    "other": [
+     "Reject Button"
+    ]
+   },
+   "cta": "",
+   "states": "variants: Food Ready blue badge / green 'Ready' / Ownly pink badge",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=398-14726"
+  },
+  {
+   "id": "399:15594",
+   "page": "Food OA",
+   "name": "OA Cards",
+   "size": "272x362",
+   "tier": "B",
+   "flow": "Food OA",
+   "task": "Accept food delivery order",
+   "container": "card-on-home",
+   "structure": "Food Delivery chip > fare ₹67 +23 (Rapido) > Food Ready badge/illustration > pickup 1.2 km + restaurant > drop 12.5 km + address > reject(–) + Accept",
+   "components": {
+    "runway": [
+     "OA Cards",
+     "Buttons"
+    ],
+    "other": [
+     "Reject Button"
+    ]
+   },
+   "cta": "",
+   "states": "variants: Food Ready blue badge / green 'Ready' / Ownly pink badge",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=399-15594"
+  },
+  {
+   "id": "406:22693",
+   "page": "Food OA",
+   "name": "OA Cards",
+   "size": "272x362",
+   "tier": "B",
+   "flow": "Food OA",
+   "task": "Accept food delivery order",
+   "container": "card-on-home",
+   "structure": "Food Delivery chip > fare ₹67 +23 (Rapido) > Food Ready badge/illustration > pickup 1.2 km + restaurant > drop 12.5 km + address > reject(–) + Accept",
+   "components": {
+    "runway": [
+     "OA Cards",
+     "Buttons"
+    ],
+    "other": [
+     "Reject Button"
+    ]
+   },
+   "cta": "",
+   "states": "variants: Food Ready blue badge / green 'Ready' / Ownly pink badge",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=406-22693"
+  },
+  {
+   "id": "406:22112",
+   "page": "Food OA",
+   "name": "OA Cards ₹999+999 Ownly badge",
+   "size": "272x362",
+   "tier": "B",
+   "flow": "Food OA",
+   "task": "Accept food delivery order",
+   "container": "card-on-home",
+   "structure": "Food Delivery chip > fare ₹67 +23 (Rapido) > Food Ready badge/illustration > pickup 1.2 km + restaurant > drop 12.5 km + address > reject(–) + Accept",
+   "components": {
+    "runway": [
+     "OA Cards",
+     "Buttons"
+    ],
+    "other": [
+     "Reject Button"
+    ]
+   },
+   "cta": "",
+   "states": "variants: Food Ready blue badge / green 'Ready' / Ownly pink badge",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=406-22112"
+  },
+  {
+   "id": "406:22036",
+   "page": "Food OA",
+   "name": "OA Cards 272x397 (instance)",
+   "size": "272x362",
+   "tier": "B",
+   "flow": "Food OA",
+   "task": "Accept food delivery order",
+   "container": "card-on-home",
+   "structure": "Food Delivery chip > fare ₹67 +23 (Rapido) > Food Ready badge/illustration > pickup 1.2 km + restaurant > drop 12.5 km + address > reject(–) + Accept",
+   "components": {
+    "runway": [
+     "OA Cards",
+     "Buttons"
+    ],
+    "other": [
+     "Reject Button"
+    ]
+   },
+   "cta": "",
+   "states": "variants: Food Ready blue badge / green 'Ready' / Ownly pink badge",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=406-22036"
+  },
+  {
+   "id": "667:15356",
+   "page": "Food OA",
+   "name": "OA Cards (exportable section)",
+   "size": "272x362",
+   "tier": "B",
+   "flow": "Food OA",
+   "task": "Accept food delivery order",
+   "container": "card-on-home",
+   "structure": "Food Delivery chip > fare ₹67 +23 (Rapido) > Food Ready badge/illustration > pickup 1.2 km + restaurant > drop 12.5 km + address > reject(–) + Accept",
+   "components": {
+    "runway": [
+     "OA Cards",
+     "Buttons"
+    ],
+    "other": [
+     "Reject Button"
+    ]
+   },
+   "cta": "",
+   "states": "variants: Food Ready blue badge / green 'Ready' / Ownly pink badge",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=667-15356"
+  },
+  {
+   "id": "406:20673",
+   "page": "Food OA",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Food OA",
+   "task": "Order list with food OA",
+   "container": "full-page",
+   "structure": "'3 Orders' header + ON toggle > left rail fares > Services/Go To chips > stacked OA cards > bottom nav",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     "OA Cards"
+    ],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=406-20673"
+  },
+  {
+   "id": "669:15647",
+   "page": "Food OA",
+   "name": "Food Ready Icon",
+   "size": "72x82",
+   "tier": "B",
+   "flow": "Food OA",
+   "task": "asset",
+   "container": "other",
+   "structure": "exportable icon",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=669-15647"
+  },
+  {
+   "id": "373:16741",
+   "page": "Double acceptance for Food delivery",
+   "name": "ON",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Double acceptance",
+   "task": "Order list with food OA (₹67/₹49/₹83)",
+   "container": "full-page",
+   "structure": "Home of Orders style list",
+   "components": {
+    "runway": [
+     "OA Cards",
+     "Buttons"
+    ],
+    "other": [
+     "Filter Pills",
+     "Toggle",
+     "Reject Button",
+     "GTA Icon"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=373-16741"
+  },
+  {
+   "id": "499:36144",
+   "page": "Double acceptance for Food delivery",
+   "name": "ON",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Double acceptance",
+   "task": "Order list (₹999 variant)",
+   "container": "full-page",
+   "structure": "same",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=499-36144"
+  },
+  {
+   "id": "435:32882",
+   "page": "Double acceptance for Food delivery",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Double acceptance",
+   "task": "Accept 2nd order while on an Auto ride — auto-accept countdown",
+   "container": "modal",
+   "structure": "Active Auto order dimmed > food OA card overlay with countdown ring '3'",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "alternative A",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=435-32882"
+  },
+  {
+   "id": "435:34223",
+   "page": "Double acceptance for Food delivery",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Double acceptance",
+   "task": "Accept 2nd order with explicit buttons",
+   "container": "modal",
+   "structure": "same with X + Accept",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "alternative B",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=435-34223"
+  },
+  {
+   "id": "4436:73151",
+   "page": "Batching",
+   "name": "Order details",
+   "size": "360x1584",
+   "tier": "B",
+   "flow": "Batching > order history/details",
+   "task": "rough: single order details",
+   "container": "full-page",
+   "structure": "InternalPageHeader > Order ID + Completed stamp > Estimated Earning ₹ + km/min/per-km > value props > Estimated Route (stop list) > Estimated Payment info (Order Fare, Commission, Rain surge…)",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Secondary Tabs",
+     "Primary Tabs"
+    ],
+    "other": [
+     "stamp",
+     "STATUS",
+     "Day tap",
+     "Completed order summary",
+     "list item"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4436-73151"
+  },
+  {
+   "id": "4447:81140",
+   "page": "Batching",
+   "name": "Order details",
+   "size": "360x1584",
+   "tier": "B",
+   "flow": "Batching > order history/details",
+   "task": "rough: Batch Food Delivery",
+   "container": "full-page",
+   "structure": "InternalPageHeader > Order ID + Completed stamp > Estimated Earning ₹ + km/min/per-km > value props > Estimated Route (stop list) > Estimated Payment info (Order Fare, Commission, Rain surge…)",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Secondary Tabs",
+     "Primary Tabs"
+    ],
+    "other": [
+     "stamp",
+     "STATUS",
+     "Day tap",
+     "Completed order summary",
+     "list item"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4447-81140"
+  },
+  {
+   "id": "4439:79424",
+   "page": "Batching",
+   "name": "Order History",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Batching > order history/details",
+   "task": "rough",
+   "container": "full-page",
+   "structure": "Order History",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Secondary Tabs",
+     "Primary Tabs"
+    ],
+    "other": [
+     "stamp",
+     "STATUS",
+     "Day tap",
+     "Completed order summary",
+     "list item"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4439-79424"
+  },
+  {
+   "id": "4472:103365",
+   "page": "Batching",
+   "name": "Order History",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Batching > order history/details",
+   "task": "rough: batch card '3 deliveries in this batch'",
+   "container": "full-page",
+   "structure": "Order History",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Secondary Tabs",
+     "Primary Tabs"
+    ],
+    "other": [
+     "stamp",
+     "STATUS",
+     "Day tap",
+     "Completed order summary",
+     "list item"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4472-103365"
+  },
+  {
+   "id": "4441:79841",
+   "page": "Batching",
+   "name": "Order History",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Batching > order history/details",
+   "task": "rough: tabs Completed/All/Cancelled/Missed",
+   "container": "full-page",
+   "structure": "Order History",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Secondary Tabs",
+     "Primary Tabs"
+    ],
+    "other": [
+     "stamp",
+     "STATUS",
+     "Day tap",
+     "Completed order summary",
+     "list item"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4441-79841"
+  },
+  {
+   "id": "4447:87115",
+   "page": "Batching",
+   "name": "Order History",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Batching > order history/details",
+   "task": "rough",
+   "container": "full-page",
+   "structure": "Order History",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Secondary Tabs",
+     "Primary Tabs"
+    ],
+    "other": [
+     "stamp",
+     "STATUS",
+     "Day tap",
+     "Completed order summary",
+     "list item"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4447-87115"
+  },
+  {
+   "id": "4441:80827",
+   "page": "Batching",
+   "name": "Order history card/collapsed",
+   "size": "328x158",
+   "tier": "B",
+   "flow": "Batching > order history/details",
+   "task": "'+1 order in batch'",
+   "container": "other",
+   "structure": "Order history card/collapsed",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Secondary Tabs",
+     "Primary Tabs"
+    ],
+    "other": [
+     "stamp",
+     "STATUS",
+     "Day tap",
+     "Completed order summary",
+     "list item"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4441-80827"
+  },
+  {
+   "id": "4441:80936",
+   "page": "Batching",
+   "name": "Order history card/collapsed",
+   "size": "328x158",
+   "tier": "B",
+   "flow": "Batching > order history/details",
+   "task": "'2 orders in batch'",
+   "container": "other",
+   "structure": "Order history card/collapsed",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Secondary Tabs",
+     "Primary Tabs"
+    ],
+    "other": [
+     "stamp",
+     "STATUS",
+     "Day tap",
+     "Completed order summary",
+     "list item"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4441-80936"
+  },
+  {
+   "id": "4454:90063",
+   "page": "Batching",
+   "name": "Order history card/collapsed",
+   "size": "328x302",
+   "tier": "B",
+   "flow": "Batching > order history/details",
+   "task": "numbered stops 1/2/3",
+   "container": "other",
+   "structure": "Order history card/collapsed",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Secondary Tabs",
+     "Primary Tabs"
+    ],
+    "other": [
+     "stamp",
+     "STATUS",
+     "Day tap",
+     "Completed order summary",
+     "list item"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4454-90063"
+  },
+  {
+   "id": "4441:80977",
+   "page": "Batching",
+   "name": "Order history card/collapsed",
+   "size": "328x158",
+   "tier": "B",
+   "flow": "Batching > order history/details",
+   "task": "'3 orders in batch'",
+   "container": "other",
+   "structure": "Order history card/collapsed",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Secondary Tabs",
+     "Primary Tabs"
+    ],
+    "other": [
+     "stamp",
+     "STATUS",
+     "Day tap",
+     "Completed order summary",
+     "list item"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4441-80977"
+  },
+  {
+   "id": "4461:103203",
+   "page": "Batching",
+   "name": "Order history card/collapsed",
+   "size": "328x168",
+   "tier": "B",
+   "flow": "Batching > order history/details",
+   "task": "'3 deliveries in this batch'",
+   "container": "other",
+   "structure": "Order history card/collapsed",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Secondary Tabs",
+     "Primary Tabs"
+    ],
+    "other": [
+     "stamp",
+     "STATUS",
+     "Day tap",
+     "Completed order summary",
+     "list item"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4461-103203"
+  },
+  {
+   "id": "4441:80832",
+   "page": "Batching",
+   "name": "Order history card/expanded",
+   "size": "328x222",
+   "tier": "B",
+   "flow": "Batching > order history/details",
+   "task": "2 orders expanded",
+   "container": "other",
+   "structure": "Order history card/expanded",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Secondary Tabs",
+     "Primary Tabs"
+    ],
+    "other": [
+     "stamp",
+     "STATUS",
+     "Day tap",
+     "Completed order summary",
+     "list item"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4441-80832"
+  },
+  {
+   "id": "4441:81018",
+   "page": "Batching",
+   "name": "Order history card/expanded",
+   "size": "328x286",
+   "tier": "B",
+   "flow": "Batching > order history/details",
+   "task": "3 pickups + 3 drops",
+   "container": "other",
+   "structure": "Order history card/expanded",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Secondary Tabs",
+     "Primary Tabs"
+    ],
+    "other": [
+     "stamp",
+     "STATUS",
+     "Day tap",
+     "Completed order summary",
+     "list item"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4441-81018"
+  },
+  {
+   "id": "4452:89454",
+   "page": "Batching",
+   "name": "Wallet home",
+   "size": "360x1168",
+   "tier": "B",
+   "flow": "Batching > order history/details",
+   "task": "Earnings>Wallet with transaction history",
+   "container": "full-page",
+   "structure": "Wallet home",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Secondary Tabs",
+     "Primary Tabs"
+    ],
+    "other": [
+     "stamp",
+     "STATUS",
+     "Day tap",
+     "Completed order summary",
+     "list item"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4452-89454"
+  },
+  {
+   "id": "4472:117225",
+   "page": "Batching",
+   "name": "Order details",
+   "size": "360x1042",
+   "tier": "B",
+   "flow": "Batching > order history/details",
+   "task": "rough",
+   "container": "full-page",
+   "structure": "InternalPageHeader > Order ID + Completed stamp > Estimated Earning ₹ + km/min/per-km > value props > Estimated Route (stop list) > Estimated Payment info (Order Fare, Commission, Rain surge…)",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Secondary Tabs",
+     "Primary Tabs"
+    ],
+    "other": [
+     "stamp",
+     "STATUS",
+     "Day tap",
+     "Completed order summary",
+     "list item"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4472-117225"
+  },
+  {
+   "id": "4472:123174",
+   "page": "Batching",
+   "name": "Order details",
+   "size": "360x1042",
+   "tier": "B",
+   "flow": "Batching > order history/details",
+   "task": "rough",
+   "container": "full-page",
+   "structure": "InternalPageHeader > Order ID + Completed stamp > Estimated Earning ₹ + km/min/per-km > value props > Estimated Route (stop list) > Estimated Payment info (Order Fare, Commission, Rain surge…)",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Secondary Tabs",
+     "Primary Tabs"
+    ],
+    "other": [
+     "stamp",
+     "STATUS",
+     "Day tap",
+     "Completed order summary",
+     "list item"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4472-123174"
+  },
+  {
+   "id": "4472:129122",
+   "page": "Batching",
+   "name": "Order details",
+   "size": "360x1042",
+   "tier": "B",
+   "flow": "Batching > order history/details",
+   "task": "rough",
+   "container": "full-page",
+   "structure": "InternalPageHeader > Order ID + Completed stamp > Estimated Earning ₹ + km/min/per-km > value props > Estimated Route (stop list) > Estimated Payment info (Order Fare, Commission, Rain surge…)",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Secondary Tabs",
+     "Primary Tabs"
+    ],
+    "other": [
+     "stamp",
+     "STATUS",
+     "Day tap",
+     "Completed order summary",
+     "list item"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4472-129122"
+  },
+  {
+   "id": "4472:202251",
+   "page": "Batching",
+   "name": "Order History",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Batching > order history/details",
+   "task": "final: batch card in history list",
+   "container": "full-page",
+   "structure": "Order History",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Secondary Tabs",
+     "Primary Tabs"
+    ],
+    "other": [
+     "stamp",
+     "STATUS",
+     "Day tap",
+     "Completed order summary",
+     "list item"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4472-202251"
+  },
+  {
+   "id": "4472:202308",
+   "page": "Batching",
+   "name": "Order details",
+   "size": "360x1042",
+   "tier": "B",
+   "flow": "Batching > order history/details",
+   "task": "final: multi-pickup & multi-drop",
+   "container": "full-page",
+   "structure": "InternalPageHeader > Order ID + Completed stamp > Estimated Earning ₹ + km/min/per-km > value props > Estimated Route (stop list) > Estimated Payment info (Order Fare, Commission, Rain surge…)",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Secondary Tabs",
+     "Primary Tabs"
+    ],
+    "other": [
+     "stamp",
+     "STATUS",
+     "Day tap",
+     "Completed order summary",
+     "list item"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4472-202308"
+  },
+  {
+   "id": "4472:202513",
+   "page": "Batching",
+   "name": "Order details",
+   "size": "360x1042",
+   "tier": "B",
+   "flow": "Batching > order history/details",
+   "task": "final: single-pickup & multi-drop",
+   "container": "full-page",
+   "structure": "InternalPageHeader > Order ID + Completed stamp > Estimated Earning ₹ + km/min/per-km > value props > Estimated Route (stop list) > Estimated Payment info (Order Fare, Commission, Rain surge…)",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Secondary Tabs",
+     "Primary Tabs"
+    ],
+    "other": [
+     "stamp",
+     "STATUS",
+     "Day tap",
+     "Completed order summary",
+     "list item"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4472-202513"
+  },
+  {
+   "id": "4472:202716",
+   "page": "Batching",
+   "name": "Order details",
+   "size": "360x1042",
+   "tier": "B",
+   "flow": "Batching > order history/details",
+   "task": "final: multi-pickup & single drop",
+   "container": "full-page",
+   "structure": "InternalPageHeader > Order ID + Completed stamp > Estimated Earning ₹ + km/min/per-km > value props > Estimated Route (stop list) > Estimated Payment info (Order Fare, Commission, Rain surge…)",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Secondary Tabs",
+     "Primary Tabs"
+    ],
+    "other": [
+     "stamp",
+     "STATUS",
+     "Day tap",
+     "Completed order summary",
+     "list item"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4472-202716"
+  },
+  {
+   "id": "2168:7341",
+   "page": "For Comms",
+   "name": "Off duty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Comms copies",
+   "task": "Marketing reuse of home/zone frames",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2168-7341"
+  },
+  {
+   "id": "2168:9221",
+   "page": "For Comms",
+   "name": "Off duty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Comms copies",
+   "task": "Marketing reuse of home/zone frames",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2168-9221"
+  },
+  {
+   "id": "2168:8154",
+   "page": "For Comms",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Comms copies",
+   "task": "Marketing reuse of home/zone frames",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2168-8154"
+  },
+  {
+   "id": "2181:11293",
+   "page": "For Comms",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Comms copies",
+   "task": "Marketing reuse of home/zone frames",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2181-11293"
+  },
+  {
+   "id": "2168:8353",
+   "page": "For Comms",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Comms copies",
+   "task": "Marketing reuse of home/zone frames",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2168-8353"
+  },
+  {
+   "id": "2168:10199",
+   "page": "For Comms",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Comms copies",
+   "task": "Marketing reuse of home/zone frames",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2168-10199"
+  },
+  {
+   "id": "2181:10792",
+   "page": "For Comms",
+   "name": "zone-select / first time",
+   "size": "360x1779",
+   "tier": "B",
+   "flow": "Comms copies",
+   "task": "Marketing reuse of home/zone frames",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2181-10792"
+  },
+  {
+   "id": "2181:10862",
+   "page": "For Comms",
+   "name": "zone-select / first time",
+   "size": "360x1779",
+   "tier": "B",
+   "flow": "Comms copies",
+   "task": "Marketing reuse of home/zone frames",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2181-10862"
+  },
+  {
+   "id": "3473:33706",
+   "page": "Presentation",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Presentation",
+   "task": "Deck copy: Switching spaces / Homepage and zone selection / Incentives",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame (labels: Off-duty, On-duty, Zone selected, Zone Free)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3473-33706"
+  },
+  {
+   "id": "3477:42668",
+   "page": "Presentation",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Presentation",
+   "task": "Deck copy: Switching spaces / Homepage and zone selection / Incentives",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame (labels: Off-duty, On-duty, Zone selected, Zone Free)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3477-42668"
+  },
+  {
+   "id": "3477:43154",
+   "page": "Presentation",
+   "name": "Frame 1580346190",
+   "size": "360x80",
+   "tier": "B",
+   "flow": "Presentation",
+   "task": "Deck copy: Switching spaces / Homepage and zone selection / Incentives",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame (labels: Off-duty, On-duty, Zone selected, Zone Free)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3477-43154"
+  },
+  {
+   "id": "3473:33910",
+   "page": "Presentation",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Presentation",
+   "task": "Deck copy: Switching spaces / Homepage and zone selection / Incentives",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame (labels: Off-duty, On-duty, Zone selected, Zone Free)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3473-33910"
+  },
+  {
+   "id": "3477:43190",
+   "page": "Presentation",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Presentation",
+   "task": "Deck copy: Switching spaces / Homepage and zone selection / Incentives",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame (labels: Off-duty, On-duty, Zone selected, Zone Free)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3477-43190"
+  },
+  {
+   "id": "3473:36271",
+   "page": "Presentation",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Presentation",
+   "task": "Deck copy: Switching spaces / Homepage and zone selection / Incentives",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame (labels: Off-duty, On-duty, Zone selected, Zone Free)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3473-36271"
+  },
+  {
+   "id": "3473:42312",
+   "page": "Presentation",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Presentation",
+   "task": "Deck copy: Switching spaces / Homepage and zone selection / Incentives",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame (labels: Off-duty, On-duty, Zone selected, Zone Free)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3473-42312"
+  },
+  {
+   "id": "3473:36741",
+   "page": "Presentation",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Presentation",
+   "task": "Deck copy: Switching spaces / Homepage and zone selection / Incentives",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame (labels: Off-duty, On-duty, Zone selected, Zone Free)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3473-36741"
+  },
+  {
+   "id": "3473:36903",
+   "page": "Presentation",
+   "name": "onduty",
+   "size": "360x1582",
+   "tier": "B",
+   "flow": "Presentation",
+   "task": "Deck copy: Switching spaces / Homepage and zone selection / Incentives",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame (labels: Off-duty, On-duty, Zone selected, Zone Free)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3473-36903"
+  },
+  {
+   "id": "3473:37031",
+   "page": "Presentation",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Presentation",
+   "task": "Deck copy: Switching spaces / Homepage and zone selection / Incentives",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame (labels: Off-duty, On-duty, Zone selected, Zone Free)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3473-37031"
+  },
+  {
+   "id": "3473:40174",
+   "page": "Presentation",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Presentation",
+   "task": "Deck copy: Switching spaces / Homepage and zone selection / Incentives",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame (labels: Off-duty, On-duty, Zone selected, Zone Free)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3473-40174"
+  },
+  {
+   "id": "3473:40323",
+   "page": "Presentation",
+   "name": "zone-select / first time",
+   "size": "360x1779",
+   "tier": "B",
+   "flow": "Presentation",
+   "task": "Deck copy: Switching spaces / Homepage and zone selection / Incentives",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame (labels: Off-duty, On-duty, Zone selected, Zone Free)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3473-40323"
+  },
+  {
+   "id": "3473:40393",
+   "page": "Presentation",
+   "name": "zone-select / first time",
+   "size": "360x1779",
+   "tier": "B",
+   "flow": "Presentation",
+   "task": "Deck copy: Switching spaces / Homepage and zone selection / Incentives",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame (labels: Off-duty, On-duty, Zone selected, Zone Free)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3473-40393"
+  },
+  {
+   "id": "3473:40472",
+   "page": "Presentation",
+   "name": "zone-select / first time",
+   "size": "360x1779",
+   "tier": "B",
+   "flow": "Presentation",
+   "task": "Deck copy: Switching spaces / Homepage and zone selection / Incentives",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame (labels: Off-duty, On-duty, Zone selected, Zone Free)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3473-40472"
+  },
+  {
+   "id": "3473:41050",
+   "page": "Presentation",
+   "name": "Incentives",
+   "size": "360x4666",
+   "tier": "B",
+   "flow": "Presentation",
+   "task": "Deck copy: Switching spaces / Homepage and zone selection / Incentives",
+   "container": "full-page",
+   "structure": "copy of Ready for Dev frame (labels: Off-duty, On-duty, Zone selected, Zone Free)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3473-41050"
+  },
+  {
+   "id": "4408:42013",
+   "page": "For Review",
+   "name": "Video",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Delivery space FTUX",
+   "task": "Video intro to Delivery space",
+   "container": "fullscreen-takeover",
+   "structure": "Presenter video top > white card 'Get delivery orders and earn incentives' + 3 icon bullets (only delivery orders / work zone or free-zone / earn up to ₹2400) + 'Enter Delivery Space'",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "not in Ready for Dev",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4408-42013"
+  },
+  {
+   "id": "4408:45574",
+   "page": "For Review",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Modes review",
+   "task": "Mode switch / switching modal / delivery home",
+   "container": "full-page",
+   "structure": "copies of Ready for Dev S1/S2/S4",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4408-45574"
+  },
+  {
+   "id": "4408:45787",
+   "page": "For Review",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Modes review",
+   "task": "Mode switch / switching modal / delivery home",
+   "container": "full-page",
+   "structure": "copies of Ready for Dev S1/S2/S4",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4408-45787"
+  },
+  {
+   "id": "4408:45837",
+   "page": "For Review",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Modes review",
+   "task": "Mode switch / switching modal / delivery home",
+   "container": "full-page",
+   "structure": "copies of Ready for Dev S1/S2/S4",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4408-45837"
+  },
+  {
+   "id": "4408:46041",
+   "page": "For Review",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Modes review",
+   "task": "Mode switch / switching modal / delivery home",
+   "container": "full-page",
+   "structure": "copies of Ready for Dev S1/S2/S4",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4408-46041"
+  },
+  {
+   "id": "4580:56842",
+   "page": "For Review",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Orders tab > empty/low demand",
+   "task": "Wait for orders; get nudged to another space",
+   "container": "full-page",
+   "structure": "'0 Orders' + ON toggle > Services/Go To chips > 'Searching for orders...' + Refresh > 'or' > cross-sell card (title, body, service icons, primary CTA) > bottom nav",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     "Buttons"
+    ],
+    "other": [
+     "Refresh Button"
+    ]
+   },
+   "cta": "",
+   "states": "Delivery Space: searching (empty)",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4580-56842"
+  },
+  {
+   "id": "4580:56843",
+   "page": "For Review",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Orders tab > empty/low demand",
+   "task": "Wait for orders; get nudged to another space",
+   "container": "full-page",
+   "structure": "'0 Orders' + ON toggle > Services/Go To chips > 'Searching for orders...' + Refresh > 'or' > cross-sell card (title, body, service icons, primary CTA) > bottom nav",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     "Buttons"
+    ],
+    "other": [
+     "Refresh Button"
+    ]
+   },
+   "cta": "",
+   "states": "Delivery Space: searching + Refresh",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4580-56843"
+  },
+  {
+   "id": "4580:56844",
+   "page": "For Review",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Orders tab > empty/low demand",
+   "task": "Wait for orders; get nudged to another space",
+   "container": "full-page",
+   "structure": "'0 Orders' + ON toggle > Services/Go To chips > 'Searching for orders...' + Refresh > 'or' > cross-sell card (title, body, service icons, primary CTA) > bottom nav",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     "Buttons"
+    ],
+    "other": [
+     "Refresh Button"
+    ]
+   },
+   "cta": "",
+   "states": "All Space: searching",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4580-56844"
+  },
+  {
+   "id": "4580:56845",
+   "page": "For Review",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Orders tab > empty/low demand",
+   "task": "Wait for orders; get nudged to another space",
+   "container": "full-page",
+   "structure": "'0 Orders' + ON toggle > Services/Go To chips > 'Searching for orders...' + Refresh > 'or' > cross-sell card (title, body, service icons, primary CTA) > bottom nav",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     "Buttons"
+    ],
+    "other": [
+     "Refresh Button"
+    ]
+   },
+   "cta": "",
+   "states": "All Space: searching + Refresh",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4580-56845"
+  },
+  {
+   "id": "4580:56846",
+   "page": "For Review",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Orders tab > empty/low demand",
+   "task": "Wait for orders; get nudged to another space",
+   "container": "full-page",
+   "structure": "'0 Orders' + ON toggle > Services/Go To chips > 'Searching for orders...' + Refresh > 'or' > cross-sell card (title, body, service icons, primary CTA) > bottom nav",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     "Buttons"
+    ],
+    "other": [
+     "Refresh Button"
+    ]
+   },
+   "cta": "",
+   "states": "Delivery Space: 'Low demand for Food delivery? Switch to All work space' + 'Switch To All Space'",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4580-56846"
+  },
+  {
+   "id": "4580:57067",
+   "page": "For Review",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Orders tab > empty/low demand",
+   "task": "Wait for orders; get nudged to another space",
+   "container": "full-page",
+   "structure": "'0 Orders' + ON toggle > Services/Go To chips > 'Searching for orders...' + Refresh > 'or' > cross-sell card (title, body, service icons, primary CTA) > bottom nav",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     "Buttons"
+    ],
+    "other": [
+     "Refresh Button"
+    ]
+   },
+   "cta": "",
+   "states": "All Space: 'Low demand for Bike Taxi? Switch to Delivery space…' + 'Switch To Delivery Space'",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4580-57067"
+  },
+  {
+   "id": "4580:57288",
+   "page": "For Review",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Orders tab > empty/low demand",
+   "task": "Wait for orders; get nudged to another space",
+   "container": "full-page",
+   "structure": "'0 Orders' + ON toggle > Services/Go To chips > 'Searching for orders...' + Refresh > 'or' > cross-sell card (title, body, service icons, primary CTA) > bottom nav",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     "Buttons"
+    ],
+    "other": [
+     "Refresh Button"
+    ]
+   },
+   "cta": "",
+   "states": "Delivery: 'Have a Bike? Upload Driving license and RC…' + 'Learn More'",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4580-57288"
+  },
+  {
+   "id": "4580:57509",
+   "page": "For Review",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Orders tab > empty/low demand",
+   "task": "Wait for orders; get nudged to another space",
+   "container": "full-page",
+   "structure": "'0 Orders' + ON toggle > Services/Go To chips > 'Searching for orders...' + Refresh > 'or' > cross-sell card (title, body, service icons, primary CTA) > bottom nav",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     "Buttons"
+    ],
+    "other": [
+     "Refresh Button"
+    ]
+   },
+   "cta": "",
+   "states": "All: 'Low demand for Bike?' with bike illustration + 'Switch To Delivery Space'",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4580-57509"
+  },
+  {
+   "id": "4580:57729",
+   "page": "For Review",
+   "name": "Frame 1739327808",
+   "size": "1561x44",
+   "tier": "B",
+   "flow": "label",
+   "task": "'Delivery Space' divider",
+   "container": "other",
+   "structure": "label",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4580-57729"
+  },
+  {
+   "id": "4580:57733",
+   "page": "For Review",
+   "name": "Frame 1739327809",
+   "size": "1561x44",
+   "tier": "B",
+   "flow": "label",
+   "task": "'All Space' divider",
+   "container": "other",
+   "structure": "label",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4580-57733"
+  },
+  {
+   "id": "4596:58616",
+   "page": "For Review",
+   "name": "Off duty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Off-duty home variants",
+   "task": "Earn ₹50 every hour tracker (1/4 hours), 'In a new city?' card, Go On-Duty",
+   "container": "full-page",
+   "structure": "Header > earnings > stories > hourly guarantee tracker > new-city card > Only for you > floating nav",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "variants",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4596-58616"
+  },
+  {
+   "id": "4596:59693",
+   "page": "For Review",
+   "name": "Off duty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Off-duty home variants",
+   "task": "Earn ₹50 every hour tracker (1/4 hours), 'In a new city?' card, Go On-Duty",
+   "container": "full-page",
+   "structure": "Header > earnings > stories > hourly guarantee tracker > new-city card > Only for you > floating nav",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "variants",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4596-59693"
+  },
+  {
+   "id": "4596:60060",
+   "page": "For Review",
+   "name": "Off duty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Off-duty home variants",
+   "task": "Earn ₹50 every hour tracker (1/4 hours), 'In a new city?' card, Go On-Duty",
+   "container": "full-page",
+   "structure": "Header > earnings > stories > hourly guarantee tracker > new-city card > Only for you > floating nav",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "variants",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4596-60060"
+  },
+  {
+   "id": "4596:58873",
+   "page": "For Review",
+   "name": "Off duty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Off-duty home variants",
+   "task": "Earn ₹50 every hour tracker (1/4 hours), 'In a new city?' card, Go On-Duty",
+   "container": "full-page",
+   "structure": "Header > earnings > stories > hourly guarantee tracker > new-city card > Only for you > floating nav",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "variants",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4596-58873"
+  },
+  {
+   "id": "155:964",
+   "page": "Ideation",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Ideation",
+   "task": "Early space/mode concepts",
+   "container": "full-page",
+   "structure": "home concept",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=155-964"
+  },
+  {
+   "id": "241:13911",
+   "page": "Ideation",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Ideation",
+   "task": "Early space/mode concepts",
+   "container": "full-page",
+   "structure": "home concept",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=241-13911"
+  },
+  {
+   "id": "155:994",
+   "page": "Ideation",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Ideation",
+   "task": "Early space/mode concepts",
+   "container": "full-page",
+   "structure": "home concept",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=155-994"
+  },
+  {
+   "id": "716:16595",
+   "page": "Ideation",
+   "name": "Frame 1739327705",
+   "size": "545x1618",
+   "tier": "B",
+   "flow": "Ideation",
+   "task": "Board",
+   "container": "other",
+   "structure": "board",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=716-16595"
+  },
+  {
+   "id": "662:1335",
+   "page": "Quick Ideations",
+   "name": "slot-selection",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Quick ideations",
+   "task": "Slot selection light (yellow slot headers, checkbox rows, 'Submit')",
+   "container": "full-page",
+   "structure": "Slot selection light (yellow slot headers, checkbox rows, 'Submit')",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "alternative",
+   "notes": "Rejected/alternative explorations",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=662-1335"
+  },
+  {
+   "id": "1373:23391",
+   "page": "Quick Ideations",
+   "name": "Space + Nav",
+   "size": "360x84",
+   "tier": "B",
+   "flow": "Quick ideations",
+   "task": "nav iteration",
+   "container": "other",
+   "structure": "nav iteration",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "alternative",
+   "notes": "Rejected/alternative explorations",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1373-23391"
+  },
+  {
+   "id": "1676:37257",
+   "page": "Quick Ideations",
+   "name": "Space + Nav",
+   "size": "360x84",
+   "tier": "B",
+   "flow": "Quick ideations",
+   "task": "nav iteration",
+   "container": "other",
+   "structure": "nav iteration",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "alternative",
+   "notes": "Rejected/alternative explorations",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1676-37257"
+  },
+  {
+   "id": "1676:37288",
+   "page": "Quick Ideations",
+   "name": "Space + Nav",
+   "size": "360x84",
+   "tier": "B",
+   "flow": "Quick ideations",
+   "task": "nav iteration",
+   "container": "other",
+   "structure": "nav iteration",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "alternative",
+   "notes": "Rejected/alternative explorations",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1676-37288"
+  },
+  {
+   "id": "1359:23159",
+   "page": "Quick Ideations",
+   "name": "Frame 1",
+   "size": "368x64",
+   "tier": "B",
+   "flow": "Quick ideations",
+   "task": "nav iteration",
+   "container": "other",
+   "structure": "nav iteration",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "alternative",
+   "notes": "Rejected/alternative explorations",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1359-23159"
+  },
+  {
+   "id": "1676:37323",
+   "page": "Quick Ideations",
+   "name": "Frame 4",
+   "size": "368x64",
+   "tier": "B",
+   "flow": "Quick ideations",
+   "task": "nav iteration",
+   "container": "other",
+   "structure": "nav iteration",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "alternative",
+   "notes": "Rejected/alternative explorations",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1676-37323"
+  },
+  {
+   "id": "1368:23243",
+   "page": "Quick Ideations",
+   "name": "Frame 2",
+   "size": "368x64",
+   "tier": "B",
+   "flow": "Quick ideations",
+   "task": "nav iteration",
+   "container": "other",
+   "structure": "nav iteration",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "alternative",
+   "notes": "Rejected/alternative explorations",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1368-23243"
+  },
+  {
+   "id": "1373:23342",
+   "page": "Quick Ideations",
+   "name": "Frame 3",
+   "size": "368x64",
+   "tier": "B",
+   "flow": "Quick ideations",
+   "task": "nav iteration",
+   "container": "other",
+   "structure": "nav iteration",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "alternative",
+   "notes": "Rejected/alternative explorations",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1373-23342"
+  },
+  {
+   "id": "1325:21483",
+   "page": "Quick Ideations",
+   "name": "overlay",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Quick ideations",
+   "task": "mode overlay 'All Mode'",
+   "container": "full-page",
+   "structure": "mode overlay 'All Mode'",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "alternative",
+   "notes": "Rejected/alternative explorations",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1325-21483"
+  },
+  {
+   "id": "1336:1393",
+   "page": "Quick Ideations",
+   "name": "Nav UI — iterations",
+   "size": "2840x737",
+   "tier": "B",
+   "flow": "Quick ideations",
+   "task": "A One surface / B Fixed slots / C Workspace named / D Contrast bar / E Monoline glyph / Overlay / F bar carries state — rejected alternatives",
+   "container": "other",
+   "structure": "A One surface / B Fixed slots / C Workspace named / D Contrast bar / E Monoline glyph / Overlay / F bar carries state — rejected alternatives",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "alternative",
+   "notes": "Rejected/alternative explorations",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1336-1393"
+  },
+  {
+   "id": "1404:1490",
+   "page": "Quick Ideations",
+   "name": "Bottom nav — layout explorations",
+   "size": "2040x489",
+   "tier": "B",
+   "flow": "Quick ideations",
+   "task": "L1 docked / L2 centre-docked / L3 workspace leaves nav / L4 left rail / L5 minimum footprint",
+   "container": "other",
+   "structure": "L1 docked / L2 centre-docked / L3 workspace leaves nav / L4 left rail / L5 minimum footprint",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "alternative",
+   "notes": "Rejected/alternative explorations",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1404-1490"
+  },
+  {
+   "id": "1991:2106",
+   "page": "Quick Ideations",
+   "name": "incentives / 1 — top of scroll",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Quick ideations",
+   "task": "'Extra Earning Offers' alt incentives page",
+   "container": "full-page",
+   "structure": "'Extra Earning Offers' alt incentives page",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "alternative",
+   "notes": "Rejected/alternative explorations",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1991-2106"
+  },
+  {
+   "id": "1995:2132",
+   "page": "Quick Ideations",
+   "name": "incentives / 2 — dinner peak expanded",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Quick ideations",
+   "task": "alt",
+   "container": "full-page",
+   "structure": "alt",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "alternative",
+   "notes": "Rejected/alternative explorations",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1995-2132"
+  },
+  {
+   "id": "1999:2156",
+   "page": "Quick Ideations",
+   "name": "incentives / 3 — past and unavailable",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Quick ideations",
+   "task": "alt",
+   "container": "full-page",
+   "structure": "alt",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "alternative",
+   "notes": "Rejected/alternative explorations",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1999-2156"
+  },
+  {
+   "id": "2000:2180",
+   "page": "Quick Ideations",
+   "name": "incentives / 4 — daily incentive expanded",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Quick ideations",
+   "task": "alt",
+   "container": "full-page",
+   "structure": "alt",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "alternative",
+   "notes": "Rejected/alternative explorations",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2000-2180"
+  },
+  {
+   "id": "2806:377",
+   "page": "Quick Ideations",
+   "name": "Payout rule — 3 options",
+   "size": "1240x831",
+   "tier": "B",
+   "flow": "Quick ideations",
+   "task": "A two tracks one payout / B one number / C rule drawn literally",
+   "container": "other",
+   "structure": "A two tracks one payout / B one number / C rule drawn literally",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "alternative",
+   "notes": "Rejected/alternative explorations",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2806-377"
+  },
+  {
+   "id": "2326:33128",
+   "page": "Cover Page",
+   "name": "Cover",
+   "size": "1920x1088",
+   "tier": "B",
+   "flow": "Cover",
+   "task": "File cover",
+   "container": "other",
+   "structure": "cover",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2326-33128"
+  },
+  {
+   "id": "1634:30887",
+   "page": "Components",
+   "name": "SET Slots chip (Red/Green/Orange, Icon bool)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "SET Slots chip (Red/Green/Orange, Icon bool)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1634-30887"
+  },
+  {
+   "id": "1634:30953",
+   "page": "Components",
+   "name": "SET Zone card (Default/Selected/Unavailable, Show chip)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "SET Zone card (Default/Selected/Unavailable, Show chip)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1634-30953"
+  },
+  {
+   "id": "1964:27706",
+   "page": "Components",
+   "name": "SET Zones (F1-F7)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "SET Zones (F1-F7)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1964-27706"
+  },
+  {
+   "id": "1984:32975",
+   "page": "Components",
+   "name": "SET Delivery (F1-F4)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "SET Delivery (F1-F4)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1984-32975"
+  },
+  {
+   "id": "2011:25272",
+   "page": "Components",
+   "name": "SET Delivery (F1-F3)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "SET Delivery (F1-F3)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2011-25272"
+  },
+  {
+   "id": "2247:6784",
+   "page": "Components",
+   "name": "SET Zone highlights (Selected/Default)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "SET Zone highlights (Selected/Default)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2247-6784"
+  },
+  {
+   "id": "2247:7065",
+   "page": "Components",
+   "name": "SET Nav (Hub/Delivery/Lift)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "SET Nav (Hub/Delivery/Lift)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2247-7065"
+  },
+  {
+   "id": "2247:7069",
+   "page": "Components",
+   "name": "SET Spaces (Delivery/Lift/Hub)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "SET Spaces (Delivery/Lift/Hub)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2247-7069"
+  },
+  {
+   "id": "2521:7901",
+   "page": "Components",
+   "name": "SET Header (Space Hub/Delivery/Lift x Earnings Default/Star Cap)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "SET Header (Space Hub/Delivery/Lift x Earnings Default/Star Cap)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2521-7901"
+  },
+  {
+   "id": "2686:32653",
+   "page": "Components",
+   "name": "CMP Tracker",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "CMP Tracker",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2686-32653"
+  },
+  {
+   "id": "2731:34290",
+   "page": "Components",
+   "name": "SET Incentives Tracker (1 Ride/4 rides/no rides)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "SET Incentives Tracker (1 Ride/4 rides/no rides)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2731-34290"
+  },
+  {
+   "id": "2774:38571",
+   "page": "Components",
+   "name": "SET Status Tag (Expired/Live/Missed/Coming/Ended)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "SET Status Tag (Expired/Live/Missed/Coming/Ended)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2774-38571"
+  },
+  {
+   "id": "2964:52077",
+   "page": "Components",
+   "name": "SET Lock Tracker (5 states)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "SET Lock Tracker (5 states)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2964-52077"
+  },
+  {
+   "id": "2964:52512",
+   "page": "Components",
+   "name": "SET Incentives Card (Missed/Live/ended; text props Card Header/Rejections/Login tracker)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "SET Incentives Card (Missed/Live/ended; text props Card Header/Rejections/Login tracker)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2964-52512"
+  },
+  {
+   "id": "2939:51717",
+   "page": "Components",
+   "name": "FRAME Incentives Card (detached)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "FRAME Incentives Card (detached)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2939-51717"
+  },
+  {
+   "id": "2110:30570",
+   "page": "Components",
+   "name": "FRAME Zone card",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "FRAME Zone card",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2110-30570"
+  },
+  {
+   "id": "2110:30597",
+   "page": "Components",
+   "name": "FRAME Zone card",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "FRAME Zone card",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2110-30597"
+  },
+  {
+   "id": "2527:10062",
+   "page": "Components",
+   "name": "FRAME Zone card",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "FRAME Zone card",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2527-10062"
+  },
+  {
+   "id": "2527:10143",
+   "page": "Components",
+   "name": "FRAME Zone card",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "FRAME Zone card",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2527-10143"
+  },
+  {
+   "id": "2527:10101",
+   "page": "Components",
+   "name": "FRAME Zone card",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "FRAME Zone card",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2527-10101"
+  },
+  {
+   "id": "2011:25232",
+   "page": "Components",
+   "name": "FRAME Frame 1",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "FRAME Frame 1",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2011-25232"
+  },
+  {
+   "id": "1945:23571",
+   "page": "Components",
+   "name": "FRAME zone-select reference (Section 1)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "FRAME zone-select reference (Section 1)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1945-23571"
+  },
+  {
+   "id": "1945:24695",
+   "page": "Components",
+   "name": "FRAME zone-select reference (Section 1)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "FRAME zone-select reference (Section 1)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1945-24695"
+  },
+  {
+   "id": "1945:24869",
+   "page": "Components",
+   "name": "FRAME zone-select reference (Section 1)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "FRAME zone-select reference (Section 1)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1945-24869"
+  },
+  {
+   "id": "1945:26675",
+   "page": "Components",
+   "name": "FRAME zone-select reference (Section 1)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "FRAME zone-select reference (Section 1)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1945-26675"
+  },
+  {
+   "id": "1945:26889",
+   "page": "Components",
+   "name": "FRAME zone-select reference (Section 1)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "FRAME zone-select reference (Section 1)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1945-26889"
+  },
+  {
+   "id": "1945:27117",
+   "page": "Components",
+   "name": "FRAME zone-select reference (Section 1)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "FRAME zone-select reference (Section 1)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1945-27117"
+  },
+  {
+   "id": "1945:23641",
+   "page": "Components",
+   "name": "FRAME zone-select reference (Section 1)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "FRAME zone-select reference (Section 1)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1945-23641"
+  },
+  {
+   "id": "1970:30243",
+   "page": "Components",
+   "name": "FRAME zone-select reference (Section 1)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "FRAME zone-select reference (Section 1)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1970-30243"
+  },
+  {
+   "id": "1970:30899",
+   "page": "Components",
+   "name": "FRAME zone-select reference (Section 1)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "FRAME zone-select reference (Section 1)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1970-30899"
+  },
+  {
+   "id": "1945:23720",
+   "page": "Components",
+   "name": "FRAME zone-select reference (Section 1)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "FRAME zone-select reference (Section 1)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1945-23720"
+  },
+  {
+   "id": "1970:30285",
+   "page": "Components",
+   "name": "FRAME zone-select reference (Section 1)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "FRAME zone-select reference (Section 1)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1970-30285"
+  },
+  {
+   "id": "1970:30941",
+   "page": "Components",
+   "name": "FRAME zone-select reference (Section 1)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "FRAME zone-select reference (Section 1)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1970-30941"
+  },
+  {
+   "id": "1945:24373",
+   "page": "Components",
+   "name": "FRAME zone-select reference (Section 1)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "FRAME zone-select reference (Section 1)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1945-24373"
+  },
+  {
+   "id": "1970:30369",
+   "page": "Components",
+   "name": "FRAME zone-select reference (Section 1)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "FRAME zone-select reference (Section 1)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1970-30369"
+  },
+  {
+   "id": "1970:31025",
+   "page": "Components",
+   "name": "FRAME zone-select reference (Section 1)",
+   "size": "",
+   "tier": "B",
+   "flow": "Components",
+   "task": "Local component inventory",
+   "container": "other",
+   "structure": "FRAME zone-select reference (Section 1)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Local to Logistics; not in Runway",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1970-31025"
+  },
+  {
+   "id": "4:7895",
+   "page": "Kitchen",
+   "name": "(page root) onduty 360x800 x81",
+   "size": "",
+   "tier": "B",
+   "flow": "Kitchen",
+   "task": "WIP group (first id shown)",
+   "container": "other",
+   "structure": "(page root) onduty 360x800 x81",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Group-level entry",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4-7895"
+  },
+  {
+   "id": "4:206",
+   "page": "Kitchen",
+   "name": "Menu Overlay x6 / Hamburger / Hamburg menu_Captain/Ownly/Lift chips",
+   "size": "",
+   "tier": "B",
+   "flow": "Kitchen",
+   "task": "WIP group (first id shown)",
+   "container": "other",
+   "structure": "Menu Overlay x6 / Hamburger / Hamburg menu_Captain/Ownly/Lift chips",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Group-level entry",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4-206"
+  },
+  {
+   "id": "34:6998",
+   "page": "Kitchen",
+   "name": "Home of Orders 360x720 x20",
+   "size": "",
+   "tier": "B",
+   "flow": "Kitchen",
+   "task": "WIP group (first id shown)",
+   "container": "other",
+   "structure": "Home of Orders 360x720 x20",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Group-level entry",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=34-6998"
+  },
+  {
+   "id": "34:4153",
+   "page": "Kitchen",
+   "name": "Refresh Button 360x780 x4",
+   "size": "",
+   "tier": "B",
+   "flow": "Kitchen",
+   "task": "WIP group (first id shown)",
+   "container": "other",
+   "structure": "Refresh Button 360x780 x4",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Group-level entry",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=34-4153"
+  },
+  {
+   "id": "14:18563",
+   "page": "Kitchen",
+   "name": "Rooms x8 (360x112-139)",
+   "size": "",
+   "tier": "B",
+   "flow": "Kitchen",
+   "task": "WIP group (first id shown)",
+   "container": "other",
+   "structure": "Rooms x8 (360x112-139)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Group-level entry",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=14-18563"
+  },
+  {
+   "id": "94:22281",
+   "page": "Kitchen",
+   "name": "Spaces / Space + Nav / Workspace + Bottom Nav (~20)",
+   "size": "",
+   "tier": "B",
+   "flow": "Kitchen",
+   "task": "WIP group (first id shown)",
+   "container": "other",
+   "structure": "Spaces / Space + Nav / Workspace + Bottom Nav (~20)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Group-level entry",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=94-22281"
+  },
+  {
+   "id": "89:21516",
+   "page": "Kitchen",
+   "name": "Bike SM x3 + Section 1 Bike SM x3",
+   "size": "",
+   "tier": "B",
+   "flow": "Kitchen",
+   "task": "WIP group (first id shown)",
+   "container": "other",
+   "structure": "Bike SM x3 + Section 1 Bike SM x3",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Group-level entry",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=89-21516"
+  },
+  {
+   "id": "532:38306",
+   "page": "Kitchen",
+   "name": "zone-select / work zone listing / Zone card / Zone Row (~25)",
+   "size": "",
+   "tier": "B",
+   "flow": "Kitchen",
+   "task": "WIP group (first id shown)",
+   "container": "other",
+   "structure": "zone-select / work zone listing / Zone card / Zone Row (~25)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Group-level entry",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=532-38306"
+  },
+  {
+   "id": "782:25830",
+   "page": "Kitchen",
+   "name": "slot-selection + Voice Guide (root + Section 2)",
+   "size": "",
+   "tier": "B",
+   "flow": "Kitchen",
+   "task": "WIP group (first id shown)",
+   "container": "other",
+   "structure": "slot-selection + Voice Guide (root + Section 2)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Group-level entry",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=782-25830"
+  },
+  {
+   "id": "924:16746",
+   "page": "Kitchen",
+   "name": "Geofence / End of Order x2",
+   "size": "",
+   "tier": "B",
+   "flow": "Kitchen",
+   "task": "WIP group (first id shown)",
+   "container": "other",
+   "structure": "Geofence / End of Order x2",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Group-level entry",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=924-16746"
+  },
+  {
+   "id": "1984:33398",
+   "page": "Kitchen",
+   "name": "Today-Incentives x4, Incentives (4923/6097/4666), Incentives Card x~12, Tracker, Milestones, payout images",
+   "size": "",
+   "tier": "B",
+   "flow": "Kitchen",
+   "task": "WIP group (first id shown)",
+   "container": "other",
+   "structure": "Today-Incentives x4, Incentives (4923/6097/4666), Incentives Card x~12, Tracker, Milestones, payout images",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Group-level entry",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1984-33398"
+  },
+  {
+   "id": "4073:46172",
+   "page": "Kitchen",
+   "name": "Off duty 360x800 x19",
+   "size": "",
+   "tier": "B",
+   "flow": "Kitchen",
+   "task": "WIP group (first id shown)",
+   "container": "other",
+   "structure": "Off duty 360x800 x19",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Group-level entry",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4073-46172"
+  },
+  {
+   "id": "4637:44878",
+   "page": "Kitchen",
+   "name": "Header bg images (bike yellow / delivery brown / lift blue / fallback grey)",
+   "size": "",
+   "tier": "B",
+   "flow": "Kitchen",
+   "task": "WIP group (first id shown)",
+   "container": "other",
+   "structure": "Header bg images (bike yellow / delivery brown / lift blue / fallback grey)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Group-level entry",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4637-44878"
+  },
+  {
+   "id": "112:25468",
+   "page": "Kitchen",
+   "name": "Section 1 (255:16278) modes 14",
+   "size": "",
+   "tier": "B",
+   "flow": "Kitchen",
+   "task": "WIP group (first id shown)",
+   "container": "other",
+   "structure": "Section 1 (255:16278) modes 14",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Group-level entry",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=112-25468"
+  },
+  {
+   "id": "1339:22259",
+   "page": "Kitchen",
+   "name": "Section 2 (1339:22258) slot-selection x3",
+   "size": "",
+   "tier": "B",
+   "flow": "Kitchen",
+   "task": "WIP group (first id shown)",
+   "container": "other",
+   "structure": "Section 2 (1339:22258) slot-selection x3",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Group-level entry",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1339-22259"
+  },
+  {
+   "id": "1339:22569",
+   "page": "Kitchen",
+   "name": "Section 3 (1339:22568) onduty+Map 5",
+   "size": "",
+   "tier": "B",
+   "flow": "Kitchen",
+   "task": "WIP group (first id shown)",
+   "container": "other",
+   "structure": "Section 3 (1339:22568) onduty+Map 5",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Group-level entry",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1339-22569"
+  },
+  {
+   "id": "1481:23775",
+   "page": "Kitchen",
+   "name": "Section 4 (1481:23774) zone+slot 23",
+   "size": "",
+   "tier": "B",
+   "flow": "Kitchen",
+   "task": "WIP group (first id shown)",
+   "container": "other",
+   "structure": "Section 4 (1481:23774) zone+slot 23",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Group-level entry",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1481-23775"
+  },
+  {
+   "id": "1717:41587",
+   "page": "Kitchen",
+   "name": "Section 5 (1717:41573) zone+slot 27",
+   "size": "",
+   "tier": "B",
+   "flow": "Kitchen",
+   "task": "WIP group (first id shown)",
+   "container": "other",
+   "structure": "Section 5 (1717:41573) zone+slot 27",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Group-level entry",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1717-41587"
+  },
+  {
+   "id": "2053:28615",
+   "page": "Kitchen",
+   "name": "Section 6 (2053:28384) maps+zone-select 7",
+   "size": "",
+   "tier": "B",
+   "flow": "Kitchen",
+   "task": "WIP group (first id shown)",
+   "container": "other",
+   "structure": "Section 6 (2053:28384) maps+zone-select 7",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Group-level entry",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2053-28615"
+  },
+  {
+   "id": "2814:42482",
+   "page": "Kitchen",
+   "name": "Section 7 (2814:42481) Header theme exploration 23",
+   "size": "",
+   "tier": "B",
+   "flow": "Kitchen",
+   "task": "WIP group (first id shown)",
+   "container": "other",
+   "structure": "Section 7 (2814:42481) Header theme exploration 23",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Group-level entry",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2814-42482"
+  },
+  {
+   "id": "2973:56627",
+   "page": "Kitchen",
+   "name": "Section 8 (2973:56626) Incentives 19",
+   "size": "",
+   "tier": "B",
+   "flow": "Kitchen",
+   "task": "WIP group (first id shown)",
+   "container": "other",
+   "structure": "Section 8 (2973:56626) Incentives 19",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Group-level entry",
+   "link": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2973-56627"
+  }
+ ],
+ "patternCandidates": [
+  {
+   "name": "Task checklist page (verify N items before unlocking)",
+   "whenToUse": "Captain must complete several independent verification tasks (photos/docs) before an action (go on duty) unlocks.",
+   "structure": "InternalPageHeader(back, title, Help) > hero image 360x202 > title Bold 24 > stack of TaskRow (gap16) > sticky footer: Primary Large 'Complete' disabled until all rows verified + optional helper text + Tertiary-Info small link with trailing arrow ('Apply for merch')",
+   "components": [
+    "InternalPageHeader",
+    "Button (Large Primary, Small Tertiary-Info, Small Secondary Help)",
+    "TaskRow (missing)"
+   ],
+   "evidence": [
+    "4417:37326",
+    "4429:38955",
+    "4429:39030",
+    "4429:39176",
+    "4421:38379"
+   ],
+   "variations": "Footer with/without escape link; copy long vs short.",
+   "conflicts": "Escape link present only on initial frame; footer overlaps last row by 12px."
+  },
+  {
+   "name": "TaskRow (status list row)",
+   "whenToUse": "One actionable item in a checklist, showing status.",
+   "structure": "Card row 328w, pad12, gap8, r12, white, 1px Border/Neutral/Light, shadow; 44x44 thumbnail + label (Body/Moderate/Med 16) + optional caption (Body/Small/Reg 14; success #058743 'Verified' / error #c42925 'Failed! Retry') + trailing 24 icon (Right Arrow_Stroke = todo/retry, Check_Circle_Filled = done)",
+   "components": [
+    "Right Arrow_Stroke",
+    "Check_Circle_Filled"
+   ],
+   "evidence": [
+    "4417:37326",
+    "4421:38131",
+    "4421:38379"
+   ],
+   "variations": "pending / verified / failed",
+   "conflicts": "Row height 70 vs 74"
+  },
+  {
+   "name": "Live camera capture with verify overlay",
+   "whenToUse": "Captain must take a live photo (no gallery) that is auto-verified.",
+   "structure": "Dark InternalPageHeader > full-bleed camera > bottom 75% black panel (title 20 SemiBold white + guidance 14 + shutter) ; then centred overlay card on 75% scrim: Verifying (spinner) → Success (green check) or Failure (red !, title, body, Retry)",
+   "components": [
+    "Toast (as overlay card)",
+    "dark header (non-Runway)"
+   ],
+   "evidence": [
+    "4421:38348",
+    "4429:38652",
+    "4429:38703",
+    "4472:220804"
+   ],
+   "variations": "Selfie / Bag / Raincoat",
+   "conflicts": "Runway Toast instance used as centred modal; dark header is from another library"
+  },
+  {
+   "name": "Home status nudge card",
+   "whenToUse": "Blocking prerequisite or status that the captain must act on before/after going on duty.",
+   "structure": "Card 328x122 on off-duty home below header: left title SemiBold 18 + sub/body + text link; right 114-126 illustration with status badge (verify/green, error/red)",
+   "components": [
+    "Zone card shape (local)"
+   ],
+   "evidence": [
+    "4420:37619",
+    "4420:37898",
+    "4489:32288",
+    "2314:26124"
+   ],
+   "variations": "pending/failed/success; zone card is same anatomy",
+   "conflicts": "Stray '0.2 km' in failed card"
+  },
+  {
+   "name": "Explainer bottom sheet before a task flow",
+   "whenToUse": "Explain requirements before starting a multi-step task.",
+   "structure": "Scrim + floating close X above sheet > illustration 180 > title Bold 24 > bullet list Regular 16 > red note > Primary Large with leading icon ('Start')",
+   "components": [
+    "BottomSheet",
+    "Button",
+    "Close_Stroke"
+   ],
+   "evidence": [
+    "4348:376"
+   ],
+   "variations": "",
+   "conflicts": "Off-duty home behind uses old header"
+  },
+  {
+   "name": "Blocking/error result bottom sheet",
+   "whenToUse": "An action failed or captain is blocked; single acknowledgement.",
+   "structure": "Scrim + close X > sheet: illustration with red alert badge > title (red for error or neutral) > body > Primary 'Okay'",
+   "components": [
+    "BottomSheet",
+    "Button"
+   ],
+   "evidence": [
+    "1041:16946",
+    "4476:220923",
+    "2314:5690"
+   ],
+   "variations": "red vs black title",
+   "conflicts": "Title colour inconsistent"
+  },
+  {
+   "name": "Confirm-switch sheet with consequence warning",
+   "whenToUse": "Switching state that has side effects (lose incentives).",
+   "structure": "Sheet title question > from → to chips > warning box (orange triangle 'Warning! Your incentives will be reset to 0') > Primary 'Yes, Switch Zone' + Secondary 'Go Back'",
+   "components": [
+    "Button"
+   ],
+   "evidence": [
+    "2353:34368",
+    "628:41149"
+   ],
+   "variations": "Modal version with audio for workspace switch",
+   "conflicts": ""
+  },
+  {
+   "name": "Success confirmation card on scrim",
+   "whenToUse": "Confirm a selection took effect.",
+   "structure": "Scrim + close X > card with light-green gradient top, big green check badge, bold subject + regular result text",
+   "components": [],
+   "evidence": [
+    "2303:5086",
+    "2355:34630",
+    "2355:34863",
+    "2355:35095"
+   ],
+   "variations": "",
+   "conflicts": "Not a Runway component; similar to Toast overlay success"
+  },
+  {
+   "name": "Selectable list in bottom sheet over map + sticky confirm",
+   "whenToUse": "Choose one option tied to geography (zone).",
+   "structure": "Map 280 with back/locate > sheet with radio cards (special 'Free' option, 'Or' divider, option cards with tag/name/benefit/distance, disabled cards greyed) > sticky CTA bar (helper caption + Primary 'Confirm Zone')",
+   "components": [
+    "Zone card (local)",
+    "Slots chip (local)",
+    "Button"
+   ],
+   "evidence": [
+    "2053:27217",
+    "2053:27287",
+    "2053:27366"
+   ],
+   "variations": "",
+   "conflicts": "Uses local Zone card instead of Runway RadioButton card"
+  },
+  {
+   "name": "Info page with date strip, filter chips and status cards",
+   "whenToUse": "Browse time-bound offers/incentives.",
+   "structure": "Header + Secondary tabs > date strip > audio guide > filter chips with counts > explainer image > status cards (Live/Coming/Ended/Missed) > accordions > cross-sell",
+   "components": [
+    "SecondaryTabs",
+    "Chip",
+    "Status Tag (local)",
+    "Incentives Card (local)"
+   ],
+   "evidence": [
+    "3149:60892",
+    "3607:5501",
+    "4052:42751"
+   ],
+   "variations": "empty / filter-empty / partial",
+   "conflicts": "Header detached"
+  },
+  {
+   "name": "Empty orders with cross-space nudge",
+   "whenToUse": "No orders; suggest switching space/onboarding.",
+   "structure": "'Searching for orders...' + Refresh > 'or' > card with title, body, service icons, primary CTA",
+   "components": [
+    "Home of Orders",
+    "Button"
+   ],
+   "evidence": [
+    "4580:56846",
+    "4580:57067",
+    "4580:57288",
+    "4580:57509"
+   ],
+   "variations": "",
+   "conflicts": "Only on For Review page"
+  }
+ ],
+ "missingComponents": [
+  {
+   "name": "TaskRow / VerificationRow",
+   "description": "List row with thumbnail, label, status caption, trailing arrow/check; states pending/verified/failed.",
+   "evidence": [
+    "4417:37326",
+    "4421:38131",
+    "4421:38379"
+   ]
+  },
+  {
+   "name": "Camera capture screen (dark header + guidance panel + shutter)",
+   "description": "Uses non-Runway dark 'Internal page Header'; no Runway camera template.",
+   "evidence": [
+    "4421:38348"
+   ]
+  },
+  {
+   "name": "Overlay status card (verifying/success/failure)",
+   "description": "Runway Toast is used as a full-screen scrim with centred card; needs proper spec.",
+   "evidence": [
+    "4429:38652",
+    "4429:38703",
+    "4472:220804",
+    "2303:5086"
+   ]
+  },
+  {
+   "name": "Home nudge/status card",
+   "description": "Merch Auth card and Zone card share anatomy; local only.",
+   "evidence": [
+    "4420:37619",
+    "2314:26124"
+   ]
+  },
+  {
+   "name": "Zone card / Slots chip / Zone highlights",
+   "description": "Local component sets on Components page.",
+   "evidence": [
+    "1634:30953",
+    "1634:30887"
+   ]
+  },
+  {
+   "name": "Incentives Card / Status Tag / Lock Tracker / Incentives Tracker / Day tap",
+   "description": "Local or remote non-Runway incentive components.",
+   "evidence": [
+    "2964:52512",
+    "2774:38571",
+    "3149:60892"
+   ]
+  },
+  {
+   "name": "Today's Earnings Accordian",
+   "description": "Remote non-Runway component used on every home.",
+   "evidence": [
+    "628:41149"
+   ]
+  },
+  {
+   "name": "Audio guide button / language picker sheet",
+   "description": "Play/pause bar with language icon; radio grid sheet.",
+   "evidence": [
+    "4048:41566",
+    "4048:39941"
+   ]
+  }
+ ],
+ "openQuestions": [
+  "Is 'Merchandising auth' final (no Ready for Dev label) and which Verify Merch variant is canonical — long labels + 'Apply for merch' link (4417:37326) or short labels without link (4421:38131 etc.)?",
+  "Should the 'Complete' footer be sticky with content scrolling under it (currently overlaps last row by 12px)?",
+  "Toast used as centred verifying/failure overlay — is this a new Toast variant or should it be a Modal?",
+  "Selfie capture frames say 'Take photo of the Raincoat' — copy bug?",
+  "Localisation pages are older snapshots (42/47 frames vs 60); is the Incentives section going to be translated? 'Try other' button untranslated.",
+  "Bike Lift mode pill and Orders/Credit nav labels overflow in Kannada/Malayalam/Tamil/Telugu — truncate, wrap or shrink?",
+  "Zone card, Incentives components, Day tap and Today's Earnings Accordian are outside Runway — promote?"
+ ],
+ "notCovered": [
+  "Kitchen (0:1): 488 frames enumerated by group with first ids only; not individually listed or screenshotted.",
+  "Per-frame screenshots not taken (Figma MCP shared quota hit once; used section/page screenshots instead). For Comms, Presentation, Ideation, Components, Cover and Kitchen pages not screenshotted.",
+  "Localisation: checked frame counts/sections for Hindi pair only; overflow heuristic run on all 14 pages; no per-language screenshots.",
+  "Could not read MCP resource skill://figma/figma-use/SKILL.md (no resource-read tool available); only read-only scripts were run."
+ ]
+}

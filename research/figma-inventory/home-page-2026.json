@@ -1,0 +1,4387 @@
+{
+ "file": {
+  "key": "fxTUcpqbNtHknPclS6sJZg",
+  "name": "Home Page Improvement 2026",
+  "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/Home-Page-Improvement-2026"
+ },
+ "pages": [
+  {
+   "id": "0:1",
+   "name": "🖼️ Cover Image",
+   "tier": "divider",
+   "frameCount": 1,
+   "summary": "Cover frame 51:3797 (1920x1088) with title + sample map pills (all pills, small icons, train trail).",
+   "notes": "Cover; not inventoried as phone frames."
+  },
+  {
+   "id": "51:3846",
+   "name": "---",
+   "tier": "divider",
+   "frameCount": 0,
+   "summary": "empty",
+   "notes": ""
+  },
+  {
+   "id": "51:3848",
+   "name": "🌟 Ready for developement [ANDROID]",
+   "tier": "A",
+   "frameCount": 13,
+   "summary": "Final home: off duty (greeting + Go On Duty), on duty (map card + pill layers), surge pill active, map maximised, Airport HAIL states (enter OTP, success modal, priority code, in queue), Pitch Centre scroll w/ Shortcuts, on-duty w/ bottom nav.",
+   "notes": "Section 'Home Page Improvements' (10 frames) + section 'Pitch Centre - Interaction' (1) + 2 loose frames. Almost entirely non-Runway components (legacy library); only Runway Buttons. No action centre / blocking-task state in final."
+  },
+  {
+   "id": "51:3849",
+   "name": "---",
+   "tier": "divider",
+   "frameCount": 0,
+   "summary": "empty",
+   "notes": ""
+  },
+  {
+   "id": "87:9531",
+   "name": "Visual Exploration",
+   "tier": "B",
+   "frameCount": 58,
+   "summary": "Home v2 vision (wallet in header, toggle moved, Star Captain strip, offline message, progress widget, action centre on top, announcement from header, wallet peek, hamburger cards), pitch-centre card templates + CTA options, Section 2 home source, 4 AI Copilot flow trays (dupes of Ai Copilot page), designer rationale text, 2 benchmark images.",
+   "notes": "Unresolved comments: 'Reduce clutter', 'can the header be blue?', 'two templates text above/below', 'check localisation', 'add CTA'."
+  },
+  {
+   "id": "507:2820",
+   "name": "Ai Copilot",
+   "tier": "B",
+   "frameCount": 44,
+   "summary": "Rapido Copilot concept: home entry (sparkle button), chat empty state w/ suggestions, demand/earnings/action-plan/payment answers, 3-step coachmark onboarding, Autopilot (settings, active home, auto-accepted ride sheet, action feed, permission ask, daily summary), OA auto-accepting.",
+   "notes": "Four flow-trays are generated-style mocks at 402/390 widths; 508:5375/519/514 rework uses Runway (status bar, Duty Toggle, bottom navigation, Toggle, Service Chips)."
+  },
+  {
+   "id": "87:9532",
+   "name": "----",
+   "tier": "divider",
+   "frameCount": 0,
+   "summary": "empty",
+   "notes": ""
+  },
+  {
+   "id": "1:2",
+   "name": "Kitchen",
+   "tier": "B",
+   "frameCount": 91,
+   "summary": "Working area: home v2 variants, hamburger menus, map-pill ideation (7 options, 15 boards), 'nik' map pill section, HAIL airport precursors, Action Centre component + placements, Wallet Balance Container component set, promo carousel (Bike Lift / New Driver Bonus), benchmark HTML driver app, rejected 4-tab bottom nav.",
+   "notes": "63 top-level nodes incl. loose parts; only frames/instances listed."
+  },
+  {
+   "id": "51:3847",
+   "name": "----",
+   "tier": "divider",
+   "frameCount": 0,
+   "summary": "empty",
+   "notes": ""
+  }
+ ],
+ "frames": [
+  {
+   "id": "119:5672",
+   "page": "51:3848",
+   "name": "Off duty",
+   "size": "360x1118",
+   "tier": "A",
+   "flow": "Home > Off duty",
+   "task": "Captain is off duty; nudged to go on duty; can browse pitch-centre offers",
+   "container": "full-page",
+   "structure": "header(hamburger, legacy 'on duty' pill toggle centred, location-heart icon, bell) > Today's Earnings accordion bar (₹X, caret) > Incentive banner (green, 'Best Performance 18/20 Completed Orders', Know more →, collapse caret) > greeting card (hand-on-phone animation 'final animation/off duty' + 'Hi, Rajeshkumar / Good Morning' + Go On Duty small primary yellow btn) > Stories row (4 ringed avatars: Parcel, Earn 200, Performance, Captain) > 'Only for you' pitch-centre carousel (3 peeking cards: Seamless city, Keep earning ₹50/hr active-plan card w/ timer + progress, Going somewhere) > city footer illustration ('ನನ್ನ ಬೆಂಗಳೂರು ನನ್ನ ರಾಪಿಡೋ')",
+   "components": {
+    "runway": [
+     "Buttons (Runway 671:83990) Small/Primary-Default/Active/No icon"
+    ],
+    "other": [
+     "on duty (legacy duty pill toggle, non-Runway)",
+     "Today's Earnings Accordian",
+     "all pills / small icons (map service pills)",
+     "heart icon inactive",
+     "Component 4 (avatar/location)",
+     "CaretDown",
+     "final animation/off duty",
+     "pitch center cards (local)"
+    ]
+   },
+   "cta": "inline small primary 'Go On Duty' inside greeting card; header toggle also toggles duty",
+   "states": "off-duty variant of header toggle; no map; no bottom nav",
+   "notes": "Map replaced by greeting card when offline (comment: 'Offline will remove the map and bottom sheet. Greeting will remain'). No bottom nav in this frame."
+  },
+  {
+   "id": "434:5842",
+   "page": "51:3848",
+   "name": "Off duty",
+   "size": "360x1118",
+   "tier": "A",
+   "flow": "Home > Off duty (duplicate)",
+   "task": "Same as 119:5672",
+   "container": "full-page",
+   "structure": "Identical layout to 119:5672 (loose frame outside section, placed beside Pitch Centre section)",
+   "components": {
+    "runway": [
+     "Buttons (Runway 671:83990)"
+    ],
+    "other": [
+     "on duty (legacy duty pill toggle, non-Runway)",
+     "Today's Earnings Accordian",
+     "all pills / small icons (map service pills)",
+     "heart icon inactive",
+     "Component 4 (avatar/location)",
+     "CaretDown",
+     "final animation/off duty"
+    ]
+   },
+   "cta": "Go On Duty small primary",
+   "states": "off duty",
+   "notes": "Duplicate of 119:5672; likely kept as source for pitch-centre interaction"
+  },
+  {
+   "id": "51:4186",
+   "page": "51:3848",
+   "name": "On duty",
+   "size": "360x1294",
+   "tier": "A",
+   "flow": "Home > On duty (map card, collapsed pills)",
+   "task": "Captain online, scanning demand on mini-map and offers",
+   "container": "full-page",
+   "structure": "header(hamburger, legacy 'on duty' pill toggle centred, location-heart icon, bell) > Today's Earnings accordion bar (₹X, caret) > Incentive banner > Map card 328x328 (map, emergency/SOS, my-location, collapse/expand buttons; pill grid 2 rows: Surge, Work Zone, Go to, High demand, expand caret) > Stories row > 'Only for you' pitch-centre carousel > city footer",
+   "components": {
+    "runway": [],
+    "other": [
+     "on duty (legacy duty pill toggle, non-Runway)",
+     "Today's Earnings Accordian",
+     "all pills / small icons (map service pills)",
+     "heart icon inactive",
+     "Component 4 (avatar/location)",
+     "CaretDown",
+     "Chevron_Up_Stroke",
+     "pitch center cards (local)"
+    ]
+   },
+   "cta": "no primary CTA; pills are toggles; map expand icon",
+   "states": "pills all inactive",
+   "notes": "Comments: Karthick asks about removing network-quality indicator (yes - remove clutter), map maximize, and offline design. Pill grid = 'Fixed 4 pills + expand' from Kitchen ideation option 6."
+  },
+  {
+   "id": "51:4332",
+   "page": "51:3848",
+   "name": "On duty",
+   "size": "360x1344",
+   "tier": "A",
+   "flow": "Home > On duty (pills expanded vertically)",
+   "task": "Captain opens 'more' pills to see extra layers (Auto Share, Pickup zone, Best Pickup)",
+   "container": "full-page",
+   "structure": "header(hamburger, legacy 'on duty' pill toggle centred, location-heart icon, bell) > Today's Earnings accordion bar (₹X, caret) > Incentive banner > Map card with right-aligned vertical stack of extra pills (Auto Share, Pickup zone[railway], Best Pickup) above collapse chevron > Stories > 'Only for you' swiping stacked card ('Final': Back to back orders / Work Zones) > footer",
+   "components": {
+    "runway": [],
+    "other": [
+     "on duty (legacy duty pill toggle, non-Runway)",
+     "Today's Earnings Accordian",
+     "all pills / small icons (map service pills)",
+     "heart icon inactive",
+     "Component 4 (avatar/location)",
+     "CaretDown",
+     "Final (swiping card stack)",
+     "train trail"
+    ]
+   },
+   "cta": "pill toggles",
+   "states": "expanded pill tray state",
+   "notes": "Comment: 'Map needs to be configurable if we want to hide or re-order' (Karthick)."
+  },
+  {
+   "id": "124:6816",
+   "page": "51:3848",
+   "name": "Pill selected",
+   "size": "360x780",
+   "tier": "A",
+   "flow": "Home > On duty > Surge pill active",
+   "task": "Captain turns on Surge layer: hex heat zones with multiplier tags (1.15x/1.18x) on map card",
+   "container": "full-page",
+   "structure": "header(hamburger, legacy 'on duty' pill toggle centred, location-heart icon, bell) > Today's Earnings accordion bar (₹X, caret) > Incentive banner > Map card with surge hexes + multiplier flags; Surge pill filled dark (active), Work Zone, Go to, Best Pickup, expand > Stories > Only for you stack",
+   "components": {
+    "runway": [],
+    "other": [
+     "on duty (legacy duty pill toggle, non-Runway)",
+     "Today's Earnings Accordian",
+     "all pills / small icons (map service pills)",
+     "heart icon inactive",
+     "Component 4 (avatar/location)",
+     "CaretDown",
+     "Final (swiping card stack)"
+    ]
+   },
+   "cta": "pill toggle",
+   "states": "active pill = dark fill w/ white text",
+   "notes": ""
+  },
+  {
+   "id": "119:6035",
+   "page": "51:3848",
+   "name": "Map expanded",
+   "size": "360x780",
+   "tier": "A",
+   "flow": "Home > On duty > Map maximised",
+   "task": "Captain maximises map to full screen to read surge areas",
+   "container": "fullscreen-takeover",
+   "structure": "Full-bleed map (back arrow top-left) > surge hexes w/ multiplier flags > right-side FABs (my-location, SOS) > bottom gradient scrim with pill rows (Surge active, Work Zone / Go to, Best Pickup, ··· more)",
+   "components": {
+    "runway": [],
+    "other": [
+     "all pills",
+     "small icons",
+     "DotsThree"
+    ]
+   },
+   "cta": "back arrow to collapse",
+   "states": "surge active",
+   "notes": "No header/toggle when expanded."
+  },
+  {
+   "id": "124:6672",
+   "page": "51:3848",
+   "name": "Map expanded - HAIL",
+   "size": "360x780",
+   "tier": "A",
+   "flow": "Home > On duty > Airport HAIL > Map maximised",
+   "task": "Captain in airport priority queue sees status while map maximised",
+   "container": "fullscreen-takeover",
+   "structure": "Full-bleed map + back > surge hexes > FABs > blue status card 'You are on Priority line / Looking for orders' (check badge) attached above pill row (Airport zone active, Surge, Go to, Best Pickup, ···)",
+   "components": {
+    "runway": [],
+    "other": [
+     "all pills (airport-active)",
+     "Group 283106 (priority badge)",
+     "DotsThree"
+    ]
+   },
+   "cta": "none",
+   "states": "priority-line waiting state",
+   "notes": "Airport pill promoted to first slot when inside zone (per comment)."
+  },
+  {
+   "id": "86:1900",
+   "page": "51:3848",
+   "name": "On duty",
+   "size": "360x756",
+   "tier": "A",
+   "flow": "Home > On duty > Airport HAIL > Enter pickup zone",
+   "task": "Captain inside airport pickup zone must enter OTP to join premium/priority queue",
+   "container": "card-on-home",
+   "structure": "header(hamburger, legacy 'on duty' pill toggle centred, location-heart icon, bell) > Today's Earnings accordion bar (₹X, caret) > Incentive banner > Map card with 'Pickup zone' blue polygon + label chip, blue overlay card 'Premium AC / Pickup number: 0-5' + hex airport icon + 'Enter OTP →' small yellow button > pills (Airport zone active first, Surge, Go To, Best Pickup, ···) > Stories > Only for you",
+   "components": {
+    "runway": [
+     "Buttons (Runway 671:83990) Small/Primary-Default/Active/Trailing"
+    ],
+    "other": [
+     "on duty (legacy duty pill toggle, non-Runway)",
+     "Today's Earnings Accordian",
+     "all pills / small icons (map service pills)",
+     "heart icon inactive",
+     "Component 4 (avatar/location)",
+     "CaretDown",
+     "airplanemode_active",
+     "Test/Arrow - Right"
+    ]
+   },
+   "cta": "small primary w/ trailing arrow 'Enter OTP' inside map overlay card",
+   "states": "airport-active pill",
+   "notes": "Comment thread: Airport pill should be first when in zone; 'need a better HAIL flow' - open."
+  },
+  {
+   "id": "86:5367",
+   "page": "51:3848",
+   "name": "On duty",
+   "size": "360x756",
+   "tier": "A",
+   "flow": "Home > On duty > Airport HAIL > OTP success",
+   "task": "Confirmation that captain joined priority line",
+   "container": "modal",
+   "structure": "Home (86:6769) dimmed by dark scrim > centred white dialog 328x256: green check badge + 'You can now get orders in Priority Line'",
+   "components": {
+    "runway": [],
+    "other": [
+     "on duty (legacy duty pill toggle, non-Runway)",
+     "Today's Earnings Accordian",
+     "all pills / small icons (map service pills)",
+     "heart icon inactive",
+     "Component 4 (avatar/location)",
+     "CaretDown",
+     "Frame 2609251 (code digit box)"
+    ]
+   },
+   "cta": "none (auto-dismiss?)",
+   "states": "success",
+   "notes": "No CTA/close on success dialog - dismissal behaviour unspecified."
+  },
+  {
+   "id": "86:6769",
+   "page": "51:3848",
+   "name": "On duty",
+   "size": "360x756",
+   "tier": "A",
+   "flow": "Home > On duty > Airport HAIL > Priority code",
+   "task": "Captain shown directions + priority code to show at parking",
+   "container": "card-on-home",
+   "structure": "header(hamburger, legacy 'on duty' pill toggle centred, location-heart icon, bell) > Today's Earnings accordion bar (₹X, caret) > Incentive banner > Map card w/ Pickup zone chip + blue overlay card 'Go to 4th Floor Rapido Parking to get orders / Priority Code' + 5 digit boxes (5 7 2 1 3) + airport hex icon > pills > Stories",
+   "components": {
+    "runway": [],
+    "other": [
+     "on duty (legacy duty pill toggle, non-Runway)",
+     "Today's Earnings Accordian",
+     "all pills / small icons (map service pills)",
+     "heart icon inactive",
+     "Component 4 (avatar/location)",
+     "CaretDown",
+     "Frame 2609251 (code digit box)"
+    ]
+   },
+   "cta": "none",
+   "states": "info state",
+   "notes": "Digit boxes are a remote component 'Frame 2609251' (unnamed)."
+  },
+  {
+   "id": "86:7005",
+   "page": "51:3848",
+   "name": "On duty",
+   "size": "360x756",
+   "tier": "A",
+   "flow": "Home > On duty > Airport HAIL > In queue",
+   "task": "Captain waiting in priority line",
+   "container": "card-on-home",
+   "structure": "header(hamburger, legacy 'on duty' pill toggle centred, location-heart icon, bell) > Today's Earnings accordion bar (₹X, caret) > Incentive banner > Map card w/ Pickup zone + blue status card 'You are on Priority line / Looking for orders' + badge > pills (Airport zone, Surge, Go To, Best Pickup, ···) > Stories > Only for you",
+   "components": {
+    "runway": [],
+    "other": [
+     "on duty (legacy duty pill toggle, non-Runway)",
+     "Today's Earnings Accordian",
+     "all pills / small icons (map service pills)",
+     "heart icon inactive",
+     "Component 4 (avatar/location)",
+     "CaretDown",
+     "Group 283106"
+    ]
+   },
+   "cta": "none",
+   "states": "waiting/looking-for-orders",
+   "notes": "Same status card reused in 124:6672."
+  },
+  {
+   "id": "312:3669",
+   "page": "51:3848",
+   "name": "On duty",
+   "size": "360x1104",
+   "tier": "A",
+   "flow": "Home > On duty > Pitch Centre interaction (scrolled)",
+   "task": "Scroll interaction showing pitch-centre carousel and new Shortcuts row",
+   "container": "full-page",
+   "structure": "header (hamburger, 'On Duty' Toggle Variant2 green pill, location, bell) > Today's Earnings bar > Incentive banner/Good performance (green, '3 Order Cancelled' + 10 tick/cross streak dots + gold medal) > Stories > Only for you carousel > 'Shortcuts' 3 tiles (Change Number, Update Document, Change Language; illustration bottom-right) > Bottom Nav Final (Home / Orders pill)",
+   "components": {
+    "runway": [],
+    "other": [
+     "Toggle (non-Runway dc229fbb)",
+     "Today's Earnings Accordian",
+     "Bottom Nav Final (non-Runway)",
+     "Bottom Nav Icons",
+     "all pills",
+     "Incentive banner/Good performance (local)"
+    ]
+   },
+   "cta": "none",
+   "states": "scrolled state; map scrolled above viewport",
+   "notes": "Shortcut 'Update Document' is the only document-related entry point on home (no blocking state). New header toggle variant differs from other tier-A frames."
+  },
+  {
+   "id": "306:1771",
+   "page": "51:3848",
+   "name": "On duty",
+   "size": "360x1391",
+   "tier": "A",
+   "flow": "Home > On duty (with bottom nav, performance streak banner)",
+   "task": "Full on-duty home including bottom nav",
+   "container": "full-page",
+   "structure": "header(hamburger, legacy 'on duty' pill toggle centred, location-heart icon, bell) > Today's Earnings accordion bar (₹X, caret) > Incentive banner/Good performance (3 Order Cancelled + streak dots + medal) > Map card (Surge, Work Zone, Go To, High Demand, collapse) > Stories > Only for you stacked 'Work Zones' card > footer > sticky Bottom Nav Final (Home, Orders)",
+   "components": {
+    "runway": [],
+    "other": [
+     "on duty (legacy duty pill toggle, non-Runway)",
+     "Today's Earnings Accordian",
+     "all pills / small icons (map service pills)",
+     "heart icon inactive",
+     "Component 4 (avatar/location)",
+     "CaretDown",
+     "Bottom Nav Final",
+     "Bottom Nav Icons",
+     "Final"
+    ]
+   },
+   "cta": "none",
+   "states": "",
+   "notes": "Loose frame outside section (left). Latest version of on-duty home; mixes legacy 'on duty' pill toggle with new performance banner."
+  },
+  {
+   "id": "87:9541",
+   "page": "87:9531",
+   "name": "Off duty",
+   "size": "360x1382",
+   "tier": "B",
+   "flow": "Home v2 > Off duty",
+   "task": "Offline home exploration",
+   "container": "full-page",
+   "structure": "header v2: hamburger, wallet chip (₹ balance, icon), duty toggle moved right ('Off Duty'/'On Duty'), status bar 12:30 > Star Captain strip (blue) > \"You're off duty / Go on duty to take orders\" > Best Performance streak banner > Stories (Gems added) > Today's progress widget (₹340, Trips 14, Online 6.2 Hrs) > announcement carousel (Sample eyebrow/Headline/Support line) > Shortcuts > footer > bottom nav",
+   "components": {
+    "runway": [],
+    "other": [
+     "Toggle",
+     "Bottom Nav Final",
+     "Wallet Balance Container",
+     "Tabs"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Comment 'Reduce clutter'. Toggle moved to right of header; wallet in header."
+  },
+  {
+   "id": "92:13524",
+   "page": "87:9531",
+   "name": "Announcement",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Home v2 > Promotion takeover from header",
+   "task": "Promotion/feature comms dropping from header instead of in-app video",
+   "container": "home-overlay",
+   "structure": "Header-attached hero (yellow) 'Sample Headline text' + captain image + close X, pushing content down > Star Captain strip > You're offline > streak banner > stories > bottom nav",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Designer rationale: new comms format 'highly important' from the header."
+  },
+  {
+   "id": "87:12228",
+   "page": "87:9531",
+   "name": "Action centre",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Home v2 > Blocking task (wallet low)",
+   "task": "Captain must recharge: 'Orders will be blocked! Wallet balance is low'",
+   "container": "card-on-home",
+   "structure": "Header with negative wallet chip (-₹10, red) > full-width red Action Centre banner directly under header ('Orders will be blocked!' / 'Wallet balance is low' / yellow 'Take Action' pill + wallet illustration) > You're offline > streak banner > stories > bottom nav",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "yellow pill 'Take Action' inside red banner",
+   "states": "",
+   "notes": "Only blocking-task design in file: action centre sits on top under header 'so it looks alarming'. No gear/merch/document-blocking variants."
+  },
+  {
+   "id": "87:9705",
+   "page": "87:9531",
+   "name": "On duty",
+   "size": "360x1695",
+   "tier": "B",
+   "flow": "Home v2 > On duty",
+   "task": "On-duty home v2 with map card",
+   "container": "full-page",
+   "structure": "header v2: hamburger, wallet chip (₹ balance, icon), duty toggle moved right ('Off Duty'/'On Duty'), status bar 12:30 (On duty green) > Star Captain strip > streak banner > Map card (pills) > stories > Only for you carousel > Shortcuts > bottom nav",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Comment: 'can the header be blue?'"
+  },
+  {
+   "id": "91:12497",
+   "page": "87:9531",
+   "name": "Wallet",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Home v2 > Tap wallet chip",
+   "task": "Wallet quick-peek",
+   "container": "bottom-sheet",
+   "structure": "Dimmed home > top-anchored white panel: Rapido Wallet Balance ₹450 / Today's Earnings ₹180 / Last Order ₹90 / 'View Rate Card' outline btn > circular close X",
+   "components": {
+    "runway": [],
+    "other": [
+     "Wallet Balance Container"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Panel drops from top (not bottom sheet) - dismissal via X."
+  },
+  {
+   "id": "87:10377",
+   "page": "87:9531",
+   "name": "Hamburger",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Home v2 > Hamburger drawer",
+   "task": "Side menu redesign with quick-cards",
+   "container": "other",
+   "structure": "Left drawer: green profile header (avatar, Malatesh Aihole 4.8, Best pill) > Star Captain strip > 3 small cards (Earnings, Services, Incentives) > list rows (Rewards, Demand Planner, Help, Notifications w/ subtitles) > bottom toggles Bike Lift Mode / On Ride Booking",
+   "components": {
+    "runway": [],
+    "other": [
+     "Hamburger Menu",
+     "Toggle"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Toggles for Bike Lift and On Ride Booking moved to drawer bottom."
+  },
+  {
+   "id": "92:13774",
+   "page": "87:9531",
+   "name": "image 2762",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Benchmark",
+   "task": "Reference screenshot (third-party recipe app 'RecMe' import sheet)",
+   "container": "other",
+   "structure": "Raster image",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Benchmark, not captain UI."
+  },
+  {
+   "id": "92:13777",
+   "page": "87:9531",
+   "name": "image 2763",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Benchmark",
+   "task": "Reference image",
+   "container": "other",
+   "structure": "Raster image",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "114:5173",
+   "page": "87:9531",
+   "name": "Off duty",
+   "size": "360x1382",
+   "tier": "B",
+   "flow": "Home v2 > Off duty (alt)",
+   "task": "Alternative off-duty v2",
+   "container": "full-page",
+   "structure": "Same as 87:9541 with ₹100 wallet",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Variant copy"
+  },
+  {
+   "id": "114:5422",
+   "page": "87:9531",
+   "name": "Off duty",
+   "size": "360x1382",
+   "tier": "B",
+   "flow": "Home v2 > Off duty (alt)",
+   "task": "Alternative off-duty v2",
+   "container": "full-page",
+   "structure": "Same as 87:9541",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Variant copy"
+  },
+  {
+   "id": "92:13421",
+   "page": "87:9531",
+   "name": "Frame 1261156260",
+   "size": "328x161",
+   "tier": "B",
+   "flow": "Wallet peek card",
+   "task": "Wallet/Earnings/Last order + View Rate Card",
+   "container": "other",
+   "structure": "3-column stat card + outline button",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Component exploration"
+  },
+  {
+   "id": "92:13456",
+   "page": "87:9531",
+   "name": "Frame 1261156260",
+   "size": "328x161",
+   "tier": "B",
+   "flow": "Wallet peek card",
+   "task": "variant",
+   "container": "other",
+   "structure": "same",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Duplicate"
+  },
+  {
+   "id": "92:13490",
+   "page": "87:9531",
+   "name": "Frame 1261156261",
+   "size": "328x387",
+   "tier": "B",
+   "flow": "Wallet peek card",
+   "task": "taller variant",
+   "container": "other",
+   "structure": "same + extra space",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "87:12496",
+   "page": "87:9531",
+   "name": "(TEXT) rationale",
+   "size": "804x480",
+   "tier": "B",
+   "flow": "Designer rationale",
+   "task": "Rationale note for home v2",
+   "container": "other",
+   "structure": "Text: toggle to left (later right) for scalable header; wallet in header; Star Captain outside earnings; offline message; pitch centre template; progress widget; quick nav; map->card when online; action centre on top 'alarming'; hamburger cards; Bike lift & on-ride booking toggles; header comms format",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Key context, not a frame."
+  },
+  {
+   "id": "277:1044",
+   "page": "87:9531",
+   "name": "pitch center",
+   "size": "224x298",
+   "tier": "B",
+   "flow": "Pitch centre card templates",
+   "task": "Active plan card (text above)",
+   "container": "card-on-home",
+   "structure": "Headline 'Keep earning ₹50 every hour' + sub + active-plan widget (timer, progress, ₹500 Minimum Guarantee, Know more) + hero photo",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Comment: two templates - text above vs below; 'check localisation'."
+  },
+  {
+   "id": "277:1307",
+   "page": "87:9531",
+   "name": "pitch center",
+   "size": "224x298",
+   "tier": "B",
+   "flow": "Pitch centre card templates",
+   "task": "Active plan card (text below)",
+   "container": "card-on-home",
+   "structure": "Photo top, text below",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "277:1138",
+   "page": "87:9531",
+   "name": "Seemless city",
+   "size": "224x298",
+   "tier": "B",
+   "flow": "Pitch centre",
+   "task": "New city card (On-duty CTA)",
+   "container": "card-on-home",
+   "structure": "Illustration + 'In a new city? Go On-Duty, Start earning.' + ON DUTY mini toggle",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "277:1398",
+   "page": "87:9531",
+   "name": "Seemless city",
+   "size": "224x298",
+   "tier": "B",
+   "flow": "Pitch centre",
+   "task": "New city card alt",
+   "container": "card-on-home",
+   "structure": "same, text below",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "277:1164",
+   "page": "87:9531",
+   "name": "Seemless city",
+   "size": "224x298",
+   "tier": "B",
+   "flow": "Pitch centre",
+   "task": "Going somewhere / drop-area card",
+   "container": "card-on-home",
+   "structure": "Map illustration w/ Drop area + 'Going Somewhere? Don't Miss Extra Earnings!'",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "277:1427",
+   "page": "87:9531",
+   "name": "Seemless city",
+   "size": "224x298",
+   "tier": "B",
+   "flow": "Pitch centre",
+   "task": "Going somewhere alt",
+   "container": "card-on-home",
+   "structure": "text below variant",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "288:5632",
+   "page": "87:9531",
+   "name": "On duty",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Pitch centre in context",
+   "task": "Home with pitch centre + shortcuts",
+   "container": "full-page",
+   "structure": "Same as tier-A 312:3669 at 780h",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "294:6123",
+   "page": "87:9531",
+   "name": "CTA",
+   "size": "533x351",
+   "tier": "B",
+   "flow": "Comms template",
+   "task": "Announcement card CTA spec",
+   "container": "other",
+   "structure": "Sample eyebrow / Headline / Support line ≤7 words / 'See details' CTA",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Comment: 'nikesh can you try adding CTA'."
+  },
+  {
+   "id": "320:1151",
+   "page": "87:9531",
+   "name": "1",
+   "size": "224x298",
+   "tier": "B",
+   "flow": "Pitch card + CTA options",
+   "task": "CTA 'See Details'",
+   "container": "card-on-home",
+   "structure": "pitch card with button",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "320:1200",
+   "page": "87:9531",
+   "name": "2",
+   "size": "224x298",
+   "tier": "B",
+   "flow": "Pitch card + CTA options",
+   "task": "no CTA",
+   "container": "card-on-home",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "345:1898",
+   "page": "87:9531",
+   "name": "3",
+   "size": "224x298",
+   "tier": "B",
+   "flow": "Pitch card + CTA options",
+   "task": "CTA 'open'",
+   "container": "card-on-home",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "320:1312",
+   "page": "87:9531",
+   "name": "4",
+   "size": "250x372",
+   "tier": "B",
+   "flow": "Pitch card + CTA options",
+   "task": "CTA 'try Commission plan'",
+   "container": "card-on-home",
+   "structure": "larger card",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "346:3517",
+   "page": "87:9531",
+   "name": "On duty",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Section 2 > old home",
+   "task": "Old on-duty home reference",
+   "container": "full-page",
+   "structure": "Tier-A style home",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "488:2455",
+   "page": "87:9531",
+   "name": "Home Page",
+   "size": "360x1473",
+   "tier": "B",
+   "flow": "Section 2 > Home source for Copilot",
+   "task": "Home with Kannada city illustration; base for AI Copilot",
+   "container": "full-page",
+   "structure": "status bar > header > earnings bar > streak banner > map card > stories > pitch carousel > Shortcuts > footer",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "488:2958",
+   "page": "87:9531",
+   "name": "Toggle/Text",
+   "size": "88x32",
+   "tier": "B",
+   "flow": "Section 2 parts",
+   "task": "Earnings toggle text ₹100",
+   "container": "other",
+   "structure": "part",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "488:2456",
+   "page": "87:9531",
+   "name": "header",
+   "size": "360x59",
+   "tier": "B",
+   "flow": "Section 2 parts",
+   "task": "header part",
+   "container": "other",
+   "structure": "part",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "488:2468",
+   "page": "87:9531",
+   "name": "Today's Earnings Accordian",
+   "size": "360x44",
+   "tier": "B",
+   "flow": "Section 2 parts",
+   "task": "instance",
+   "container": "other",
+   "structure": "part",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "488:2806",
+   "page": "87:9531",
+   "name": "Bangalore Illustration",
+   "size": "360x240",
+   "tier": "B",
+   "flow": "Section 2 parts",
+   "task": "footer art",
+   "container": "other",
+   "structure": "raster",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "488:2807",
+   "page": "87:9531",
+   "name": "ನನ್ನ ಬೆಂಗಳೂರು text",
+   "size": "136x56",
+   "tier": "B",
+   "flow": "Section 2 parts",
+   "task": "footer text",
+   "container": "other",
+   "structure": "text",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "488:2808",
+   "page": "87:9531",
+   "name": "Bottom Nav Final",
+   "size": "360x64",
+   "tier": "B",
+   "flow": "Section 2 parts",
+   "task": "bottom nav instance",
+   "container": "other",
+   "structure": "Home/Orders",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "492:7442",
+   "page": "87:9531",
+   "name": "Home entry",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Home entry",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Home with sparkle Copilot button in header (dark earnings bar, streak bonus card, live demand map card w/ zone chips, Stories & News, bottom nav)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 492:7441; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "492:7551",
+   "page": "87:9531",
+   "name": "Empty state",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Empty state",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Greeting 'Hi Rajesh, what do you need?' + 6 suggestion chips (2-col grid) + sticky gradient input (mic, send); header back + 'Rapido Copilot' + EN/हिंदी switch",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 492:7441; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "492:7606",
+   "page": "87:9531",
+   "name": "Demand answer",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Demand answer",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "User bubble right > bot answer w/ live demand heatmap card + 3 zone rows (₹/hr + Navigate btn)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 492:7441; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "492:7682",
+   "page": "87:9531",
+   "name": "Earnings breakdown",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Earnings breakdown",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Bot answer with itemised breakdown table (base fare, incentives, surge, platform fee) + total",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 492:7441; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "492:7744",
+   "page": "87:9531",
+   "name": "Action plan",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Action plan",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Numbered 3-step action plan card",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 492:7441; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "492:7802",
+   "page": "87:9531",
+   "name": "Payment issue",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Payment issue",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Reassurance + 3 stacked CTAs (Mark Payment Not Received primary yellow, Raise a Ticket, Talk to Support outline)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 492:7441; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "490:2240",
+   "page": "87:9531",
+   "name": "Home entry",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Home entry",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Home with sparkle Copilot button in header (dark earnings bar, streak bonus card, live demand map card w/ zone chips, Stories & News, bottom nav)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 490:2239; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "490:2317",
+   "page": "87:9531",
+   "name": "Empty state",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Empty state",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Greeting 'Hi Rajesh, what do you need?' + 6 suggestion chips (2-col grid) + sticky gradient input (mic, send); header back + 'Rapido Copilot' + EN/हिंदी switch",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 490:2239; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "490:2371",
+   "page": "87:9531",
+   "name": "Demand answer",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Demand answer",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "User bubble right > bot answer w/ live demand heatmap card + 3 zone rows (₹/hr + Navigate btn)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 490:2239; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "490:2446",
+   "page": "87:9531",
+   "name": "Earnings breakdown",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Earnings breakdown",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Bot answer with itemised breakdown table (base fare, incentives, surge, platform fee) + total",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 490:2239; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "490:2507",
+   "page": "87:9531",
+   "name": "Action plan",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Action plan",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Numbered 3-step action plan card",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 490:2239; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "490:2564",
+   "page": "87:9531",
+   "name": "Payment issue",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Payment issue",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Reassurance + 3 stacked CTAs (Mark Payment Not Received primary yellow, Raise a Ticket, Talk to Support outline)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 490:2239; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "494:5583",
+   "page": "87:9531",
+   "name": "Home entry",
+   "size": "390x844",
+   "tier": "B",
+   "flow": "Copilot > Home entry",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Home with sparkle Copilot button in header (dark earnings bar, streak bonus card, live demand map card w/ zone chips, Stories & News, bottom nav)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 494:5582; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "494:5690",
+   "page": "87:9531",
+   "name": "Empty state",
+   "size": "390x844",
+   "tier": "B",
+   "flow": "Copilot > Empty state",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Greeting 'Hi Rajesh, what do you need?' + 6 suggestion chips (2-col grid) + sticky gradient input (mic, send); header back + 'Rapido Copilot' + EN/हिंदी switch",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 494:5582; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "494:5741",
+   "page": "87:9531",
+   "name": "Demand answer",
+   "size": "390x844",
+   "tier": "B",
+   "flow": "Copilot > Demand answer",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "User bubble right > bot answer w/ live demand heatmap card + 3 zone rows (₹/hr + Navigate btn)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 494:5582; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "494:5827",
+   "page": "87:9531",
+   "name": "Earnings breakdown",
+   "size": "390x844",
+   "tier": "B",
+   "flow": "Copilot > Earnings breakdown",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Bot answer with itemised breakdown table (base fare, incentives, surge, platform fee) + total",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 494:5582; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "494:5892",
+   "page": "87:9531",
+   "name": "Action plan",
+   "size": "390x844",
+   "tier": "B",
+   "flow": "Copilot > Action plan",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Numbered 3-step action plan card",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 494:5582; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "494:5959",
+   "page": "87:9531",
+   "name": "Payment issue",
+   "size": "390x844",
+   "tier": "B",
+   "flow": "Copilot > Payment issue",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Reassurance + 3 stacked CTAs (Mark Payment Not Received primary yellow, Raise a Ticket, Talk to Support outline)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 494:5582; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "496:7979",
+   "page": "87:9531",
+   "name": "Home entry",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Home entry",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Home with sparkle Copilot button in header (dark earnings bar, streak bonus card, live demand map card w/ zone chips, Stories & News, bottom nav)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 496:7978; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "496:8089",
+   "page": "87:9531",
+   "name": "Empty state",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Empty state",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Greeting 'Hi Rajesh, what do you need?' + 6 suggestion chips (2-col grid) + sticky gradient input (mic, send); header back + 'Rapido Copilot' + EN/हिंदी switch",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 496:7978; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "496:8148",
+   "page": "87:9531",
+   "name": "Demand answer",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Demand answer",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "User bubble right > bot answer w/ live demand heatmap card + 3 zone rows (₹/hr + Navigate btn)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 496:7978; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "496:8229",
+   "page": "87:9531",
+   "name": "Earnings breakdown",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Earnings breakdown",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Bot answer with itemised breakdown table (base fare, incentives, surge, platform fee) + total",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 496:7978; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "496:8296",
+   "page": "87:9531",
+   "name": "Action plan",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Action plan",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Numbered 3-step action plan card",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 496:7978; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "496:8365",
+   "page": "87:9531",
+   "name": "Payment issue",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Payment issue",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Reassurance + 3 stacked CTAs (Mark Payment Not Received primary yellow, Raise a Ticket, Talk to Support outline)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 496:7978; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:2846",
+   "page": "507:2820",
+   "name": "Home entry",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Home entry",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Home with sparkle Copilot button in header (dark earnings bar, streak bonus card, live demand map card w/ zone chips, Stories & News, bottom nav)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:2845; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:2923",
+   "page": "507:2820",
+   "name": "Empty state",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Empty state",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Greeting 'Hi Rajesh, what do you need?' + 6 suggestion chips (2-col grid) + sticky gradient input (mic, send); header back + 'Rapido Copilot' + EN/हिंदी switch",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:2845; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:2977",
+   "page": "507:2820",
+   "name": "Demand answer",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Demand answer",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "User bubble right > bot answer w/ live demand heatmap card + 3 zone rows (₹/hr + Navigate btn)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:2845; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:3052",
+   "page": "507:2820",
+   "name": "Earnings breakdown",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Earnings breakdown",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Bot answer with itemised breakdown table (base fare, incentives, surge, platform fee) + total",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:2845; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:3113",
+   "page": "507:2820",
+   "name": "Action plan",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Action plan",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Numbered 3-step action plan card",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:2845; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:3170",
+   "page": "507:2820",
+   "name": "Payment issue",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Payment issue",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Reassurance + 3 stacked CTAs (Mark Payment Not Received primary yellow, Raise a Ticket, Talk to Support outline)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:2845; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:3216",
+   "page": "507:2820",
+   "name": "Home entry",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Home entry",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Home with sparkle Copilot button in header (dark earnings bar, streak bonus card, live demand map card w/ zone chips, Stories & News, bottom nav)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:3215; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:3293",
+   "page": "507:2820",
+   "name": "Empty state",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Empty state",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Greeting 'Hi Rajesh, what do you need?' + 6 suggestion chips (2-col grid) + sticky gradient input (mic, send); header back + 'Rapido Copilot' + EN/हिंदी switch",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:3215; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:3347",
+   "page": "507:2820",
+   "name": "Demand answer",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Demand answer",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "User bubble right > bot answer w/ live demand heatmap card + 3 zone rows (₹/hr + Navigate btn)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:3215; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:3422",
+   "page": "507:2820",
+   "name": "Earnings breakdown",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Earnings breakdown",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Bot answer with itemised breakdown table (base fare, incentives, surge, platform fee) + total",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:3215; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:3483",
+   "page": "507:2820",
+   "name": "Action plan",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Action plan",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Numbered 3-step action plan card",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:3215; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:3540",
+   "page": "507:2820",
+   "name": "Payment issue",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Payment issue",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Reassurance + 3 stacked CTAs (Mark Payment Not Received primary yellow, Raise a Ticket, Talk to Support outline)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:3215; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:3586",
+   "page": "507:2820",
+   "name": "Home entry",
+   "size": "390x844",
+   "tier": "B",
+   "flow": "Copilot > Home entry",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Home with sparkle Copilot button in header (dark earnings bar, streak bonus card, live demand map card w/ zone chips, Stories & News, bottom nav)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:3585; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:3660",
+   "page": "507:2820",
+   "name": "Empty state",
+   "size": "390x844",
+   "tier": "B",
+   "flow": "Copilot > Empty state",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Greeting 'Hi Rajesh, what do you need?' + 6 suggestion chips (2-col grid) + sticky gradient input (mic, send); header back + 'Rapido Copilot' + EN/हिंदी switch",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:3585; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:3708",
+   "page": "507:2820",
+   "name": "Demand answer",
+   "size": "390x844",
+   "tier": "B",
+   "flow": "Copilot > Demand answer",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "User bubble right > bot answer w/ live demand heatmap card + 3 zone rows (₹/hr + Navigate btn)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:3585; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:3790",
+   "page": "507:2820",
+   "name": "Earnings breakdown",
+   "size": "390x844",
+   "tier": "B",
+   "flow": "Copilot > Earnings breakdown",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Bot answer with itemised breakdown table (base fare, incentives, surge, platform fee) + total",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:3585; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:3851",
+   "page": "507:2820",
+   "name": "Action plan",
+   "size": "390x844",
+   "tier": "B",
+   "flow": "Copilot > Action plan",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Numbered 3-step action plan card",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:3585; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:3914",
+   "page": "507:2820",
+   "name": "Payment issue",
+   "size": "390x844",
+   "tier": "B",
+   "flow": "Copilot > Payment issue",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Reassurance + 3 stacked CTAs (Mark Payment Not Received primary yellow, Raise a Ticket, Talk to Support outline)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:3585; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:3960",
+   "page": "507:2820",
+   "name": "Home entry",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Home entry",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Home with sparkle Copilot button in header (dark earnings bar, streak bonus card, live demand map card w/ zone chips, Stories & News, bottom nav)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:3959; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:4037",
+   "page": "507:2820",
+   "name": "Empty state",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Empty state",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Greeting 'Hi Rajesh, what do you need?' + 6 suggestion chips (2-col grid) + sticky gradient input (mic, send); header back + 'Rapido Copilot' + EN/हिंदी switch",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:3959; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:4092",
+   "page": "507:2820",
+   "name": "Demand answer",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Demand answer",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "User bubble right > bot answer w/ live demand heatmap card + 3 zone rows (₹/hr + Navigate btn)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:3959; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:4168",
+   "page": "507:2820",
+   "name": "Earnings breakdown",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Earnings breakdown",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Bot answer with itemised breakdown table (base fare, incentives, surge, platform fee) + total",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:3959; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:4230",
+   "page": "507:2820",
+   "name": "Action plan",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Action plan",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Numbered 3-step action plan card",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:3959; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "507:4294",
+   "page": "507:2820",
+   "name": "Payment issue",
+   "size": "402x874",
+   "tier": "B",
+   "flow": "Copilot > Payment issue",
+   "task": "AI Copilot concept (generated-looking 'flow-tray' mock, iOS-ish 402/390 widths)",
+   "container": "full-page",
+   "structure": "Reassurance + 3 stacked CTAs (Mark Payment Not Received primary yellow, Raise a Ticket, Talk to Support outline)",
+   "components": {
+    "runway": [],
+    "other": [
+     "emoji icons",
+     "non-Runway"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "tray 507:3959; duplicated across pages (VE trays 490/492/494/496 == Ai Copilot trays 507:2845/3215/3585/3959, copy variations only)"
+  },
+  {
+   "id": "508:4627",
+   "page": "507:2820",
+   "name": "Home Page",
+   "size": "360x1473",
+   "tier": "B",
+   "flow": "Copilot > base home",
+   "task": "Full home (copy of 488:2455)",
+   "container": "full-page",
+   "structure": "as 488:2455",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "508:5828",
+   "page": "507:2820",
+   "name": "Home Page",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Copilot (Runway) > Home entry",
+   "task": "Home with Copilot sparkle button top-right",
+   "container": "full-page",
+   "structure": "Android status bar > header (hamburger, Duty Toggle, sparkle button) > earnings bar > streak banner > map card > pills > stories",
+   "components": {
+    "runway": [
+     "Android status bar",
+     "Duty Toggle",
+     "bottom navigation"
+    ],
+    "other": [
+     "auto_awesome icon",
+     "Today's Earnings Accordian",
+     "all pills"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Runway-based rework of copilot trays."
+  },
+  {
+   "id": "512:7653",
+   "page": "507:2820",
+   "name": "Home Page",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Copilot (Runway) > Home + tooltip intro",
+   "task": "Home with dim scrim + 'Meet Rapido Copilot' card + 'Try Now'",
+   "container": "modal",
+   "structure": "dim home > centred card (sparkle art, title, body, yellow 'Try Now')",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "508:6199",
+   "page": "507:2820",
+   "name": "Home Page",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Copilot (Runway) > Empty",
+   "task": "Greeting + suggestions list",
+   "container": "full-page",
+   "structure": "Internal header (back, Rapido Copilot, EN/हिंदी) > greeting > list suggestions > input",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "520:1532",
+   "page": "507:2820",
+   "name": "Home Page",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Copilot (Runway) > Autopilot settings",
+   "task": "Autopilot rules settings",
+   "container": "full-page",
+   "structure": "Autopilot Mode toggle card > Auto-Accept Rules rows (value + chevron) > Smart Actions toggle rows",
+   "components": {
+    "runway": [
+     "Toggle",
+     "Android status bar"
+    ],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "520:4970",
+   "page": "507:2820",
+   "name": "Home Page",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Copilot (Runway) > Action feed",
+   "task": "What copilot did while driving",
+   "container": "full-page",
+   "structure": "bot message + summary chips + timestamped log + 'View Activity'/'Adjust Rules' outline chips",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "508:6863",
+   "page": "507:2820",
+   "name": "Home Page",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Copilot (Runway) > Demand answer",
+   "task": "demand",
+   "container": "full-page",
+   "structure": "as tray",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "510:7089",
+   "page": "507:2820",
+   "name": "Home Page",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Copilot (Runway) > Action plan + progress",
+   "task": "Action plan with Today's progress + Daily goal widget",
+   "container": "full-page",
+   "structure": "bot answer > progress widget (₹120, Trips, Online, Daily Goal 21%) > numbered plan",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "510:7456",
+   "page": "507:2820",
+   "name": "Home Page",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Copilot (Runway) > Earnings",
+   "task": "earnings breakdown",
+   "container": "full-page",
+   "structure": "as tray",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "520:1600",
+   "page": "507:2820",
+   "name": "screen-1-settings",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Copilot Autopilot > Settings",
+   "task": "Autopilot settings (Runway Duty Toggle inside card)",
+   "container": "full-page",
+   "structure": "same as 519:4792",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "520:2326",
+   "page": "507:2820",
+   "name": "On-Duty OA",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Copilot Autopilot > OA list auto-accepting",
+   "task": "Order list with 'Auto-Accepting' state on OA card",
+   "container": "full-page",
+   "structure": "Orders header (3 Orders, service chips) > OA cards (Auto Boost ₹240, pickup/drop, 'Auto-Accepting' yellow bar) > bottom nav",
+   "components": {
+    "runway": [
+     ".Service Chips",
+     "Service Chip",
+     "bottom navigation",
+     "Reject Button?"
+    ],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Uses Runway OA/service chips."
+  },
+  {
+   "id": "514:1185",
+   "page": "507:2820",
+   "name": "Screen 1 - Step 1 Spotlight",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Copilot onboarding > coachmark 1/3",
+   "task": "Spotlight on sparkle button",
+   "container": "modal",
+   "structure": "dim home > highlighted sparkle button (yellow ring) > tooltip card w/ caret (title, Skip, body, 1/3, Next yellow)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "514:1235",
+   "page": "507:2820",
+   "name": "Screen 2 - Step 2 Capabilities",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Copilot onboarding > 2/3",
+   "task": "Capabilities list",
+   "container": "modal",
+   "structure": "centred card: title, body, 3 capability rows, 2/3, Next",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "514:1288",
+   "page": "507:2820",
+   "name": "Screen 3 - Step 3 Try It",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Copilot onboarding > 3/3",
+   "task": "Try it",
+   "container": "modal",
+   "structure": "tooltip card pointing at sparkle, 'Got it!'",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "519:4792",
+   "page": "507:2820",
+   "name": "screen-1-settings",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Copilot Autopilot > Settings",
+   "task": "Configure auto-accept rules",
+   "container": "full-page",
+   "structure": "Copilot Autopilot card w/ Duty Toggle > Auto-Accept Rules rows > Smart Actions toggles > footnote",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "519:4921",
+   "page": "507:2820",
+   "name": "screen-2-home-active",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Copilot Autopilot > Home active",
+   "task": "Autopilot running over map",
+   "container": "fullscreen-takeover",
+   "structure": "gradient banner 'Copilot Autopilot is Active' + Pause > floating 'Autopilot Running / Scanning' card > full map w/ chips > bottom bar Today's Earnings ₹320 + 'Go Off-Duty' yellow",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "519:4967",
+   "page": "507:2820",
+   "name": "screen-3-auto-accept",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Copilot Autopilot > Ride auto-accepted",
+   "task": "Auto accepted ride",
+   "container": "bottom-sheet",
+   "structure": "map + bottom sheet: 'Ride Auto-Accepted' 3s ago, pickup/drop rows, ₹186, Start Navigation primary, Cancel ride red text link, rule footnote",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "519:5015",
+   "page": "507:2820",
+   "name": "screen-4-action-feed",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Copilot Autopilot > Action feed",
+   "task": "Log of actions",
+   "container": "full-page",
+   "structure": "as 520:4970",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "519:5084",
+   "page": "507:2820",
+   "name": "screen-5-permission",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Copilot Autopilot > Needs permission",
+   "task": "Copilot asks to accept out-of-rule ride",
+   "container": "full-page",
+   "structure": "bot message + yellow-bordered decision card (warning, Accept green / Decline outline)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "519:5147",
+   "page": "507:2820",
+   "name": "screen-6-summary",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Copilot Autopilot > Daily summary",
+   "task": "End-of-day report",
+   "container": "full-page",
+   "structure": "report card (stats 2x2, actions, with/without comparison, star rating)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:613",
+   "page": "1:2",
+   "name": "Off duty",
+   "size": "360x1567",
+   "tier": "B",
+   "flow": "Kitchen > Home v2 off duty",
+   "task": "Home v2 off duty (source of VE 87:9541)",
+   "container": "full-page",
+   "structure": "Home v2 off duty (source of VE 87:9541)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "86:8825",
+   "page": "1:2",
+   "name": "On duty",
+   "size": "360x1695",
+   "tier": "B",
+   "flow": "Kitchen > Home v2 on duty",
+   "task": "Home v2 on duty",
+   "container": "full-page",
+   "structure": "Home v2 on duty",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "86:9208",
+   "page": "1:2",
+   "name": "Wallet",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Kitchen > Wallet peek from header",
+   "task": "Wallet peek from header (top panel)",
+   "container": "bottom-sheet",
+   "structure": "Wallet peek from header (top panel)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:792",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x1567",
+   "tier": "B",
+   "flow": "Kitchen > Home v2 w/ Bike Lift 'Introducing / Join Now' promo carousel",
+   "task": "Home v2 w/ Bike Lift 'Introducing / Join Now' promo carousel + daily goal widget",
+   "container": "full-page",
+   "structure": "Home v2 w/ Bike Lift 'Introducing / Join Now' promo carousel + daily goal widget",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "4:4542",
+   "page": "1:2",
+   "name": "Frame 1739327553",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Kitchen > Hamburger menu v1",
+   "task": "Hamburger menu v1 (My Profile, Earnings/Services/Incentives, list, On ride booking toggle)",
+   "container": "other",
+   "structure": "Hamburger menu v1 (My Profile, Earnings/Services/Incentives, list, On ride booking toggle)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "4:4645",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x718",
+   "tier": "B",
+   "flow": "Kitchen > Old home",
+   "task": "Old home (STAR, OFF DUTY) behind hamburger",
+   "container": "full-page",
+   "structure": "Old home (STAR, OFF DUTY) behind hamburger",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "24:2064",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Kitchen > Map pill exploration",
+   "task": "Map pill exploration (map card)",
+   "container": "full-page",
+   "structure": "Map pill exploration (map card)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "24:2754",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Kitchen > Map w/ surge multipliers",
+   "task": "Map w/ surge multipliers",
+   "container": "full-page",
+   "structure": "Map w/ surge multipliers",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "29:2143",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Kitchen > Map pill exploration",
+   "task": "Map pill exploration",
+   "container": "full-page",
+   "structure": "Map pill exploration",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "29:2324",
+   "page": "1:2",
+   "name": "Frame 1739327699",
+   "size": "323x84",
+   "tier": "B",
+   "flow": "Kitchen > pill rows part",
+   "task": "pill rows part",
+   "container": "other",
+   "structure": "pill rows part",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "24:2406",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Kitchen > Map pill exploration",
+   "task": "Map pill exploration",
+   "container": "full-page",
+   "structure": "Map pill exploration",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "51:3851",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x1527",
+   "tier": "B",
+   "flow": "Kitchen > On duty long",
+   "task": "On duty long (precursor tier A)",
+   "container": "full-page",
+   "structure": "On duty long (precursor tier A)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "51:3885",
+   "page": "1:2",
+   "name": "Frame 2609272",
+   "size": "360x1027",
+   "tier": "B",
+   "flow": "Kitchen > Lower half",
+   "task": "Lower half (stories + Only for you)",
+   "container": "other",
+   "structure": "Lower half (stories + Only for you)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:12499",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x1623",
+   "tier": "B",
+   "flow": "Kitchen > Home w/ 4-tab bottom nav",
+   "task": "Home w/ 4-tab bottom nav (Home, Credit, Profile, Orders) - rejected nav",
+   "container": "full-page",
+   "structure": "Home w/ 4-tab bottom nav (Home, Credit, Profile, Orders) - rejected nav",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Rejected 4-tab bottom nav"
+  },
+  {
+   "id": "1:789",
+   "page": "1:2",
+   "name": "Earnings",
+   "size": "60x37",
+   "tier": "B",
+   "flow": "Kitchen > nav part",
+   "task": "nav part",
+   "container": "other",
+   "structure": "nav part",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "86:8753",
+   "page": "1:2",
+   "name": "Internal page Header",
+   "size": "360x80",
+   "tier": "B",
+   "flow": "Kitchen > Header v2 off-duty w/ wallet",
+   "task": "Header v2 off-duty w/ wallet",
+   "container": "other",
+   "structure": "Header v2 off-duty w/ wallet",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "86:8781",
+   "page": "1:2",
+   "name": "Today's Earnings Accordian",
+   "size": "360x44",
+   "tier": "B",
+   "flow": "Kitchen > 'You are a Star Captain' strip",
+   "task": "'You are a Star Captain' strip",
+   "container": "other",
+   "structure": "'You are a Star Captain' strip",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "86:8722",
+   "page": "1:2",
+   "name": "Today's Earnings Accordian",
+   "size": "360x70",
+   "tier": "B",
+   "flow": "Kitchen > Star Captain + Today's earnings ₹254.04 combo",
+   "task": "Star Captain + Today's earnings ₹254.04 combo",
+   "container": "other",
+   "structure": "Star Captain + Today's earnings ₹254.04 combo",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "86:8471",
+   "page": "1:2",
+   "name": "Earn + Perf. OFF Duty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Kitchen > Off duty with wallet/earnings/last order card + greeting",
+   "task": "Off duty with wallet/earnings/last order card + greeting",
+   "container": "full-page",
+   "structure": "Off duty with wallet/earnings/last order card + greeting",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "28:3255",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Kitchen > empty map frame",
+   "task": "empty map frame",
+   "container": "full-page",
+   "structure": "empty map frame",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "28:3222",
+   "page": "1:2",
+   "name": "Frame 1739327703",
+   "size": "716x285",
+   "tier": "B",
+   "flow": "Kitchen > pill rows part",
+   "task": "pill rows part",
+   "container": "other",
+   "structure": "pill rows part",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "24:2082",
+   "page": "1:2",
+   "name": "Frame 2609153",
+   "size": "297x214",
+   "tier": "B",
+   "flow": "Kitchen > surge hex cluster",
+   "task": "surge hex cluster",
+   "container": "other",
+   "structure": "surge hex cluster",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "24:2177",
+   "page": "1:2",
+   "name": "Frame 472593",
+   "size": "132x73",
+   "tier": "B",
+   "flow": "Kitchen > map part",
+   "task": "map part",
+   "container": "other",
+   "structure": "map part",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:652",
+   "page": "1:2",
+   "name": "Frame 2608931",
+   "size": "30x30",
+   "tier": "B",
+   "flow": "Kitchen > notification count badge '4'",
+   "task": "notification count badge '4'",
+   "container": "other",
+   "structure": "notification count badge '4'",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "20:1807",
+   "page": "1:2",
+   "name": "Final",
+   "size": "360x346",
+   "tier": "B",
+   "flow": "Kitchen > Only-for-you swiping card stack instance",
+   "task": "Only-for-you swiping card stack instance",
+   "container": "other",
+   "structure": "Only-for-you swiping card stack instance",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:729",
+   "page": "1:2",
+   "name": "Frame 1739327541",
+   "size": "998x174",
+   "tier": "B",
+   "flow": "Kitchen > Promo carousel cards: Bike Lift Join Now; New Driver Bonus 1",
+   "task": "Promo carousel cards: Bike Lift Join Now; New Driver Bonus 12/50 trips; pagination",
+   "container": "other",
+   "structure": "Promo carousel cards: Bike Lift Join Now; New Driver Bonus 12/50 trips; pagination",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "86:8409",
+   "page": "1:2",
+   "name": "Internal page Header",
+   "size": "360x114",
+   "tier": "B",
+   "flow": "Kitchen > Header + Star Captain strip",
+   "task": "Header + Star Captain strip",
+   "container": "other",
+   "structure": "Header + Star Captain strip",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:13100",
+   "page": "1:2",
+   "name": "Frame 2609153",
+   "size": "297x214",
+   "tier": "B",
+   "flow": "Kitchen > surge hex cluster",
+   "task": "surge hex cluster",
+   "container": "other",
+   "structure": "surge hex cluster",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:978",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x1567",
+   "tier": "B",
+   "flow": "Kitchen > Off duty home v2 w/ daily goal",
+   "task": "Off duty home v2 w/ daily goal",
+   "container": "full-page",
+   "structure": "Off duty home v2 w/ daily goal",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:1117",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x1567",
+   "tier": "B",
+   "flow": "Kitchen > Off duty v2 w/ promo carousel + progress",
+   "task": "Off duty v2 w/ promo carousel + progress",
+   "container": "full-page",
+   "structure": "Off duty v2 w/ promo carousel + progress",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "10:13599",
+   "page": "1:2",
+   "name": "Frame 1739327554",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Kitchen > Hamburger menu",
+   "task": "Hamburger menu (Purvi) variant",
+   "container": "other",
+   "structure": "Hamburger menu (Purvi) variant",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "10:13702",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x718",
+   "tier": "B",
+   "flow": "Kitchen > Old home under hamburger",
+   "task": "Old home under hamburger",
+   "container": "full-page",
+   "structure": "Old home under hamburger",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "583:5539",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x718",
+   "tier": "B",
+   "flow": "Kitchen > Old home",
+   "task": "Old home (STAR, 4 Order Cancels only)",
+   "container": "full-page",
+   "structure": "Old home (STAR, 4 Order Cancels only)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:10505",
+   "page": "1:2",
+   "name": "Toggle",
+   "size": "146x176",
+   "tier": "B",
+   "flow": "Kitchen > Local duty Toggle component set",
+   "task": "Local duty Toggle component set (Off Duty / On duty)",
+   "container": "other",
+   "structure": "Local duty Toggle component set (Off Duty / On duty)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:10515",
+   "page": "1:2",
+   "name": "text",
+   "size": "238x140",
+   "tier": "B",
+   "flow": "Kitchen > Action centre copy: Orders will be blocked! / Wallet balance",
+   "task": "Action centre copy: Orders will be blocked! / Wallet balance is low / Check",
+   "container": "other",
+   "structure": "Action centre copy: Orders will be blocked! / Wallet balance is low / Check",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:10520",
+   "page": "1:2",
+   "name": "Frame 1739327542",
+   "size": "360x140",
+   "tier": "B",
+   "flow": "Kitchen > Red action-centre banner 'Take action'",
+   "task": "Red action-centre banner 'Take action'",
+   "container": "card-on-home",
+   "structure": "Red action-centre banner 'Take action'",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:10526",
+   "page": "1:2",
+   "name": "Frame 1739327543",
+   "size": "360x140",
+   "tier": "B",
+   "flow": "Kitchen > Red action-centre banner variant",
+   "task": "Red action-centre banner variant",
+   "container": "card-on-home",
+   "structure": "Red action-centre banner variant",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:10532",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x1567",
+   "tier": "B",
+   "flow": "Kitchen > Off duty v2 with daily goal",
+   "task": "Off duty v2 with daily goal",
+   "container": "full-page",
+   "structure": "Off duty v2 with daily goal",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:10722",
+   "page": "1:2",
+   "name": "Internal page Header",
+   "size": "360x80",
+   "tier": "B",
+   "flow": "Kitchen > header v2",
+   "task": "header v2",
+   "container": "other",
+   "structure": "header v2",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:10754",
+   "page": "1:2",
+   "name": "Internal page Header",
+   "size": "360x80",
+   "tier": "B",
+   "flow": "Kitchen > header v2",
+   "task": "header v2",
+   "container": "other",
+   "structure": "header v2",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:10784",
+   "page": "1:2",
+   "name": "Internal page Header",
+   "size": "360x80",
+   "tier": "B",
+   "flow": "Kitchen > header v2",
+   "task": "header v2",
+   "container": "other",
+   "structure": "header v2",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:10816",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x1567",
+   "tier": "B",
+   "flow": "Kitchen > Full map home with 'Take action now",
+   "task": "Full map home with 'Take action now (1)' action centre sheet (Orders will be blocked / Wallet low / Check)",
+   "container": "home-overlay",
+   "structure": "Full map home with 'Take action now (1)' action centre sheet (Orders will be blocked / Wallet low / Check)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Kitchen action-centre placement A: sheet over map"
+  },
+  {
+   "id": "1:11041",
+   "page": "1:2",
+   "name": "Html → Body",
+   "size": "390x1266",
+   "tier": "B",
+   "flow": "Kitchen > Benchmark: generic driver app",
+   "task": "Benchmark: generic driver app (GO ONLINE, daily goal, New Driver Bonus, recent activity)",
+   "container": "other",
+   "structure": "Benchmark: generic driver app (GO ONLINE, daily goal, New Driver Bonus, recent activity)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:11180",
+   "page": "1:2",
+   "name": "Final",
+   "size": "360x346",
+   "tier": "B",
+   "flow": "Kitchen > card stack instance",
+   "task": "card stack instance",
+   "container": "other",
+   "structure": "card stack instance",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:11181",
+   "page": "1:2",
+   "name": "Frame 2609272",
+   "size": "360x20",
+   "tier": "B",
+   "flow": "Kitchen > spacer",
+   "task": "spacer",
+   "container": "other",
+   "structure": "spacer",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:11184",
+   "page": "1:2",
+   "name": "Full home screen",
+   "size": "360x1007",
+   "tier": "B",
+   "flow": "Kitchen > Lower home parts",
+   "task": "Lower home parts",
+   "container": "other",
+   "structure": "Lower home parts",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:11230",
+   "page": "1:2",
+   "name": "Action centre",
+   "size": "360x230",
+   "tier": "B",
+   "flow": "Kitchen > Action centre component instance: 'Take action now' + count ",
+   "task": "Action centre component instance: 'Take action now' + count + carousel of action cards (Orders will be blocked!, Wallet balance is low, Check)",
+   "container": "card-on-home",
+   "structure": "Action centre component instance: 'Take action now' + count + carousel of action cards (Orders will be blocked!, Wallet balance is low, Check)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:11232",
+   "page": "1:2",
+   "name": "header",
+   "size": "360x59",
+   "tier": "B",
+   "flow": "Kitchen > header part",
+   "task": "header part",
+   "container": "other",
+   "structure": "header part",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:11244",
+   "page": "1:2",
+   "name": "Today's Earnings Accordian",
+   "size": "360x44",
+   "tier": "B",
+   "flow": "Kitchen > part",
+   "task": "part",
+   "container": "other",
+   "structure": "part",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:11245",
+   "page": "1:2",
+   "name": "onduty4",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Kitchen > On duty home with Action centre below pills",
+   "task": "On duty home with Action centre below pills",
+   "container": "full-page",
+   "structure": "On duty home with Action centre below pills",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:11361",
+   "page": "1:2",
+   "name": "Wallet Balance Container",
+   "size": "368x610",
+   "tier": "B",
+   "flow": "Kitchen > Local component set: earnings/progress widget variants",
+   "task": "Local component set: earnings/progress widget variants (collapsed ₹340, expanded w/ trips/online/daily goal)",
+   "container": "other",
+   "structure": "Local component set: earnings/progress widget variants (collapsed ₹340, expanded w/ trips/online/daily goal)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:11403",
+   "page": "1:2",
+   "name": "Wallet Balance Container",
+   "size": "328x100",
+   "tier": "B",
+   "flow": "Kitchen > collapsed",
+   "task": "collapsed",
+   "container": "other",
+   "structure": "collapsed",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:11404",
+   "page": "1:2",
+   "name": "Wallet Balance Container",
+   "size": "328x255",
+   "tier": "B",
+   "flow": "Kitchen > expanded + daily goal",
+   "task": "expanded + daily goal",
+   "container": "other",
+   "structure": "expanded + daily goal",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:11445",
+   "page": "1:2",
+   "name": "Wallet Balance Container",
+   "size": "328x219",
+   "tier": "B",
+   "flow": "Kitchen > progress variant",
+   "task": "progress variant",
+   "container": "other",
+   "structure": "progress variant",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "86:8336",
+   "page": "1:2",
+   "name": "Wallet Balance Container",
+   "size": "328x124",
+   "tier": "B",
+   "flow": "Kitchen > progress w/o goal",
+   "task": "progress w/o goal",
+   "container": "other",
+   "structure": "progress w/o goal",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:11480",
+   "page": "1:2",
+   "name": "Earn + Perf. OFF Duty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Kitchen > Off duty w/ wallet stats card",
+   "task": "Off duty w/ wallet stats card",
+   "container": "full-page",
+   "structure": "Off duty w/ wallet stats card",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1:11627",
+   "page": "1:2",
+   "name": "wallet",
+   "size": "24x24",
+   "tier": "B",
+   "flow": "Kitchen > icon",
+   "task": "icon",
+   "container": "other",
+   "structure": "icon",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "28:2067",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Kitchen > Map pills exploration w/ surge",
+   "task": "Map pills exploration w/ surge",
+   "container": "full-page",
+   "structure": "Map pills exploration w/ surge",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "28:2910",
+   "page": "1:2",
+   "name": "Frame 1739327573",
+   "size": "328x188",
+   "tier": "B",
+   "flow": "Kitchen > surge part",
+   "task": "surge part",
+   "container": "other",
+   "structure": "surge part",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "28:2882",
+   "page": "1:2",
+   "name": "Frame 1739327700",
+   "size": "323x84",
+   "tier": "B",
+   "flow": "Kitchen > pill rows",
+   "task": "pill rows",
+   "container": "other",
+   "structure": "pill rows",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "28:1974",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Kitchen > 'nik' map-pill exploration 1",
+   "task": "'nik' map-pill exploration 1",
+   "container": "full-page",
+   "structure": "'nik' map-pill exploration 1",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "28:2256",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Kitchen > nik 2",
+   "task": "nik 2",
+   "container": "full-page",
+   "structure": "nik 2",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "33:2540",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Kitchen > nik 3",
+   "task": "nik 3",
+   "container": "full-page",
+   "structure": "nik 3",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "28:3406",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Kitchen > nik 4",
+   "task": "nik 4",
+   "container": "full-page",
+   "structure": "nik 4",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "28:3614",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Kitchen > nik 5",
+   "task": "nik 5",
+   "container": "full-page",
+   "structure": "nik 5",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "28:3800",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Kitchen > nik 6",
+   "task": "nik 6",
+   "container": "full-page",
+   "structure": "nik 6",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "28:3954",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Kitchen > nik 7",
+   "task": "nik 7",
+   "container": "full-page",
+   "structure": "nik 7",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "34:2583",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Kitchen > map pill exploration",
+   "task": "map pill exploration",
+   "container": "full-page",
+   "structure": "map pill exploration",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "34:2821",
+   "page": "1:2",
+   "name": "Frame 1739327701",
+   "size": "317x80",
+   "tier": "B",
+   "flow": "Kitchen > pills",
+   "task": "pills",
+   "container": "other",
+   "structure": "pills",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "33:2685",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Kitchen > map pill exploration",
+   "task": "map pill exploration",
+   "container": "full-page",
+   "structure": "map pill exploration",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "36:3348",
+   "page": "1:2",
+   "name": "2",
+   "size": "328x337",
+   "tier": "B",
+   "flow": "Kitchen > IDEATION 2 map-pill layout option 2",
+   "task": "IDEATION 2 map-pill layout option 2 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "container": "other",
+   "structure": "IDEATION 2 map-pill layout option 2 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "36:3445",
+   "page": "1:2",
+   "name": "6",
+   "size": "328x337",
+   "tier": "B",
+   "flow": "Kitchen > IDEATION 2 map-pill layout option 6",
+   "task": "IDEATION 2 map-pill layout option 6 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "container": "other",
+   "structure": "IDEATION 2 map-pill layout option 6 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "34:2785",
+   "page": "1:2",
+   "name": "2",
+   "size": "328x337",
+   "tier": "B",
+   "flow": "Kitchen > IDEATION 2 map-pill layout option 2",
+   "task": "IDEATION 2 map-pill layout option 2 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "container": "other",
+   "structure": "IDEATION 2 map-pill layout option 2 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "36:2859",
+   "page": "1:2",
+   "name": "1",
+   "size": "328x337",
+   "tier": "B",
+   "flow": "Kitchen > IDEATION 2 map-pill layout option 1",
+   "task": "IDEATION 2 map-pill layout option 1 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "container": "other",
+   "structure": "IDEATION 2 map-pill layout option 1 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "36:3174",
+   "page": "1:2",
+   "name": "4",
+   "size": "328x337",
+   "tier": "B",
+   "flow": "Kitchen > IDEATION 2 map-pill layout option 4",
+   "task": "IDEATION 2 map-pill layout option 4 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "container": "other",
+   "structure": "IDEATION 2 map-pill layout option 4 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "36:3273",
+   "page": "1:2",
+   "name": "5",
+   "size": "328x337",
+   "tier": "B",
+   "flow": "Kitchen > IDEATION 2 map-pill layout option 5",
+   "task": "IDEATION 2 map-pill layout option 5 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "container": "other",
+   "structure": "IDEATION 2 map-pill layout option 5 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "36:3414",
+   "page": "1:2",
+   "name": "all pills",
+   "size": "328x337",
+   "tier": "B",
+   "flow": "Kitchen > IDEATION 2 map-pill layout option all pills",
+   "task": "IDEATION 2 map-pill layout option all pills (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "container": "other",
+   "structure": "IDEATION 2 map-pill layout option all pills (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "34:2817",
+   "page": "1:2",
+   "name": "2",
+   "size": "328x337",
+   "tier": "B",
+   "flow": "Kitchen > IDEATION 2 map-pill layout option 2",
+   "task": "IDEATION 2 map-pill layout option 2 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "container": "other",
+   "structure": "IDEATION 2 map-pill layout option 2 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "36:3037",
+   "page": "1:2",
+   "name": "1",
+   "size": "328x337",
+   "tier": "B",
+   "flow": "Kitchen > IDEATION 2 map-pill layout option 1",
+   "task": "IDEATION 2 map-pill layout option 1 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "container": "other",
+   "structure": "IDEATION 2 map-pill layout option 1 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "36:3583",
+   "page": "1:2",
+   "name": "8",
+   "size": "328x337",
+   "tier": "B",
+   "flow": "Kitchen > IDEATION 2 map-pill layout option 8",
+   "task": "IDEATION 2 map-pill layout option 8 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "container": "other",
+   "structure": "IDEATION 2 map-pill layout option 8 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "36:3764",
+   "page": "1:2",
+   "name": "10",
+   "size": "328x337",
+   "tier": "B",
+   "flow": "Kitchen > IDEATION 2 map-pill layout option 10",
+   "task": "IDEATION 2 map-pill layout option 10 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "container": "other",
+   "structure": "IDEATION 2 map-pill layout option 10 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "36:3899",
+   "page": "1:2",
+   "name": "12",
+   "size": "328x337",
+   "tier": "B",
+   "flow": "Kitchen > IDEATION 2 map-pill layout option 12",
+   "task": "IDEATION 2 map-pill layout option 12 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "container": "other",
+   "structure": "IDEATION 2 map-pill layout option 12 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "36:3703",
+   "page": "1:2",
+   "name": "9",
+   "size": "328x337",
+   "tier": "B",
+   "flow": "Kitchen > IDEATION 2 map-pill layout option 9",
+   "task": "IDEATION 2 map-pill layout option 9 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "container": "other",
+   "structure": "IDEATION 2 map-pill layout option 9 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "36:3777",
+   "page": "1:2",
+   "name": "11",
+   "size": "328x337",
+   "tier": "B",
+   "flow": "Kitchen > IDEATION 2 map-pill layout option 11",
+   "task": "IDEATION 2 map-pill layout option 11 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "container": "other",
+   "structure": "IDEATION 2 map-pill layout option 11 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "36:3911",
+   "page": "1:2",
+   "name": "13",
+   "size": "328x337",
+   "tier": "B",
+   "flow": "Kitchen > IDEATION 2 map-pill layout option 13",
+   "task": "IDEATION 2 map-pill layout option 13 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "container": "other",
+   "structure": "IDEATION 2 map-pill layout option 13 (options 1-7: single dropdown pill; horizontal scroll; dark dropdown; 2-row + dropdown; ··· first; fixed 4 pills + expand; >4 scroll + expand)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "86:4976",
+   "page": "1:2",
+   "name": "On duty",
+   "size": "360x756",
+   "tier": "B",
+   "flow": "Kitchen > HAIL Premium AC + Enter OTP",
+   "task": "HAIL Premium AC + Enter OTP (precursor of 86:1900)",
+   "container": "card-on-home",
+   "structure": "HAIL Premium AC + Enter OTP (precursor of 86:1900)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "86:5098",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Kitchen > HAIL with full map",
+   "task": "HAIL with full map",
+   "container": "fullscreen-takeover",
+   "structure": "HAIL with full map",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "86:7217",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Kitchen > HAIL priority code + 'Show Priority Code' + action centre sh",
+   "task": "HAIL priority code + 'Show Priority Code' + action centre sheet below",
+   "container": "home-overlay",
+   "structure": "HAIL priority code + 'Show Priority Code' + action centre sheet below",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "86:7360",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Kitchen > HAIL priority code + action centre 'View all'",
+   "task": "HAIL priority code + action centre 'View all'",
+   "container": "home-overlay",
+   "structure": "HAIL priority code + action centre 'View all'",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "86:7525",
+   "page": "1:2",
+   "name": "onduty",
+   "size": "360x800",
+   "tier": "B",
+   "flow": "Kitchen > Priority line waiting + 'Take action now",
+   "task": "Priority line waiting + 'Take action now (3)' bottom sheet w/ 'Orders will be blocked!' dark card + Check",
+   "container": "home-overlay",
+   "structure": "Priority line waiting + 'Take action now (3)' bottom sheet w/ 'Orders will be blocked!' dark card + Check",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Action centre as peeking bottom sheet w/ count badge"
+  },
+  {
+   "id": "86:8030",
+   "page": "1:2",
+   "name": "Quick actions",
+   "size": "360x1678",
+   "tier": "B",
+   "flow": "Kitchen > Off duty with action centre + 'Quick actions' grid",
+   "task": "Off duty with action centre + 'Quick actions' grid (Change Number/Update Document/Change Language)",
+   "container": "full-page",
+   "structure": "Off duty with action centre + 'Quick actions' grid (Change Number/Update Document/Change Language)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  }
+ ],
+ "patternCandidates": [
+  {
+   "name": "Captain home shell (duty-aware)",
+   "whenToUse": "Root hub screen in both duty states",
+   "structure": "Header (hamburger, duty toggle, location/heart, bell) > Today's Earnings accordion bar > Performance/incentive banner > [state slot: Off duty = greeting card + Go On Duty; On duty = map card] > Stories row > 'Only for you' pitch carousel > Shortcuts > city footer > bottom nav (Home/Orders)",
+   "components": "HomepageHeader + DutyToggle (Runway) should replace legacy 'on duty' pill; BottomNavigation (Runway) should replace 'Bottom Nav Final'",
+   "evidence": [
+    "119:5672",
+    "51:4186",
+    "306:1771",
+    "312:3669"
+   ],
+   "variations": "toggle centred (A) vs right with wallet chip (VE)",
+   "conflicts": "Tier A uses 3 different duty toggles (legacy 'on duty' pill, Toggle Variant2 'On Duty', Runway Duty Toggle in Copilot)"
+  },
+  {
+   "name": "Off-duty state = greeting + inline Go On Duty",
+   "whenToUse": "Captain offline; map hidden",
+   "structure": "Illustration + 'Hi, <name> / Good Morning' + small primary 'Go On Duty' replacing map card",
+   "components": "Button small primary (Runway)",
+   "evidence": [
+    "119:5672",
+    "434:5842"
+   ],
+   "variations": "VE: 'You're off duty / Go on duty to take orders' text block w/ no button",
+   "conflicts": "Two offline messages (greeting card vs text headline)"
+  },
+  {
+   "name": "Map card with layer pills (collapsed / expanded / maximised)",
+   "whenToUse": "On duty: show demand layers (Surge, Work Zone, Go To, High demand, Best Pickup, Airport, Auto Share, Pickup zone)",
+   "structure": "328x328 rounded map card, right FABs (maximise, my-location, SOS), bottom gradient with max 4 pills + ··· expand; expanded stacks extra pills vertically; maximise = fullscreen map with back arrow",
+   "components": "'all pills' + 'small icons' (non-Runway); candidate Runway Chip",
+   "evidence": [
+    "51:4186",
+    "51:4332",
+    "124:6816",
+    "119:6035",
+    "36:3483"
+   ],
+   "variations": "7 ideation options; option 6 (fixed 4 + expand) chosen",
+   "conflicts": "Active pill = dark fill; 'Map needs to be configurable' open"
+  },
+  {
+   "name": "Contextual zone status card on map (HAIL / Airport)",
+   "whenToUse": "Captain enters a special pickup zone: show instruction / code / queue status attached to map pills",
+   "structure": "Zone polygon + label chip on map; blue overlay card (title, sub, optional Enter OTP small btn / priority code digit boxes / status w/ badge); zone pill promoted to first slot",
+   "components": "Button small trailing; digit box (Frame 2609251)",
+   "evidence": [
+    "86:1900",
+    "86:6769",
+    "86:7005",
+    "124:6672"
+   ],
+   "variations": "in map card vs maximised map",
+   "conflicts": "Comments: needs better HAIL flow; pill row placement"
+  },
+  {
+   "name": "Success confirmation dialog over home",
+   "whenToUse": "Short confirmation after an action (joined priority line)",
+   "structure": "Dark scrim + centred card: success icon + 1-line message; no CTA",
+   "components": "Modal (Runway) candidate",
+   "evidence": [
+    "86:5367"
+   ],
+   "variations": "",
+   "conflicts": "No dismiss affordance"
+  },
+  {
+   "name": "Action Centre (blocking task surface)",
+   "whenToUse": "Something will block orders (wallet low / negative balance); must be acted on",
+   "structure": "A: full-width red banner directly under header (title 'Orders will be blocked!', reason, yellow 'Take Action' pill, illustration) + red negative wallet chip; B: 'Take action now (n)' section/bottom sheet with horizontally scrolling dark action cards (title, reason, Check →) + View all",
+   "components": "Action centre / Action centre card-v0 (non-Runway remote)",
+   "evidence": [
+    "87:12228",
+    "1:10520",
+    "1:11230",
+    "1:10816",
+    "86:7525",
+    "86:8030"
+   ],
+   "variations": "banner top vs peek sheet over map vs inline below pills",
+   "conflicts": "Not present in tier A; only wallet-low reason designed - no gear/merch/document blocking examples"
+  },
+  {
+   "name": "Pitch centre 'Only for you' carousel",
+   "whenToUse": "Personalised offers/plans/comms on home",
+   "structure": "Section title w/ ornaments > 224x298 peeking cards (headline, sub, optional live widget e.g. Active Plan timer/progress, hero image) or stacked swipe deck ('Final')",
+   "components": "local cards; CTA options (See Details/open/try Commission plan)",
+   "evidence": [
+    "119:5672",
+    "306:1771",
+    "276:5575",
+    "321:1314"
+   ],
+   "variations": "text above vs below templates; carousel vs stacked deck",
+   "conflicts": "CTA presence undecided"
+  },
+  {
+   "name": "Stories row",
+   "whenToUse": "Entry points to content (Parcel, Earn 200, Performance, Captain, Gems)",
+   "structure": "Horizontal 80px ringed avatars + labels",
+   "components": "local",
+   "evidence": [
+    "51:4186",
+    "87:9541"
+   ],
+   "variations": "Gems added in v2",
+   "conflicts": ""
+  },
+  {
+   "name": "Performance / incentive banner",
+   "whenToUse": "Show captain performance at top of home",
+   "structure": "Green card: chip 'Best Performance', headline (18/20 Completed Orders | 3 Order Cancelled), Know more →, photo or medal + streak tick/cross dots, collapsible",
+   "components": "Incentive banner (local)",
+   "evidence": [
+    "51:4186",
+    "306:1771",
+    "312:3669"
+   ],
+   "variations": "photo vs medal+streak",
+   "conflicts": ""
+  },
+  {
+   "name": "Shortcuts tiles",
+   "whenToUse": "Quick account actions (Change Number, Update Document, Change Language)",
+   "structure": "Title + 3 equal tiles (label top-left, illustration bottom-right)",
+   "components": "local",
+   "evidence": [
+    "312:3669",
+    "87:9541",
+    "86:8030"
+   ],
+   "variations": "'Quick actions' naming in Kitchen",
+   "conflicts": "Update Document is the only doc entry; not linked to doc-expiry blocking"
+  },
+  {
+   "name": "Header quick-peek panel (wallet)",
+   "whenToUse": "Tap wallet chip in header to see balance/earnings without navigating",
+   "structure": "Top-anchored card over scrim: balance + 2 stats + 'View Rate Card' outline btn + circular close",
+   "components": "Wallet Balance Container",
+   "evidence": [
+    "91:12497",
+    "86:9208"
+   ],
+   "variations": "",
+   "conflicts": "top-drop panel is not an existing Runway container"
+  },
+  {
+   "name": "Header-dropped announcement",
+   "whenToUse": "High-priority promotion/feature comms",
+   "structure": "Hero banner expands from header (eyebrow, headline, support line ≤7 words, image, close X)",
+   "components": "CTA template",
+   "evidence": [
+    "92:13524",
+    "294:6123"
+   ],
+   "variations": "",
+   "conflicts": ""
+  },
+  {
+   "name": "Copilot entry + chat",
+   "whenToUse": "AI assistant from home sparkle button",
+   "structure": "Header sparkle icon > chat screen (back, title, EN/हिंदी) > greeting + suggestion chips > answer cards (list w/ Navigate, breakdown table, numbered plan, CTA stack) > sticky gradient input w/ mic",
+   "components": "Runway status bar, Duty Toggle, bottom nav in rework",
+   "evidence": [
+    "507:3215",
+    "508:5375"
+   ],
+   "variations": "402 vs 360 widths",
+   "conflicts": "Trays duplicated, non-Runway emoji icons"
+  },
+  {
+   "name": "Coachmark onboarding (3-step)",
+   "whenToUse": "Introduce new home entry point",
+   "structure": "Dim scrim, spotlight ring on target, tooltip card (title, Skip, body, n/3, yellow Next/Got it)",
+   "components": "ToolTip (Runway) candidate",
+   "evidence": [
+    "514:1185",
+    "514:1235",
+    "514:1288"
+   ],
+   "variations": "step 2 centred card",
+   "conflicts": ""
+  }
+ ],
+ "missingComponents": [
+  {
+   "name": "Map card / Map layer pill",
+   "description": "Home map widget with layer pills (active/inactive), FABs, maximise; 'all pills'+'small icons' are from a non-Runway library",
+   "evidence": [
+    "51:4186",
+    "124:6816",
+    "36:3483"
+   ]
+  },
+  {
+   "name": "Today's Earnings bar (accordion)",
+   "description": "Full-width earnings accordion under header; not in Runway",
+   "evidence": [
+    "51:4186"
+   ]
+  },
+  {
+   "name": "Performance / Incentive banner",
+   "description": "Green performance card with streak dots/medal",
+   "evidence": [
+    "306:1771",
+    "51:4186"
+   ]
+  },
+  {
+   "name": "Stories row",
+   "description": "Ringed avatar entry points",
+   "evidence": [
+    "51:4186"
+   ]
+  },
+  {
+   "name": "Pitch centre card + carousel / stacked deck",
+   "description": "Offer card templates incl. live Active Plan widget",
+   "evidence": [
+    "276:5575",
+    "51:4332"
+   ]
+  },
+  {
+   "name": "Action Centre banner / card",
+   "description": "Blocking-task surface with count and actions",
+   "evidence": [
+    "87:12228",
+    "1:11230",
+    "86:7525"
+   ]
+  },
+  {
+   "name": "Zone status overlay card + code digit box",
+   "description": "HAIL/airport instruction card, priority code boxes",
+   "evidence": [
+    "86:1900",
+    "86:6769",
+    "86:7005"
+   ]
+  },
+  {
+   "name": "Shortcut tile",
+   "description": "Illustrated quick-action tile",
+   "evidence": [
+    "312:3669"
+   ]
+  },
+  {
+   "name": "Progress / Wallet Balance Container",
+   "description": "Today's progress (earnings, trips, online, daily goal)",
+   "evidence": [
+    "1:11361",
+    "87:9541"
+   ]
+  },
+  {
+   "name": "Greeting / Go-on-duty card",
+   "description": "Off-duty hero with animation and CTA",
+   "evidence": [
+    "119:5672"
+   ]
+  },
+  {
+   "name": "Chat input + message bubbles (Copilot)",
+   "description": "Gradient input with mic/send, bot/user bubbles, suggestion chips",
+   "evidence": [
+    "507:3215"
+   ]
+  }
+ ],
+ "openQuestions": [
+  "Which duty toggle is canonical on home: legacy 'on duty' pill (tier A), 'Toggle' Variant2 (312:3669), or Runway Duty Toggle (Copilot rework)?",
+  "Action Centre is absent from the tier-A page - is it shipping, and where (top banner vs peek sheet)?",
+  "How do non-wallet blocking tasks (gear/merch checks, document expiry/rejection) surface on home? None designed in this file; 'Update Document' is only a shortcut.",
+  "Map card configurability (hide/reorder) and network-quality indicator removal - confirmed?",
+  "HAIL flow: comments say a better design is needed; success dialog has no dismiss rule.",
+  "Header v2 (wallet chip, toggle right, Star Captain strip) - is it the target for 2026 or exploration only?",
+  "Pitch centre card template: text above vs below, CTA or not, localisation check pending.",
+  "Copilot trays duplicated across Visual Exploration and Ai Copilot pages - which is source of truth?"
+ ],
+ "notCovered": [
+  {
+   "ids": [
+    "276:5575",
+    "321:1314",
+    "294:6123"
+   ],
+   "why": "Pitch-centre/CTA sections: screenshots hit Figma MCP quota; classified from text dump + comments only"
+  },
+  {
+   "ids": [
+    "28:4135",
+    "4:5410",
+    "1:10816",
+    "86:8030",
+    "1:12499",
+    "1:11041",
+    "1:729",
+    "86:7217",
+    "86:7360"
+   ],
+   "why": "Kitchen sections/frames: no individual screenshots (quota); classified from text dump and the 1:612 section screenshot"
+  },
+  {
+   "ids": [
+    "0:1/51:3797"
+   ],
+   "why": "Cover not screenshotted (cover page)"
+  },
+  {
+   "ids": [
+    "*"
+   ],
+   "why": "figma-use SKILL.md MCP resource could not be read (no resource-reader tool in this session); only read-only scripts were run"
+  }
+ ]
+}

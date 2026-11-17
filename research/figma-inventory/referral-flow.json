@@ -1,0 +1,3109 @@
+{
+ "file": {
+  "key": "womPCP4eD8g7afb69X5f6v",
+  "name": "Referral flow",
+  "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/Referral-flow"
+ },
+ "pages": [
+  {
+   "id": "0:1",
+   "name": "🖼️  Cover Image",
+   "tier": "divider",
+   "frameCount": 1,
+   "summary": "Cover: 'Referrals | Reimagining the referral experience', Designer Surabhi, PO Gaurav Kumar; shows v1 homepage mock.",
+   "notes": ""
+  },
+  {
+   "id": "8:1723",
+   "name": "-----------------------------------------------",
+   "tier": "divider",
+   "frameCount": 0,
+   "summary": "empty",
+   "notes": ""
+  },
+  {
+   "id": "310:1868",
+   "name": "Ready for Development (Android)",
+   "tier": "A",
+   "frameCount": 0,
+   "summary": "EMPTY page — no frames.",
+   "notes": "Named tier A but contains nothing; final work lives on Captain Referrals / Joining bonus pages."
+  },
+  {
+   "id": "556:256",
+   "name": "Captain Referrals",
+   "tier": "A",
+   "frameCount": 22,
+   "summary": "Section 'Referral flow' (header 'Referral flow (M2) for captains') with 20 phone frames + prototype arrows: side menu entry > referral home (populated/empty/zero) > how-it-works per campaign > explainer video > contact picker > OS share sheets > Referral Earnings tabs > Referral Details states. Plus 'Visual assets' section (banners per segment: Bike pink, Male Bike, Auto, E Rickshaw, Cab, No active campaigns, explainer video) and 2 loose frames.",
+   "notes": "Judged FINAL (tier A): organised flow section with prototype connectors, a READY_FOR_DEV devStatus on 1031:9166, complete state coverage (populated/empty/zero, not-activated/in-progress/expired/completed), the 7 'M2 <language>' localisation pages are copies of this flow, and the 'Ready for Development' page is empty. Caveat: placeholder copy '[count]' and duplicate rows remain."
+  },
+  {
+   "id": "2363:10229",
+   "name": "Joining bonus visibility",
+   "tier": "A",
+   "frameCount": 8,
+   "summary": "Section 'Joining Bonus Visibility' (target users: referred captains receiving bonus): side menu > home celebration card > referral home > referral earnings w/ bonus strip > incentives w/ bonus strip > wallet transaction 'Joining Bonus' > 'My referral bonus' detail. 'Clicks' annotation boxes + connectors. 5 extra frames outside section (WIP copies/image explorations).",
+   "notes": "Judged FINAL for the section (tier A): structured flow with annotated click paths, READY_FOR_DEV on 2372:13503. Frames outside the section (3447:17807, 3447:20196, 3696:1253, 3712:1286) treated as tier B."
+  },
+  {
+   "id": "3898:768",
+   "name": "Visibility of Bike pink referrals",
+   "tier": "B",
+   "frameCount": 5,
+   "summary": "Loose frames: side menu ₹5000, referral home + promo interstitial, home with inline name/number form, home 'Actions' tile, referral detail with Call; plus research notes (Bike Pink fraud/verification ideas) and 'Vernacular app store optimisation' screenshot.",
+   "notes": "Judged WIP (tier B): no section/flow/connectors, mixed with research notes and an unrelated ASO screenshot; only the Hamburger (3967:20735) is marked READY_FOR_DEV — treat that one frame as final."
+  },
+  {
+   "id": "310:2576",
+   "name": "------------",
+   "tier": "divider",
+   "frameCount": 0,
+   "summary": "empty",
+   "notes": ""
+  },
+  {
+   "id": "204:1259",
+   "name": "🎨Visual exploration",
+   "tier": "B",
+   "frameCount": 0,
+   "summary": "EMPTY page.",
+   "notes": ""
+  },
+  {
+   "id": "9:1735",
+   "name": "Kitchen",
+   "tier": "B",
+   "frameCount": 289,
+   "summary": "442 top-level nodes (289 frames, 6 sections, 9 component sets, 49 rects, 44 texts). ~200 phone-size frames across v1 (Feb), M2 (May-Jun), customer acquisition, joining bonus, Bike Pink visibility and quick-actions explorations; comparison sections 'Redesigned screens' vs 'Production screens'; local component sets (Chips 589:290, earnings cards).",
+   "notes": "Recorded as clusters with id lists; small fragments (<300px) not itemised."
+  },
+  {
+   "id": "17:11323",
+   "name": "Prototype",
+   "tier": "B",
+   "frameCount": 20,
+   "summary": "v1 prototype screens used as UT stimulus (Referral decription per segment, homepage variants, share link, hamburger, training banner) + UT interview notes (Captain 1-4) and blockers/solutions text.",
+   "notes": ""
+  },
+  {
+   "id": "310:2577",
+   "name": "------------",
+   "tier": "divider",
+   "frameCount": 0,
+   "summary": "empty",
+   "notes": ""
+  },
+  {
+   "id": "1:2",
+   "name": "Resources",
+   "tier": "B",
+   "frameCount": 22,
+   "summary": "Existing production referral screens (Android-437..450), current Earnings/Incentives/onduty, competitor & WhatsApp screenshots, Data Questions / PRD (Rough) link tiles, presentation slides and covers.",
+   "notes": ""
+  },
+  {
+   "id": "548:950",
+   "name": "UT Testing Insights",
+   "tier": "B",
+   "frameCount": 7,
+   "summary": "UT synthesis: captain interview notes (offline referrals dominate, discoverability poor via banner, video explained concept best, low-literacy captain uses accessibility read-out), fundamental vs design blockers, tested v1 screens.",
+   "notes": ""
+  },
+  {
+   "id": "2363:10230",
+   "name": "-----------More updates---------------------",
+   "tier": "divider",
+   "frameCount": 0,
+   "summary": "empty",
+   "notes": ""
+  },
+  {
+   "id": "1693:1383",
+   "name": "Customer Acquisition",
+   "tier": "B",
+   "frameCount": 28,
+   "summary": "Section 'Captain led customer acquisition (Phase 1)': customer referrals on referral home, Enter number vs Scan QR, QR card, customer landing with verified-driver card + 50% off, OTP entry, 'You won +₹10' modal, earnings list. Note: top 200 captains print QR for autos in phase 1.",
+   "notes": "WIP (no ready-for-dev marker)."
+  },
+  {
+   "id": "310:1869",
+   "name": "-- Localisation (Captain Referral) ---------------------------",
+   "tier": "divider",
+   "frameCount": 0,
+   "summary": "empty",
+   "notes": ""
+  },
+  {
+   "id": "1985:7297",
+   "name": "M2  Hindi (India)",
+   "tier": "C",
+   "frameCount": 27,
+   "summary": "27 frames (9 Referral homepage, 4 Incentives and more, 8 detail frames, Hamburger, No referrals, 4 fragments) — localised copy of an earlier M2 Captain Referrals flow.",
+   "notes": "Same frame set in all 7 languages; differs from current source (source now has E-Rickshaw/Cab rows, 1028px homepage, contacts screen 1011:8468, video overlay). ~30 strings untranslated in every language."
+  },
+  {
+   "id": "1985:11623",
+   "name": "M2  Bengali (India)",
+   "tier": "C",
+   "frameCount": 27,
+   "summary": "27 frames (9 Referral homepage, 4 Incentives and more, 8 detail frames, Hamburger, No referrals, 4 fragments) — localised copy of an earlier M2 Captain Referrals flow.",
+   "notes": "Same frame set in all 7 languages; differs from current source (source now has E-Rickshaw/Cab rows, 1028px homepage, contacts screen 1011:8468, video overlay). ~30 strings untranslated in every language."
+  },
+  {
+   "id": "1985:15949",
+   "name": "M2  Kannada (India)",
+   "tier": "C",
+   "frameCount": 27,
+   "summary": "27 frames (9 Referral homepage, 4 Incentives and more, 8 detail frames, Hamburger, No referrals, 4 fragments) — localised copy of an earlier M2 Captain Referrals flow.",
+   "notes": "Same frame set in all 7 languages; differs from current source (source now has E-Rickshaw/Cab rows, 1028px homepage, contacts screen 1011:8468, video overlay). ~30 strings untranslated in every language."
+  },
+  {
+   "id": "1985:20275",
+   "name": "M2  Malayalam (India)",
+   "tier": "C",
+   "frameCount": 27,
+   "summary": "27 frames (9 Referral homepage, 4 Incentives and more, 8 detail frames, Hamburger, No referrals, 4 fragments) — localised copy of an earlier M2 Captain Referrals flow.",
+   "notes": "Same frame set in all 7 languages; differs from current source (source now has E-Rickshaw/Cab rows, 1028px homepage, contacts screen 1011:8468, video overlay). ~30 strings untranslated in every language."
+  },
+  {
+   "id": "1985:24601",
+   "name": "M2  Marathi",
+   "tier": "C",
+   "frameCount": 27,
+   "summary": "27 frames (9 Referral homepage, 4 Incentives and more, 8 detail frames, Hamburger, No referrals, 4 fragments) — localised copy of an earlier M2 Captain Referrals flow.",
+   "notes": "Same frame set in all 7 languages; differs from current source (source now has E-Rickshaw/Cab rows, 1028px homepage, contacts screen 1011:8468, video overlay). ~30 strings untranslated in every language."
+  },
+  {
+   "id": "1985:28927",
+   "name": "M2  Tamil (India)",
+   "tier": "C",
+   "frameCount": 27,
+   "summary": "27 frames (9 Referral homepage, 4 Incentives and more, 8 detail frames, Hamburger, No referrals, 4 fragments) — localised copy of an earlier M2 Captain Referrals flow.",
+   "notes": "Same frame set in all 7 languages; differs from current source (source now has E-Rickshaw/Cab rows, 1028px homepage, contacts screen 1011:8468, video overlay). ~30 strings untranslated in every language."
+  },
+  {
+   "id": "1985:37579",
+   "name": "M2  Telugu (India) 1",
+   "tier": "C",
+   "frameCount": 27,
+   "summary": "27 frames (9 Referral homepage, 4 Incentives and more, 8 detail frames, Hamburger, No referrals, 4 fragments) — localised copy of an earlier M2 Captain Referrals flow.",
+   "notes": "Same frame set in all 7 languages; differs from current source (source now has E-Rickshaw/Cab rows, 1028px homepage, contacts screen 1011:8468, video overlay). ~30 strings untranslated in every language."
+  }
+ ],
+ "frames": [
+  {
+   "id": "1031:9166",
+   "page": "Captain Referrals",
+   "name": "Hamburger",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Referral > Entry (side menu)",
+   "task": "Find the referral programme from the side menu",
+   "container": "other",
+   "structure": "Side drawer: profile header(avatar,name,rating) > grouped menu rows(icon,title,subtitle): Earnings, Incentives, Rewards | Service Manager, Demand Planner, Help | Refer Friends 'Earn upto ₹300' > footer toggles My Route Booking / On Ride Booking",
+   "components": {
+    "runway": [
+     "Toggle"
+    ],
+    "other": [
+     "Multi Users_Stroke icon",
+     "local menu rows (not components)"
+    ]
+   },
+   "cta": "none; row tap",
+   "states": "default",
+   "notes": "devStatus READY_FOR_DEV. 'Refer Friends' row added as last menu group."
+  },
+  {
+   "id": "987:6275",
+   "page": "Captain Referrals",
+   "name": "Referral homepage",
+   "size": "360x1028",
+   "tier": "A",
+   "flow": "Referral > Home (multi-campaign)",
+   "task": "See referral earnings, pick which captain type to refer, share code",
+   "container": "full-page",
+   "structure": "InternalPageHeader(back,'Refer and Earn',Help pill) > hero campaign banner image (vernacular) > earnings summary card(label, ₹ amount, chevron; avatar stack + '[count] of your referred captains need to complete their registration') > section title 'Our Referrals' > 5x campaign row(illustration tile, '1 Referral = ₹X', segment label, chevron) > sticky footer(referral code chip + Copy text button, primary 'Refer Friends')",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar",
+     "Button"
+    ],
+    "other": [
+     "campaign row (local)",
+     "earnings card (local)",
+     "hero banner image"
+    ]
+   },
+   "cta": "sticky bottom: full-width primary yellow 'Refer Friends' + tertiary 'Copy' next to code chip",
+   "states": "populated",
+   "notes": "Latest/longest variant (5 segments incl. E-Rickshaw, Cab). Placeholder copy '[count]'."
+  },
+  {
+   "id": "1401:7645",
+   "page": "Captain Referrals",
+   "name": "Referral homepage",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Referral > Home",
+   "task": "Same as 987:6275, earlier copy",
+   "container": "full-page",
+   "structure": "Same anatomy as 987:6275 + 'Terms & Conditions' link block at bottom; earnings card copy 'Ravi and 5 others haven’t yet completed their referral.'",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar",
+     "Button"
+    ],
+    "other": [
+     "campaign row (local)"
+    ]
+   },
+   "cta": "sticky primary 'Refer Friends'",
+   "states": "populated",
+   "notes": "Duplicate row 'Male Bike Captains' listed twice (copy error)."
+  },
+  {
+   "id": "1442:8189",
+   "page": "Captain Referrals",
+   "name": "Referral homepage",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Referral > Home (no active campaign)",
+   "task": "Learn there is no campaign right now",
+   "container": "full-page",
+   "structure": "InternalPageHeader(back,title,Help) > generic hero banner 'Refer friends. Earn rewards.' > earnings card ₹0 with chevron > empty state(megaphone illustration, title 'New referral rewards are coming soon', body) > sticky footer(code chip + Copy, primary 'Refer Friends')",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar",
+     "Button"
+    ],
+    "other": [
+     "empty-state illustration"
+    ]
+   },
+   "cta": "sticky primary 'Refer Friends' still enabled",
+   "states": "empty (no campaigns)",
+   "notes": ""
+  },
+  {
+   "id": "1144:67947",
+   "page": "Captain Referrals",
+   "name": "No referrals",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Referral > Home (zero earnings)",
+   "task": "First visit, no referrals yet",
+   "container": "full-page",
+   "structure": "Header > hero banner 'Refer Woman Bike Captains' > earnings card ₹0 (no avatar row) > Our Referrals list > sticky footer(code text, primary 'Refer Friends')",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar",
+     "Button"
+    ],
+    "other": [
+     "campaign row (local)"
+    ]
+   },
+   "cta": "sticky primary",
+   "states": "zero state",
+   "notes": "Footer differs: code shown as plain text without Copy button and without chip (inconsistent with 987:6275)."
+  },
+  {
+   "id": "1000:7137",
+   "page": "Captain Referrals",
+   "name": "Referral homepage (How it works)",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Referral > Campaign detail",
+   "task": "Understand milestones and what each side earns",
+   "container": "full-page",
+   "structure": "InternalPageHeader(back,'How it works',T&C pill) > campaign hero image > row('How it works' video pill (play icon, outlined), 'Active till 31st May' green) > vertical stepper of 3 milestone cards(number badge, title, timing, 'Friend earns ₹X' link-blue, right green 'You Earn ₹X' block) > sticky footer(code chip + Copy, primary 'Refer Friends')",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar",
+     "Button"
+    ],
+    "other": [
+     "milestone stepper card (local)",
+     "green reward pill (local)"
+    ]
+   },
+   "cta": "sticky primary 'Refer Friends'",
+   "states": "populated",
+   "notes": "Bike Pink campaign."
+  },
+  {
+   "id": "1000:8020",
+   "page": "Captain Referrals",
+   "name": "Referral homepage (How it works)",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Referral > Campaign detail",
+   "task": "Same, other campaign",
+   "container": "full-page",
+   "structure": "Same as 1000:7137",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar",
+     "Button"
+    ],
+    "other": [
+     "milestone stepper card (local)"
+    ]
+   },
+   "cta": "sticky primary",
+   "states": "populated",
+   "notes": "Variant for another segment (image swap)."
+  },
+  {
+   "id": "1002:8112",
+   "page": "Captain Referrals",
+   "name": "Referral homepage (How it works)",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Referral > Campaign detail",
+   "task": "Same, other campaign",
+   "container": "full-page",
+   "structure": "Same as 1000:7137",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar",
+     "Button"
+    ],
+    "other": [
+     "milestone stepper card (local)"
+    ]
+   },
+   "cta": "sticky primary",
+   "states": "populated",
+   "notes": "Variant for third segment."
+  },
+  {
+   "id": "1000:7232",
+   "page": "Captain Referrals",
+   "name": "Referral homepage + video overlay",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Referral > Explainer video",
+   "task": "Watch referral explainer video",
+   "container": "fullscreen-takeover",
+   "structure": "Dimmed referral home behind > close X top-right > rounded video card (Hindi referral video thumbnail) full width",
+   "components": {
+    "runway": [
+     "AndroidStatusBar",
+     "Button"
+    ],
+    "other": [
+     "Close_Filled icon",
+     "Component 1 (local)",
+     "video player (local)"
+    ]
+   },
+   "cta": "close icon only",
+   "states": "playing",
+   "notes": "Background is the older 'Refer Friends, Earn…' home layout (code at top)."
+  },
+  {
+   "id": "1011:8468",
+   "page": "Captain Referrals",
+   "name": "Referral homepage (contacts)",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Referral > Pick contact",
+   "task": "Choose who to invite from phone contacts",
+   "container": "full-page",
+   "structure": "InternalPageHeader(back,'Refer Friends') > search field(icon, 'Search by name or number') > section title 'From your contacts' > list rows(avatar initials circle tinted, name, number, trailing pill button 'Invite' green with WhatsApp icon OR black with SMS icon)",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar"
+    ],
+    "other": [
+     "contact row Frame 1580344936 (local component)",
+     "Invite pill (local, not Runway Button)",
+     "search field (local, not Runway TextField)"
+    ]
+   },
+   "cta": "per-row trailing small pill 'Invite' (WhatsApp green / SMS black)",
+   "states": "populated",
+   "notes": "Channel inferred per contact (WhatsApp vs SMS)."
+  },
+  {
+   "id": "1018:8647",
+   "page": "Captain Referrals",
+   "name": "Native share sheet (screenshot)",
+   "size": "336x720",
+   "tier": "A",
+   "flow": "Referral > Share",
+   "task": "System share sheet with prefilled referral text",
+   "container": "other",
+   "structure": "Android OS share sheet screenshot",
+   "components": {
+    "runway": [],
+    "other": [
+     "OS screenshot"
+    ]
+   },
+   "cta": "OS",
+   "states": "-",
+   "notes": "Reference screenshot, not a design."
+  },
+  {
+   "id": "1018:8650",
+   "page": "Captain Referrals",
+   "name": "SMS composer (screenshot)",
+   "size": "336x720",
+   "tier": "A",
+   "flow": "Referral > Share via SMS",
+   "task": "Prefilled SMS invite",
+   "container": "other",
+   "structure": "Android Messages screenshot with prefilled referral message",
+   "components": {
+    "runway": [],
+    "other": [
+     "OS screenshot"
+    ]
+   },
+   "cta": "OS",
+   "states": "-",
+   "notes": "Reference screenshot."
+  },
+  {
+   "id": "2071:3079",
+   "page": "Captain Referrals",
+   "name": "Incentives and more (Referral Earnings - Activated)",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Referral > Earnings tracker",
+   "task": "Track which referred captains are progressing; nudge them",
+   "container": "full-page",
+   "structure": "InternalPageHeader(back,'Referral Earnings') > summary card(label, ₹235, coin illustration) > PrimaryTabs(Activated | Not Activated) > search field > list rows(photo avatar, green '₹150/300' progress label, name, status 'First ride pending'/'Completed' green/'Expired' red, trailing outlined 'Remind' button or '+₹150' green amount), dividers",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar",
+     "PrimaryTabs",
+     "Button"
+    ],
+    "other": [
+     "referral row Frame 1580344936 (local component)",
+     "search field (local)"
+    ]
+   },
+   "cta": "per-row secondary outlined 'Remind'",
+   "states": "populated; statuses pending/completed/expired",
+   "notes": ""
+  },
+  {
+   "id": "1776:5117",
+   "page": "Captain Referrals",
+   "name": "Incentives and more (Not Activated tab)",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Referral > Earnings tracker",
+   "task": "See referrals who haven't activated, remind them",
+   "container": "full-page",
+   "structure": "Same as 2071:3079 with 'Not Activated' tab selected; rows show status 'Not Activated' (amber) + 'Remind'; first row uses phone number + generic avatar",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar",
+     "PrimaryTabs",
+     "Button"
+    ],
+    "other": [
+     "Not Activated status (local component)"
+    ]
+   },
+   "cta": "per-row 'Remind'",
+   "states": "populated",
+   "notes": ""
+  },
+  {
+   "id": "1000:7631",
+   "page": "Captain Referrals",
+   "name": "Referral Details (Not activated)",
+   "size": "361x720",
+   "tier": "A",
+   "flow": "Referral > Referral detail",
+   "task": "Nudge a friend who hasn't activated",
+   "container": "full-page",
+   "structure": "InternalPageHeader(back,'Referral Details') > profile row(avatar placeholder, phone, '--', right '₹0 Your earnings') > 'Progress' + status tag 'Not Activated' (amber) > '--' > bottom tinted panel(title 'Tell Raj to complete Activation', subtitle, prefilled message box) > primary 'Send Reminder' with WhatsApp icon",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar",
+     "Button"
+    ],
+    "other": [
+     "status tag (local; Runway Tag?)",
+     "message preview box (local)"
+    ]
+   },
+   "cta": "bottom full-width primary with trailing WhatsApp icon",
+   "states": "not activated",
+   "notes": ""
+  },
+  {
+   "id": "1018:8656",
+   "page": "Captain Referrals",
+   "name": "Referral Details (In progress, WhatsApp)",
+   "size": "361x720",
+   "tier": "A",
+   "flow": "Referral > Referral detail",
+   "task": "See milestone progress and nudge next ride",
+   "container": "full-page",
+   "structure": "Header > profile row(photo, name, 'Auto Captain', '₹700 Your earnings') > Progress + 'In progress' blue tag + '1/3 completed' > vertical milestone timeline(done = green number badge + '+₹70' green; locked = grey lock badge, grey amount) > bottom tinted reminder panel(title, message template with [pending_rides] placeholders) > primary 'Send Reminder' + WhatsApp icon",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar",
+     "Button"
+    ],
+    "other": [
+     "milestone timeline (local)",
+     "status tag (local)"
+    ]
+   },
+   "cta": "bottom primary 'Send Reminder'",
+   "states": "in progress",
+   "notes": ""
+  },
+  {
+   "id": "2176:10560",
+   "page": "Captain Referrals",
+   "name": "Referral Details (In progress, alt copy)",
+   "size": "361x720",
+   "tier": "A",
+   "flow": "Referral > Referral detail",
+   "task": "Same",
+   "container": "full-page",
+   "structure": "Same as 1018:8656 (message copy variant)",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar",
+     "Button"
+    ],
+    "other": [
+     "milestone timeline (local)"
+    ]
+   },
+   "cta": "bottom primary",
+   "states": "in progress",
+   "notes": "Copy variant."
+  },
+  {
+   "id": "2194:743",
+   "page": "Captain Referrals",
+   "name": "Referral Details (In progress, SMS)",
+   "size": "361x720",
+   "tier": "A",
+   "flow": "Referral > Referral detail",
+   "task": "Same, SMS channel",
+   "container": "full-page",
+   "structure": "Same as 1018:8656 but CTA icon is SMS 'message' icon and shorter template copy",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar",
+     "Button"
+    ],
+    "other": [
+     "message icon"
+    ]
+   },
+   "cta": "bottom primary 'Send Reminder' + SMS icon",
+   "states": "in progress",
+   "notes": "Channel variant (SMS vs WhatsApp)."
+  },
+  {
+   "id": "1020:8780",
+   "page": "Captain Referrals",
+   "name": "Referral Details (Expired)",
+   "size": "361x720",
+   "tier": "A",
+   "flow": "Referral > Referral detail",
+   "task": "Understand an expired referral",
+   "container": "full-page",
+   "structure": "Header > profile row('₹70 Your reward') > info banner(blue tint, info icon, 'This referral has expired…') > Progress + 'Expired' red tag + 1/3 > timeline with locked steps showing '--' dates; no CTA",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar"
+    ],
+    "other": [
+     "inline info banner (local)",
+     "Info_Circle_Filled icon"
+    ]
+   },
+   "cta": "none",
+   "states": "expired",
+   "notes": "Label switches 'Your earnings' -> 'Your reward'."
+  },
+  {
+   "id": "1028:8921",
+   "page": "Captain Referrals",
+   "name": "Referral Details (Completed)",
+   "size": "361x720",
+   "tier": "A",
+   "flow": "Referral > Referral detail",
+   "task": "See completed referral",
+   "container": "full-page",
+   "structure": "Header > profile row('₹300 Your earnings') > Progress + 'Completed' tag + 3/3 > timeline all green with +₹ amounts and timestamps; no CTA",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar"
+    ],
+    "other": [
+     "milestone timeline (local)"
+    ]
+   },
+   "cta": "none",
+   "states": "completed",
+   "notes": ""
+  },
+  {
+   "id": "2419:6335",
+   "page": "Captain Referrals",
+   "name": "Hamburger (with promo strip)",
+   "size": "360x753",
+   "tier": "A",
+   "flow": "Referral > Entry (side menu)",
+   "task": "Side menu with extra promo strip on top ('Turn Vehicle Numbers Into Rewards')",
+   "container": "other",
+   "structure": "As 1031:9166 plus top promo strip and Refer & Earn container",
+   "components": {
+    "runway": [
+     "Toggle"
+    ],
+    "other": [
+     "local"
+    ]
+   },
+   "cta": "none",
+   "states": "default",
+   "notes": "Outside the Referral flow section; looks like later iteration."
+  },
+  {
+   "id": "1623:1479",
+   "page": "Captain Referrals",
+   "name": "Referral homepage (tall)",
+   "size": "360x870",
+   "tier": "A",
+   "flow": "Referral > Home",
+   "task": "Home with full list",
+   "container": "full-page",
+   "structure": "As 1401:7645 at 870px height",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar",
+     "Button"
+    ],
+    "other": [
+     "campaign row (local)"
+    ]
+   },
+   "cta": "sticky primary",
+   "states": "populated",
+   "notes": "Outside section; duplicate."
+  },
+  {
+   "id": "2872:16502",
+   "page": "Joining bonus visibility",
+   "name": "Hamburger",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Joining bonus > Entry",
+   "task": "Side menu entry to referrals (start of flow)",
+   "container": "other",
+   "structure": "As 1031:9166 + 'Refer & Earn Up to ₹300' container",
+   "components": {
+    "runway": [
+     "Toggle"
+    ],
+    "other": [
+     "local"
+    ]
+   },
+   "cta": "row tap",
+   "states": "default",
+   "notes": ""
+  },
+  {
+   "id": "2372:13503",
+   "page": "Joining bonus visibility",
+   "name": "Quick actions (bonus earned overlay)",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Joining bonus > Home celebration",
+   "task": "Referred captain learns they earned joining bonus, prompted to do more rides",
+   "container": "home-overlay",
+   "structure": "Dimmed home (top bar: hamburger, OFF DUTY toggle, icons; Today's Earnings accordion) > bottom floating card with blue gradient(wallet+coins illustration, 'You earned!', big ₹70, 'Complete 7 more rides to earn ₹500!' with bold numbers) > primary 'Complete Rides & Earn'",
+   "components": {
+    "runway": [
+     "DutyToggle",
+     "Button"
+    ],
+    "other": [
+     "Today's Earnings Accordian (other lib)",
+     "celebration card (local)",
+     "final animation (other lib)"
+    ]
+   },
+   "cta": "in-card full-width primary",
+   "states": "success",
+   "notes": "devStatus READY_FOR_DEV. Not using Runway BottomSheet/Modal; floating card instead."
+  },
+  {
+   "id": "2872:16646",
+   "page": "Joining bonus visibility",
+   "name": "Referral homepage",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Joining bonus > Referral home",
+   "task": "Context: referrer side home",
+   "container": "full-page",
+   "structure": "Same as 987:6275",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar",
+     "Button"
+    ],
+    "other": [
+     "campaign row (local)"
+    ]
+   },
+   "cta": "sticky primary",
+   "states": "populated",
+   "notes": ""
+  },
+  {
+   "id": "2872:16062",
+   "page": "Joining bonus visibility",
+   "name": "Incentives and more (with bonus banner)",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Joining bonus > Referral earnings",
+   "task": "See own joining-bonus progress at top of Referral Earnings",
+   "container": "full-page",
+   "structure": "As 2071:3079 with a top bonus progress strip '₹70 of ₹300 earned / 8 more rides to earn ₹100 / View'",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar",
+     "PrimaryTabs",
+     "Button"
+    ],
+    "other": [
+     "bonus strip (local)"
+    ]
+   },
+   "cta": "'View' text link",
+   "states": "populated",
+   "notes": ""
+  },
+  {
+   "id": "2418:1046",
+   "page": "Joining bonus visibility",
+   "name": "Today-Incentives",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Joining bonus > Incentives",
+   "task": "Bonus progress strip on Incentives page",
+   "container": "full-page",
+   "structure": "InternalPageHeader('Incentives',Help) > bonus progress strip ('₹70 of ₹300 earned', 'View') > SecondaryTabs(Daily|Weekly|Bonus)",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar",
+     "SecondaryTabs",
+     "Button"
+    ],
+    "other": [
+     "bonus strip (local)"
+    ]
+   },
+   "cta": "'View' link",
+   "states": "populated",
+   "notes": "Not screenshotted (quota)."
+  },
+  {
+   "id": "2872:16907",
+   "page": "Joining bonus visibility",
+   "name": "Incentives & more",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Joining bonus > Incentives hub",
+   "task": "Navigation context",
+   "container": "full-page",
+   "structure": "InternalPageHeader > list rows Incentives / Rapido Hunt / My Plans",
+   "components": {
+    "runway": [
+     "InternalPageHeader"
+    ],
+    "other": [
+     "CaretRight",
+     "final (other lib)"
+    ]
+   },
+   "cta": "row tap",
+   "states": "default",
+   "notes": "Not screenshotted (quota)."
+  },
+  {
+   "id": "2365:12542",
+   "page": "Joining bonus visibility",
+   "name": "Earnings (Wallet)",
+   "size": "360x914",
+   "tier": "A",
+   "flow": "Joining bonus > Wallet",
+   "task": "See joining bonus credited in transactions",
+   "container": "full-page",
+   "structure": "Header('Earnings',Help) > tabs(All Earnings|Wallet) > wallet balance card(₹10, outlined 'Money Transfer', '3 transfers left') > info line + Learn More > Refer & Earn promo banner > 'Transaction History' + Filter badge > chip toggle(All Transactions|Pending) > date-grouped transaction rows(icon, title 'Joining Bonus', time, +amount green, chevron)",
+   "components": {
+    "runway": [
+     "Button",
+     "PrimaryTabs",
+     "SecondaryTabs"
+    ],
+    "other": [
+     "Tabs/.2 Tabs (older lib)",
+     ".Buttons(Rejected) (rejected component in use)",
+     "transaction row (local)"
+    ]
+   },
+   "cta": "secondary outlined 'Money Transfer'",
+   "states": "populated",
+   "notes": "Uses '.Buttons(Rejected)' remote component — deprecated button in a shipped flow."
+  },
+  {
+   "id": "2684:40683",
+   "page": "Joining bonus visibility",
+   "name": "My referral bonus",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Joining bonus > Bonus detail",
+   "task": "Referred captain tracks own milestones",
+   "container": "full-page",
+   "structure": "InternalPageHeader(back,'My referral bonus') > blue summary card(wallet illustration, 'Bonus earned ₹70/300', 2 stat tiles: rides left / days left with icons) > 'Your progress' + 'In progress' tag > milestone timeline card(done green, locked grey w/ 'N days left') > sticky primary 'Complete Rides & Earn'",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar",
+     "Button"
+    ],
+    "other": [
+     "stat tile (local)",
+     "milestone timeline (local)"
+    ]
+   },
+   "cta": "sticky primary",
+   "states": "in progress",
+   "notes": "Mirror of referrer's Referral Details timeline, from referee side."
+  },
+  {
+   "id": "3447:17807",
+   "page": "Joining bonus visibility",
+   "name": "Quick actions (copy outside section)",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Joining bonus > Home celebration (WIP)",
+   "task": "Duplicate of 2372:13503",
+   "container": "home-overlay",
+   "structure": "Same as 2372:13503",
+   "components": {
+    "runway": [
+     "DutyToggle",
+     "Button"
+    ],
+    "other": [
+     "local"
+    ]
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Outside section; WIP copy."
+  },
+  {
+   "id": "3447:20196",
+   "page": "Joining bonus visibility",
+   "name": "Frame 1739327748",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Joining bonus > (exploration)",
+   "task": "Image-only exploration",
+   "container": "other",
+   "structure": "No text/instances (image/animation frames)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Not screenshotted (quota)."
+  },
+  {
+   "id": "3696:1253",
+   "page": "Joining bonus visibility",
+   "name": "Frame 1739327749",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Joining bonus > (exploration)",
+   "task": "Image-only exploration",
+   "container": "other",
+   "structure": "No text/instances",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Not screenshotted (quota)."
+  },
+  {
+   "id": "3712:1286",
+   "page": "Joining bonus visibility",
+   "name": "Frame 1739327711",
+   "size": "328x170",
+   "tier": "B",
+   "flow": "Joining bonus > card exploration",
+   "task": "Celebration card fragment",
+   "container": "other",
+   "structure": "Fragment",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "3967:20735",
+   "page": "Visibility of Bike pink referrals",
+   "name": "Hamburger",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Bike Pink visibility > Side menu",
+   "task": "Menu row 'Refer Friends Earn upto ₹5000'",
+   "container": "other",
+   "structure": "As 1031:9166 with ₹5000 headline",
+   "components": {
+    "runway": [
+     "Toggle"
+    ],
+    "other": [
+     "local"
+    ]
+   },
+   "cta": "row tap",
+   "states": "default",
+   "notes": "devStatus READY_FOR_DEV."
+  },
+  {
+   "id": "4270:10913",
+   "page": "Visibility of Bike pink referrals",
+   "name": "Quick actions (home with refer action)",
+   "size": "360x1243",
+   "tier": "B",
+   "flow": "Bike Pink visibility > Home quick action",
+   "task": "Refer entry as a home quick-action tile 'Refer & earn upto ₹5000'",
+   "container": "card-on-home",
+   "structure": "Home: top bar > Today's Earnings > Best Performance card > Opportunities tiles > 'Actions' grid(Change Number, Upload documents, Refer & earn upto ₹5000) > Only for you banner",
+   "components": {
+    "runway": [
+     "DutyToggle"
+    ],
+    "other": [
+     "Today's Earnings Accordian",
+     "Final (other lib)"
+    ]
+   },
+   "cta": "tile tap",
+   "states": "default",
+   "notes": "Not screenshotted (quota). Same idea iterated in Kitchen 4225:8539 / 4261:9681."
+  },
+  {
+   "id": "4150:22983",
+   "page": "Visibility of Bike pink referrals",
+   "name": "Referral homepage + promo overlay",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Bike Pink visibility > Promo interstitial",
+   "task": "Interstitial image card promoting Bike Pink referral",
+   "container": "fullscreen-takeover",
+   "structure": "Dimmed home > close X > tall rounded image card (female captain holding 'You Earned ₹400' phone) > primary 'Earn Up To ₹5,000' below card",
+   "components": {
+    "runway": [
+     "AndroidStatusBar",
+     "Button"
+    ],
+    "other": [
+     "Close_Filled",
+     "Component 1 (local)"
+    ]
+   },
+   "cta": "bottom primary yellow",
+   "states": "default",
+   "notes": ""
+  },
+  {
+   "id": "4338:11661",
+   "page": "Visibility of Bike pink referrals",
+   "name": "Referral homepage (inline add friend)",
+   "size": "360x785",
+   "tier": "B",
+   "flow": "Bike Pink visibility > Home w/ manual entry",
+   "task": "Enter friend's name+number directly on home",
+   "container": "full-page",
+   "structure": "As 987:6275 + inline form (Input Field 'Enter your friend’s name', 'Enter your friend’s number')",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar",
+     "Button",
+     "TextField"
+    ],
+    "other": [
+     "campaign row (local)"
+    ]
+   },
+   "cta": "sticky primary",
+   "states": "filled",
+   "notes": "Only frame in file using Runway Input Field. Not screenshotted (quota)."
+  },
+  {
+   "id": "4338:11584",
+   "page": "Visibility of Bike pink referrals",
+   "name": "Referral Details (Not activated, Call)",
+   "size": "361x720",
+   "tier": "B",
+   "flow": "Bike Pink visibility > Referral detail",
+   "task": "Remind or call un-activated referral",
+   "container": "full-page",
+   "structure": "As 1000:7631 with title 'Remind 987654321…', primary 'Send Reminder' + secondary 'Call'",
+   "components": {
+    "runway": [
+     "InternalPageHeader",
+     "AndroidStatusBar",
+     "Button"
+    ],
+    "other": [
+     "local"
+    ]
+   },
+   "cta": "bottom primary + secondary 'Call'",
+   "states": "not activated",
+   "notes": "Adds Call CTA vs tier A version."
+  },
+  {
+   "id": "1693:4081",
+   "page": "Customer Acquisition",
+   "name": "Referral homepage",
+   "size": "360x1064",
+   "tier": "B",
+   "flow": "Customer acq > Home",
+   "task": "Home now has 'Customer referrals' section (1 Referral = ₹500) above Captain Referrals",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1709:4686",
+   "page": "Customer Acquisition",
+   "name": "Referral homepage",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Customer acq > Choose method",
+   "task": "'How do you want to refer?' Enter Number vs Scan QR",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1908:1247",
+   "page": "Customer Acquisition",
+   "name": "Referral homepage",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Customer acq > Enter rider number",
+   "task": "Variant",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1908:1855",
+   "page": "Customer Acquisition",
+   "name": "Referral homepage",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Customer acq > Enter rider number",
+   "task": "Variant",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1908:1380",
+   "page": "Customer Acquisition",
+   "name": "Referral homepage",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Customer acq > Enter rider number",
+   "task": "Variant",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1908:1541",
+   "page": "Customer Acquisition",
+   "name": "Referral homepage",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Customer acq > Enter rider number",
+   "task": "Variant",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1908:1705",
+   "page": "Customer Acquisition",
+   "name": "Referral homepage",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Customer acq > Enter rider number",
+   "task": "Variant",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "2627:38598",
+   "page": "Customer Acquisition",
+   "name": "Referral homepage",
+   "size": "360x975",
+   "tier": "B",
+   "flow": "Customer acq > Show QR",
+   "task": "'Show this QR to customer', earn ₹30",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "2722:2528",
+   "page": "Customer Acquisition",
+   "name": "Frame 1739327670",
+   "size": "328x384",
+   "tier": "B",
+   "flow": "Customer acq > QR card",
+   "task": "Printable QR card 'Get 50% off your next ride'",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1738:2391",
+   "page": "Customer Acquisition",
+   "name": "Referral homepage",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Customer acq > Success (customer side)",
+   "task": "'You are in!' SMS link",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1811:3175",
+   "page": "Customer Acquisition",
+   "name": "Referral homepage",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Customer acq > Success",
+   "task": "Variant",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1767:4145",
+   "page": "Customer Acquisition",
+   "name": "Referral homepage",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Customer acq > Customer landing",
+   "task": "Verified driver card + 50% off, enter number",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1811:2941",
+   "page": "Customer Acquisition",
+   "name": "Referral homepage",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Customer acq > OTP",
+   "task": "Enter OTP (customer)",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1811:3047",
+   "page": "Customer Acquisition",
+   "name": "Referral homepage",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Customer acq > OTP filled",
+   "task": "OTP filled",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1730:2003",
+   "page": "Customer Acquisition",
+   "name": "Incentives and more",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Customer acq > Earnings list",
+   "task": "Referral list incl. customers",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1730:2156",
+   "page": "Customer Acquisition",
+   "name": "Incentives and more",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Customer acq > Earnings list",
+   "task": "Masked numbers +₹10/+₹25",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1811:3271",
+   "page": "Customer Acquisition",
+   "name": "Modal",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Customer acq > Reward modal",
+   "task": "'You won +₹10'",
+   "container": "modal",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "2634:38792",
+   "page": "Customer Acquisition",
+   "name": "Frame 1739327619",
+   "size": "361x720",
+   "tier": "B",
+   "flow": "Customer acq > Referral detail",
+   "task": "Customer referral progress",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "2634:39830",
+   "page": "Customer Acquisition",
+   "name": "Hamburger",
+   "size": "360x753",
+   "tier": "B",
+   "flow": "Customer acq > Entry",
+   "task": "Menu with promo strip",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "2627:38698",
+   "page": "Customer Acquisition",
+   "name": "Frame 1739327649",
+   "size": "352x547",
+   "tier": "B",
+   "flow": "Customer acq > Driver card",
+   "task": "Verified driver card",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1709:4791",
+   "page": "Customer Acquisition",
+   "name": "Frame 1739327644",
+   "size": "360x547",
+   "tier": "B",
+   "flow": "Customer acq > Driver card",
+   "task": "variant",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1721:2209",
+   "page": "Customer Acquisition",
+   "name": "Frame 1739327645",
+   "size": "360x547",
+   "tier": "B",
+   "flow": "Customer acq > Driver card",
+   "task": "variant",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1721:2266",
+   "page": "Customer Acquisition",
+   "name": "Frame 1739327646",
+   "size": "360x547",
+   "tier": "B",
+   "flow": "Customer acq > OTP card",
+   "task": "Ask customer to share OTP",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1721:2318",
+   "page": "Customer Acquisition",
+   "name": "Frame 1739327647",
+   "size": "360x547",
+   "tier": "B",
+   "flow": "Customer acq > OTP card",
+   "task": "variant",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1721:2369",
+   "page": "Customer Acquisition",
+   "name": "Frame 1739327648",
+   "size": "360x547",
+   "tier": "B",
+   "flow": "Customer acq > Reward card",
+   "task": "You won +₹10",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1693:3126",
+   "page": "Customer Acquisition",
+   "name": "Referral homepage",
+   "size": "360x870",
+   "tier": "B",
+   "flow": "Customer acq > (old home copy)",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1814:4809",
+   "page": "Customer Acquisition",
+   "name": "Incentives and more",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Customer acq > Earnings list",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1762:4081",
+   "page": "Customer Acquisition",
+   "name": "Android",
+   "size": "360x760",
+   "tier": "B",
+   "flow": "Customer acq > SMS notification",
+   "task": "Lockscreen notification mock",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "418:2087",
+   "page": "Prototype",
+   "name": "Referral decription (female)",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Referral v1 prototype (UT stimulus)",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Early v1: 'Earn up to ₹300 per captain you refer' design used in UT."
+  },
+  {
+   "id": "418:2146",
+   "page": "Prototype",
+   "name": "Referral decription (auto)",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Referral v1 prototype (UT stimulus)",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Early v1: 'Earn up to ₹300 per captain you refer' design used in UT."
+  },
+  {
+   "id": "418:2205",
+   "page": "Prototype",
+   "name": "Referral decription (male)",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Referral v1 prototype (UT stimulus)",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Early v1: 'Earn up to ₹300 per captain you refer' design used in UT."
+  },
+  {
+   "id": "418:2264",
+   "page": "Prototype",
+   "name": "Referral homepage v1",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Referral v1 prototype (UT stimulus)",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Early v1: 'Earn up to ₹300 per captain you refer' design used in UT."
+  },
+  {
+   "id": "508:3233",
+   "page": "Prototype",
+   "name": "Referral homepage v1",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Referral v1 prototype (UT stimulus)",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Early v1: 'Earn up to ₹300 per captain you refer' design used in UT."
+  },
+  {
+   "id": "508:1613",
+   "page": "Prototype",
+   "name": "Referral homepage v1",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Referral v1 prototype (UT stimulus)",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Early v1: 'Earn up to ₹300 per captain you refer' design used in UT."
+  },
+  {
+   "id": "508:1864",
+   "page": "Prototype",
+   "name": "Referral homepage 'Who do you want to refer'",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Referral v1 prototype (UT stimulus)",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Early v1: 'Earn up to ₹300 per captain you refer' design used in UT."
+  },
+  {
+   "id": "528:1132",
+   "page": "Prototype",
+   "name": "Referral homepage v1b",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Referral v1 prototype (UT stimulus)",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Early v1: 'Earn up to ₹300 per captain you refer' design used in UT."
+  },
+  {
+   "id": "418:2460",
+   "page": "Prototype",
+   "name": "Referral homepage v1",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Referral v1 prototype (UT stimulus)",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Early v1: 'Earn up to ₹300 per captain you refer' design used in UT."
+  },
+  {
+   "id": "418:2655",
+   "page": "Prototype",
+   "name": "Share link",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Referral v1 prototype (UT stimulus)",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Early v1: 'Earn up to ₹300 per captain you refer' design used in UT."
+  },
+  {
+   "id": "508:3676",
+   "page": "Prototype",
+   "name": "Share link",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Referral v1 prototype (UT stimulus)",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Early v1: 'Earn up to ₹300 per captain you refer' design used in UT."
+  },
+  {
+   "id": "418:2808",
+   "page": "Prototype",
+   "name": "No Referrals",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Referral v1 prototype (UT stimulus)",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Early v1: 'Earn up to ₹300 per captain you refer' design used in UT."
+  },
+  {
+   "id": "418:2810",
+   "page": "Prototype",
+   "name": "Frame 2609368",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Referral v1 prototype (UT stimulus)",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Early v1: 'Earn up to ₹300 per captain you refer' design used in UT."
+  },
+  {
+   "id": "418:2814",
+   "page": "Prototype",
+   "name": "Hamburger",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Referral v1 prototype (UT stimulus)",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Early v1: 'Earn up to ₹300 per captain you refer' design used in UT."
+  },
+  {
+   "id": "471:1458",
+   "page": "Prototype",
+   "name": "Hamburger",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Referral v1 prototype (UT stimulus)",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Early v1: 'Earn up to ₹300 per captain you refer' design used in UT."
+  },
+  {
+   "id": "418:2951",
+   "page": "Prototype",
+   "name": "Frame 2609369",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Referral v1 prototype (UT stimulus)",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Early v1: 'Earn up to ₹300 per captain you refer' design used in UT."
+  },
+  {
+   "id": "418:2953",
+   "page": "Prototype",
+   "name": "Frame 2609362",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Referral v1 prototype (UT stimulus)",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Early v1: 'Earn up to ₹300 per captain you refer' design used in UT."
+  },
+  {
+   "id": "420:3931",
+   "page": "Prototype",
+   "name": "Training Banner",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Referral v1 prototype (UT stimulus)",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Early v1: 'Earn up to ₹300 per captain you refer' design used in UT."
+  },
+  {
+   "id": "420:4236",
+   "page": "Prototype",
+   "name": "Referral decription",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Referral v1 prototype (UT stimulus)",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Early v1: 'Earn up to ₹300 per captain you refer' design used in UT."
+  },
+  {
+   "id": "435:8134",
+   "page": "Prototype",
+   "name": "onduty home",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Referral v1 prototype (UT stimulus)",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Early v1: 'Earn up to ₹300 per captain you refer' design used in UT."
+  },
+  {
+   "id": "2:41",
+   "page": "Resources",
+   "name": "Android - 439",
+   "size": "",
+   "tier": "B",
+   "flow": "Resources (current prod + competitor refs)",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-43x/44x = existing production referral screens ('Total Earnings ₹1300 / Active Campaigns'). Also 25+ pasted screenshots (competitor/WhatsApp images), Data Questions & PRD link frames."
+  },
+  {
+   "id": "2:302",
+   "page": "Resources",
+   "name": "Android - 442",
+   "size": "",
+   "tier": "B",
+   "flow": "Resources (current prod + competitor refs)",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-43x/44x = existing production referral screens ('Total Earnings ₹1300 / Active Campaigns'). Also 25+ pasted screenshots (competitor/WhatsApp images), Data Questions & PRD link frames."
+  },
+  {
+   "id": "2:563",
+   "page": "Resources",
+   "name": "Android - 443",
+   "size": "",
+   "tier": "B",
+   "flow": "Resources (current prod + competitor refs)",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-43x/44x = existing production referral screens ('Total Earnings ₹1300 / Active Campaigns'). Also 25+ pasted screenshots (competitor/WhatsApp images), Data Questions & PRD link frames."
+  },
+  {
+   "id": "2:824",
+   "page": "Resources",
+   "name": "Android - 438",
+   "size": "",
+   "tier": "B",
+   "flow": "Resources (current prod + competitor refs)",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-43x/44x = existing production referral screens ('Total Earnings ₹1300 / Active Campaigns'). Also 25+ pasted screenshots (competitor/WhatsApp images), Data Questions & PRD link frames."
+  },
+  {
+   "id": "2:979",
+   "page": "Resources",
+   "name": "Android - 449",
+   "size": "",
+   "tier": "B",
+   "flow": "Resources (current prod + competitor refs)",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-43x/44x = existing production referral screens ('Total Earnings ₹1300 / Active Campaigns'). Also 25+ pasted screenshots (competitor/WhatsApp images), Data Questions & PRD link frames."
+  },
+  {
+   "id": "2:1134",
+   "page": "Resources",
+   "name": "Android - 450",
+   "size": "",
+   "tier": "B",
+   "flow": "Resources (current prod + competitor refs)",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-43x/44x = existing production referral screens ('Total Earnings ₹1300 / Active Campaigns'). Also 25+ pasted screenshots (competitor/WhatsApp images), Data Questions & PRD link frames."
+  },
+  {
+   "id": "2:1289",
+   "page": "Resources",
+   "name": "Android - 444",
+   "size": "",
+   "tier": "B",
+   "flow": "Resources (current prod + competitor refs)",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-43x/44x = existing production referral screens ('Total Earnings ₹1300 / Active Campaigns'). Also 25+ pasted screenshots (competitor/WhatsApp images), Data Questions & PRD link frames."
+  },
+  {
+   "id": "2:1395",
+   "page": "Resources",
+   "name": "Android - 445",
+   "size": "",
+   "tier": "B",
+   "flow": "Resources (current prod + competitor refs)",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-43x/44x = existing production referral screens ('Total Earnings ₹1300 / Active Campaigns'). Also 25+ pasted screenshots (competitor/WhatsApp images), Data Questions & PRD link frames."
+  },
+  {
+   "id": "2:1492",
+   "page": "Resources",
+   "name": "Android - 441",
+   "size": "",
+   "tier": "B",
+   "flow": "Resources (current prod + competitor refs)",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-43x/44x = existing production referral screens ('Total Earnings ₹1300 / Active Campaigns'). Also 25+ pasted screenshots (competitor/WhatsApp images), Data Questions & PRD link frames."
+  },
+  {
+   "id": "2:1524",
+   "page": "Resources",
+   "name": "Android - 437",
+   "size": "",
+   "tier": "B",
+   "flow": "Resources (current prod + competitor refs)",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-43x/44x = existing production referral screens ('Total Earnings ₹1300 / Active Campaigns'). Also 25+ pasted screenshots (competitor/WhatsApp images), Data Questions & PRD link frames."
+  },
+  {
+   "id": "214:1280",
+   "page": "Resources",
+   "name": "For New Captains",
+   "size": "",
+   "tier": "B",
+   "flow": "Resources (current prod + competitor refs)",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-43x/44x = existing production referral screens ('Total Earnings ₹1300 / Active Campaigns'). Also 25+ pasted screenshots (competitor/WhatsApp images), Data Questions & PRD link frames."
+  },
+  {
+   "id": "214:1509",
+   "page": "Resources",
+   "name": "Earnings",
+   "size": "",
+   "tier": "B",
+   "flow": "Resources (current prod + competitor refs)",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-43x/44x = existing production referral screens ('Total Earnings ₹1300 / Active Campaigns'). Also 25+ pasted screenshots (competitor/WhatsApp images), Data Questions & PRD link frames."
+  },
+  {
+   "id": "214:1625",
+   "page": "Resources",
+   "name": "onduty",
+   "size": "",
+   "tier": "B",
+   "flow": "Resources (current prod + competitor refs)",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-43x/44x = existing production referral screens ('Total Earnings ₹1300 / Active Campaigns'). Also 25+ pasted screenshots (competitor/WhatsApp images), Data Questions & PRD link frames."
+  },
+  {
+   "id": "214:1816",
+   "page": "Resources",
+   "name": "Incentives and more",
+   "size": "",
+   "tier": "B",
+   "flow": "Resources (current prod + competitor refs)",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-43x/44x = existing production referral screens ('Total Earnings ₹1300 / Active Campaigns'). Also 25+ pasted screenshots (competitor/WhatsApp images), Data Questions & PRD link frames."
+  },
+  {
+   "id": "370:1926",
+   "page": "Resources",
+   "name": "Referral decription",
+   "size": "",
+   "tier": "B",
+   "flow": "Resources (current prod + competitor refs)",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-43x/44x = existing production referral screens ('Total Earnings ₹1300 / Active Campaigns'). Also 25+ pasted screenshots (competitor/WhatsApp images), Data Questions & PRD link frames."
+  },
+  {
+   "id": "370:1985",
+   "page": "Resources",
+   "name": "Referral homepage",
+   "size": "",
+   "tier": "B",
+   "flow": "Resources (current prod + competitor refs)",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-43x/44x = existing production referral screens ('Total Earnings ₹1300 / Active Campaigns'). Also 25+ pasted screenshots (competitor/WhatsApp images), Data Questions & PRD link frames."
+  },
+  {
+   "id": "387:1977",
+   "page": "Resources",
+   "name": "Referral homepage",
+   "size": "",
+   "tier": "B",
+   "flow": "Resources (current prod + competitor refs)",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-43x/44x = existing production referral screens ('Total Earnings ₹1300 / Active Campaigns'). Also 25+ pasted screenshots (competitor/WhatsApp images), Data Questions & PRD link frames."
+  },
+  {
+   "id": "387:2171",
+   "page": "Resources",
+   "name": "Referral homepage",
+   "size": "",
+   "tier": "B",
+   "flow": "Resources (current prod + competitor refs)",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-43x/44x = existing production referral screens ('Total Earnings ₹1300 / Active Campaigns'). Also 25+ pasted screenshots (competitor/WhatsApp images), Data Questions & PRD link frames."
+  },
+  {
+   "id": "387:1672",
+   "page": "Resources",
+   "name": "Slide 16:9 - 1",
+   "size": "",
+   "tier": "B",
+   "flow": "Resources (current prod + competitor refs)",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-43x/44x = existing production referral screens ('Total Earnings ₹1300 / Active Campaigns'). Also 25+ pasted screenshots (competitor/WhatsApp images), Data Questions & PRD link frames."
+  },
+  {
+   "id": "387:1681",
+   "page": "Resources",
+   "name": "Slide 16:9 - 2",
+   "size": "",
+   "tier": "B",
+   "flow": "Resources (current prod + competitor refs)",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-43x/44x = existing production referral screens ('Total Earnings ₹1300 / Active Campaigns'). Also 25+ pasted screenshots (competitor/WhatsApp images), Data Questions & PRD link frames."
+  },
+  {
+   "id": "391:618",
+   "page": "Resources",
+   "name": "Cover",
+   "size": "",
+   "tier": "B",
+   "flow": "Resources (current prod + competitor refs)",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-43x/44x = existing production referral screens ('Total Earnings ₹1300 / Active Campaigns'). Also 25+ pasted screenshots (competitor/WhatsApp images), Data Questions & PRD link frames."
+  },
+  {
+   "id": "391:646",
+   "page": "Resources",
+   "name": "Cover",
+   "size": "",
+   "tier": "B",
+   "flow": "Resources (current prod + competitor refs)",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-43x/44x = existing production referral screens ('Total Earnings ₹1300 / Active Campaigns'). Also 25+ pasted screenshots (competitor/WhatsApp images), Data Questions & PRD link frames."
+  },
+  {
+   "id": "548:956",
+   "page": "UT Testing Insights",
+   "name": "Frame 1 (UT synthesis board 1000x4984)",
+   "size": "",
+   "tier": "B",
+   "flow": "UT insights",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "548:977",
+   "page": "UT Testing Insights",
+   "name": "Referral homepage (tested)",
+   "size": "",
+   "tier": "B",
+   "flow": "UT insights",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "548:1173",
+   "page": "UT Testing Insights",
+   "name": "Referral homepage (tested)",
+   "size": "",
+   "tier": "B",
+   "flow": "UT insights",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "548:1369",
+   "page": "UT Testing Insights",
+   "name": "Referral homepage (tested)",
+   "size": "",
+   "tier": "B",
+   "flow": "UT insights",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "548:1529",
+   "page": "UT Testing Insights",
+   "name": "Referral homepage (tested)",
+   "size": "",
+   "tier": "B",
+   "flow": "UT insights",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "548:1668",
+   "page": "UT Testing Insights",
+   "name": "Share link (tested)",
+   "size": "",
+   "tier": "B",
+   "flow": "UT insights",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "548:1828",
+   "page": "UT Testing Insights",
+   "name": "Hamburger (tested)",
+   "size": "",
+   "tier": "B",
+   "flow": "UT insights",
+   "task": "",
+   "container": "other",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "38:689",
+   "page": "Kitchen",
+   "name": "cluster: Android-44x explorations: 'Invite a driv",
+   "size": "various",
+   "tier": "B",
+   "flow": "Kitchen > Android-44x explorations: 'Invite a driver / Who do you want to refer?', My Earnings, 'Invite Captains'",
+   "task": "",
+   "container": "various",
+   "structure": "ids: 38:689,118:949,38:990,38:1038,42:1887,38:1084,38:1323,38:1597,38:1681",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Android-44x explorations: 'Invite a driver / Who do you want to refer?', My Earnings, 'Invite Captains'"
+  },
+  {
+   "id": "42:2484",
+   "page": "Kitchen",
+   "name": "cluster: Early 'Incentives and more' referral hub",
+   "size": "various",
+   "tier": "B",
+   "flow": "Kitchen > Early 'Incentives and more' referral hub: '827373+ captains rewarded', earnings 'Pending', 'Your invite is ready to send', 'Invite sent!' success",
+   "task": "",
+   "container": "various",
+   "structure": "ids: 42:2484,67:754,71:1421,54:585,71:1132,60:2218,89:1165,89:1468,89:884,60:2656,60:2987,60:718,60:2390,60:844,79:785,118:1306,178:965,306:3611",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Early 'Incentives and more' referral hub: '827373+ captains rewarded', earnings 'Pending', 'Your invite is ready to send', 'Invite sent!' success"
+  },
+  {
+   "id": "118:948",
+   "page": "Kitchen",
+   "name": "cluster: Sections 'First cut' (3924x876 each)",
+   "size": "various",
+   "tier": "B",
+   "flow": "Kitchen > Sections 'First cut' (3924x876 each)",
+   "task": "",
+   "container": "various",
+   "structure": "ids: 118:948,302:1482",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Sections 'First cut' (3924x876 each)"
+  },
+  {
+   "id": "298:900",
+   "page": "Kitchen",
+   "name": "cluster: v1 Referral homepage iterations ('Earn u",
+   "size": "various",
+   "tier": "B",
+   "flow": "Kitchen > v1 Referral homepage iterations ('Earn up to ₹300 per captain', pending requests/earnings counters, T&C, share link)",
+   "task": "",
+   "container": "various",
+   "structure": "ids: 298:900,306:4016,259:524,235:1024,271:1059,277:786,277:1007,279:623,281:841,285:1058,285:1493,285:1714,285:1931,289:792,289:1228,289:1447,289:1666,289:1010,285:1276,376:2448,306:3687,306:3840,306:3842,310:1054,310:1053,310:1192",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "v1 Referral homepage iterations ('Earn up to ₹300 per captain', pending requests/earnings counters, T&C, share link)"
+  },
+  {
+   "id": "1144:6958",
+   "page": "Kitchen",
+   "name": "cluster: M2 explorations: 'Know a woman looking f",
+   "size": "various",
+   "tier": "B",
+   "flow": "Kitchen > M2 explorations: 'Know a woman looking for extra income?', female/male tabs + Chips, contact pickers, How-it-works steppers, code-on-top layouts, 'new plan activated'",
+   "task": "",
+   "container": "various",
+   "structure": "ids: 1144:6958,1144:7017,1144:7074,1144:7140,1144:7185,1144:7261,1144:7366,1144:17066,1144:17206,1144:17313,1144:17403,1144:17521,1144:17616,1144:17654,1144:17719,1144:17792,1144:17874,1144:47166,1144:47235,1144:47666,1144:47532,1144:57814,1144:57877,1144:57963,1144:59738,1144:59829,1144:60068,1144:60169",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "M2 explorations: 'Know a woman looking for extra income?', female/male tabs + Chips, contact pickers, How-it-works steppers, code-on-top layouts, 'new plan activated'"
+  },
+  {
+   "id": "1144:17941",
+   "page": "Kitchen",
+   "name": "cluster: Near-final M2 alternatives: social proof",
+   "size": "various",
+   "tier": "B",
+   "flow": "Kitchen > Near-final M2 alternatives: social proof 'Maltesh earned 3000 / 500 captains rewarded', earnings list variants",
+   "task": "",
+   "container": "various",
+   "structure": "ids: 1144:17941,1144:22793,1144:22857,1144:27713,1144:32565,1144:37417,1144:42269,1144:58049,1144:58464,1144:58552,1144:58639,1144:58717,1144:59128,1144:59219,1144:59309,1144:59908,1144:59988,1144:60273,1144:60383,1144:60385,1144:60387,1144:62137,1144:62432",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Near-final M2 alternatives: social proof 'Maltesh earned 3000 / 500 captains rewarded', earnings list variants"
+  },
+  {
+   "id": "1144:60389",
+   "page": "Kitchen",
+   "name": "cluster: Referral earnings/detail alternatives: '",
+   "size": "various",
+   "tier": "B",
+   "flow": "Kitchen > Referral earnings/detail alternatives: 'Total Referral Earnings', Inactive/Onboarded statuses, 'Get Raj to Activate' reminder (rejected wording), 0/3 progress",
+   "task": "",
+   "container": "various",
+   "structure": "ids: 1144:60389,1144:60459,1144:60529,1144:60624,1144:60704,1144:60795,1144:61065,1144:61126,1144:61187,1144:61257,1144:61342,1144:61612,1144:61809",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Referral earnings/detail alternatives: 'Total Referral Earnings', Inactive/Onboarded statuses, 'Get Raj to Activate' reminder (rejected wording), 0/3 progress"
+  },
+  {
+   "id": "1827:10125",
+   "page": "Kitchen",
+   "name": "cluster: Customer acquisition OTP exploration ('A",
+   "size": "various",
+   "tier": "B",
+   "flow": "Kitchen > Customer acquisition OTP exploration ('Ask Driver to share OTP')",
+   "task": "",
+   "container": "various",
+   "structure": "ids: 1827:10125,1827:10137,1827:10162,1827:10193,1827:10209,1827:10233,1827:10097,1827:10107",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Customer acquisition OTP exploration ('Ask Driver to share OTP')"
+  },
+  {
+   "id": "2071:10065",
+   "page": "Kitchen",
+   "name": "cluster: Referral Earnings list row explorations",
+   "size": "various",
+   "tier": "B",
+   "flow": "Kitchen > Referral Earnings list row explorations",
+   "task": "",
+   "container": "various",
+   "structure": "ids: 2071:10065,2071:10138,2071:10213,2071:10424,2071:10437,2071:10454,2071:10463",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Referral Earnings list row explorations"
+  },
+  {
+   "id": "2363:9065",
+   "page": "Kitchen",
+   "name": "cluster: Sections 'Redesigned screens' vs 'Produc",
+   "size": "various",
+   "tier": "B",
+   "flow": "Kitchen > Sections 'Redesigned screens' vs 'Production screens' comparison",
+   "task": "",
+   "container": "various",
+   "structure": "ids: 2363:9065,2363:10013",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Sections 'Redesigned screens' vs 'Production screens' comparison"
+  },
+  {
+   "id": "2509:35279",
+   "page": "Kitchen",
+   "name": "cluster: Joining bonus explorations: 'You are act",
+   "size": "various",
+   "tier": "B",
+   "flow": "Kitchen > Joining bonus explorations: 'You are activated Rohit! ₹70' card, 'Go online & start earning', Runway Modal/Toast instances for comparison",
+   "task": "",
+   "container": "various",
+   "structure": "ids: 2509:35279,2509:35288,2509:35345,2509:35407,2509:35442,2509:37639,2509:37682,2509:37683,2898:17392,2898:17481,2898:17531",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Joining bonus explorations: 'You are activated Rohit! ₹70' card, 'Go online & start earning', Runway Modal/Toast instances for comparison"
+  },
+  {
+   "id": "4057:21084",
+   "page": "Kitchen",
+   "name": "cluster: Hamburger 'Refer Friends' row variants +",
+   "size": "various",
+   "tier": "B",
+   "flow": "Kitchen > Hamburger 'Refer Friends' row variants + home/how-it-works for Bike Pink visibility",
+   "task": "",
+   "container": "various",
+   "structure": "ids: 4057:21084,4057:21230,4057:21494,4057:21631,4057:21836,4057:21967,4057:22194,4057:22264,4057:22381",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Hamburger 'Refer Friends' row variants + home/how-it-works for Bike Pink visibility"
+  },
+  {
+   "id": "4184:10622",
+   "page": "Kitchen",
+   "name": "cluster: Quick actions/Actions grid with 'Refer &",
+   "size": "various",
+   "tier": "B",
+   "flow": "Kitchen > Quick actions/Actions grid with 'Refer & earn upto ₹5000', 'Coins falling into wallet' animation frames, 'Visual assets' section",
+   "task": "",
+   "container": "various",
+   "structure": "ids: 4184:10622,4225:8539,4225:8805,4261:9681,4324:8823,4261:9717,4263:9773,4263:10084,4301:8954,4233:9122,4225:8614",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Quick actions/Actions grid with 'Refer & earn upto ₹5000', 'Coins falling into wallet' animation frames, 'Visual assets' section"
+  },
+  {
+   "id": "1985:7322",
+   "page": "M2  Hindi (India)",
+   "name": "Referral homepage",
+   "size": "360x720",
+   "tier": "C",
+   "flow": "Localisation",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Untranslated strings (30 unique: 'Auto Captains','1 Referral = ₹300','Our Referrals','Ravi and 5 others have not completed their referral','how it works','You Earned','Our Active Referrals','Refer', banner 'Refer Woman Bike Captains'); raw format placeholder '₹%1$d' shown; textTruncation=ENDING on campaign labels/empty-state copy."
+  },
+  {
+   "id": "1985:11648",
+   "page": "M2  Bengali (India)",
+   "name": "Referral homepage",
+   "size": "360x720",
+   "tier": "C",
+   "flow": "Localisation",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Untranslated strings (30 unique: 'Auto Captains','1 Referral = ₹300','Our Referrals','Ravi and 5 others have not completed their referral','how it works','You Earned','Our Active Referrals','Refer', banner 'Refer Woman Bike Captains'); raw format placeholder '₹%1$d' shown; textTruncation=ENDING on campaign labels/empty-state copy."
+  },
+  {
+   "id": "1985:15974",
+   "page": "M2  Kannada (India)",
+   "name": "Referral homepage",
+   "size": "360x720",
+   "tier": "C",
+   "flow": "Localisation",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Untranslated strings (30 unique: 'Auto Captains','1 Referral = ₹300','Our Referrals','Ravi and 5 others have not completed their referral','how it works','You Earned','Our Active Referrals','Refer', banner 'Refer Woman Bike Captains'); raw format placeholder '₹%1$d' shown; textTruncation=ENDING on campaign labels/empty-state copy."
+  },
+  {
+   "id": "1985:20300",
+   "page": "M2  Malayalam (India)",
+   "name": "Referral homepage",
+   "size": "360x720",
+   "tier": "C",
+   "flow": "Localisation",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Untranslated strings (30 unique: 'Auto Captains','1 Referral = ₹300','Our Referrals','Ravi and 5 others have not completed their referral','how it works','You Earned','Our Active Referrals','Refer', banner 'Refer Woman Bike Captains'); raw format placeholder '₹%1$d' shown; textTruncation=ENDING on campaign labels/empty-state copy."
+  },
+  {
+   "id": "1985:24626",
+   "page": "M2  Marathi",
+   "name": "Referral homepage",
+   "size": "360x720",
+   "tier": "C",
+   "flow": "Localisation",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Untranslated strings (30 unique: 'Auto Captains','1 Referral = ₹300','Our Referrals','Ravi and 5 others have not completed their referral','how it works','You Earned','Our Active Referrals','Refer', banner 'Refer Woman Bike Captains'); raw format placeholder '₹%1$d' shown; textTruncation=ENDING on campaign labels/empty-state copy."
+  },
+  {
+   "id": "1985:28952",
+   "page": "M2  Tamil (India)",
+   "name": "Referral homepage",
+   "size": "360x720",
+   "tier": "C",
+   "flow": "Localisation",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Untranslated strings (30 unique: 'Auto Captains','1 Referral = ₹300','Our Referrals','Ravi and 5 others have not completed their referral','how it works','You Earned','Our Active Referrals','Refer', banner 'Refer Woman Bike Captains'); raw format placeholder '₹%1$d' shown; textTruncation=ENDING on campaign labels/empty-state copy. Screenshot: header title wraps to 2 lines, 'Your referral code' label wraps, primary CTA 'Refer Friends' wraps to 2 lines, placeholder renders as '₹%1$D'."
+  },
+  {
+   "id": "1985:37604",
+   "page": "M2  Telugu (India) 1",
+   "name": "Referral homepage",
+   "size": "360x720",
+   "tier": "C",
+   "flow": "Localisation",
+   "task": "",
+   "container": "full-page",
+   "structure": "",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Untranslated strings (30 unique: 'Auto Captains','1 Referral = ₹300','Our Referrals','Ravi and 5 others have not completed their referral','how it works','You Earned','Our Active Referrals','Refer', banner 'Refer Woman Bike Captains'); raw format placeholder '₹%1$d' shown; textTruncation=ENDING on campaign labels/empty-state copy."
+  }
+ ],
+ "patternCandidates": [
+  {
+   "name": "Programme home with sticky share footer",
+   "whenToUse": "Captain lands on a programme (referral) hub: show what they've earned, the offers available and one primary action",
+   "structure": "InternalPageHeader(back,title,Help pill) > hero campaign banner > summary card(label, ₹ amount, chevron, optional avatar-stack nudge) > section title > list of offer rows(illustration tile, value headline, segment caption, chevron) > sticky footer(code chip + Copy tertiary, full-width primary)",
+   "components": [
+    "InternalPageHeader",
+    "Button",
+    "AndroidStatusBar",
+    "(missing) OfferRow",
+    "(missing) SummaryCard"
+   ],
+   "evidence": [
+    "987:6275",
+    "1401:7645",
+    "1144:67947",
+    "2872:16646",
+    "1693:4081"
+   ],
+   "variations": "zero earnings (1144:67947) drops avatar nudge and Copy; no-campaign empty state (1442:8189); customer-referral section added (1693:4081)",
+   "conflicts": "Footer: code chip+Copy (987:6275) vs plain text no Copy (1144:67947); code-at-top layout in 1000:7232/4150:22983 and Kitchen"
+  },
+  {
+   "name": "Milestone stepper / progress timeline",
+   "whenToUse": "Reward unlocks over sequential milestones (activation, N rides) and captain must see done/locked steps and value of each",
+   "structure": "Status header(title + status Tag + 'x/3 completed') > vertical timeline: done step = green numbered badge, title, timestamp, '+₹X' green; locked step = grey lock badge, grey title/amount, deadline/'--'; dashed connector",
+   "components": [
+    "Tag",
+    "(missing) MilestoneTimeline"
+   ],
+   "evidence": [
+    "1018:8656",
+    "1028:8921",
+    "1020:8780",
+    "2684:40683",
+    "1000:7137"
+   ],
+   "variations": "campaign 'how it works' variant with right-side green 'You Earn ₹X' blocks (1000:7137); referee view with 'N days left' (2684:40683)",
+   "conflicts": "Two visual styles for the same milestone concept (how-it-works cards with green reward pills vs detail timeline)"
+  },
+  {
+   "name": "Person detail with nudge panel",
+   "whenToUse": "Captain views one referred person and should nudge them to the next step",
+   "structure": "InternalPageHeader > profile row(avatar, name/role, right-aligned earnings value + caption) > progress block > bottom tinted panel(title 'Tell X to…', subtitle, read-only message preview) > full-width primary 'Send Reminder' with channel icon (WhatsApp/SMS)",
+   "components": [
+    "InternalPageHeader",
+    "Button",
+    "(missing) MessagePreview"
+   ],
+   "evidence": [
+    "1000:7631",
+    "1018:8656",
+    "2194:743",
+    "4338:11584"
+   ],
+   "variations": "SMS vs WhatsApp icon; extra 'Call' secondary (4338:11584); terminal states drop panel (1028:8921, 1020:8780 with info banner)",
+   "conflicts": "Kitchen 'Get Raj to Activate' alternative wording"
+  },
+  {
+   "name": "Tabbed tracker list with row action",
+   "whenToUse": "Captain tracks many people/items split by status and acts per row",
+   "structure": "InternalPageHeader > summary card w/ illustration > PrimaryTabs(2) > search field > rows(avatar, small progress label, name, coloured status text, trailing outlined small button or +₹ amount)",
+   "components": [
+    "PrimaryTabs",
+    "Button(outline,small)",
+    "(missing) SearchField",
+    "(missing) PersonRow"
+   ],
+   "evidence": [
+    "2071:3079",
+    "1776:5117",
+    "2872:16062",
+    "1730:2003"
+   ],
+   "variations": "bonus progress strip on top (2872:16062)",
+   "conflicts": "status colours ad hoc (green/amber/red text) instead of Tag"
+  },
+  {
+   "name": "Contact picker with per-row channel invite",
+   "whenToUse": "Captain invites people from phone contacts",
+   "structure": "InternalPageHeader > search field > section title > rows(initials avatar, name, number, trailing pill 'Invite' with WhatsApp (green) or SMS (black) icon)",
+   "components": [
+    "InternalPageHeader",
+    "(missing) SearchField",
+    "(missing) ContactRow",
+    "(missing) ChannelInviteButton"
+   ],
+   "evidence": [
+    "1011:8468"
+   ],
+   "variations": "Prototype/Kitchen 'Share link' A-Z list variants (418:2655)",
+   "conflicts": "Invite pill not a Runway Button variant"
+  },
+  {
+   "name": "Celebration card over dimmed home",
+   "whenToUse": "Captain just earned a reward and should be pushed to the next milestone",
+   "structure": "Dimmed home > floating rounded card w/ gradient(3D illustration, small caption, big ₹ amount, sentence with bolded numbers) > in-card full-width primary",
+   "components": [
+    "Button",
+    "(missing) CelebrationCard",
+    "DutyToggle"
+   ],
+   "evidence": [
+    "2372:13503",
+    "2509:37639"
+   ],
+   "variations": "'You are activated Rohit!' card in Kitchen; Runway Modal/Toast placed alongside for comparison (2509:37682/37683)",
+   "conflicts": "Not Runway BottomSheet or Modal"
+  },
+  {
+   "name": "Image interstitial / video overlay",
+   "whenToUse": "Promote a campaign or explain via video on entering the programme",
+   "structure": "Dimmed page > close X top-right > tall rounded media card (image or video) > optional primary below card",
+   "components": [
+    "Button",
+    "Close icon",
+    "(missing) MediaInterstitial"
+   ],
+   "evidence": [
+    "1000:7232",
+    "4150:22983"
+   ],
+   "variations": "video (Hindi) vs static image with CTA",
+   "conflicts": ""
+  },
+  {
+   "name": "Inline programme entry points",
+   "whenToUse": "Make a programme discoverable from existing surfaces",
+   "structure": "Side-menu row (icon, title, 'Earn upto ₹X' subtitle) / promo strip on wallet / quick-action tile on home / progress strip at top of Incentives",
+   "components": [
+    "(missing) MenuRow",
+    "(missing) PromoBanner"
+   ],
+   "evidence": [
+    "1031:9166",
+    "3967:20735",
+    "2365:12542",
+    "2418:1046",
+    "4270:10913"
+   ],
+   "variations": "₹300 vs ₹5000 headline",
+   "conflicts": "UT: banner discoverability was poor (548:963)"
+  }
+ ],
+ "missingComponents": [
+  {
+   "name": "OfferRow / CampaignRow",
+   "description": "Illustration tile + value headline + caption + chevron, in a card",
+   "evidence": [
+    "987:6275"
+   ]
+  },
+  {
+   "name": "SummaryCard (earnings)",
+   "description": "Label + big ₹ + chevron/illustration, optional avatar-stack nudge",
+   "evidence": [
+    "987:6275",
+    "2071:3079"
+   ]
+  },
+  {
+   "name": "MilestoneTimeline",
+   "description": "Vertical stepper with done/locked/expired states and amounts",
+   "evidence": [
+    "1018:8656",
+    "2684:40683",
+    "1000:7137"
+   ]
+  },
+  {
+   "name": "SearchField",
+   "description": "Search input with leading icon used on list screens (Runway has TextField but not search variant)",
+   "evidence": [
+    "1011:8468",
+    "2071:3079"
+   ]
+  },
+  {
+   "name": "PersonRow / ContactRow",
+   "description": "Avatar (photo/initials/placeholder), name, meta, trailing action",
+   "evidence": [
+    "1011:8468",
+    "2071:3079"
+   ]
+  },
+  {
+   "name": "ChannelInviteButton",
+   "description": "Small pill with WhatsApp/SMS icon",
+   "evidence": [
+    "1011:8468"
+   ]
+  },
+  {
+   "name": "ReferralCodeChip",
+   "description": "Code chip + Copy action",
+   "evidence": [
+    "987:6275",
+    "1442:8189"
+   ]
+  },
+  {
+   "name": "MessagePreview panel",
+   "description": "Tinted bottom panel with title + read-only message bubble",
+   "evidence": [
+    "1000:7631"
+   ]
+  },
+  {
+   "name": "CelebrationCard",
+   "description": "Reward overlay card on home",
+   "evidence": [
+    "2372:13503"
+   ]
+  },
+  {
+   "name": "InlineInfoBanner",
+   "description": "Blue tinted info banner with icon (expired notice)",
+   "evidence": [
+    "1020:8780"
+   ]
+  },
+  {
+   "name": "StatTile",
+   "description": "Icon + number + caption tile pair",
+   "evidence": [
+    "2684:40683"
+   ]
+  },
+  {
+   "name": "EmptyState",
+   "description": "Illustration + title + body",
+   "evidence": [
+    "1442:8189"
+   ]
+  }
+ ],
+ "openQuestions": [
+  "'Ready for Development (Android)' page is empty — confirm Captain Referrals 'Referral flow' section is the dev source of truth.",
+  "Which home footer is final: code chip + Copy (987:6275) or plain code text (1144:67947)?",
+  "Localisation pages are from an earlier M2 cut (no E-Rickshaw/Cab rows, no contacts screen) and keep ~30 English strings + raw '₹%1$d' placeholder — will they be regenerated?",
+  "Earnings (Wallet) 2365:12542 uses '.Buttons(Rejected)' and an older 'Tabs' component — intended?",
+  "Status labels (Not Activated/In progress/Expired/Completed) are local; should they map to Runway Tag?",
+  "Bike Pink page mixes product design with fraud/verification research notes — are those to be designed later?",
+  "Customer Acquisition (Phase 1) status: is it shipping?"
+ ],
+ "notCovered": [
+  "Screenshots not taken (Figma MCP quota shared across reviewers): 1000:8020, 1002:8112, 1028:8921, 1401:7645, 1623:1479, 2176:10560, 2419:6335, 2418:1046, 2872:16502, 2872:16646, 2872:16062, 2872:16907, 3447:17807, 3447:20196, 3696:1253, 3712:1286, 3967:20735, 4270:10913, 4338:11661, 4338:11584 — structure for these derived from layer/instance/text dumps instead.",
+  "Customer Acquisition, Prototype, Resources, UT, Kitchen frames enumerated (id/name/size/text) but only 1693:4081 screenshotted.",
+  "Kitchen: frames <300px wide (fragments, ~90) and 49 rectangles/44 text notes not itemised individually.",
+  "Localisation: only Tamil homepage (1985:28952) screenshotted; other languages checked via text/truncation scripts only. figma-use SKILL resource could not be read (no MCP resource reader in this agent); only read-only scripts were run."
+ ],
+ "runwayCheck": "Remote component set keys for Buttons, Android status bar, Primary Tabs, Secondary Tabs, Internal Page Header verified equal to Runway file GEdvNUzFqwB2gAbQKZRsIn. Other remote components (on duty, Today's Earnings Accordian, Final, final animation, CTA, Tabs/.2 Tabs, .Buttons(Rejected), icon libs) are not in Runway INDEX."
+}

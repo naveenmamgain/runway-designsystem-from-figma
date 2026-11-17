@@ -165,7 +165,8 @@ export interface ModeBottomBarProps {
   onModeChange: (mode: CaptainMode) => void;
   icons: Record<CaptainMode, ReactNode>;
   closeIcon: ReactNode;
-  /** Passed to Runway BottomNavigation (nav buttons + Order Button), rendered as a floating 272×64 pill. */
+  /** Passed to Runway BottomNavigation. Without `orderButton` this renders the D14 Intercity nav (mode button from
+   *  `icons[mode]`); with the deprecated `orderButton` it renders the legacy 272×64 pill. */
   navigation: BottomNavigationProps;
   /** Controlled open state (optional). */
   open?: boolean;
@@ -181,6 +182,38 @@ export function ModeBottomBar({ mode, onModeChange, icons, closeIcon, navigation
   const [openState, setOpenState] = useState(false);
   const open = openProp ?? openState;
   const setOpen = (v: boolean) => { if (openProp === undefined) setOpenState(v); onOpenChange?.(v); };
+
+  const menu = open && (
+    <ModeMenu
+      mode={mode}
+      icons={icons}
+      closeIcon={closeIcon}
+      onClose={() => setOpen(false)}
+      onSelect={(m) => { onModeChange(m); setOpen(false); }}
+    />
+  );
+
+  // D14 (2026-11-16): the Intercity nav (2072:114053) carries its own fade, padding, pill and 56×56 mode button,
+  // so use it directly. The old wrapper below is kept only for callers still passing the legacy `orderButton`.
+  if (navigation.orderButton === undefined) {
+    return (
+      <>
+        <BottomNavigation
+          {...navigation}
+          data-mode={modeAttr(mode)}
+          modeButton={{
+            icon: icons[mode],
+            "aria-label": "Choose mode",
+            "aria-expanded": open,
+            "aria-haspopup": "dialog",
+            onClick: () => setOpen(true),
+          }}
+          style={{ position: "absolute", left: 0, right: 0, bottom: 0, ...style, ...navigation.style }}
+        />
+        {menu}
+      </>
+    );
+  }
 
   return (
     <>
@@ -201,15 +234,7 @@ export function ModeBottomBar({ mode, onModeChange, icons, closeIcon, navigation
           style={{ width: 272, height: 64, borderRadius: 1000 /* raw */, overflow: "hidden", ...navigation.style }}
         />
       </div>
-      {open && (
-        <ModeMenu
-          mode={mode}
-          icons={icons}
-          closeIcon={closeIcon}
-          onClose={() => setOpen(false)}
-          onSelect={(m) => { onModeChange(m); setOpen(false); }}
-        />
-      )}
+      {menu}
     </>
   );
 }

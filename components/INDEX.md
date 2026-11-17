@@ -60,7 +60,7 @@ Base URL: `https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=`
 ### Bottom Nav
 | Component | Node | Variants | Status |
 |---|---|---|---|
-| bottom navigation | [2321:26982](https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=2321-26982) | 3 | ✅ [BottomNavigation](BottomNavigation/spec.md) |
+| bottom navigation | [2321:26982](https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=2321-26982) | 3 | ✅ [BottomNavigation](BottomNavigation/spec.md). Current source (D14, 2026-11-16): Intercity `Space + Bottom Nav` [2072:114053](https://www.figma.com/design/AG1dGWEhuZa2r9YxdeaOOi/?node-id=2072-114053) (mode button + Home · Jobs · Credit · Orders); the Runway set is kept as the deprecated version |
 | .Order Button Animation | [2321:26779](https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=2321-26779) | 8 | ✅ part of [BottomNavigation](BottomNavigation/spec.md) |
 | .Nav Icons | [2321:26867](https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=2321-26867) | 22 | ✅ part of [BottomNavigation](BottomNavigation/spec.md) |
 | .Nav Buttons | [2321:26975](https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=2321-26975) | 2 | ✅ part of [BottomNavigation](BottomNavigation/spec.md) |
@@ -71,6 +71,7 @@ Base URL: `https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=`
 |---|---|---|---|
 | Bottom Sheet | [1549:8554](https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=1549-8554) | 5 | ✅ [BottomSheet](BottomSheet/spec.md) |
 | Guidance Bottom Sheet | [2706:11381](https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=2706-11381) | 3 | ✅ [GuidanceBottomSheet](GuidanceBottomSheet/spec.md) |
+| Blocking task sheet (composition of Bottom Sheet + Button; Face Auth file) | [FA 1305:3878](https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1305-3878) | 2 layouts | ✅ [BlockingSheet](BlockingSheet/spec.md) |
 
 ## Data Display
 | Page | Component | Node | Variants | Status |
@@ -92,6 +93,13 @@ Not components in Figma — built from loose frames on page *Ready for Dev*; add
 |---|---|---|
 | ModeSwitcher (mode button, mode menu, floating bottom bar) | [556:39547](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=556-39547), [119:14117](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=119-14117), [119:14011](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=119-14011), [119:14051](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=119-14051) | ✅ [ModeSwitcher](ModeSwitcher/spec.md) |
 | ModeHeader (home header gradient per mode) | [556:39547](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=556-39547), [119:14011](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=119-14011), [119:14091](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=119-14091) | ✅ [ModeHeader](ModeHeader/spec.md) |
+
+## Task & verification (from the New Onboarding file `ziTJqlUlTBuE27ZytNvCTi`)
+Not a component in Figma — built from loose step-card frames; chosen in design review to replace the Logistics Verify Merch rows, home nudge rows and Document Centre cards.
+
+| Component | Figma frames | Status |
+|---|---|---|
+| ChecklistCard (icon tile or thumbnail, label, status line, trailing pill / glyph) | [1348:25620](https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1348-25620), [1348:25756](https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1348-25756), [2663:2420](https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=2663-2420), [2594:2355](https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=2594-2355) | ✅ [ChecklistCard](ChecklistCard/spec.md) |
 
 ## Other
 | Page | Component | Node | Variants | Status |

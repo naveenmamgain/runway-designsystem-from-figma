@@ -1,0 +1,3303 @@
+{
+ "file": {
+  "key": "9m56yKp10jrLoIzW1yRmQA",
+  "name": "Bundle Orders",
+  "url": "https://www.figma.com/design/9m56yKp10jrLoIzW1yRmQA/Bundle-Orders"
+ },
+ "pages": [
+  {
+   "id": "78:3569",
+   "name": "Cover",
+   "tier": "divider",
+   "frameCount": 1,
+   "summary": "Cover 78:9412: Bundle Orders, JFM'26, focus Retention; PD Malatesh Aihole, PM Abhishek Agarwal",
+   "notes": "cover"
+  },
+  {
+   "id": "78:10777",
+   "name": "------",
+   "tier": "divider",
+   "frameCount": 0,
+   "summary": "empty",
+   "notes": ""
+  },
+  {
+   "id": "243:12914",
+   "name": "Ready for Dev",
+   "tier": "A",
+   "frameCount": 86,
+   "summary": "Bundle (2-order) flows: bundle OA, in-trip assignment, 2nd-order search overlay, not-found/promised-amount fallback, re-queue on cancel, payout vs promise, chained bundle, exclusive-order choice",
+   "notes": "Sections 1,2(not M1),3,6,7 + loose frames. 84 phone frames + 3 card specs; 9 annotation components (433:243929, 433:279430, 2254:25978, 2646:128460, 2941:68709/68714/68719/68724/68729)."
+  },
+  {
+   "id": "1997:24730",
+   "name": "Comms",
+   "tier": "B",
+   "frameCount": 8,
+   "summary": "Marketing/education creatives in en/kn/te + OA/loader assets",
+   "notes": ""
+  },
+  {
+   "id": "0:1",
+   "name": "Kitchen",
+   "tier": "B",
+   "frameCount": 220,
+   "summary": "Explorations: baseline auto flow, ~35 OA card alternatives, wireframes, prototype rows, icon/cube illustrations, loader animations (rolling text, ripple, dots), ORB in-trip chat flow, late ideation",
+   "notes": "220 top-level nodes; enumerated by group in frames[]"
+  },
+  {
+   "id": "57:836",
+   "name": "setup & Design UT",
+   "tier": "B",
+   "frameCount": 2,
+   "summary": "UT findings (7 auto captains, 4 OA designs) + persona/positioning doc",
+   "notes": ""
+  },
+  {
+   "id": "359:227746",
+   "name": "--------",
+   "tier": "divider",
+   "frameCount": 0,
+   "summary": "empty",
+   "notes": ""
+  },
+  {
+   "id": "353:171443",
+   "name": "Content request",
+   "tier": "B",
+   "frameCount": 22,
+   "summary": "Copy review copies of RfD screens (End of Order, Home overlays, OA)",
+   "notes": "Treated as source for 'Content request <lang>' pages"
+  },
+  {
+   "id": "423:156716",
+   "name": "Content request Hindi (India)",
+   "tier": "C",
+   "frameCount": 8,
+   "summary": "8 frames vs 22 in source: only the early End of Order/Navigation frames (353:*/362:*/396:*) are localised; 14 later 648:* Home of Orders/OA frames missing",
+   "notes": "Hindi checked via metadata: same geometry, no horizontal text overflow; rating row below 720 same as source."
+  },
+  {
+   "id": "423:235845",
+   "name": "Content request Kannada (India)",
+   "tier": "C",
+   "frameCount": 8,
+   "summary": "8 frames vs 22 in source: only the early End of Order/Navigation frames (353:*/362:*/396:*) are localised; 14 later 648:* Home of Orders/OA frames missing",
+   "notes": "Count only (top-level child count); structure not read — quota exhausted"
+  },
+  {
+   "id": "423:314949",
+   "name": "Content request Malayalam (India)",
+   "tier": "C",
+   "frameCount": 8,
+   "summary": "8 frames vs 22 in source: only the early End of Order/Navigation frames (353:*/362:*/396:*) are localised; 14 later 648:* Home of Orders/OA frames missing",
+   "notes": "Count only (top-level child count); structure not read — quota exhausted"
+  },
+  {
+   "id": "423:394053",
+   "name": "Content request Marathi",
+   "tier": "C",
+   "frameCount": 8,
+   "summary": "8 frames vs 22 in source: only the early End of Order/Navigation frames (353:*/362:*/396:*) are localised; 14 later 648:* Home of Orders/OA frames missing",
+   "notes": "Count only (top-level child count); structure not read — quota exhausted"
+  },
+  {
+   "id": "423:473157",
+   "name": "Content request Tamil (India)",
+   "tier": "C",
+   "frameCount": 8,
+   "summary": "8 frames vs 22 in source: only the early End of Order/Navigation frames (353:*/362:*/396:*) are localised; 14 later 648:* Home of Orders/OA frames missing",
+   "notes": "Count only (top-level child count); structure not read — quota exhausted"
+  },
+  {
+   "id": "423:552261",
+   "name": "Content request Telugu (India)",
+   "tier": "C",
+   "frameCount": 8,
+   "summary": "8 frames vs 22 in source: only the early End of Order/Navigation frames (353:*/362:*/396:*) are localised; 14 later 648:* Home of Orders/OA frames missing",
+   "notes": "Count only (top-level child count); structure not read — quota exhausted"
+  },
+  {
+   "id": "2746:216083",
+   "name": "Ready for Dev Hindi (India)",
+   "tier": "C",
+   "frameCount": 12,
+   "summary": "12 top-level nodes vs 15 in source",
+   "notes": "Structure not read (timeouts then quota). Page ids (2746:*) predate the 3 Nov frames (2816:*) and Section 7 (2909–2941:*), so the exclusive-orders + chained-bundle screens are likely not localised — unverified."
+  },
+  {
+   "id": "2746:294207",
+   "name": "Ready for Dev Bengali (India)",
+   "tier": "C",
+   "frameCount": 12,
+   "summary": "12 top-level nodes vs 15 in source",
+   "notes": "Structure not read (timeouts then quota). Page ids (2746:*) predate the 3 Nov frames (2816:*) and Section 7 (2909–2941:*), so the exclusive-orders + chained-bundle screens are likely not localised — unverified."
+  },
+  {
+   "id": "2746:372331",
+   "name": "Ready for Dev Kannada (India)",
+   "tier": "C",
+   "frameCount": 12,
+   "summary": "12 top-level nodes vs 15 in source",
+   "notes": "Structure not read (timeouts then quota). Page ids (2746:*) predate the 3 Nov frames (2816:*) and Section 7 (2909–2941:*), so the exclusive-orders + chained-bundle screens are likely not localised — unverified."
+  },
+  {
+   "id": "2746:450455",
+   "name": "Ready for Dev Malayalam (India)",
+   "tier": "C",
+   "frameCount": 12,
+   "summary": "12 top-level nodes vs 15 in source",
+   "notes": "Structure not read (timeouts then quota). Page ids (2746:*) predate the 3 Nov frames (2816:*) and Section 7 (2909–2941:*), so the exclusive-orders + chained-bundle screens are likely not localised — unverified."
+  },
+  {
+   "id": "2746:528579",
+   "name": "Ready for Dev Marathi",
+   "tier": "C",
+   "frameCount": 12,
+   "summary": "12 top-level nodes vs 15 in source",
+   "notes": "Structure not read (timeouts then quota). Page ids (2746:*) predate the 3 Nov frames (2816:*) and Section 7 (2909–2941:*), so the exclusive-orders + chained-bundle screens are likely not localised — unverified."
+  },
+  {
+   "id": "2746:606703",
+   "name": "Ready for Dev Tamil (India)",
+   "tier": "C",
+   "frameCount": 12,
+   "summary": "12 top-level nodes vs 15 in source",
+   "notes": "Structure not read (timeouts then quota). Page ids (2746:*) predate the 3 Nov frames (2816:*) and Section 7 (2909–2941:*), so the exclusive-orders + chained-bundle screens are likely not localised — unverified."
+  },
+  {
+   "id": "2746:684827",
+   "name": "Ready for Dev Telugu (India)",
+   "tier": "C",
+   "frameCount": 12,
+   "summary": "12 top-level nodes vs 15 in source",
+   "notes": "Structure not read (timeouts then quota). Page ids (2746:*) predate the 3 Nov frames (2816:*) and Section 7 (2909–2941:*), so the exclusive-orders + chained-bundle screens are likely not localised — unverified."
+  }
+ ],
+ "frames": [
+  {
+   "id": "244:13289",
+   "page": "Ready for Dev",
+   "name": "On-Duty OA",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Bundle M1 > Auto-assign 2nd order as ORB (row 1) > 1. Order alert",
+   "task": "Decide whether to accept a 2-order bundle",
+   "container": "card-on-home",
+   "structure": "HomepageHeader ('3 Orders', Duty Toggle ON) > left side bar of order tabs (ring timer + fare per order) > Services/Go To chips > Bundle OA card (Bundle header (Service Chip 'Bundle Order', big fare '₹130+', '(40 Mins)', vehicle illustration with '+2' badge) > Order 1 card (grey tag, ₹70, pickup 1.2 km + address, drop 3.5 km + address, vertical timeline) > '+' connector > Order 2 card (tag, ₹60+, pickup 0.1 km area, drop ~5 km cluster 'M.G. Road / Trinity Circle / Brigade Road') > footer: circular Reject Button (timer ring, minus) + primary 'Accept') > Bottom Nav (Home, Orders pill)",
+   "components": {
+    "runway": [
+     "Duty Toggle",
+     "Buttons (Primary/Secondary)",
+     "Bottom Nav (via other key)"
+    ],
+    "other": [
+     "Service Chip (non-Runway)",
+     "Reject Button",
+     "Filter Pills",
+     "GTA Icon",
+     "Bottom Nav Final '3 - Orders' (non-Runway key)"
+    ]
+   },
+   "cta": "footer: circular reject (timer) left + primary Accept right",
+   "states": "default",
+   "notes": "Order 2 shows only area/cluster and '₹60+' (unknown until assigned). Screenshot: research/figma-inventory/bundle-orders/244-13289.png",
+   "screenshot": true
+  },
+  {
+   "id": "1624:24180",
+   "page": "Ready for Dev",
+   "name": "Bundle OA",
+   "size": "272x544",
+   "tier": "A",
+   "flow": "Bundle OA card spec > Auto",
+   "task": "Bundle order alert card (auto)",
+   "container": "other (component spec)",
+   "structure": "Bundle header (Service Chip 'Bundle Order', big fare '₹130+', '(40 Mins)', vehicle illustration with '+2' badge) > Order 1 card (grey tag, ₹70, pickup 1.2 km + address, drop 3.5 km + address, vertical timeline) > '+' connector > Order 2 card (tag, ₹60+, pickup 0.1 km area, drop ~5 km cluster 'M.G. Road / Trinity Circle / Brigade Road') > footer: circular Reject Button (timer ring, minus) + primary 'Accept'",
+   "components": {
+    "runway": [
+     "Buttons"
+    ],
+    "other": [
+     "Service Chip",
+     "Reject Button",
+     "Bundle Icon frame"
+    ]
+   },
+   "cta": "Accept primary + reject ring",
+   "states": "service variants",
+   "notes": "Card-only spec next to 'Bundle Icon' 2132:25236.",
+   "screenshot": false
+  },
+  {
+   "id": "1624:24487",
+   "page": "Ready for Dev",
+   "name": "Bundle OA",
+   "size": "272x544",
+   "tier": "A",
+   "flow": "Bundle OA card spec > Bike",
+   "task": "Bundle order alert card (bike)",
+   "container": "other (component spec)",
+   "structure": "Bundle header (Service Chip 'Bundle Order', big fare '₹130+', '(40 Mins)', vehicle illustration with '+2' badge) > Order 1 card (grey tag, ₹70, pickup 1.2 km + address, drop 3.5 km + address, vertical timeline) > '+' connector > Order 2 card (tag, ₹60+, pickup 0.1 km area, drop ~5 km cluster 'M.G. Road / Trinity Circle / Brigade Road') > footer: circular Reject Button (timer ring, minus) + primary 'Accept'",
+   "components": {
+    "runway": [
+     "Buttons"
+    ],
+    "other": [
+     "Service Chip [Bike]",
+     "Reject Button",
+     "Bike Bundle Icon 1626:25152"
+    ]
+   },
+   "cta": "Accept + reject ring",
+   "states": "",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "1624:24794",
+   "page": "Ready for Dev",
+   "name": "Bundle OA",
+   "size": "272x544",
+   "tier": "A",
+   "flow": "Bundle OA card spec > Cab",
+   "task": "Bundle order alert card (cab)",
+   "container": "other (component spec)",
+   "structure": "Bundle header (Service Chip 'Bundle Order', big fare '₹130+', '(40 Mins)', vehicle illustration with '+2' badge) > Order 1 card (grey tag, ₹70, pickup 1.2 km + address, drop 3.5 km + address, vertical timeline) > '+' connector > Order 2 card (tag, ₹60+, pickup 0.1 km area, drop ~5 km cluster 'M.G. Road / Trinity Circle / Brigade Road') > footer: circular Reject Button (timer ring, minus) + primary 'Accept'",
+   "components": {
+    "runway": [
+     "Buttons"
+    ],
+    "other": [
+     "Service Chip",
+     "Reject Button",
+     "Cab Bundle Icon 1626:25167"
+    ]
+   },
+   "cta": "Accept + reject ring",
+   "states": "",
+   "notes": "Rendered with cab illustration. Screenshot: research/figma-inventory/bundle-orders/1624-24794.png",
+   "screenshot": true
+  },
+  {
+   "id": "244:15353",
+   "page": "Ready for Dev",
+   "name": "New",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "ORB row 1 > 2. Go to pickup",
+   "task": "Navigate to 1st pickup",
+   "container": "full-page",
+   "structure": "map screenshot > top header (Go to pick up, 12:30) > pickup card (Pickup, customer name, address, Message customer) > primary 'ARRIVED'",
+   "components": {
+    "runway": [
+     "Buttons"
+    ],
+    "other": []
+   },
+   "cta": "primary ARRIVED in bottom card",
+   "states": "",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "244:16094",
+   "page": "Ready for Dev",
+   "name": "Navigation",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "ORB row 1 > 3. navigation to pickup",
+   "task": "Navigate",
+   "container": "fullscreen-takeover",
+   "structure": "Google-maps style navigation screenshot (turn banner 'Continue slightly left…', Re-center, ETA bar 18 min / 600 m) — image, not components",
+   "components": {
+    "runway": [],
+    "other": [
+     "screenshot image"
+    ]
+   },
+   "cta": "none",
+   "states": "",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "271:138196",
+   "page": "Ready for Dev",
+   "name": "New",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "ORB row 1 > 4. Arrived at pickup",
+   "task": "Confirm arrival",
+   "container": "full-page",
+   "structure": "map screenshot > top header (Go to pick up, 12:30) > pickup card (Pickup, customer name, address, Message customer) > primary 'ARRIVED'",
+   "components": {
+    "runway": [
+     "Buttons"
+    ],
+    "other": []
+   },
+   "cta": "primary ARRIVED",
+   "states": "",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "244:15473",
+   "page": "Ready for Dev",
+   "name": "Wait timer",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "ORB row 1 > 5. Wait timer",
+   "task": "Wait for customer",
+   "container": "full-page",
+   "structure": "map > pickup card with Wait Timer 03:59, 'After 5 mins, you will get extra charge', customer, Message customer > START RIDE",
+   "components": {
+    "runway": [],
+    "other": [
+     "local"
+    ]
+   },
+   "cta": "START RIDE",
+   "states": "",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "244:16130",
+   "page": "Ready for Dev",
+   "name": "OTP",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "ORB row 1 > 6. Start OTP",
+   "task": "Enter start OTP",
+   "container": "full-page",
+   "structure": "RW Internal Page Header (Enter Start OTP, Help) > Order ID / customer > 6-box OTP field > helper text",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Buttons (Small Secondary)"
+    ],
+    "other": [
+     "Test/Help"
+    ]
+   },
+   "cta": "auto-submit on OTP",
+   "states": "",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "244:15553",
+   "page": "Ready for Dev",
+   "name": "New",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "ORB row 1 > 7. Go to drop",
+   "task": "Navigate to drop",
+   "container": "full-page",
+   "structure": "map screenshot > top header (Go to drop) > drop card (Drop location, customer, address) > red Slider Button 'Complete Ride'",
+   "components": {
+    "runway": [],
+    "other": [
+     "Slider Buttons (red)"
+    ]
+   },
+   "cta": "slider Complete Ride",
+   "states": "",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "244:16175",
+   "page": "Ready for Dev",
+   "name": "Navigation",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "ORB row 1 > 8. Navigation to drop",
+   "task": "Navigate",
+   "container": "fullscreen-takeover",
+   "structure": "Google-maps style navigation screenshot (turn banner 'Continue slightly left…', Re-center, ETA bar 18 min / 600 m) — image, not components",
+   "components": {
+    "runway": [],
+    "other": [
+     "screenshot image"
+    ]
+   },
+   "cta": "none",
+   "states": "Screenshot render returned 1x1 (image fill); stacked over 244:15553 position.",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "246:13064",
+   "page": "Ready for Dev",
+   "name": "Navigation",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "ORB row 1 > 9. 2nd order assigned mid-trip",
+   "task": "Learn 2nd order is queued while driving",
+   "container": "toast/snackbar",
+   "structure": "Google-maps style navigation screenshot (turn banner 'Continue slightly left…', Re-center, ETA bar 18 min / 600 m) — image, not components + RW Snackbar (Stack, Positive) '2nd Order Assigned / Complete this order and go to the next o…' with close",
+   "components": {
+    "runway": [
+     "Snackbar"
+    ],
+    "other": []
+   },
+   "cta": "close (x)",
+   "states": "positive",
+   "notes": "Section 6 note: 'Remove 2nd order assigned snackbar' (2371:48536) — superseded.",
+   "screenshot": false
+  },
+  {
+   "id": "244:16211",
+   "page": "Ready for Dev",
+   "name": "New",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "ORB row 1 > 10. Drop",
+   "task": "Complete ride 1",
+   "container": "full-page",
+   "structure": "map screenshot > top header (Go to drop) > drop card (Drop location, customer, address) > red Slider Button 'Complete Ride'",
+   "components": {
+    "runway": [],
+    "other": [
+     "Slider Buttons"
+    ]
+   },
+   "cta": "slider Complete Ride",
+   "states": "",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "244:15600",
+   "page": "Ready for Dev",
+   "name": "Frame 1261156731",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "ORB row 1 > 11. Payment (₹70)",
+   "task": "Collect payment",
+   "container": "full-page",
+   "structure": "screenshot of legacy payment screen with ₹70 overlay",
+   "components": {
+    "runway": [],
+    "other": [
+     "screenshot image"
+    ]
+   },
+   "cta": "n/a",
+   "states": "",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "247:24218",
+   "page": "Ready for Dev",
+   "name": "End of Order",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "ORB row 1 > 12. End of order 1",
+   "task": "See earnings for order 1 and move on",
+   "container": "full-page",
+   "structure": "header (Help, 'Order Complete') > celebration banner > Estimated Earning ₹70, 14 km/65 min, fare breakup > stamps (0 commission plan / lifetime guarantee) > value props 1–5 > 'How was your ride?' Good/Bad > sticky CTA (non-Runway CTA) 'Go To 2nd Order'",
+   "components": {
+    "runway": [],
+    "other": [
+     "CTA (old)",
+     "stamp (non-Runway)"
+    ]
+   },
+   "cta": "sticky primary 'Go To 2nd Order'",
+   "states": "",
+   "notes": "Shows 'Order 1' tag above earning.",
+   "screenshot": false
+  },
+  {
+   "id": "515:266357",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "ORB row 1 > 13. Searching 2nd (after order 1)",
+   "task": "Wait while next order is located",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > Bundle summary header (Service Chip 'Bundle Order', ₹130+ (40 Mins), vehicle icon +2) > Order 1 row (tag, 'Order 1 Completed' check, ₹70, drop 3.5 km Koramangala) > Order 2 row (tag, ₹60+) > 'Looking for nearby order / Kindly wait' + Searching animation (Rolling text, BG Bar) > tertiary-negative small button 'Don't want to wait? Reject'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Filter Pills",
+     "GTA Icon",
+     "Toggle (non-Runway key)",
+     "settings icon",
+     "Service Chip",
+     "Searching",
+     "Rolling text",
+     "BG Bar"
+    ]
+   },
+   "cta": "tertiary-negative small Reject",
+   "states": "loading",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "515:266391",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "ORB row 1 > 14. 2nd order assigned",
+   "task": "See 2nd order details, go to pickup",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > header '2nd Order Assigned' > Order 2 card (0.1 km pickup, 5.5 km drop) > primary 'Go to pickup'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Filter Pills",
+     "GTA Icon",
+     "Toggle (non-Runway key)",
+     "settings icon",
+     "Reject Button"
+    ]
+   },
+   "cta": "primary Go to pickup",
+   "states": "success",
+   "notes": "Bespoke order card, not RW OA Cards (later versions use OA Cards).",
+   "screenshot": false
+  },
+  {
+   "id": "515:266419",
+   "page": "Ready for Dev",
+   "name": "New",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "ORB row 1 > 15. Pickup for 2nd order",
+   "task": "Navigate to 2nd pickup",
+   "container": "full-page",
+   "structure": "map screenshot > top header (Go to pick up, 12:30) > pickup card (Pickup, customer name, address, Message customer) > primary 'ARRIVED' with '2nd Order Assigned' order card",
+   "components": {
+    "runway": [
+     "Buttons"
+    ],
+    "other": [
+     "Reject Button"
+    ]
+   },
+   "cta": "ARRIVED",
+   "states": "",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "515:266565",
+   "page": "Ready for Dev",
+   "name": "Navigation",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "ORB row 1 > 16. Navigate to 2nd pickup",
+   "task": "Navigate",
+   "container": "fullscreen-takeover",
+   "structure": "Google-maps style navigation screenshot (turn banner 'Continue slightly left…', Re-center, ETA bar 18 min / 600 m) — image, not components",
+   "components": {
+    "runway": [],
+    "other": [
+     "screenshot image"
+    ]
+   },
+   "cta": "none",
+   "states": "",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "247:14720",
+   "page": "Ready for Dev",
+   "name": "Navigation",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Auto-assign after completion of 1st (row 2) > 1. nav to drop",
+   "task": "Navigate",
+   "container": "fullscreen-takeover",
+   "structure": "Google-maps style navigation screenshot (turn banner 'Continue slightly left…', Re-center, ETA bar 18 min / 600 m) — image, not components",
+   "components": {
+    "runway": [],
+    "other": [
+     "screenshot"
+    ]
+   },
+   "cta": "none",
+   "states": "",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "251:71030",
+   "page": "Ready for Dev",
+   "name": "New",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Row 2 > 2. Drop",
+   "task": "Complete ride",
+   "container": "full-page",
+   "structure": "map screenshot > top header (Go to drop) > drop card (Drop location, customer, address) > red Slider Button 'Complete Ride'",
+   "components": {
+    "runway": [],
+    "other": [
+     "Slider Buttons"
+    ]
+   },
+   "cta": "slider",
+   "states": "",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "251:71081",
+   "page": "Ready for Dev",
+   "name": "Frame 1261156732",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Row 2 > 3. Payment",
+   "task": "Collect",
+   "container": "full-page",
+   "structure": "legacy payment screenshot ₹70",
+   "components": {
+    "runway": [],
+    "other": [
+     "screenshot"
+    ]
+   },
+   "cta": "n/a",
+   "states": "",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "247:38108",
+   "page": "Ready for Dev",
+   "name": "End of Order",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Row 2 > 4. End of order 1",
+   "task": "Earnings + continue",
+   "container": "full-page",
+   "structure": "header (Help, 'Order Complete') > celebration banner > Estimated Earning ₹70, 14 km/65 min, fare breakup > stamps (0 commission plan / lifetime guarantee) > value props 1–5 > 'How was your ride?' Good/Bad > sticky CTA (non-Runway CTA) 'Go To 2nd Order'",
+   "components": {
+    "runway": [],
+    "other": [
+     "CTA (old)",
+     "stamp"
+    ]
+   },
+   "cta": "sticky 'Go To 2nd Order'",
+   "states": "",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "515:266963",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Row 2 > 5. Searching 2nd order",
+   "task": "Wait for assignment",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > Bundle summary header (Service Chip 'Bundle Order', ₹130+ (40 Mins), vehicle icon +2) > Order 1 row (tag, 'Order 1 Completed' check, ₹70, drop 3.5 km Koramangala) > Order 2 row (tag, ₹60+) > 'Looking for nearby order / Kindly wait' + Searching animation (Rolling text, BG Bar) > tertiary-negative small button 'Don't want to wait? Reject'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Filter Pills",
+     "GTA Icon",
+     "Toggle (non-Runway key)",
+     "settings icon",
+     "Searching"
+    ]
+   },
+   "cta": "tertiary-negative Reject",
+   "states": "loading",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "513:265994",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Row 2 > 6. Searching (variant)",
+   "task": "Wait",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > Bundle summary header (Service Chip 'Bundle Order', ₹130+ (40 Mins), vehicle icon +2) > Order 1 row (tag, 'Order 1 Completed' check, ₹70, drop 3.5 km Koramangala) > Order 2 row (tag, ₹60+) > 'Looking for nearby order / Kindly wait' + Searching animation (Rolling text, BG Bar) > tertiary-negative small button 'Don't want to wait? Reject'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Filter Pills",
+     "GTA Icon",
+     "Toggle (non-Runway key)",
+     "settings icon",
+     "Searching",
+     "Reject Button"
+    ]
+   },
+   "cta": "Reject",
+   "states": "loading",
+   "notes": "Contains hidden assigned-state CTA.",
+   "screenshot": false
+  },
+  {
+   "id": "515:266237",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Row 2 > 7. 2nd order assigned",
+   "task": "Go to pickup",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > 2nd Order Assigned card > Go to pickup",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Filter Pills",
+     "GTA Icon",
+     "Toggle (non-Runway key)",
+     "settings icon"
+    ]
+   },
+   "cta": "primary Go to pickup",
+   "states": "success",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "251:82259",
+   "page": "Ready for Dev",
+   "name": "New",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Row 2 > 8. Pickup 2nd order",
+   "task": "Navigate to pickup",
+   "container": "full-page",
+   "structure": "map screenshot > top header (Go to pick up, 12:30) > pickup card (Pickup, customer name, address, Message customer) > primary 'ARRIVED' + 2nd order card",
+   "components": {
+    "runway": [
+     "Buttons"
+    ],
+    "other": [
+     "Reject Button"
+    ]
+   },
+   "cta": "ARRIVED",
+   "states": "",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "275:139575",
+   "page": "Ready for Dev",
+   "name": "Navigation",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Row 2 > 9. Navigation",
+   "task": "Navigate",
+   "container": "fullscreen-takeover",
+   "structure": "Google-maps style navigation screenshot (turn banner 'Continue slightly left…', Re-center, ETA bar 18 min / 600 m) — image, not components",
+   "components": {
+    "runway": [],
+    "other": [
+     "screenshot"
+    ]
+   },
+   "cta": "none",
+   "states": "",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "515:278773",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Failed to assign 2nd – Auto adjustments > 1. searching",
+   "task": "Wait",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > modal 'Order 2' tag + 'Searching for 2nd order…' (blue header) + 2-line skeleton timeline",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Filter Pills",
+     "GTA Icon",
+     "Toggle (non-Runway key)",
+     "settings icon"
+    ]
+   },
+   "cta": "none",
+   "states": "loading (skeleton)",
+   "notes": "Earlier loader style (no bundle summary). Screenshot: research/figma-inventory/bundle-orders/515-278773.png",
+   "screenshot": true
+  },
+  {
+   "id": "515:278880",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Auto adjustments > 2. searching (animated)",
+   "task": "Wait",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > Searching card + 'Searching…'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Filter Pills",
+     "GTA Icon",
+     "Toggle (non-Runway key)",
+     "settings icon",
+     "Reject Button"
+    ]
+   },
+   "cta": "none",
+   "states": "loading",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "517:451623",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Auto adjustments > 3. not found",
+   "task": "Learn no 2nd order; promised amount credited",
+   "container": "modal",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > modal card: 'Order 2' tag > 'Sorry, we could not find the 2nd order' > ₹60 +315 (Online) amount > note > primary 'Okay' ('Promised amount is added to your wallet')",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Filter Pills",
+     "GTA Icon",
+     "Toggle (non-Runway key)",
+     "settings icon"
+    ]
+   },
+   "cta": "primary Okay",
+   "states": "error/fallback",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "517:452794",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Auto adjustments > 4. back to home",
+   "task": "Idle home",
+   "container": "full-page",
+   "structure": "Home of Orders, 0 Orders, empty",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Filter Pills",
+     "GTA Icon",
+     "Toggle (non-Runway key)",
+     "settings icon"
+    ]
+   },
+   "cta": "none",
+   "states": "empty",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "515:279094",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Failed – Manual adjustments > 1. searching",
+   "task": "Wait",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > skeleton searching card",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Filter Pills",
+     "GTA Icon",
+     "Toggle (non-Runway key)",
+     "settings icon"
+    ]
+   },
+   "cta": "none",
+   "states": "loading",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "515:278981",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Manual adjustments > 2. searching",
+   "task": "Wait",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > searching card",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Filter Pills",
+     "GTA Icon",
+     "Toggle (non-Runway key)",
+     "settings icon"
+    ]
+   },
+   "cta": "none",
+   "states": "loading",
+   "notes": "Screenshot: research/figma-inventory/bundle-orders/515-278981.png",
+   "screenshot": true
+  },
+  {
+   "id": "517:464714",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Manual adjustments > 3. not found",
+   "task": "Promised amount will be added",
+   "container": "modal",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > modal card: 'Order 2' tag > 'Sorry, we could not find the 2nd order' > ₹60 +315 (Online) amount > note > primary 'Okay' ('will be added to your wallet')",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Filter Pills",
+     "GTA Icon",
+     "Toggle (non-Runway key)",
+     "settings icon"
+    ]
+   },
+   "cta": "Okay",
+   "states": "error/fallback",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "517:465029",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Manual adjustments > 4. home",
+   "task": "Idle",
+   "container": "full-page",
+   "structure": "Home of Orders empty",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Filter Pills",
+     "GTA Icon",
+     "Toggle (non-Runway key)",
+     "settings icon"
+    ]
+   },
+   "cta": "none",
+   "states": "empty",
+   "notes": "Screenshot: research/figma-inventory/bundle-orders/517-465029.png",
+   "screenshot": true
+  },
+  {
+   "id": "648:398581",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "2nd order not found — 1st order value > promised fare",
+   "task": "Learn no top-up needed",
+   "container": "modal",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > modal card: 'Order 2' tag > 'Sorry, we could not find the 2nd order' > ₹60 +315 (Online) amount > note > primary 'Okay' ('You earned more than promised amount')",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Filter Pills",
+     "GTA Icon",
+     "Toggle (non-Runway key)",
+     "settings icon"
+    ]
+   },
+   "cta": "Okay",
+   "states": "fallback",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "516:233422",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Section 2 (not in M1) > reject before assignment",
+   "task": "Reject during search",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > searching card + reject",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Filter Pills",
+     "GTA Icon",
+     "Toggle (non-Runway key)",
+     "settings icon",
+     "Reject Button"
+    ]
+   },
+   "cta": "Reject",
+   "states": "loading",
+   "notes": "Parked: 'Not doing in milestone 1'.",
+   "screenshot": false
+  },
+  {
+   "id": "433:279284",
+   "page": "Ready for Dev",
+   "name": "Home of Orders (instance)",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Section 2 > reject confirmation",
+   "task": "Confirm terminating bundle",
+   "container": "home-overlay",
+   "structure": "instance of local Home of Orders + component 433:279430 'Rejecting before order assignment will terminate B[undle]'",
+   "components": {
+    "runway": [],
+    "other": [
+     "local component"
+    ]
+   },
+   "cta": "n/a",
+   "states": "",
+   "notes": "Not in milestone 1.",
+   "screenshot": false
+  },
+  {
+   "id": "1578:244748",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "2nd order assignment loader > with bundle fare",
+   "task": "Wait",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > Bundle summary header (Service Chip 'Bundle Order', ₹130+ (40 Mins), vehicle icon +2) > Order 1 row (tag, 'Order 1 Completed' check, ₹70, drop 3.5 km Koramangala) > Order 2 row (tag, ₹60+) > 'Looking for nearby order / Kindly wait' + Searching animation (Rolling text, BG Bar) > tertiary-negative small button 'Don't want to wait? Reject'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Service Chip",
+     "Searching"
+    ]
+   },
+   "cta": "tertiary-negative 'Don't want to wait?' Reject",
+   "states": "loading",
+   "notes": "Label 'With Bundle fare'.",
+   "screenshot": false
+  },
+  {
+   "id": "1569:244268",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Loader > without bundle fare",
+   "task": "Wait",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > search card without ₹130+",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Service Chip",
+     "Searching"
+    ]
+   },
+   "cta": "Reject",
+   "states": "loading",
+   "notes": "Label 'Without Bundle fare'.",
+   "screenshot": false
+  },
+  {
+   "id": "1578:245405",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Loader > assigned",
+   "task": "Go to pickup",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > header '2nd Order Assigned' > RW OA Card (Auto/Auto Boost: service chip, fare, pickup km+address, drop km+address) > primary medium 'Go to pickup'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons",
+     "OA Cards (Auto Boost)",
+     ".Base OA",
+     ".Auto OA",
+     ".Service Chips"
+    ],
+    "other": [
+     "Reject Button"
+    ]
+   },
+   "cta": "Go to pickup",
+   "states": "success",
+   "notes": "First use of Runway OA Cards for 2nd order.",
+   "screenshot": false
+  },
+  {
+   "id": "1578:245170",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Loader > not found",
+   "task": "Fallback",
+   "container": "modal",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > modal card: 'Order 2' tag > 'Sorry, we could not find the 2nd order' > ₹60 +315 (Online) amount > note > primary 'Okay'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": []
+   },
+   "cta": "Okay",
+   "states": "fallback",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "1824:246370",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Loader header variants (15–17 July comments)",
+   "task": "Wait for 2nd order",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > Bundle summary header (Service Chip 'Bundle Order', ₹130+ (40 Mins), vehicle icon +2) > Order 1 row (tag, 'Order 1 Completed' check, ₹70, drop 3.5 km Koramangala) > Order 2 row (tag, ₹60+) > 'Looking for nearby order / Kindly wait' + Searching animation (Rolling text, BG Bar) > tertiary-negative small button 'Don't want to wait? Reject'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Service Chip",
+     "Searching"
+    ]
+   },
+   "cta": "Reject",
+   "states": "loading",
+   "notes": "Header variant: with header data (blocked: 'Can't get data points in this header'). Note: 'Fetching bundle fare and 2nd order predicted…' (Srikrishna Nayak, 15 July).",
+   "screenshot": false
+  },
+  {
+   "id": "1824:245955",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Loader header variants (15–17 July comments)",
+   "task": "Wait for 2nd order",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > Bundle summary header (Service Chip 'Bundle Order', ₹130+ (40 Mins), vehicle icon +2) > Order 1 row (tag, 'Order 1 Completed' check, ₹70, drop 3.5 km Koramangala) > Order 2 row (tag, ₹60+) > 'Looking for nearby order / Kindly wait' + Searching animation (Rolling text, BG Bar) > tertiary-negative small button 'Don't want to wait? Reject'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Service Chip",
+     "Searching"
+    ]
+   },
+   "cta": "Reject",
+   "states": "loading",
+   "notes": "Header variant: variant. Note: 'Fetching bundle fare and 2nd order predicted…' (Srikrishna Nayak, 15 July).",
+   "screenshot": false
+  },
+  {
+   "id": "1824:246791",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Loader header variants (15–17 July comments)",
+   "task": "Wait for 2nd order",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > Bundle summary header (Service Chip 'Bundle Order', ₹130+ (40 Mins), vehicle icon +2) > Order 1 row (tag, 'Order 1 Completed' check, ₹70, drop 3.5 km Koramangala) > Order 2 row (tag, ₹60+) > 'Looking for nearby order / Kindly wait' + Searching animation (Rolling text, BG Bar) > tertiary-negative small button 'Don't want to wait? Reject'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Service Chip",
+     "Searching"
+    ]
+   },
+   "cta": "Reject",
+   "states": "loading",
+   "notes": "Header variant: without header. Note: 'Fetching bundle fare and 2nd order predicted…' (Srikrishna Nayak, 15 July).",
+   "screenshot": false
+  },
+  {
+   "id": "2035:24707",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Loader header variants (15–17 July comments)",
+   "task": "Wait for 2nd order",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > Bundle summary header (Service Chip 'Bundle Order', ₹130+ (40 Mins), vehicle icon +2) > Order 1 row (tag, 'Order 1 Completed' check, ₹70, drop 3.5 km Koramangala) > Order 2 row (tag, ₹60+) > 'Looking for nearby order / Kindly wait' + Searching animation (Rolling text, BG Bar) > tertiary-negative small button 'Don't want to wait? Reject'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Service Chip",
+     "Searching"
+    ]
+   },
+   "cta": "Reject",
+   "states": "loading",
+   "notes": "Header variant: hardcoded title 'Bundle Order'. Note: 'Fetching bundle fare and 2nd order predicted…' (Srikrishna Nayak, 15 July).",
+   "screenshot": false
+  },
+  {
+   "id": "2321:52982",
+   "page": "Ready for Dev",
+   "name": "On-Duty OA",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Sept flow > OA",
+   "task": "Accept bundle",
+   "container": "card-on-home",
+   "structure": "HomepageHeader ('3 Orders', Duty Toggle ON) > left side bar of order tabs (ring timer + fare per order) > Services/Go To chips > Bundle OA card (Bundle header (Service Chip 'Bundle Order', big fare '₹130+', '(40 Mins)', vehicle illustration with '+2' badge) > Order 1 card (grey tag, ₹70, pickup 1.2 km + address, drop 3.5 km + address, vertical timeline) > '+' connector > Order 2 card (tag, ₹60+, pickup 0.1 km area, drop ~5 km cluster 'M.G. Road / Trinity Circle / Brigade Road') > footer: circular Reject Button (timer ring, minus) + primary 'Accept') > Bottom Nav (Home, Orders pill) (Order 2 fare range ₹60-₹91)",
+   "components": {
+    "runway": [
+     "Duty Toggle",
+     "Buttons"
+    ],
+    "other": [
+     "Service Chip",
+     "Reject Button",
+     "Bottom Nav Final (other)"
+    ]
+   },
+   "cta": "Accept",
+   "states": "",
+   "notes": "800 tall variant.",
+   "screenshot": false
+  },
+  {
+   "id": "2227:256875",
+   "page": "Ready for Dev",
+   "name": "Navigation",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Sept flow > snackbar on nav",
+   "task": "2nd assigned while driving",
+   "container": "toast/snackbar",
+   "structure": "Google-maps style navigation screenshot (turn banner 'Continue slightly left…', Re-center, ETA bar 18 min / 600 m) — image, not components + RW Snackbar positive",
+   "components": {
+    "runway": [
+     "Snackbar"
+    ],
+    "other": []
+   },
+   "cta": "close",
+   "states": "",
+   "notes": "Flagged for removal (2371:48536).",
+   "screenshot": false
+  },
+  {
+   "id": "2227:256985",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Re-queue on customer cancellation > searching",
+   "task": "Wait",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > Bundle summary header (Service Chip 'Bundle Order', ₹130+ (40 Mins), vehicle icon +2) > Order 1 row (tag, 'Order 1 Completed' check, ₹70, drop 3.5 km Koramangala) > Order 2 row (tag, ₹60+) > 'Looking for nearby order / Kindly wait' + Searching animation (Rolling text, BG Bar) > tertiary-negative small button 'Don't want to wait? Reject' + 'Rapido will pay you, if we fail to find…' + fare range ₹60-₹91",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Service Chip",
+     "Searching"
+    ]
+   },
+   "cta": "Reject",
+   "states": "loading",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "2251:265653",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Sept > 2nd assigned",
+   "task": "Go to pickup",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > header '2nd Order Assigned' > RW OA Card (Auto/Auto Boost: service chip, fare, pickup km+address, drop km+address) > primary medium 'Go to pickup'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons",
+     "OA Cards"
+    ],
+    "other": [
+     "Reject Button"
+    ]
+   },
+   "cta": "Go to pickup",
+   "states": "success",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "2374:275765",
+   "page": "Ready for Dev",
+   "name": "Navigation",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Sept > navigation to 2nd customer pickup",
+   "task": "Navigate",
+   "container": "fullscreen-takeover",
+   "structure": "Google-maps style navigation screenshot (turn banner 'Continue slightly left…', Re-center, ETA bar 18 min / 600 m) — image, not components",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "none",
+   "states": "",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "2249:257611",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "2nd customer cancels > searching",
+   "task": "Wait",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > Bundle summary header (Service Chip 'Bundle Order', ₹130+ (40 Mins), vehicle icon +2) > Order 1 row (tag, 'Order 1 Completed' check, ₹70, drop 3.5 km Koramangala) > Order 2 row (tag, ₹60+) > 'Looking for nearby order / Kindly wait' + Searching animation (Rolling text, BG Bar) > tertiary-negative small button 'Don't want to wait? Reject'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Searching"
+    ]
+   },
+   "cta": "Reject",
+   "states": "loading",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "2249:257889",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "2nd customer cancels > assigned",
+   "task": "Go to pickup",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > header '2nd Order Assigned' > RW OA Card (Auto/Auto Boost: service chip, fare, pickup km+address, drop km+address) > primary medium 'Go to pickup'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons",
+     "OA Cards"
+    ],
+    "other": [
+     "Reject Button"
+    ]
+   },
+   "cta": "Go to pickup",
+   "states": "success",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "2251:259360",
+   "page": "Ready for Dev",
+   "name": "End of Order",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "2nd customer cancels > cancellation fee",
+   "task": "See cancellation fee, auto-continue",
+   "container": "full-page",
+   "structure": "Top app bar (Order Cancelled, Help) > Timer > 'You received ₹20' cancellation fee card, 'Double Cancellation Fare… Best Performance' > 'Searching for new order' footer",
+   "components": {
+    "runway": [],
+    "other": [
+     "Component 1"
+    ]
+   },
+   "cta": "none (auto-dismiss 5s per 2254:25978)",
+   "states": "",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "2251:264937",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "2nd customer cancels > re-queue search",
+   "task": "Wait",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > Bundle summary header (Service Chip 'Bundle Order', ₹130+ (40 Mins), vehicle icon +2) > Order 1 row (tag, 'Order 1 Completed' check, ₹70, drop 3.5 km Koramangala) > Order 2 row (tag, ₹60+) > 'Looking for nearby order / Kindly wait' + Searching animation (Rolling text, BG Bar) > tertiary-negative small button 'Don't want to wait? Reject'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Searching"
+    ]
+   },
+   "cta": "Reject",
+   "states": "loading",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "2374:277337",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Re-Queue > reassigned",
+   "task": "Go to pickup",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > header '2nd Order Assigned' > RW OA Card (Auto/Auto Boost: service chip, fare, pickup km+address, drop km+address) > primary medium 'Go to pickup'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons",
+     "OA Cards"
+    ],
+    "other": [
+     "Reject Button"
+    ]
+   },
+   "cta": "Go to pickup",
+   "states": "success",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "2374:279022",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Bundle order OA / 2nd order search UI changes",
+   "task": "Wait",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > Bundle summary header (Service Chip 'Bundle Order', ₹130+ (40 Mins), vehicle icon +2) > Order 1 row (tag, 'Order 1 Completed' check, ₹70, drop 3.5 km Koramangala) > Order 2 row (tag, ₹60+) > 'Looking for nearby order / Kindly wait' + Searching animation (Rolling text, BG Bar) > tertiary-negative small button 'Don't want to wait? Reject' (₹160+)",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Searching"
+    ]
+   },
+   "cta": "Reject",
+   "states": "loading",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "2646:127193",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Reject 2nd > reject button",
+   "task": "Reject search",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > Bundle summary header (Service Chip 'Bundle Order', ₹130+ (40 Mins), vehicle icon +2) > Order 1 row (tag, 'Order 1 Completed' check, ₹70, drop 3.5 km Koramangala) > Order 2 row (tag, ₹60+) > 'Looking for nearby order / Kindly wait' + Searching animation (Rolling text, BG Bar) > tertiary-negative small button 'Don't want to wait? Reject'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Searching"
+    ]
+   },
+   "cta": "Reject (default)",
+   "states": "default",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "2646:127612",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Reject 2nd > rejecting loader",
+   "task": "Rejecting",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > search card with 'Rejecting…'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Searching"
+    ]
+   },
+   "cta": "Reject (loading)",
+   "states": "loading; component 2646:128460 'Rejecting' holds the states",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "2646:128035",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Reject 2nd > failed",
+   "task": "Retry reject",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > search card + error 'Could not reject the Order. Try again.'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Searching"
+    ]
+   },
+   "cta": "Reject",
+   "states": "error",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "2321:52817",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Sept > Earned < promised > 2nd assigned",
+   "task": "Bundle payout vs promised amount",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > header '2nd Order Assigned' > RW OA Card (Auto/Auto Boost: service chip, fare, pickup km+address, drop km+address) > primary medium 'Go to pickup'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons",
+     "OA Cards"
+    ],
+    "other": [
+     "Reject Button"
+    ]
+   },
+   "cta": "assigned card",
+   "states": "",
+   "notes": "Annotation: 1st 70 + 2nd 73 vs promised 160 (delta -17) / 1st 70 + 2nd 90 vs promised 130 (+30).",
+   "screenshot": false
+  },
+  {
+   "id": "2315:41168",
+   "page": "Ready for Dev",
+   "name": "Payment",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Sept > Earned < promised > payment",
+   "task": "Bundle payout vs promised amount",
+   "container": "full-page",
+   "structure": "RW Internal Page Header (Payments, Help) > Payment Details (Amount to be collected ₹73, 'not your final earning', Collect from <customer>, Paid to your Wallet +₹17, Order Value ₹90) > Payment option (Your QR here / Add your QR) > OR > secondary large 'Collect Cash'",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Buttons",
+     "Bottom Sheet",
+     "Icon Only Button"
+    ],
+    "other": [
+     "stamp",
+     "CTA pill",
+     "Component 1",
+     ".Cash Payment"
+    ]
+   },
+   "cta": "collect ₹73, wallet +₹17",
+   "states": "",
+   "notes": "Annotation: 1st 70 + 2nd 73 vs promised 160 (delta -17) / 1st 70 + 2nd 90 vs promised 130 (+30).",
+   "screenshot": false
+  },
+  {
+   "id": "2327:49484",
+   "page": "Ready for Dev",
+   "name": "Payment",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Sept > Earned < promised > cash confirm",
+   "task": "Bundle payout vs promised amount",
+   "container": "bottom-sheet",
+   "structure": "RW Internal Page Header (Payments, Help) > Payment Details (Amount to be collected ₹73, 'not your final earning', Collect from <customer>, Paid to your Wallet +₹17, Order Value ₹90) > Payment option (Your QR here / Add your QR) > OR > secondary large 'Collect Cash' + RW Bottom Sheet (Basic): .Cash Payment illustration, 'Did you collect ₹X cash…', secondary 'Go back' + primary 'Collected'",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Buttons",
+     "Bottom Sheet",
+     "Icon Only Button"
+    ],
+    "other": [
+     "stamp",
+     "CTA pill",
+     "Component 1",
+     ".Cash Payment"
+    ]
+   },
+   "cta": "bottom sheet 'Did you collect ₹73 cash…' Go back / Collected",
+   "states": "",
+   "notes": "Annotation: 1st 70 + 2nd 73 vs promised 160 (delta -17) / 1st 70 + 2nd 90 vs promised 130 (+30).",
+   "screenshot": false
+  },
+  {
+   "id": "2315:41218",
+   "page": "Ready for Dev",
+   "name": "End of Order",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Sept > Earned < promised > EoO",
+   "task": "Bundle payout vs promised amount",
+   "container": "full-page",
+   "structure": "header (Help, Order Complete) > Estimated Earning + km/min > Order Earning breakup (Customer Paid, Paid to Rapido Wallet +₹17, per-km, stop fare, tip) > stamp > How was your ride? Good/Bad > sticky RW Button Large primary 'Go to next drop'",
+   "components": {
+    "runway": [
+     "Buttons"
+    ],
+    "other": [
+     "stamp",
+     "CTA pill",
+     "Component 1",
+     ".Cash Payment"
+    ]
+   },
+   "cta": "Go to next drop",
+   "states": "",
+   "notes": "Annotation: 1st 70 + 2nd 73 vs promised 160 (delta -17) / 1st 70 + 2nd 90 vs promised 130 (+30).",
+   "screenshot": false
+  },
+  {
+   "id": "2327:50184",
+   "page": "Ready for Dev",
+   "name": "End of Order",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Sept > Earned < promised > EoO w/ overlay",
+   "task": "Bundle payout vs promised amount",
+   "container": "modal",
+   "structure": "header (Help, Order Complete) > Estimated Earning + km/min > Order Earning breakup (Customer Paid, Paid to Rapido Wallet +₹17, per-km, stop fare, tip) > stamp > How was your ride? Good/Bad > sticky RW Button Large primary 'Go to next drop' + overlay card summarising bundle earnings",
+   "components": {
+    "runway": [
+     "Buttons"
+    ],
+    "other": [
+     "stamp",
+     "CTA pill",
+     "Component 1",
+     ".Cash Payment"
+    ]
+   },
+   "cta": "Bundle Order overlay on EoO",
+   "states": "",
+   "notes": "Annotation: 1st 70 + 2nd 73 vs promised 160 (delta -17) / 1st 70 + 2nd 90 vs promised 130 (+30).",
+   "screenshot": false
+  },
+  {
+   "id": "2329:55808",
+   "page": "Ready for Dev",
+   "name": "On-Duty OA",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Sept > Earned > promised > OA",
+   "task": "Bundle payout vs promised amount",
+   "container": "card-on-home",
+   "structure": "HomepageHeader ('3 Orders', Duty Toggle ON) > left side bar of order tabs (ring timer + fare per order) > Services/Go To chips > Bundle OA card (Bundle header (Service Chip 'Bundle Order', big fare '₹130+', '(40 Mins)', vehicle illustration with '+2' badge) > Order 1 card (grey tag, ₹70, pickup 1.2 km + address, drop 3.5 km + address, vertical timeline) > '+' connector > Order 2 card (tag, ₹60+, pickup 0.1 km area, drop ~5 km cluster 'M.G. Road / Trinity Circle / Brigade Road') > footer: circular Reject Button (timer ring, minus) + primary 'Accept') > Bottom Nav (Home, Orders pill)",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons",
+     "OA Cards"
+    ],
+    "other": [
+     "stamp",
+     "CTA pill",
+     "Component 1",
+     ".Cash Payment"
+    ]
+   },
+   "cta": "bundle OA",
+   "states": "",
+   "notes": "Annotation: 1st 70 + 2nd 73 vs promised 160 (delta -17) / 1st 70 + 2nd 90 vs promised 130 (+30).",
+   "screenshot": false
+  },
+  {
+   "id": "2329:57104",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Sept > Earned > promised > assigned",
+   "task": "Bundle payout vs promised amount",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > header '2nd Order Assigned' > RW OA Card (Auto/Auto Boost: service chip, fare, pickup km+address, drop km+address) > primary medium 'Go to pickup'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons",
+     "OA Cards"
+    ],
+    "other": [
+     "Reject Button"
+    ]
+   },
+   "cta": "assigned card",
+   "states": "",
+   "notes": "Annotation: 1st 70 + 2nd 73 vs promised 160 (delta -17) / 1st 70 + 2nd 90 vs promised 130 (+30).",
+   "screenshot": false
+  },
+  {
+   "id": "2329:57115",
+   "page": "Ready for Dev",
+   "name": "Payment",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Sept > Earned > promised > payment",
+   "task": "Bundle payout vs promised amount",
+   "container": "full-page",
+   "structure": "RW Internal Page Header (Payments, Help) > Payment Details (Amount to be collected ₹73, 'not your final earning', Collect from <customer>, Paid to your Wallet +₹17, Order Value ₹90) > Payment option (Your QR here / Add your QR) > OR > secondary large 'Collect Cash'",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Buttons",
+     "Bottom Sheet",
+     "Icon Only Button"
+    ],
+    "other": [
+     "stamp",
+     "CTA pill",
+     "Component 1",
+     ".Cash Payment"
+    ]
+   },
+   "cta": "collect ₹90",
+   "states": "",
+   "notes": "Annotation: 1st 70 + 2nd 73 vs promised 160 (delta -17) / 1st 70 + 2nd 90 vs promised 130 (+30).",
+   "screenshot": false
+  },
+  {
+   "id": "2329:57165",
+   "page": "Ready for Dev",
+   "name": "Payment",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Sept > Earned > promised > cash confirm",
+   "task": "Bundle payout vs promised amount",
+   "container": "bottom-sheet",
+   "structure": "RW Internal Page Header (Payments, Help) > Payment Details (Amount to be collected ₹73, 'not your final earning', Collect from <customer>, Paid to your Wallet +₹17, Order Value ₹90) > Payment option (Your QR here / Add your QR) > OR > secondary large 'Collect Cash' + RW Bottom Sheet (Basic): .Cash Payment illustration, 'Did you collect ₹X cash…', secondary 'Go back' + primary 'Collected'",
+   "components": {
+    "runway": [
+     "Internal Page Header",
+     "Buttons",
+     "Bottom Sheet",
+     "Icon Only Button"
+    ],
+    "other": [
+     "stamp",
+     "CTA pill",
+     "Component 1",
+     ".Cash Payment"
+    ]
+   },
+   "cta": "bottom sheet ₹92",
+   "states": "",
+   "notes": "Annotation: 1st 70 + 2nd 73 vs promised 160 (delta -17) / 1st 70 + 2nd 90 vs promised 130 (+30).",
+   "screenshot": false
+  },
+  {
+   "id": "2329:57216",
+   "page": "Ready for Dev",
+   "name": "End of Order",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Sept > Earned > promised > EoO",
+   "task": "Bundle payout vs promised amount",
+   "container": "full-page",
+   "structure": "header (Help, Order Complete) > Estimated Earning + km/min > Order Earning breakup (Customer Paid, Paid to Rapido Wallet +₹17, per-km, stop fare, tip) > stamp > How was your ride? Good/Bad > sticky RW Button Large primary 'Go to next drop'",
+   "components": {
+    "runway": [
+     "Buttons"
+    ],
+    "other": [
+     "stamp",
+     "CTA pill",
+     "Component 1",
+     ".Cash Payment"
+    ]
+   },
+   "cta": "Go to next drop",
+   "states": "",
+   "notes": "Annotation: 1st 70 + 2nd 73 vs promised 160 (delta -17) / 1st 70 + 2nd 90 vs promised 130 (+30).",
+   "screenshot": false
+  },
+  {
+   "id": "2333:69348",
+   "page": "Ready for Dev",
+   "name": "End of Order",
+   "size": "360x800",
+   "tier": "A",
+   "flow": "Sept > Earned > promised > EoO 'You Earned' overlay",
+   "task": "Bundle payout vs promised amount",
+   "container": "modal",
+   "structure": "header (Help, Order Complete) > Estimated Earning + km/min > Order Earning breakup (Customer Paid, Paid to Rapido Wallet +₹17, per-km, stop fare, tip) > stamp > How was your ride? Good/Bad > sticky RW Button Large primary 'Go to next drop' + overlay card summarising bundle earnings",
+   "components": {
+    "runway": [
+     "Buttons"
+    ],
+    "other": [
+     "stamp",
+     "CTA pill",
+     "Component 1",
+     ".Cash Payment"
+    ]
+   },
+   "cta": "overlay",
+   "states": "",
+   "notes": "Annotation: 1st 70 + 2nd 73 vs promised 160 (delta -17) / 1st 70 + 2nd 90 vs promised 130 (+30).",
+   "screenshot": false
+  },
+  {
+   "id": "2816:49247",
+   "page": "Ready for Dev",
+   "name": "On-Duty OA",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "3 Nov > OA with per-km fare",
+   "task": "Accept bundle",
+   "container": "card-on-home",
+   "structure": "HomepageHeader ('3 Orders', Duty Toggle ON) > left side bar of order tabs (ring timer + fare per order) > Services/Go To chips > Bundle OA card (Bundle header (Service Chip 'Bundle Order', big fare '₹130+', '(40 Mins)', vehicle illustration with '+2' badge) > Order 1 card (grey tag, ₹70, pickup 1.2 km + address, drop 3.5 km + address, vertical timeline) > '+' connector > Order 2 card (tag, ₹60+, pickup 0.1 km area, drop ~5 km cluster 'M.G. Road / Trinity Circle / Brigade Road') > footer: circular Reject Button (timer ring, minus) + primary 'Accept') > Bottom Nav (Home, Orders pill) ('(₹30/km)' replaces '(40 Mins)', Order 2 ₹60-₹91)",
+   "components": {
+    "runway": [
+     "Duty Toggle",
+     "Buttons"
+    ],
+    "other": [
+     "Service Chip",
+     "Reject Button"
+    ]
+   },
+   "cta": "Accept",
+   "states": "",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "2816:52994",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "3 Nov > searching",
+   "task": "Wait",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > Bundle summary header (Service Chip 'Bundle Order', ₹130+ (40 Mins), vehicle icon +2) > Order 1 row (tag, 'Order 1 Completed' check, ₹70, drop 3.5 km Koramangala) > Order 2 row (tag, ₹60+) > 'Looking for nearby order / Kindly wait' + Searching animation (Rolling text, BG Bar) > tertiary-negative small button 'Don't want to wait? Reject' (₹30/km, ₹60-₹91, guarantee line)",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Searching"
+    ]
+   },
+   "cta": "Reject",
+   "states": "loading",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "2816:51335",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "3 Nov > 2nd Bundle assigned (chained)",
+   "task": "Accept next bundle (Order 2+3)",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > '2nd Bundle Assigned' > bundle card (Order 2 ₹70 + Order 3 ₹70-₹91, ₹160+) > Go to pickup",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Service Chip",
+     "Reject Button"
+    ]
+   },
+   "cta": "Go to pickup",
+   "states": "success",
+   "notes": "Chained bundles: a bundle within a bundle.",
+   "screenshot": false
+  },
+  {
+   "id": "2909:62458",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Exclusive orders on home > searching",
+   "task": "Wait",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > Bundle summary header (Service Chip 'Bundle Order', ₹130+ (40 Mins), vehicle icon +2) > Order 1 row (tag, 'Order 1 Completed' check, ₹70, drop 3.5 km Koramangala) > Order 2 row (tag, ₹60+) > 'Looking for nearby order / Kindly wait' + Searching animation (Rolling text, BG Bar) > tertiary-negative small button 'Don't want to wait? Reject'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons"
+    ],
+    "other": [
+     "Searching"
+    ]
+   },
+   "cta": "Reject",
+   "states": "loading",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "2941:67362",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Exclusive > only 1 order found → auto assign",
+   "task": "Go to pickup",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > '2nd Order assigned' + RW OA Card > Go to pickup",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons",
+     "OA Cards"
+    ],
+    "other": [
+     "Reject Button"
+    ]
+   },
+   "cta": "Go to pickup",
+   "states": "success",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "2909:63027",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Exclusive > 2–3 orders to choose",
+   "task": "Pick one exclusive order",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > title 'Accept 2nd order of your Auto Bundle' + countdown chip 'Choose in 00:15' > stacked RW OA Cards (Auto, Auto Priority…) each with own Accept",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons",
+     "OA Cards",
+     "Buttons"
+    ],
+    "other": [
+     "Reject Button"
+    ]
+   },
+   "cta": "per-card primary Accept",
+   "states": "timer",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "2920:66411",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Exclusive > exit bundle on scroll",
+   "task": "Leave bundle",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > choice list scrolled > 'Don't want to continue Bundle?' + secondary-negative 'Exit bundle order'",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons",
+     "OA Cards",
+     "Buttons (Secondary-Negative)"
+    ],
+    "other": []
+   },
+   "cta": "per-card Accept + Exit bundle (bottom)",
+   "states": "",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "2941:67525",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Exclusive > accepting an order",
+   "task": "Confirmation",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > '2nd Order is accepted' + Auto Priority long-distance card (Varkala, 636 KM) > Go to pickup",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons",
+     ".Service Chips"
+    ],
+    "other": [
+     "Reject Button"
+    ]
+   },
+   "cta": "Go to pickup",
+   "states": "success",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "2909:62447",
+   "page": "Ready for Dev",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Exclusive > auto-assign 1st on timeout",
+   "task": "Timeout result",
+   "container": "home-overlay",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > '2nd Order is assigned' + OA Card > Go to pickup",
+   "components": {
+    "runway": [
+     "Home of Orders",
+     ".OA message Box",
+     "Bottom Nav (bottom navigation)",
+     "Buttons",
+     "OA Cards"
+    ],
+    "other": [
+     "Reject Button"
+    ]
+   },
+   "cta": "Go to pickup",
+   "states": "success",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "2912:63966",
+   "page": "Ready for Dev",
+   "name": "Navigation",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Exclusive orders on ORB (in-trip)",
+   "task": "Accept special order while on trip",
+   "container": "bottom-sheet",
+   "structure": "Google-maps style navigation screenshot (turn banner 'Continue slightly left…', Re-center, ETA bar 18 min / 600 m) — image, not components > bottom order card 'Special order for your Bundle!' (Bundle chip +2, Auto ₹138, pickup/drop) + Reject ring + Accept",
+   "components": {
+    "runway": [
+     "Buttons"
+    ],
+    "other": [
+     "Service Chip",
+     "Reject Button"
+    ]
+   },
+   "cta": "Accept primary + reject ring",
+   "states": "",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "2920:66993",
+   "page": "Ready for Dev",
+   "name": "Navigation",
+   "size": "360x720",
+   "tier": "A",
+   "flow": "Exclusive on ORB > accepted",
+   "task": "Confirmation in trip",
+   "container": "bottom-sheet",
+   "structure": "Google-maps style navigation screenshot (turn banner 'Continue slightly left…', Re-center, ETA bar 18 min / 600 m) — image, not components > bottom card '2nd Order is accepted' (Auto ₹138, pickup/drop)",
+   "components": {
+    "runway": [
+     "Buttons"
+    ],
+    "other": [
+     "Reject Button"
+    ]
+   },
+   "cta": "none",
+   "states": "success",
+   "notes": "",
+   "screenshot": false
+  },
+  {
+   "id": "1997:24731",
+   "page": "Comms",
+   "name": "Bike Bundle Icon",
+   "size": "72x72",
+   "tier": "B",
+   "flow": "Comms / marketing assets",
+   "task": "captain education creative",
+   "container": "other",
+   "structure": "icon +2",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1997:24738",
+   "page": "Comms",
+   "name": "bundleorders_english",
+   "size": "264x352",
+   "tier": "B",
+   "flow": "Comms / marketing assets",
+   "task": "captain education creative",
+   "container": "other",
+   "structure": "comms card: '2 Orders in 1 Bundle' + mini bundle OA",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1997:24796",
+   "page": "Comms",
+   "name": "bundleorders_Kannada",
+   "size": "264x352",
+   "tier": "B",
+   "flow": "Comms / marketing assets",
+   "task": "captain education creative",
+   "container": "other",
+   "structure": "Kannada",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1997:24855",
+   "page": "Comms",
+   "name": "bundleorders_auto_telugu",
+   "size": "264x352",
+   "tier": "B",
+   "flow": "Comms / marketing assets",
+   "task": "captain education creative",
+   "container": "other",
+   "structure": "Telugu auto",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1997:24913",
+   "page": "Comms",
+   "name": "bundleorders_bike_telugu",
+   "size": "264x352",
+   "tier": "B",
+   "flow": "Comms / marketing assets",
+   "task": "captain education creative",
+   "container": "other",
+   "structure": "Telugu bike (Hyderabad addresses)",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1998:24730",
+   "page": "Comms",
+   "name": "Bundle OA",
+   "size": "272x544",
+   "tier": "B",
+   "flow": "Comms / marketing assets",
+   "task": "captain education creative",
+   "container": "other",
+   "structure": "OA screen asset",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1999:25088",
+   "page": "Comms",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Comms / marketing assets",
+   "task": "captain education creative",
+   "container": "other",
+   "structure": "2nd order assigned asset",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "1999:25099",
+   "page": "Comms",
+   "name": "Home of Orders",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Comms / marketing assets",
+   "task": "captain education creative",
+   "container": "other",
+   "structure": "2nd order loader asset",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "57:840",
+   "page": "setup & Design UT",
+   "name": "Details",
+   "size": "1280x1058",
+   "tier": "B",
+   "flow": "Design UT 26 Feb",
+   "task": "research doc",
+   "container": "other",
+   "structure": "UT of 4 OA designs with 7 auto captains",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "Findings: first 2 (designer) OAs read as bundles; some thought 3 simultaneous pickups; order-1 card felt incomplete with pickup only; '(50 mins)' helped link total fare to time; hesitation about unknown next drops; PM designs: #1 read as 2 separate orders (miss), #2 too detailed."
+  },
+  {
+   "id": "63:547",
+   "page": "setup & Design UT",
+   "name": "Details",
+   "size": "1280x2326",
+   "tier": "B",
+   "flow": "Setup / persona",
+   "task": "research doc",
+   "container": "other",
+   "structure": "Daily vs non-daily captain personas, earning optimisation, segments (target achiever, time-sensitive, efficiency seeker)",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "Bundle positioning: 'Here's your next 60 minutes planned'."
+  },
+  {
+   "id": "353:171444",
+   "page": "Content request",
+   "name": "End of Order",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Content request (copy review copies of RfD frames)",
+   "task": "",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "End of Order rating row sits below 720 (scroll content)."
+  },
+  {
+   "id": "353:171544",
+   "page": "Content request",
+   "name": "End of Order (Order 1)",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Content request (copy review copies of RfD frames)",
+   "task": "",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "End of Order rating row sits below 720 (scroll content)."
+  },
+  {
+   "id": "353:172088",
+   "page": "Content request",
+   "name": "End of Order (Order 2, 'Sorry, we could not find 2nd order')",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Content request (copy review copies of RfD frames)",
+   "task": "",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "End of Order rating row sits below 720 (scroll content)."
+  },
+  {
+   "id": "353:172180",
+   "page": "Content request",
+   "name": "Navigation",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Content request (copy review copies of RfD frames)",
+   "task": "",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "353:172217",
+   "page": "Content request",
+   "name": "End of Order",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Content request (copy review copies of RfD frames)",
+   "task": "",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "End of Order rating row sits below 720 (scroll content)."
+  },
+  {
+   "id": "353:172317",
+   "page": "Content request",
+   "name": "End of Order",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Content request (copy review copies of RfD frames)",
+   "task": "",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "End of Order rating row sits below 720 (scroll content)."
+  },
+  {
+   "id": "362:253261",
+   "page": "Content request",
+   "name": "End of Order (Order 1)",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Content request (copy review copies of RfD frames)",
+   "task": "",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "End of Order rating row sits below 720 (scroll content)."
+  },
+  {
+   "id": "396:298342",
+   "page": "Content request",
+   "name": "End of Order (Order 2 not found)",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Content request (copy review copies of RfD frames)",
+   "task": "",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "End of Order rating row sits below 720 (scroll content)."
+  },
+  {
+   "id": "648:179760",
+   "page": "Content request",
+   "name": "Home of Orders searching",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Content request (copy review copies of RfD frames)",
+   "task": "",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "648:179777",
+   "page": "Content request",
+   "name": "Home of Orders searching",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Content request (copy review copies of RfD frames)",
+   "task": "",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "648:179794",
+   "page": "Content request",
+   "name": "Home of Orders searching",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Content request (copy review copies of RfD frames)",
+   "task": "",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "648:179811",
+   "page": "Content request",
+   "name": "Home of Orders searching",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Content request (copy review copies of RfD frames)",
+   "task": "",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "648:179828",
+   "page": "Content request",
+   "name": "Not found – added",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Content request (copy review copies of RfD frames)",
+   "task": "",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "648:180063",
+   "page": "Content request",
+   "name": "Not found – will be added",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Content request (copy review copies of RfD frames)",
+   "task": "",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "648:180301",
+   "page": "Content request",
+   "name": "On-Duty OA",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Content request (copy review copies of RfD frames)",
+   "task": "",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "648:181597",
+   "page": "Content request",
+   "name": "Navigation",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Content request (copy review copies of RfD frames)",
+   "task": "",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "648:181634",
+   "page": "Content request",
+   "name": "searching",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Content request (copy review copies of RfD frames)",
+   "task": "",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "648:181651",
+   "page": "Content request",
+   "name": "'Loading 2nd order…'",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Content request (copy review copies of RfD frames)",
+   "task": "",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "648:181668",
+   "page": "Content request",
+   "name": "searching",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Content request (copy review copies of RfD frames)",
+   "task": "",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "648:181685",
+   "page": "Content request",
+   "name": "2nd Order Assigned",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Content request (copy review copies of RfD frames)",
+   "task": "",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "648:181713",
+   "page": "Content request",
+   "name": "2nd Order Assigned",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Content request (copy review copies of RfD frames)",
+   "task": "",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "648:398154",
+   "page": "Content request",
+   "name": "Not found – earned more",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Content request (copy review copies of RfD frames)",
+   "task": "",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": ""
+  },
+  {
+   "id": "78:910",
+   "page": "Kitchen",
+   "name": "Auto Line Flow (section 78:909) — baseline single-order auto flow",
+   "size": "mixed",
+   "tier": "B",
+   "flow": "Auto Line Flow (section 78:909) — baseline single-order auto flow",
+   "task": "exploration",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "Members: 78:910 Navigation,78:946 Wait timer,78:1038 Wait timer,78:1130 On-Duty OA,78:3126 OTP,78:3148 OTP,78:3173 New,78:3312 New,78:3371 New,78:3306 frame,78:3171 frame,78:3307 frame"
+  },
+  {
+   "id": "27:418",
+   "page": "Kitchen",
+   "name": "Details doc",
+   "size": "mixed",
+   "tier": "B",
+   "flow": "Details doc",
+   "task": "exploration",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "Members: 27:418 Details 1280x1372"
+  },
+  {
+   "id": "1:1267",
+   "page": "Kitchen",
+   "name": "OA exploration (section 92:666) — rejected/alternative bundle OA card designs",
+   "size": "mixed",
+   "tier": "B",
+   "flow": "OA exploration (section 92:666) — rejected/alternative bundle OA card designs",
+   "task": "exploration",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "Members: 1:1267,8:2947,2:9,9:3476,3:944,3:302,32:700,35:1276,35:1853,4:1521,35:6750,55:508,92:996,9:6107,7:2653 (OA 264w),32:393,34:847,35:4355 On-Duty OA,35:7113 Regular OA,133:1033 OA,115:6860 On-Duty OA,115:11092 Driver app flow"
+  },
+  {
+   "id": "90:938",
+   "page": "Kitchen",
+   "name": "High level wireframe (section 90:1475) — Flow 1/Flow 2 wireframes 390/394w",
+   "size": "mixed",
+   "tier": "B",
+   "flow": "High level wireframe (section 90:1475) — Flow 1/Flow 2 wireframes 390/394w",
+   "task": "exploration",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "Members: 90:938,90:1018,90:1105,90:1291,90:1388,90:1478,90:1588,90:1651,90:1709,90:1777"
+  },
+  {
+   "id": "93:768",
+   "page": "Kitchen",
+   "name": "Bundle Order Feature Prototype row (y=3999)",
+   "size": "mixed",
+   "tier": "B",
+   "flow": "Bundle Order Feature Prototype row (y=3999)",
+   "task": "exploration",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "Members: 93:768,92:1447,95:1377,95:1556,95:1442,95:1689,95:3289,95:1823,95:1849,95:2181,95:2309,95:2390,95:1883,95:3292,95:1939,95:2431,95:2559,95:2640,95:3296,95:2709,95:2704,95:2705,95:2707 (row labels),99:3303 screenshot"
+  },
+  {
+   "id": "151:27126",
+   "page": "Kitchen",
+   "name": "OA card alternatives (y≈6492–12785)",
+   "size": "mixed",
+   "tier": "B",
+   "flow": "OA card alternatives (y≈6492–12785)",
+   "task": "exploration",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "Members: 151:27126,149:26734,158:27845,9:3999,158:27516,158:28141,190:14514 OA Cards inst,190:12697,193:13909,193:14474,205:15262,205:15610,209:15960,211:16669,211:17026,211:16325,226:17415,228:19278,231:22424,233:23187,233:23574; labels 151:27508-27510 'Short + Short/Long'"
+  },
+  {
+   "id": "138:1717",
+   "page": "Kitchen",
+   "name": "Task manager / payment explorations (y≈7439)",
+   "size": "mixed",
+   "tier": "B",
+   "flow": "Task manager / payment explorations (y≈7439)",
+   "task": "exploration",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "Members: 138:1717,138:1837,138:1917,138:1964,143:48565 Payment Screen,140:2108,115:11176 Task manager,158:27511,147:12251 Task manager,147:24556,115:834,115:10564 Task manager,138:2022,140:37172 End of Order"
+  },
+  {
+   "id": "196:15009",
+   "page": "Kitchen",
+   "name": "Bundle icon / cube illustration explorations (x≈9000–11700)",
+   "size": "mixed",
+   "tier": "B",
+   "flow": "Bundle icon / cube illustration explorations (x≈9000–11700)",
+   "task": "exploration",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "Members: 196:15009,226:17382 Cubs,201:15014,196:15010,201:15208,201:15015,202:15211,202:15257,202:15258,205:15260,211:16305,211:16309,205:15601,211:16307,228:19013,231:22420,231:19620,231:22421,233:23169,233:23549-23556,1614:244724 Service Chip"
+  },
+  {
+   "id": "287:123780",
+   "page": "Kitchen",
+   "name": "End of order / OA explorations (y≈13866–15767)",
+   "size": "mixed",
+   "tier": "B",
+   "flow": "End of order / OA explorations (y≈13866–15767)",
+   "task": "exploration",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "Members: 287:123780 Section 1 (287:123781,287:124067),1105:237592,287:124383,287:126714,287:126803,362:229589"
+  },
+  {
+   "id": "41",
+   "page": "Kitchen",
+   "name": "Section 2 (517:287268) — copy of RfD Section 1 for iteration",
+   "size": "mixed",
+   "tier": "B",
+   "flow": "Section 2 (517:287268) — copy of RfD Section 1 for iteration",
+   "task": "exploration",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "Members: 41 frames 517:287269…517:291203"
+  },
+  {
+   "id": "517:467415",
+   "page": "Kitchen",
+   "name": "End-of-order variants (x≈7300–8800, y≈18746–22569)",
+   "size": "mixed",
+   "tier": "B",
+   "flow": "End-of-order variants (x≈7300–8800, y≈18746–22569)",
+   "task": "exploration",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "Members: 517:467415,517:467515,517:467630,517:467745,517:467865,517:467969,517:468073,517:468188 component 'After 30 seconds - if we can't find…',517:467397,517:466851,517:466191,517:466429,517:466759,517:465119 Home/On-Duty,517:466667"
+  },
+  {
+   "id": "648:397434",
+   "page": "Kitchen",
+   "name": "2nd order loader/searching explorations (y≈25234–42227)",
+   "size": "mixed",
+   "tier": "B",
+   "flow": "2nd order loader/searching explorations (y≈25234–42227)",
+   "task": "exploration",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "Members: 648:397434,648:397672,648:397199,1104:237400,1104:237417,1108:237596,1108:237710,1185:239491,1185:239638,1185:239463,1185:239155 Bundle OA,1185:239439 O2,1185:239130 O2,1146:25072 Searching comp,1185:239658,1159:238379,1185:239661,1569:244161 BG Bar comp,1569:244163,1185:239508,1185:239617,1185:239595,1188:241840 Timer comp,1518:245487 Rolling text - Final,1354:244236,1188:240736,1239:240188 (rolling text variants),1185:239553,1185:239528,1185:239574,1185:240711-240717,1195:243099,1195:242778,1197:215639,1197:215384,1188:240777,1188:241856,1188:242452,1195:242566,1188:242333,1198:243351,1198:243379,1198:243323,1200:243981,1227:239583 Bundle OA,1200:243675,1235:239912,1257:240390,1270:243949,1270:244201,1292:244677,1292:244547,1255:240247,1270:244057,1270:244394,1298:245290"
+  },
+  {
+   "id": "1339:241962",
+   "page": "Kitchen",
+   "name": "Searching animation explorations (y≈44593–48366)",
+   "size": "mixed",
+   "tier": "B",
+   "flow": "Searching animation explorations (y≈44593–48366)",
+   "task": "exploration",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "Members: 1339:241962,1339:242003,1339:242087,1339:242044,1351:244032,1339:243635 Dots,1348:243764,1354:245259 Text L→R,1354:245515 Ripple Effect,1354:245266,1354:245278,1354:245290,1354:245281,1339:242499,1339:242593,1339:242692,1339:242794,1339:242895,1339:243026,1339:243156,1351:243867,1339:243304,1339:243455,1354:244050,1354:245295"
+  },
+  {
+   "id": "1441:243149",
+   "page": "Kitchen",
+   "name": "Sections 3/4/5 — prototype + 2nd order assignment (1 July)",
+   "size": "mixed",
+   "tier": "B",
+   "flow": "Sections 3/4/5 — prototype + 2nd order assignment (1 July)",
+   "task": "exploration",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "Members: 1441:243149 (4 frames),1537:244809 (3),1578:245645 (4),1537:245456,1537:245595,1537:245549,1537:245503,1537:245183,1537:245137,1537:245643 Bundle OA,1537:246907,1537:244759,1537:244802"
+  },
+  {
+   "id": "14",
+   "page": "Kitchen",
+   "name": "ORB • Final Flow • 17 July (2213:223358) — in-trip chat/cancel flows, 360x800",
+   "size": "mixed",
+   "tier": "B",
+   "flow": "ORB • Final Flow • 17 July (2213:223358) — in-trip chat/cancel flows, 360x800",
+   "task": "exploration",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "Members: 14 Navigation frames 2213:223359…224078, 2213:224133 New, 2213:224180 End of Order, 2213:224270, 2213:224348, 2213:224469 map, 2213:224509, 2213:224576; labels: message pop-up to inform customer, full chat, customer message, pressed state, customer cancelled, audio/location message, captain cancels"
+  },
+  {
+   "id": "2213:255710",
+   "page": "Kitchen",
+   "name": "Late ideation (Sections 6/7, y≈65902–72232)",
+   "size": "mixed",
+   "tier": "B",
+   "flow": "Late ideation (Sections 6/7, y≈65902–72232)",
+   "task": "exploration",
+   "container": "",
+   "structure": "",
+   "components": {},
+   "cta": "",
+   "states": "",
+   "notes": "Members: 2213:255710,2213:255293,2215:256469 (2213:230386,2213:255256,2215:255800,2215:255753,2215:255871),2215:256824 (2215:256507,2215:256470,2215:256544,2215:256679,2215:256591),2371:275378,2374:278791 Ideation 8 (360x840),2374:277495 On-Duty OA"
+  }
+ ],
+ "patternCandidates": [
+  {
+   "name": "Bundle order alert card",
+   "whenToUse": "Offering the captain 2+ orders as one accept/reject decision",
+   "structure": "Bundle header (Service Chip 'Bundle Order', big fare '₹130+', '(40 Mins)', vehicle illustration with '+2' badge) > Order 1 card (grey tag, ₹70, pickup 1.2 km + address, drop 3.5 km + address, vertical timeline) > '+' connector > Order 2 card (tag, ₹60+, pickup 0.1 km area, drop ~5 km cluster 'M.G. Road / Trinity Circle / Brigade Road') > footer: circular Reject Button (timer ring, minus) + primary 'Accept'",
+   "components": [
+    "Buttons (primary)",
+    "Service Chip 'Bundle Order' (non-Runway)",
+    "Reject Button w/ timer ring (non-Runway)",
+    "Bundle Order Icons (Runway Service Manager Icons)"
+   ],
+   "evidence": [
+    "244:13289",
+    "1624:24180",
+    "1624:24487",
+    "1624:24794",
+    "2321:52982",
+    "2816:49247"
+   ],
+   "variations": "Auto/Bike/Cab illustrations; '(40 Mins)' vs '(₹30/km)'; Order 2 fare '₹60+' vs '₹60-₹91'; 720 vs 800 frame",
+   "conflicts": "Single-order OA uses Runway OA Cards; bundle OA is a bespoke card using an older Service Chip and the Reject Button from another library"
+  },
+  {
+   "name": "Next-order search overlay on Home",
+   "whenToUse": "Between orders in a bundle while the system finds the next order",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > Bundle summary header (Service Chip 'Bundle Order', ₹130+ (40 Mins), vehicle icon +2) > Order 1 row (tag, 'Order 1 Completed' check, ₹70, drop 3.5 km Koramangala) > Order 2 row (tag, ₹60+) > 'Looking for nearby order / Kindly wait' + Searching animation (Rolling text, BG Bar) > tertiary-negative small button 'Don't want to wait? Reject'",
+   "components": [
+    "Home of Orders",
+    "Overlay",
+    "Searching / Rolling text / BG Bar (local)",
+    "Buttons Tertiary-Negative small"
+   ],
+   "evidence": [
+    "515:266357",
+    "1578:244748",
+    "2227:256985",
+    "2816:52994",
+    "2909:62458",
+    "515:278773"
+   ],
+   "variations": "early skeleton modal (515:278773) vs full bundle-progress card; with/without bundle fare; header variants (1824:*); guarantee line added later",
+   "conflicts": "Two loader styles coexist; guarantee copy differs ('if we fail to find' vs 'if we could not find')"
+  },
+  {
+   "name": "Next order assigned overlay",
+   "whenToUse": "Confirming the next order of a bundle and sending captain to pickup",
+   "structure": "Home of Orders base (RW HomepageHeader '0 Orders' + Duty toggle ON, Services/Go To filter pills, empty list, RW Bottom Nav 3 buttons) dimmed by Overlay > centred white card > header '2nd Order Assigned' > RW OA Card (Auto/Auto Boost: service chip, fare, pickup km+address, drop km+address) > primary medium 'Go to pickup'",
+   "components": [
+    "OA Cards",
+    "Buttons"
+   ],
+   "evidence": [
+    "515:266237",
+    "1578:245405",
+    "2251:265653",
+    "2249:257889",
+    "2941:67362",
+    "2909:62447",
+    "2816:51335"
+   ],
+   "variations": "bespoke Order 2 card (M1) vs Runway OA Card (later); '2nd Bundle Assigned' chained bundle",
+   "conflicts": "Title casing/wording: 'Assigned' / 'assigned' / 'is assigned' / 'is accepted'"
+  },
+  {
+   "name": "Bundle fallback / promised-amount modal",
+   "whenToUse": "2nd order not found; explain guaranteed payout",
+   "structure": "modal card: 'Order 2' tag > 'Sorry, we could not find the 2nd order' > ₹60 +315 (Online) amount > note > primary 'Okay'",
+   "components": [
+    "Buttons",
+    "Overlay"
+   ],
+   "evidence": [
+    "517:451623",
+    "517:464714",
+    "648:398581",
+    "1578:245170"
+   ],
+   "variations": "added / will be added / earned more than promised",
+   "conflicts": ""
+  },
+  {
+   "name": "In-trip next-order notice",
+   "whenToUse": "Telling a driving captain another order is queued",
+   "structure": "Navigation + RW Snackbar (Stack, Positive, close)",
+   "components": [
+    "Snackbar"
+   ],
+   "evidence": [
+    "246:13064",
+    "2227:256875"
+   ],
+   "variations": "",
+   "conflicts": "Marked 'Remove 2nd order assigned snackbar' (2371:48536)"
+  },
+  {
+   "name": "End of order with continue-bundle CTA",
+   "whenToUse": "Order N completed but bundle continues",
+   "structure": "End of Order earnings page; sticky primary relabelled 'Go To 2nd Order' / 'Go to next drop'",
+   "components": [
+    "Buttons Large (new) / CTA (old)",
+    "stamp"
+   ],
+   "evidence": [
+    "247:24218",
+    "247:38108",
+    "2315:41218",
+    "2329:57216"
+   ],
+   "variations": "old EoO (value props) vs new EoO (earning breakup)",
+   "conflicts": "Old frames use non-Runway CTA, new ones Runway Buttons"
+  },
+  {
+   "name": "Timed choice list of exclusive orders",
+   "whenToUse": "Let captain pick the next bundle order among 2–3 with a countdown; auto-assign on timeout",
+   "structure": "overlay title + countdown chip 'Choose in 00:15' > stacked OA Cards each with Accept > on scroll 'Don't want to continue Bundle?' + Exit bundle order (secondary-negative)",
+   "components": [
+    "OA Cards",
+    "Buttons"
+   ],
+   "evidence": [
+    "2909:63027",
+    "2920:66411",
+    "2941:67525",
+    "2909:62447",
+    "2941:67362"
+   ],
+   "variations": "1 order → auto-assign",
+   "conflicts": ""
+  },
+  {
+   "name": "In-navigation order offer card",
+   "whenToUse": "Offering/confirming an order while the captain is on a trip (ORB)",
+   "structure": "Navigation > bottom card (bundle chip, fare, pickup/drop, reject ring + Accept)",
+   "components": [
+    "Buttons",
+    "Reject Button"
+   ],
+   "evidence": [
+    "2912:63966",
+    "2920:66993"
+   ],
+   "variations": "offer vs accepted",
+   "conflicts": ""
+  },
+  {
+   "name": "Pickup screen with queued-order card",
+   "whenToUse": "Heading to pickup with another order already queued",
+   "structure": "map screenshot > top header (Go to pick up, 12:30) > pickup card (Pickup, customer name, address, Message customer) > primary 'ARRIVED' + '2nd Order Assigned' card",
+   "components": [
+    "Buttons"
+   ],
+   "evidence": [
+    "251:82259",
+    "515:266419"
+   ],
+   "variations": "",
+   "conflicts": ""
+  },
+  {
+   "name": "Cash collection confirm sheet",
+   "whenToUse": "Confirm cash collected before closing an order",
+   "structure": "RW Internal Page Header (Payments, Help) > Payment Details (Amount to be collected ₹73, 'not your final earning', Collect from <customer>, Paid to your Wallet +₹17, Order Value ₹90) > Payment option (Your QR here / Add your QR) > OR > secondary large 'Collect Cash' + Bottom Sheet (Go back / Collected)",
+   "components": [
+    "Internal Page Header",
+    "Bottom Sheet",
+    "Buttons"
+   ],
+   "evidence": [
+    "2327:49484",
+    "2329:57165"
+   ],
+   "variations": "",
+   "conflicts": ""
+  },
+  {
+   "name": "Cancellation → re-queue",
+   "whenToUse": "2nd customer cancels; pay fee and search again",
+   "structure": "Order Cancelled page (fee, timer, 'Searching for new order', auto-dismiss 5s) → search overlay → assigned overlay",
+   "components": [
+    "Component 1 (local)"
+   ],
+   "evidence": [
+    "2251:259360",
+    "2254:25978",
+    "2251:264937",
+    "2374:277337"
+   ],
+   "variations": "",
+   "conflicts": ""
+  }
+ ],
+ "missingComponents": [
+  {
+   "name": "BundleOACard",
+   "description": "Multi-order alert card (bundle header, stacked order stop cards, + connector, reject ring + Accept)",
+   "evidence": [
+    "1624:24180",
+    "1624:24487",
+    "1624:24794"
+   ]
+  },
+  {
+   "name": "OrderStopCard / route timeline",
+   "description": "Order tag + fare + pickup/drop distance+address timeline; used in bundle OA and search overlay",
+   "evidence": [
+    "244:13289",
+    "515:266357"
+   ]
+  },
+  {
+   "name": "SearchingLoader",
+   "description": "Searching / Rolling text / BG Bar local components for next-order search",
+   "evidence": [
+    "515:266357",
+    "1185:239947"
+   ]
+  },
+  {
+   "name": "RejectButton with timer ring",
+   "description": "Circular reject with countdown ring (non-Runway library)",
+   "evidence": [
+    "244:13289"
+   ]
+  },
+  {
+   "name": "CountdownChip",
+   "description": "'Choose in 00:15' timer chip",
+   "evidence": [
+    "2909:63027"
+   ]
+  },
+  {
+   "name": "SliderButton",
+   "description": "Swipe 'Complete Ride' (non-Runway Slider Buttons)",
+   "evidence": [
+    "244:15553"
+   ]
+  },
+  {
+   "name": "ResultModal (promised amount)",
+   "description": "Not-found modal with amount + note + Okay",
+   "evidence": [
+    "517:451623"
+   ]
+  },
+  {
+   "name": "FilterPills / GTA Icon",
+   "description": "Home Services/Go To pills from another library",
+   "evidence": [
+    "515:266357"
+   ]
+  }
+ ],
+ "openQuestions": [
+  "What does ORB stand for in 'Auto assigning 2nd order as ORB' and 'Exclusive orders on ORB'?",
+  "Is the M1 2nd-order snackbar removed everywhere (2371:48536)?",
+  "Which search-overlay header is final (1824:* variants; 'need to hardcode title Bundle Order')?",
+  "Bundle fare unit: '(40 Mins)' vs '(₹30/km)'; Order 2 '₹60+' vs '₹60-₹91' — which ships?",
+  "Should the bundle OA be rebuilt on Runway OA Cards / .Service Chips instead of the older Service Chip + Reject Button?",
+  "Are exclusive-orders (Section 7) and chained bundle (2816:51335) localised?"
+ ],
+ "notCovered": [
+  "Screenshots: only 5 tier-A frames captured (244:13289, 1624:24794, 515:278773, 515:278981, 517:465029); all other tier-A frames classified from node data (layer names, instances, text) — Figma MCP quota exhausted",
+  "244:16175 screenshot rendered 1x1 (image fill)",
+  "Ready for Dev localisation pages (2746:*) — structure not read; only top-level counts",
+  "Content request localisations other than Hindi — only counts",
+  "Kitchen and Comms: no screenshots; grouped from node enumeration",
+  "Annotation components (433:243929, 433:279430, 2254:25978, 2646:128460, 2941:68709..68729) — names only"
+ ]
+}

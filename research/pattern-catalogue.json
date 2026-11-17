@@ -1,0 +1,3132 @@
+{
+ "files": {
+  "LOG": {
+   "name": "Logistics",
+   "key": "nJVb4xUWWcmIUArw5sAxIv"
+  },
+  "ER": {
+   "name": "E-rickshaw",
+   "key": "Mtv6LZ3AG2DqZmJp6S9KMv"
+  },
+  "HP": {
+   "name": "Home Page 2026",
+   "key": "fxTUcpqbNtHknPclS6sJZg"
+  },
+  "NO": {
+   "name": "New Onboarding",
+   "key": "ziTJqlUlTBuE27ZytNvCTi"
+  },
+  "RF": {
+   "name": "Referral flow",
+   "key": "womPCP4eD8g7afb69X5f6v"
+  },
+  "MP": {
+   "name": "My Plans 2.0",
+   "key": "6QRvGOUAYtTm6T6L6VTnxR"
+  },
+  "BO": {
+   "name": "Bundle Orders",
+   "key": "9m56yKp10jrLoIzW1yRmQA"
+  },
+  "OA": {
+   "name": "OA Revamp",
+   "key": "NjrI5wZ8ztYRZmUWBAPuDy"
+  },
+  "HO": {
+   "name": "Home of Orders",
+   "key": "ytkTDONL0GBKq3mpKhZnve"
+  },
+  "FA": {
+   "name": "Face Auth",
+   "key": "n6MeDvD6KOl4x8gdY7Lqmm"
+  }
+ },
+ "items": [
+  {
+   "id": "D01",
+   "kind": "decision",
+   "title": "How does a blocking task reach the captain from home?",
+   "context": "Gear/merch checks, document problems and low wallet all stop a captain going online. The files show four different ways to surface them, and Home Page 2026 (final) shows none of them. This is what Claude guessed wrong on Verify Merch.",
+   "options": [
+    {
+     "key": "A",
+     "label": "Status card on home → full task page",
+     "detail": "Card under the header (title, status, link, illustration with badge). Tap opens a full page like Verify Merch. Used in Logistics merch auth and New Onboarding doc nudge.",
+     "evidence": [
+      {
+       "file": "Logistics",
+       "code": "LOG",
+       "node": "4420:37619",
+       "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4420-37619"
+      },
+      {
+       "file": "New Onboarding",
+       "code": "NO",
+       "node": "1797:33036",
+       "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1797-33036"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "label": "Action Centre list",
+     "detail": "'Take action now (n)' section with scrolling cards and View all. Exists only in Home Page 2026 kitchen.",
+     "evidence": [
+      {
+       "file": "Home Page 2026",
+       "code": "HP",
+       "node": "86:7525",
+       "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=86-7525"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "label": "Red banner under header",
+     "detail": "Full-width red 'Orders will be blocked!' banner with Take Action. Home Page 2026, wallet only.",
+     "evidence": [
+      {
+       "file": "Home Page 2026",
+       "code": "HP",
+       "node": "87:12228",
+       "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=87-12228"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "label": "Bottom sheet when tapping Go On Duty",
+     "detail": "Nothing on home; sheet appears on going online. Face Auth suspension and selfie nudge.",
+     "evidence": [
+      {
+       "file": "Face Auth",
+       "code": "FA",
+       "node": "1218:4023",
+       "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1218-4023"
+      },
+      {
+       "file": "Face Auth",
+       "code": "FA",
+       "node": "1187:7110",
+       "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1187-7110"
+      }
+     ]
+    }
+   ],
+   "recommend": "A, with D as the fallback when the captain taps Go On Duty without finishing",
+   "evidence": [
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "4420:37619",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4420-37619"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "4420:37898",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4420-37898"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1797:33036",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1797-33036"
+    },
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "86:7525",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=86-7525"
+    },
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "87:12228",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=87-12228"
+    },
+    {
+     "file": "Face Auth",
+     "code": "FA",
+     "node": "1187:7110",
+     "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1187-7110"
+    }
+   ],
+   "image": "logistics/4347-35480.png"
+  },
+  {
+   "id": "D02",
+   "kind": "decision",
+   "title": "Trip steps: tap or swipe?",
+   "context": "Arrived / Start ride / Complete ride. E-rickshaw's ✅ 'removing swipe from CTA' replaced swipe, but its ✅ Post activation page and Bundle Orders still use the slider.",
+   "options": [
+    {
+     "key": "A",
+     "label": "Tap + confirm bottom sheet",
+     "detail": "Full-width primary button, then a sheet: illustration, 'Are you sure…?', rule copy, confirm + secondary.",
+     "evidence": [
+      {
+       "file": "E-rickshaw",
+       "code": "ER",
+       "node": "7198:26842",
+       "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=7198-26842"
+      },
+      {
+       "file": "E-rickshaw",
+       "code": "ER",
+       "node": "7198:26664",
+       "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=7198-26664"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "label": "Swipe slider",
+     "detail": "Keep the swipe-to-confirm button.",
+     "evidence": [
+      {
+       "file": "E-rickshaw",
+       "code": "ER",
+       "node": "1041:159968",
+       "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=1041-159968"
+      },
+      {
+       "file": "Bundle Orders",
+       "code": "BO",
+       "node": "247:24218",
+       "url": "https://www.figma.com/design/9m56yKp10jrLoIzW1yRmQA/?node-id=247-24218"
+      }
+     ]
+    }
+   ],
+   "recommend": "A (it is the newest ✅ decision)",
+   "evidence": [
+    {
+     "file": "E-rickshaw",
+     "code": "ER",
+     "node": "7198:26842",
+     "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=7198-26842"
+    },
+    {
+     "file": "E-rickshaw",
+     "code": "ER",
+     "node": "7198:26664",
+     "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=7198-26664"
+    },
+    {
+     "file": "E-rickshaw",
+     "code": "ER",
+     "node": "1041:159968",
+     "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=1041-159968"
+    },
+    {
+     "file": "Bundle Orders",
+     "code": "BO",
+     "node": "247:24218",
+     "url": "https://www.figma.com/design/9m56yKp10jrLoIzW1yRmQA/?node-id=247-24218"
+    }
+   ]
+  },
+  {
+   "id": "D03",
+   "kind": "decision",
+   "title": "Results and confirmations: centred card or bottom sheet?",
+   "context": "Activation success is a centred card (My Plans), plan outcomes are a bottom sheet, 'Please wait' is a centred card, blocked/failed is a sheet, success over home is a centred card with no button.",
+   "options": [
+    {
+     "key": "A",
+     "label": "Split by purpose",
+     "detail": "Centred card for progress and short success. Bottom sheet for anything the captain has to read or decide.",
+     "evidence": [
+      {
+       "file": "New Onboarding",
+       "code": "NO",
+       "node": "3562:8956",
+       "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=3562-8956"
+      },
+      {
+       "file": "Face Auth",
+       "code": "FA",
+       "node": "1218:4023",
+       "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1218-4023"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "label": "Always bottom sheet",
+     "detail": "Every result and confirmation is a sheet.",
+     "evidence": [
+      {
+       "file": "My Plans 2.0",
+       "code": "MP",
+       "node": "7209:17764",
+       "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=7209-17764"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "label": "Always centred card",
+     "detail": "Every result is a centred modal card.",
+     "evidence": [
+      {
+       "file": "My Plans 2.0",
+       "code": "MP",
+       "node": "7469:22236",
+       "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=7469-22236"
+      },
+      {
+       "file": "Home Page 2026",
+       "code": "HP",
+       "node": "86:5367",
+       "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=86-5367"
+      }
+     ]
+    }
+   ],
+   "recommend": "A",
+   "evidence": [
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "7469:22236",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=7469-22236"
+    },
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "7209:17764",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=7209-17764"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "3562:8956",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=3562-8956"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "2303:5086",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2303-5086"
+    },
+    {
+     "file": "Face Auth",
+     "code": "FA",
+     "node": "1187:7110",
+     "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1187-7110"
+    },
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "86:5367",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=86-5367"
+    }
+   ]
+  },
+  {
+   "id": "D04",
+   "kind": "decision",
+   "title": "Picking one option from several",
+   "context": "My Plans L1 uses cards each with 'View Details'. Bike SaaS, onboarding service choice and zone choice use radio cards with a sticky footer.",
+   "options": [
+    {
+     "key": "A",
+     "label": "Radio cards + sticky confirm footer",
+     "detail": "Select in place; footer shows the selection (and price) and one primary button, disabled until chosen.",
+     "evidence": [
+      {
+       "file": "My Plans 2.0",
+       "code": "MP",
+       "node": "7469:20337",
+       "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=7469-20337"
+      },
+      {
+       "file": "New Onboarding",
+       "code": "NO",
+       "node": "1348:24200",
+       "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1348-24200"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "label": "Cards with View Details",
+     "detail": "Each card opens its own detail page that holds the action.",
+     "evidence": [
+      {
+       "file": "My Plans 2.0",
+       "code": "MP",
+       "node": "3617:12919",
+       "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=3617-12919"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "label": "Both, by rule",
+     "detail": "A when options are simple; B when each option needs a full explanation (plans).",
+     "evidence": []
+    }
+   ],
+   "recommend": "C",
+   "evidence": [
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "7469:20337",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=7469-20337"
+    },
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "3617:12919",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=3617-12919"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1348:24200",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1348-24200"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "2053:27217",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2053-27217"
+    },
+    {
+     "file": "E-rickshaw",
+     "code": "ER",
+     "node": "4856:3511",
+     "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=4856-3511"
+    }
+   ]
+  },
+  {
+   "id": "D05",
+   "kind": "decision",
+   "title": "Primary button colour",
+   "context": "Four primary styles in final pages: Runway yellow, dark navy pill (My Plans), green (plan intro), black/blue outline pills.",
+   "options": [
+    {
+     "key": "A",
+     "label": "Yellow only",
+     "detail": "Runway yellow is the only filled primary. Others become secondary/tertiary.",
+     "evidence": [
+      {
+       "file": "My Plans 2.0",
+       "code": "MP",
+       "node": "3617:15300",
+       "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=3617-15300"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "label": "Yellow + themed exceptions",
+     "detail": "Allow a themed primary inside branded surfaces (My Plans dark hero, plan intro).",
+     "evidence": [
+      {
+       "file": "My Plans 2.0",
+       "code": "MP",
+       "node": "5247:33647",
+       "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=5247-33647"
+      },
+      {
+       "file": "My Plans 2.0",
+       "code": "MP",
+       "node": "6525:8337",
+       "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=6525-8337"
+      }
+     ]
+    }
+   ],
+   "recommend": "A",
+   "evidence": [
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "5247:33647",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=5247-33647"
+    },
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "6525:8337",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=6525-8337"
+    },
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "3617:12919",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=3617-12919"
+    }
+   ]
+  },
+  {
+   "id": "D06",
+   "kind": "decision",
+   "title": "Page header",
+   "context": "Three headers are used for inner pages: Runway Internal Page Header, a different 'Internal page Header' from another library (camera, Assure, onboarding), and hand-built back/Help/call rows.",
+   "options": [
+    {
+     "key": "A",
+     "label": "Runway only, add a dark variant",
+     "detail": "Every inner page uses Runway Internal Page Header; add a dark variant for camera screens and a call action.",
+     "evidence": [
+      {
+       "file": "New Onboarding",
+       "code": "NO",
+       "node": "2985:34426",
+       "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=2985-34426"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "label": "Allow local headers",
+     "detail": "Keep per-flow headers.",
+     "evidence": [
+      {
+       "file": "New Onboarding",
+       "code": "NO",
+       "node": "3562:8829",
+       "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=3562-8829"
+      },
+      {
+       "file": "Face Auth",
+       "code": "FA",
+       "node": "1542:1057",
+       "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1542-1057"
+      }
+     ]
+    }
+   ],
+   "recommend": "A",
+   "evidence": [
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "3562:8829",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=3562-8829"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "2985:34426",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=2985-34426"
+    },
+    {
+     "file": "Face Auth",
+     "code": "FA",
+     "node": "1542:1057",
+     "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1542-1057"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "4421:38348",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4421-38348"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1014:23782",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1014-23782"
+    }
+   ]
+  },
+  {
+   "id": "D07",
+   "kind": "decision",
+   "title": "Wrong document uploaded",
+   "context": "The ✅ Doc classifier page shows both treatments for the same error.",
+   "options": [
+    {
+     "key": "A",
+     "label": "Inline",
+     "detail": "Red banner under the header, failed image with red border, 'Upload again' in place.",
+     "evidence": [
+      {
+       "file": "New Onboarding",
+       "code": "NO",
+       "node": "3562:8890",
+       "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=3562-8890"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "label": "Bottom sheet",
+     "detail": "Sheet with the image, red error box, Retake + opt-out.",
+     "evidence": [
+      {
+       "file": "New Onboarding",
+       "code": "NO",
+       "node": "3562:9027",
+       "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=3562-9027"
+      }
+     ]
+    }
+   ],
+   "recommend": "A (the captain stays on the form)",
+   "evidence": [
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "3562:8890",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=3562-8890"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "3562:9027",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=3562-9027"
+    }
+   ],
+   "image": "new-onboarding/3562-8890.png"
+  },
+  {
+   "id": "D08",
+   "kind": "decision",
+   "title": "One look for verification status",
+   "context": "Status (to do / verifying / verified / failed) is drawn three ways: onboarding checklist cards, home nudge rows, Document Centre cards. Logistics has a fourth: the Verify Merch task row.",
+   "options": [
+    {
+     "key": "A",
+     "label": "One Task row component",
+     "detail": "Logistics task row (thumbnail, label, status caption, arrow/check) used everywhere.",
+     "evidence": [
+      {
+       "file": "Logistics",
+       "code": "LOG",
+       "node": "4417:37326",
+       "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4417-37326"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "label": "One Checklist card",
+     "detail": "Onboarding step card (icon tile, label, coloured status, trailing pill) used everywhere.",
+     "evidence": [
+      {
+       "file": "New Onboarding",
+       "code": "NO",
+       "node": "1348:25620",
+       "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1348-25620"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "label": "Keep separate",
+     "detail": "Each flow keeps its own.",
+     "evidence": [
+      {
+       "file": "New Onboarding",
+       "code": "NO",
+       "node": "1015:27636",
+       "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1015-27636"
+      },
+      {
+       "file": "New Onboarding",
+       "code": "NO",
+       "node": "2594:2355",
+       "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=2594-2355"
+      }
+     ]
+    }
+   ],
+   "recommend": "A",
+   "evidence": [
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "4417:37326",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4417-37326"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1348:25620",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1348-25620"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1015:27636",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1015-27636"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "2594:2355",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=2594-2355"
+    }
+   ]
+  },
+  {
+   "id": "D09",
+   "kind": "decision",
+   "title": "Close button on bottom sheets",
+   "context": "Most final sheets put a round × floating above the sheet on the dim background. Check against Runway Bottom Sheet.",
+   "options": [
+    {
+     "key": "A",
+     "label": "Floating above the sheet",
+     "detail": "Round × on the scrim, top-right, above the sheet.",
+     "evidence": [
+      {
+       "file": "Face Auth",
+       "code": "FA",
+       "node": "1305:3878",
+       "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1305-3878"
+      },
+      {
+       "file": "Logistics",
+       "code": "LOG",
+       "node": "4348:376",
+       "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4348-376"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "label": "Inside the sheet",
+     "detail": "× in the sheet's top row.",
+     "evidence": []
+    }
+   ],
+   "recommend": "A (what the final designs do)",
+   "evidence": [
+    {
+     "file": "Face Auth",
+     "code": "FA",
+     "node": "1305:3878",
+     "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1305-3878"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "4348:376",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4348-376"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1064:39867",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1064-39867"
+    },
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "7209:17764",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=7209-17764"
+    }
+   ]
+  },
+  {
+   "id": "D10",
+   "kind": "decision",
+   "title": "Order alert card: follow the OA framework?",
+   "context": "Runway's OA cards are split by vehicle (Bike/Auto/Cab) with no themes. The OA framework (May '26) splits by order type with themes and a max of 2 signals.",
+   "options": [
+    {
+     "key": "A",
+     "label": "Rebuild Runway card on the framework",
+     "detail": "Base / sub-service / contextual / preference buckets, theme variants, tag row, 264 or 272 width fixed.",
+     "evidence": [
+      {
+       "file": "OA Revamp",
+       "code": "OA",
+       "node": "8890:7129",
+       "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=8890-7129"
+      },
+      {
+       "file": "OA Revamp",
+       "code": "OA",
+       "node": "8289:10483",
+       "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=8289-10483"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "label": "Keep Runway per-vehicle cards",
+     "detail": "Leave Runway as is.",
+     "evidence": [
+      {
+       "file": "Runway today",
+       "code": "repo",
+       "node": "components/Card/preview.png",
+       "url": ""
+      }
+     ]
+    }
+   ],
+   "recommend": "A",
+   "evidence": [
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "8890:7129",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=8890-7129"
+    },
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "8289:10483",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=8289-10483"
+    },
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "9382:23398",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=9382-23398"
+    }
+   ],
+   "image": "oa-revamp/8890-7156.png"
+  },
+  {
+   "id": "D11",
+   "kind": "decision",
+   "title": "Snackbar after turning a setting off",
+   "context": "Turning Go To Area off shows a red snackbar, the error colour, for a successful action.",
+   "options": [
+    {
+     "key": "A",
+     "label": "Neutral/dark",
+     "detail": "Success of any action is neutral or green; red only for failure.",
+     "evidence": [
+      {
+       "file": "Home of Orders",
+       "code": "HO",
+       "node": "2593:29393",
+       "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=2593-29393"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "label": "Red",
+     "detail": "Keep red for 'turned off'.",
+     "evidence": [
+      {
+       "file": "Home of Orders",
+       "code": "HO",
+       "node": "2593:34560",
+       "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=2593-34560"
+      }
+     ]
+    }
+   ],
+   "recommend": "A",
+   "evidence": [
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "2593:34560",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=2593-34560"
+    },
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "2593:71751",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=2593-71751"
+    }
+   ],
+   "image": "home-of-orders/2593-34560.png"
+  },
+  {
+   "id": "D12",
+   "kind": "decision",
+   "title": "Error sheet title colour",
+   "context": "Blocked/failed sheets use a red title in one place and a neutral title in another.",
+   "options": [
+    {
+     "key": "A",
+     "label": "Neutral title",
+     "detail": "Red lives only in the illustration badge.",
+     "evidence": []
+    },
+    {
+     "key": "B",
+     "label": "Red title",
+     "detail": "Title is red for every error.",
+     "evidence": []
+    }
+   ],
+   "recommend": "A",
+   "evidence": [
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "1041:16946",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1041-16946"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "4476:220923",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4476-220923"
+    },
+    {
+     "file": "Face Auth",
+     "code": "FA",
+     "node": "1187:7110",
+     "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1187-7110"
+    }
+   ]
+  },
+  {
+   "id": "D13",
+   "kind": "decision",
+   "title": "Status labels",
+   "context": "Statuses appear as coloured text, hand-made pills, or Runway Tag.",
+   "options": [
+    {
+     "key": "A",
+     "label": "Runway Tag",
+     "detail": "Every status label is a Tag (success/warning/error/neutral).",
+     "evidence": []
+    },
+    {
+     "key": "B",
+     "label": "Coloured text",
+     "detail": "Plain coloured text is allowed in rows.",
+     "evidence": [
+      {
+       "file": "Referral flow",
+       "code": "RF",
+       "node": "2071:3079",
+       "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=2071-3079"
+      }
+     ]
+    }
+   ],
+   "recommend": "A for standalone labels, coloured caption only inside Task rows",
+   "evidence": [
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "2071:3079",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=2071-3079"
+    },
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "7469:20601",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=7469-20601"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "2594:2355",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=2594-2355"
+    }
+   ]
+  },
+  {
+   "id": "D14",
+   "kind": "decision",
+   "title": "Bottom navigation",
+   "context": "Final Home of Orders uses a local 'Bottom Nav Final': Home + Orders pill (grey / black-open / yellow-with-count). Runway's samples are Home/Credit/Earnings. Home 2026 uses another library.",
+   "options": [
+    {
+     "key": "A",
+     "label": "Update Runway nav to the Orders-pill model",
+     "detail": "Runway BottomNavigation gets the Orders pill and its three states; used everywhere.",
+     "evidence": [
+      {
+       "file": "Home of Orders",
+       "code": "HO",
+       "node": "1281:33404",
+       "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=1281-33404"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "label": "Keep Runway as is",
+     "detail": "No change.",
+     "evidence": [
+      {
+       "file": "Runway today",
+       "code": "repo",
+       "node": "components/BottomNavigation/preview.png",
+       "url": ""
+      }
+     ]
+    }
+   ],
+   "recommend": "A",
+   "evidence": [
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "1281:33404",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=1281-33404"
+    },
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "879:70969",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=879-70969"
+    },
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "306:1771",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=306-1771"
+    }
+   ],
+   "image": "home-of-orders/1281-33404.png"
+  },
+  {
+   "id": "D15",
+   "kind": "decision",
+   "title": "Optional step label",
+   "context": "Opt-out buttons say 'I do not have a license' / 'I Do Not Have A License' / 'Upload later'.",
+   "options": [
+    {
+     "key": "A",
+     "label": "Sentence case",
+     "detail": "All button labels in sentence case.",
+     "evidence": []
+    },
+    {
+     "key": "B",
+     "label": "Title Case",
+     "detail": "All button labels in Title Case.",
+     "evidence": []
+    }
+   ],
+   "recommend": "A",
+   "evidence": [
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "3562:8829",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=3562-8829"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1015:27376",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1015-27376"
+    }
+   ]
+  },
+  {
+   "id": "P01",
+   "kind": "pattern",
+   "group": "pages",
+   "title": "Task checklist page",
+   "when": "The captain must finish several independent checks (photos, documents) before something unlocks.",
+   "structure": "Internal Page Header (back, title, Help) → hero image 360×202 → title Bold 24 → Task rows (gap 16) → sticky footer: Primary Large disabled until all done + helper text + tertiary link (e.g. 'Apply for merch →').",
+   "notes": "Later frames drop the escape link; footer overlaps last row by 12px.",
+   "evidence": [
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "4417:37326",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4417-37326"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "4429:38955",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4429-38955"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "4429:39176",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4429-39176"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1348:25620",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1348-25620"
+    }
+   ],
+   "image": "logistics/4347-35480.png"
+  },
+  {
+   "id": "P02",
+   "kind": "pattern",
+   "group": "pages",
+   "title": "Document upload page",
+   "when": "Collect a two-sided ID (DL, Aadhaar, RC) and its number.",
+   "structure": "Header → info banner with audio → Front tile → Back tile (enabled after front) → number field with example → sticky footer: Submit + outline opt-out.",
+   "notes": "Optional docs tag the photo section 'Not Compulsory'. OCR can prefill the number.",
+   "evidence": [
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "3562:8829",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=3562-8829"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1015:27376",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1015-27376"
+    },
+    {
+     "file": "E-rickshaw",
+     "code": "ER",
+     "node": "4856:5256",
+     "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=4856-5256"
+    },
+    {
+     "file": "E-rickshaw",
+     "code": "ER",
+     "node": "154:3841",
+     "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=154-3841"
+    }
+   ],
+   "image": "new-onboarding/3562-8829.png"
+  },
+  {
+   "id": "P03",
+   "kind": "pattern",
+   "group": "pages",
+   "title": "Camera capture → preview → verify",
+   "when": "Live photo of a document, selfie or merch item.",
+   "structure": "Dark header (back, item name) → full-bleed camera with optional frame → bottom panel: title, guidance, Gallery + shutter. Preview: Retake | Submit side by side, Rotate/Crop. Then centred status card: Verifying → Success / Failed + Retry.",
+   "notes": "Selfie uses a circular viewfinder. Live-only (no gallery) for merch.",
+   "evidence": [
+    {
+     "file": "Face Auth",
+     "code": "FA",
+     "node": "1542:1057",
+     "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1542-1057"
+    },
+    {
+     "file": "Face Auth",
+     "code": "FA",
+     "node": "1542:1100",
+     "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1542-1100"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "4421:38348",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4421-38348"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "4429:38652",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4429-38652"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1238:55820",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1238-55820"
+    }
+   ],
+   "image": "face-auth/1542-1056.png"
+  },
+  {
+   "id": "P04",
+   "kind": "pattern",
+   "group": "pages",
+   "title": "Programme hub with sticky action footer",
+   "when": "Landing page of a programme (referral, plan detail): what you earned, what's on offer, one main action.",
+   "structure": "Internal Page Header (Help) → hero banner → summary card (₹, chevron) → section title → offer rows → sticky footer (code + Copy, primary).",
+   "notes": "Footer exists with and without Copy.",
+   "evidence": [
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "987:6275",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=987-6275"
+    },
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "1401:7645",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=1401-7645"
+    },
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "3617:15300",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=3617-15300"
+    }
+   ],
+   "image": "referral-flow/987-6275.png"
+  },
+  {
+   "id": "P05",
+   "kind": "pattern",
+   "group": "pages",
+   "title": "Tabbed tracker list with search",
+   "when": "Track many people or items by status and act per row.",
+   "structure": "Header → summary card → Primary Tabs → search field → rows (avatar, name, status, trailing small button or amount).",
+   "evidence": [
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "2071:3079",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=2071-3079"
+    },
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "1776:5117",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=1776-5117"
+    }
+   ],
+   "image": "referral-flow/2071-3079.png"
+  },
+  {
+   "id": "P06",
+   "kind": "pattern",
+   "group": "pages",
+   "title": "Contact picker with invite",
+   "when": "Invite people from phone contacts.",
+   "structure": "Header → search → rows (initials avatar, name, number, 'Invite' pill with WhatsApp/SMS icon).",
+   "evidence": [
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "1011:8468",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=1011-8468"
+    }
+   ],
+   "image": "referral-flow/1011-8468.png"
+  },
+  {
+   "id": "P07",
+   "kind": "pattern",
+   "group": "pages",
+   "title": "Person detail with reminder panel",
+   "when": "Nudge one referred person to their next step.",
+   "structure": "Header → profile row with earnings → milestone timeline → tinted panel with message preview → primary 'Send Reminder' (WhatsApp/SMS).",
+   "evidence": [
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "1000:7631",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=1000-7631"
+    },
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "1018:8656",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=1018-8656"
+    }
+   ],
+   "image": "referral-flow/1000-7631.png"
+  },
+  {
+   "id": "P08",
+   "kind": "pattern",
+   "group": "pages",
+   "title": "Document Centre",
+   "when": "Review all documents after onboarding.",
+   "structure": "Header → pending cards (status, Upload Again) → 'Completed Documents' divider → completed rows.",
+   "evidence": [
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1015:27636",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1015-27636"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1041:36374",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1041-36374"
+    }
+   ],
+   "image": "new-onboarding/1015-27636.png"
+  },
+  {
+   "id": "P09",
+   "kind": "pattern",
+   "group": "pages",
+   "title": "Full-screen intro takeover",
+   "when": "First exposure to a new plan or feature.",
+   "structure": "Dark full screen → back → logo → highlighted card with audio → single CTA. Variant: dimmed page with close and a tall image/video card.",
+   "evidence": [
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "6525:8337",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=6525-8337"
+    },
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "1000:7232",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=1000-7232"
+    },
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "4150:22983",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=4150-22983"
+    }
+   ],
+   "image": "referral-flow/1000-7232.png"
+  },
+  {
+   "id": "P10",
+   "kind": "pattern",
+   "group": "pages",
+   "title": "Time-bound offers page",
+   "when": "Browse incentives with dates and status.",
+   "structure": "Header + Secondary Tabs → date strip → audio guide → filter chips with counts → status cards (Live / Coming / Ended / Missed) → accordions.",
+   "evidence": [
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "3149:60892",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3149-60892"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "3607:5501",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3607-5501"
+    }
+   ],
+   "image": "logistics/3149-62137.png"
+  },
+  {
+   "id": "P11",
+   "kind": "pattern",
+   "group": "pages",
+   "title": "Payment collection page",
+   "when": "Confirm cash collected before closing an order.",
+   "structure": "Header (Payments, Help) → payment details (amount, split, wallet) → your QR → OR → 'Collect Cash' → confirm sheet (Go back / Collected).",
+   "evidence": [
+    {
+     "file": "Bundle Orders",
+     "code": "BO",
+     "node": "2327:49484",
+     "url": "https://www.figma.com/design/9m56yKp10jrLoIzW1yRmQA/?node-id=2327-49484"
+    },
+    {
+     "file": "Bundle Orders",
+     "code": "BO",
+     "node": "2329:57165",
+     "url": "https://www.figma.com/design/9m56yKp10jrLoIzW1yRmQA/?node-id=2329-57165"
+    }
+   ]
+  },
+  {
+   "id": "P12",
+   "kind": "pattern",
+   "group": "pages",
+   "title": "Wallet home and add UPI",
+   "when": "Check balance, transfer, add a payment method.",
+   "structure": "Header (Earnings, Help) → tabs → balance card → education carousel → history. Add UPI: upload QR photo OR type UPI ID → verify → added.",
+   "evidence": [
+    {
+     "file": "E-rickshaw",
+     "code": "ER",
+     "node": "5195:54759",
+     "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=5195-54759"
+    },
+    {
+     "file": "E-rickshaw",
+     "code": "ER",
+     "node": "6076:14047",
+     "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=6076-14047"
+    },
+    {
+     "file": "E-rickshaw",
+     "code": "ER",
+     "node": "5986:12096",
+     "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=5986-12096"
+    }
+   ]
+  },
+  {
+   "id": "P13",
+   "kind": "pattern",
+   "group": "overlays",
+   "title": "Explainer sheet before a task",
+   "when": "Explain rules before a capture or multi-step task starts.",
+   "structure": "Scrim + floating × → sheet: hero illustration → title Bold 24 → 2–3 bullet rules → red Note box for consequences → [consent checkbox] → full-width primary 'Start'.",
+   "evidence": [
+    {
+     "file": "Face Auth",
+     "code": "FA",
+     "node": "1305:3878",
+     "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1305-3878"
+    },
+    {
+     "file": "Face Auth",
+     "code": "FA",
+     "node": "1405:838",
+     "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1405-838"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "4348:376",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4348-376"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1238:55820",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1238-55820"
+    }
+   ],
+   "image": "face-auth/1305-3842.png"
+  },
+  {
+   "id": "P14",
+   "kind": "pattern",
+   "group": "overlays",
+   "title": "Single-message sheet (blocked / rejected / info)",
+   "when": "Tell the captain one thing that happened and give one action.",
+   "structure": "Scrim + × → sheet: illustration with status badge → title (states the block and duration) → one reason line → primary 'OK'.",
+   "notes": "Re-shown each time the captain tries to go online; no persistent sign on home.",
+   "evidence": [
+    {
+     "file": "Face Auth",
+     "code": "FA",
+     "node": "1187:7110",
+     "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1187-7110"
+    },
+    {
+     "file": "Face Auth",
+     "code": "FA",
+     "node": "1218:4023",
+     "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1218-4023"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "1041:16946",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=1041-16946"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1064:39867",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1064-39867"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "3490:4261",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=3490-4261"
+    }
+   ],
+   "image": "face-auth/1218-4023.png"
+  },
+  {
+   "id": "P15",
+   "kind": "pattern",
+   "group": "overlays",
+   "title": "Confirm sheet with consequence warning",
+   "when": "An action has side effects (switch zone, complete ride).",
+   "structure": "Sheet title as question → from → to chips → orange warning box → Primary 'Yes, …' + Secondary 'Go Back'.",
+   "evidence": [
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "2353:34368",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2353-34368"
+    },
+    {
+     "file": "E-rickshaw",
+     "code": "ER",
+     "node": "7198:26664",
+     "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=7198-26664"
+    }
+   ],
+   "image": "logistics/628-41500.png"
+  },
+  {
+   "id": "P16",
+   "kind": "pattern",
+   "group": "overlays",
+   "title": "'Please wait' progress card",
+   "when": "Upload or verification in progress; block the page briefly.",
+   "structure": "Dimmed page → centred card: yellow ring spinner, bold 'Please Wait', one line naming the action.",
+   "evidence": [
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "3562:8956",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=3562-8956"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1348:25262",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1348-25262"
+    },
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "7469:22236",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=7469-22236"
+    }
+   ],
+   "image": "new-onboarding/3562-8956.png"
+  },
+  {
+   "id": "P17",
+   "kind": "pattern",
+   "group": "overlays",
+   "title": "Success card on dim background",
+   "when": "Confirm something took effect.",
+   "structure": "Scrim (+ ×) → card with green check badge → bold subject + one line → [Okay].",
+   "notes": "Home 2026 version has no way to dismiss.",
+   "evidence": [
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "2303:5086",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2303-5086"
+    },
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "7469:22236",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=7469-22236"
+    },
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "86:5367",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=86-5367"
+    }
+   ],
+   "image": "home-page-2026/86-5367.png"
+  },
+  {
+   "id": "P18",
+   "kind": "pattern",
+   "group": "overlays",
+   "title": "Outcome sheet with tinted header",
+   "when": "End of a plan window: tell the money outcome.",
+   "structure": "Dimmed home → × → sheet with tinted top (green success / yellow warning / blue neutral) showing the card → title with amount → body → OK.",
+   "evidence": [
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "7209:17764",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=7209-17764"
+    },
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "7125:19525",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=7125-19525"
+    },
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "7124:17960",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=7124-17960"
+    }
+   ],
+   "image": "my-plans-2/7125-18438.png"
+  },
+  {
+   "id": "P19",
+   "kind": "pattern",
+   "group": "overlays",
+   "title": "Not-eligible explanation",
+   "when": "Captain taps an option they can't use.",
+   "structure": "Dimmed list → × above card → lock icon, 'This plan is not for you', reason. No button.",
+   "evidence": [
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "4835:20442",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=4835-20442"
+    }
+   ],
+   "image": "my-plans-2/4835-20442.png"
+  },
+  {
+   "id": "P20",
+   "kind": "pattern",
+   "group": "overlays",
+   "title": "Celebration card",
+   "when": "Captain just earned a reward; push to the next milestone.",
+   "structure": "Dimmed home → gradient card: 3D illustration, caption, big ₹, sentence → in-card primary.",
+   "evidence": [
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "2372:13503",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=2372-13503"
+    },
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "2509:37639",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=2509-37639"
+    }
+   ],
+   "image": "referral-flow/2372-13503.png"
+  },
+  {
+   "id": "P21",
+   "kind": "pattern",
+   "group": "overlays",
+   "title": "Consent checkbox unlocks the button",
+   "when": "Legal consent is required before continuing.",
+   "structure": "Checkbox + legal text with inline link, directly above a full-width primary that stays disabled until ticked.",
+   "evidence": [
+    {
+     "file": "Face Auth",
+     "code": "FA",
+     "node": "1405:838",
+     "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1405-838"
+    },
+    {
+     "file": "Face Auth",
+     "code": "FA",
+     "node": "1441:570",
+     "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1441-570"
+    }
+   ],
+   "image": "face-auth/1405-802.png"
+  },
+  {
+   "id": "P22",
+   "kind": "pattern",
+   "group": "overlays",
+   "title": "Coachmark with audio",
+   "when": "Teach a new or low-literacy captain one control at a time.",
+   "structure": "Dim with a cut-out around one element → tooltip (title, body, n/3, Skip, Next/Got it) → optional audio tile.",
+   "evidence": [
+    {
+     "file": "E-rickshaw",
+     "code": "ER",
+     "node": "3780:16234",
+     "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=3780-16234"
+    },
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "514:1185",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=514-1185"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "3244:31724",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=3244-31724"
+    }
+   ],
+   "image": "home-page-2026/514-1184.png"
+  },
+  {
+   "id": "P23",
+   "kind": "pattern",
+   "group": "overlays",
+   "title": "Floating help button (Saathi / Captain Assist)",
+   "when": "Help is always one tap away on home, trip and payment screens.",
+   "structure": "Pill bottom-right: collapsed (icon) / expanded (label) / playing; 'Tap to Play' animation on app open.",
+   "notes": "Three local versions under three names.",
+   "evidence": [
+    {
+     "file": "E-rickshaw",
+     "code": "ER",
+     "node": "6778:34908",
+     "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=6778-34908"
+    },
+    {
+     "file": "E-rickshaw",
+     "code": "ER",
+     "node": "6200:39114",
+     "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=6200-39114"
+    },
+    {
+     "file": "E-rickshaw",
+     "code": "ER",
+     "node": "2987:162037",
+     "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=2987-162037"
+    }
+   ]
+  },
+  {
+   "id": "P24",
+   "kind": "pattern",
+   "group": "overlays",
+   "title": "Snackbar for settings saved to the server",
+   "when": "Captain flips a setting that the server must confirm.",
+   "structure": "Dark snackbar with spinner 'Turning on X' above the nav → green '✓ X is turned on' (2–3 s) or red error with ×.",
+   "evidence": [
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "2468:51508",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=2468-51508"
+    },
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "2593:29393",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=2593-29393"
+    },
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "2593:74115",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=2593-74115"
+    }
+   ],
+   "image": "home-of-orders/2593-29393.png"
+  },
+  {
+   "id": "P25",
+   "kind": "pattern",
+   "group": "overlays",
+   "title": "Inline banners (info / note / important)",
+   "when": "Explain why something is needed, or warn of a consequence, inside a page or sheet.",
+   "structure": "Full-width tinted box: icon + 1–2 lines + optional circular audio button. Blue info, red note, orange warning.",
+   "evidence": [
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1348:25085",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1348-25085"
+    },
+    {
+     "file": "Face Auth",
+     "code": "FA",
+     "node": "1305:3878",
+     "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1305-3878"
+    },
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "7469:20337",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=7469-20337"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "2353:34368",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2353-34368"
+    }
+   ],
+   "image": "new-onboarding/1348-25085.png"
+  },
+  {
+   "id": "P26",
+   "kind": "pattern",
+   "group": "overlays",
+   "title": "Vendor verification hand-off",
+   "when": "Face match by HyperVerge SDK.",
+   "structure": "App explainer sheet → vendor screens (intro, permission, oval capture, result) → back to app result sheet. App owns only before/after.",
+   "evidence": [
+    {
+     "file": "Face Auth",
+     "code": "FA",
+     "node": "1305:3931",
+     "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1305-3931"
+    },
+    {
+     "file": "Face Auth",
+     "code": "FA",
+     "node": "1305:4825",
+     "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1305-4825"
+    }
+   ],
+   "image": "face-auth/1404-801.png"
+  },
+  {
+   "id": "P27",
+   "kind": "pattern",
+   "group": "home",
+   "title": "Home that changes with duty state",
+   "when": "The root screen.",
+   "structure": "Header (menu, duty toggle, location, bell) → Today's Earnings bar → performance banner → [off duty: greeting + 'Go On Duty' | on duty: map card] → stories → 'Only for you' carousel → shortcuts → bottom nav.",
+   "notes": "Three duty toggles in one file.",
+   "evidence": [
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "119:5672",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=119-5672"
+    },
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "51:4186",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=51-4186"
+    },
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "306:1771",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=306-1771"
+    },
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "312:3669",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=312-3669"
+    }
+   ],
+   "image": "home-page-2026/119-5672.png"
+  },
+  {
+   "id": "P28",
+   "kind": "pattern",
+   "group": "home",
+   "title": "Map card with layer pills",
+   "when": "On duty: show demand layers.",
+   "structure": "328×328 map card, right buttons (maximise, location, SOS), max 4 pills + ··· to expand; maximise = full-screen map. Zone card (airport/HAIL) attaches to pills.",
+   "evidence": [
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "51:4186",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=51-4186"
+    },
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "51:4332",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=51-4332"
+    },
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "119:6035",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=119-6035"
+    },
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "86:1900",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=86-1900"
+    }
+   ],
+   "image": "home-page-2026/51-4186.png"
+  },
+  {
+   "id": "P29",
+   "kind": "pattern",
+   "group": "home",
+   "title": "Home modules",
+   "when": "Content blocks on home.",
+   "structure": "Performance banner (streak dots), stories row (ringed avatars), 'Only for you' offer carousel, shortcut tiles (3 across), header quick-peek wallet panel, header-dropped announcement.",
+   "evidence": [
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "312:3669",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=312-3669"
+    },
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "306:1771",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=306-1771"
+    },
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "91:12497",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=91-12497"
+    },
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "92:13524",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=92-13524"
+    }
+   ],
+   "image": "home-page-2026/312-3669.png"
+  },
+  {
+   "id": "P30",
+   "kind": "pattern",
+   "group": "home",
+   "title": "Nudge card in the order list",
+   "when": "Suggest one filter or service without blocking orders.",
+   "structure": "Card at top of the order list: feature tint, ×, illustration, title, body, exactly one action (button or toggle rows). Success → green snackbar, card closes, pill turns on.",
+   "evidence": [
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "5760:7665",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=5760-7665"
+    },
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "5760:9361",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=5760-9361"
+    },
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "5821:44691",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=5821-44691"
+    }
+   ],
+   "image": "home-of-orders/5760-7665.png"
+  },
+  {
+   "id": "P31",
+   "kind": "pattern",
+   "group": "home",
+   "title": "Programme entry points",
+   "when": "Make a programme findable.",
+   "structure": "Side-menu row (icon, title, 'Earn up to ₹X'), wallet banner, home tile, strip at top of Incentives.",
+   "notes": "Testing found the banner was hard to notice.",
+   "evidence": [
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "1031:9166",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=1031-9166"
+    },
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "2365:12542",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=2365-12542"
+    },
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "4270:10913",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=4270-10913"
+    }
+   ],
+   "image": "referral-flow/1031-9166.png"
+  },
+  {
+   "id": "P32",
+   "kind": "pattern",
+   "group": "home",
+   "title": "Copilot chat",
+   "when": "AI assistant from the home sparkle button.",
+   "structure": "Chat page (back, title, EN/हिंदी) → greeting + suggestion chips → answer cards → sticky input with mic.",
+   "evidence": [
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "507:3215",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=507-3215"
+    },
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "508:5375",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=508-5375"
+    }
+   ],
+   "image": "home-page-2026/508-5375.png"
+  },
+  {
+   "id": "P33",
+   "kind": "pattern",
+   "group": "orders",
+   "title": "Order card themed by order type",
+   "when": "Every incoming order alert.",
+   "structure": "Service chip + fare (₹ Bold 32, green +extra) + icon slot → route (pickup/drop km + address) → optional tag row → optional tips → Reject timer ring + Accept.",
+   "notes": "Max 2 signals. Company overrides. Themes: Priority dark+gold, Company blue, Intercity sky, GTA pink, Seat share teal.",
+   "evidence": [
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "8890:7129",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=8890-7129"
+    },
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "8289:10483",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=8289-10483"
+    },
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "7229:2421",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=7229-2421"
+    },
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "9382:23398",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=9382-23398"
+    }
+   ],
+   "image": "oa-revamp/8289-10483.png"
+  },
+  {
+   "id": "P34",
+   "kind": "pattern",
+   "group": "orders",
+   "title": "Order list with side tabs",
+   "when": "On duty with one or more order alerts.",
+   "structure": "Header (count + voice toggle) → 64px tab rail (timer + fare per order) | stack of order cards → bottom nav with Orders pill.",
+   "evidence": [
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "7474:5481",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=7474-5481"
+    },
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "8023:84682",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=8023-84682"
+    }
+   ],
+   "image": "oa-revamp/8023-84682.png"
+  },
+  {
+   "id": "P35",
+   "kind": "pattern",
+   "group": "orders",
+   "title": "Voice order alert",
+   "when": "Voice mode on: the app reads the order aloud.",
+   "structure": "Active card gets a green border; the field being read is highlighted; toggling voice shows a 3 s snackbar.",
+   "evidence": [
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "5097:6624",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=5097-6624"
+    },
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "7474:13896",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=7474-13896"
+    }
+   ],
+   "image": "oa-revamp/5097-6624.png"
+  },
+  {
+   "id": "P36",
+   "kind": "pattern",
+   "group": "orders",
+   "title": "Accept again / Only for you",
+   "when": "Order needs re-confirmation, or is exclusive to good performers.",
+   "structure": "Dim → themed header strip (red 'Accept Again!' / green 'Only For You') → order card → countdown then Accept; Reject as separate pill.",
+   "evidence": [
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "5235:59981",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=5235-59981"
+    },
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "7464:5085",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=7464-5085"
+    },
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "3098:2921",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=3098-2921"
+    },
+    {
+     "file": "E-rickshaw",
+     "code": "ER",
+     "node": "6447:10074",
+     "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=6447-10074"
+    }
+   ],
+   "image": "oa-revamp/7464-5085.png"
+  },
+  {
+   "id": "P37",
+   "kind": "pattern",
+   "group": "orders",
+   "title": "Order alert over other screens",
+   "when": "App in background or captain on a trip.",
+   "structure": "One compact order card pinned at top over the current screen/map; tap opens the list; 'see more' only when >1; nav pill turns yellow with count.",
+   "evidence": [
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "3804:1557",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=3804-1557"
+    },
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "5235:60902",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=5235-60902"
+    },
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "879:69362",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=879-69362"
+    },
+    {
+     "file": "Bundle Orders",
+     "code": "BO",
+     "node": "2912:63966",
+     "url": "https://www.figma.com/design/9m56yKp10jrLoIzW1yRmQA/?node-id=2912-63966"
+    }
+   ],
+   "image": "oa-revamp/3804-1557.png"
+  },
+  {
+   "id": "P38",
+   "kind": "pattern",
+   "group": "orders",
+   "title": "Order tag row",
+   "when": "Extra context that is not a theme (GTA distance, Main Road Pick Up, tips).",
+   "structure": "Row inside the card between route and buttons: icon + short label chip.",
+   "notes": "Three tag looks; Runway Tag not used.",
+   "evidence": [
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "9179:2771",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=9179-2771"
+    },
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "8267:9358",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=8267-9358"
+    }
+   ],
+   "image": "oa-revamp/9179-2771.png"
+  },
+  {
+   "id": "P39",
+   "kind": "pattern",
+   "group": "orders",
+   "title": "Filter pill with attached panel",
+   "when": "Set an order filter (Go To, Stay In, Services, Customers) without leaving orders.",
+   "structure": "Pill row under the header → tapped pill becomes a tab with a tinted panel: helper text, toggle rows, footer text actions. Closes on tap outside or after 20 s.",
+   "evidence": [
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "2508:63011",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=2508-63011"
+    },
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "2478:61110",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=2478-61110"
+    },
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "6265:5630",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=6265-5630"
+    }
+   ],
+   "image": "home-of-orders/2508-63011.png"
+  },
+  {
+   "id": "P40",
+   "kind": "pattern",
+   "group": "orders",
+   "title": "No orders: search, refresh, check account",
+   "when": "On duty and no orders.",
+   "structure": "'Searching for orders…' → Refresh after 4 s, then every 20 s → after a while 'or' + 'Not getting orders?' + 'Check Account Status' → status stepper page → result.",
+   "notes": "Logistics variant suggests switching space instead.",
+   "evidence": [
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "879:66238",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=879-66238"
+    },
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "3879:31074",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=3879-31074"
+    },
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "3940:161868",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=3940-161868"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "4580:56846",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4580-56846"
+    }
+   ],
+   "image": "home-of-orders/3940-161868.png"
+  },
+  {
+   "id": "P41",
+   "kind": "pattern",
+   "group": "orders",
+   "title": "Bundle order alert",
+   "when": "Offer 2+ orders as one decision.",
+   "structure": "Bundle header (₹130+, time, vehicle +2) → order 1 card → '+' → order 2 card (estimate only) → Reject ring + Accept.",
+   "evidence": [
+    {
+     "file": "Bundle Orders",
+     "code": "BO",
+     "node": "244:13289",
+     "url": "https://www.figma.com/design/9m56yKp10jrLoIzW1yRmQA/?node-id=244-13289"
+    },
+    {
+     "file": "Bundle Orders",
+     "code": "BO",
+     "node": "1624:24794",
+     "url": "https://www.figma.com/design/9m56yKp10jrLoIzW1yRmQA/?node-id=1624-24794"
+    }
+   ],
+   "image": "bundle-orders/244-13289.png"
+  },
+  {
+   "id": "P42",
+   "kind": "pattern",
+   "group": "orders",
+   "title": "Between bundle orders",
+   "when": "Order 1 done; find or assign the next one.",
+   "structure": "Dimmed home → card: 'Searching' with guarantee line → '2nd Order Assigned' + order card + 'Go to pickup' / not-found card with promised amount / 'Choose in 00:15' list of 2–3 orders.",
+   "evidence": [
+    {
+     "file": "Bundle Orders",
+     "code": "BO",
+     "node": "515:266357",
+     "url": "https://www.figma.com/design/9m56yKp10jrLoIzW1yRmQA/?node-id=515-266357"
+    },
+    {
+     "file": "Bundle Orders",
+     "code": "BO",
+     "node": "515:266237",
+     "url": "https://www.figma.com/design/9m56yKp10jrLoIzW1yRmQA/?node-id=515-266237"
+    },
+    {
+     "file": "Bundle Orders",
+     "code": "BO",
+     "node": "517:451623",
+     "url": "https://www.figma.com/design/9m56yKp10jrLoIzW1yRmQA/?node-id=517-451623"
+    },
+    {
+     "file": "Bundle Orders",
+     "code": "BO",
+     "node": "2909:63027",
+     "url": "https://www.figma.com/design/9m56yKp10jrLoIzW1yRmQA/?node-id=2909-63027"
+    }
+   ],
+   "image": "bundle-orders/515-278773.png"
+  },
+  {
+   "id": "P43",
+   "kind": "pattern",
+   "group": "orders",
+   "title": "End of order",
+   "when": "Trip complete.",
+   "structure": "Header → stamp → estimated earnings → km/min → split → one feedback question (chips or Yes/No) → sticky Done (or 'Go To 2nd Order' in a bundle).",
+   "evidence": [
+    {
+     "file": "E-rickshaw",
+     "code": "ER",
+     "node": "4372:61320",
+     "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=4372-61320"
+    },
+    {
+     "file": "E-rickshaw",
+     "code": "ER",
+     "node": "5195:55390",
+     "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=5195-55390"
+    },
+    {
+     "file": "Bundle Orders",
+     "code": "BO",
+     "node": "247:24218",
+     "url": "https://www.figma.com/design/9m56yKp10jrLoIzW1yRmQA/?node-id=247-24218"
+    }
+   ]
+  },
+  {
+   "id": "P44",
+   "kind": "pattern",
+   "group": "orders",
+   "title": "Multistop route",
+   "when": "Order with stops between pickup and drop.",
+   "structure": "Route line with a black '2 Stops' pill between pickup and drop.",
+   "notes": "Not in the OA framework yet.",
+   "evidence": [
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "3689:1563",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=3689-1563"
+    }
+   ],
+   "image": "oa-revamp/3689-1563.png"
+  },
+  {
+   "id": "P45",
+   "kind": "pattern",
+   "group": "progress",
+   "title": "Progress tracker card",
+   "when": "Captain has an active goal (earnings, rides, time).",
+   "structure": "Status tag + plan name + fee → '₹x/₹500' with bar → segmented rides bar '6/9 rides' → status line with icon.",
+   "notes": "Blue on home, green on plan page.",
+   "evidence": [
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "7469:20601",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=7469-20601"
+    },
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "7555:15884",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=7555-15884"
+    },
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "7125:18268",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=7125-18268"
+    }
+   ]
+  },
+  {
+   "id": "P46",
+   "kind": "pattern",
+   "group": "progress",
+   "title": "Milestone timeline",
+   "when": "Reward unlocks over steps.",
+   "structure": "Status header (title, Tag, 'x/3 completed') → vertical steps: done (green number, time, +₹) / locked (grey lock, deadline) → dashed connector.",
+   "evidence": [
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "1018:8656",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=1018-8656"
+    },
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "1028:8921",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=1028-8921"
+    },
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "1020:8780",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=1020-8780"
+    }
+   ],
+   "image": "referral-flow/1018-8656.png"
+  },
+  {
+   "id": "P47",
+   "kind": "pattern",
+   "group": "progress",
+   "title": "Onboarding status checklist",
+   "when": "Show progress across onboarding steps.",
+   "structure": "Banner coloured by overall state (blue pending / peach verifying / red failed) with 'N steps left' → step cards with status and trailing Upload / hourglass / Upload Again.",
+   "evidence": [
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1348:25620",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1348-25620"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1348:25756",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1348-25756"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "2663:2420",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=2663-2420"
+    }
+   ],
+   "image": "new-onboarding/1348-25620.png"
+  },
+  {
+   "id": "P48",
+   "kind": "pattern",
+   "group": "progress",
+   "title": "Earning-loss nudge inside a card",
+   "when": "Show money missed and a switch-plan action on Earnings / order details.",
+   "structure": "Light-blue panel inside Today's Earnings: logo, 2 lines ('You missed ₹100 today…'), pill button.",
+   "notes": "Text overflows in 6 of 7 languages.",
+   "evidence": [
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "5247:33647",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=5247-33647"
+    },
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "4606:9567",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=4606-9567"
+    }
+   ],
+   "image": "my-plans-2/4606-9566.png"
+  },
+  {
+   "id": "R01",
+   "kind": "rule",
+   "title": "Numbers in copy are placeholders",
+   "detail": "Durations, amounts and counts are always parameters, never typed in. Face Auth hard-codes '2 hours' in English while Hindi uses %1$d; Home of Orders and Referral show raw %1$d / ₹%1$d on screen.",
+   "evidence": [
+    {
+     "file": "Face Auth",
+     "code": "FA",
+     "node": "1187:7110",
+     "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1187-7110"
+    },
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "1985:28952",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=1985-28952"
+    }
+   ]
+  },
+  {
+   "id": "R02",
+   "kind": "rule",
+   "title": "Layouts survive long Indian-language text",
+   "detail": "Pills, buttons and headers must allow 2 lines or shrink. Overflow up to 154px seen in Kannada, Malayalam, Tamil, Telugu (Bike Lift pill, duty toggle, referral button, nudge banners).",
+   "evidence": [
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "2292:82276",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2292-82276"
+    },
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "1985:28952",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=1985-28952"
+    }
+   ]
+  },
+  {
+   "id": "R03",
+   "kind": "rule",
+   "title": "Fonts cover every Indian script",
+   "detail": "Kannada OA card and Tamil/Malayalam/Telugu pages render blank text: the font has no glyphs.",
+   "evidence": [
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "5863:73947",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=5863-73947"
+    }
+   ]
+  },
+  {
+   "id": "R04",
+   "kind": "rule",
+   "title": "Translations come from the current English page",
+   "detail": "Most localisation pages are older copies: missing screens, ~30% text still English, Tamil page with Bengali text, 'Empty' in place of values. Regenerate after every English change.",
+   "evidence": [
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "2725:50092",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=2725-50092"
+    },
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "5444:155379",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=5444-155379"
+    }
+   ]
+  },
+  {
+   "id": "R05",
+   "kind": "rule",
+   "title": "One action per nudge",
+   "detail": "From the Nudge Framework: a nudge card carries exactly one action. A multi-action card was rejected.",
+   "evidence": [
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "5760:7665",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=5760-7665"
+    }
+   ]
+  },
+  {
+   "id": "R06",
+   "kind": "rule",
+   "title": "Nudges never block taking orders",
+   "detail": "From the Nudge Framework, principle 4. Blocking needs belong in the blocking-task pattern (decision D01).",
+   "evidence": [
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "5760:7665",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=5760-7665"
+    }
+   ]
+  },
+  {
+   "id": "R07",
+   "kind": "rule",
+   "title": "At most 2 signals on an order card",
+   "detail": "From the OA framework. Company can override the rest. Sub-services get an icon, never a theme.",
+   "evidence": [
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "8890:7129",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=8890-7129"
+    }
+   ]
+  },
+  {
+   "id": "R08",
+   "kind": "rule",
+   "title": "Same thing, same words",
+   "detail": "One approved string per concept. Seen: 'Quick selfie / Selfie / face verification', '2nd Order Assigned / assigned / is accepted', 'Under verification... / Under Verification'.",
+   "evidence": [
+    {
+     "file": "Face Auth",
+     "code": "FA",
+     "node": "1305:3878",
+     "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1305-3878"
+    },
+    {
+     "file": "Bundle Orders",
+     "code": "BO",
+     "node": "515:266237",
+     "url": "https://www.figma.com/design/9m56yKp10jrLoIzW1yRmQA/?node-id=515-266237"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "2594:2355",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=2594-2355"
+    }
+   ]
+  },
+  {
+   "id": "R09",
+   "kind": "rule",
+   "title": "Final pages use only Runway components",
+   "detail": "Ready-for-dev frames still use Today's Earnings Accordion, CTA, Filter Pills, Slider Buttons, '.Buttons(Rejected)' and other non-Runway parts. Anything missing gets added to Runway first.",
+   "evidence": [
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "51:4186",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=51-4186"
+    },
+    {
+     "file": "E-rickshaw",
+     "code": "ER",
+     "node": "5195:54759",
+     "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=5195-54759"
+    },
+    {
+     "file": "Bundle Orders",
+     "code": "BO",
+     "node": "244:13289",
+     "url": "https://www.figma.com/design/9m56yKp10jrLoIzW1yRmQA/?node-id=244-13289"
+    }
+   ]
+  },
+  {
+   "id": "R10",
+   "kind": "rule",
+   "title": "Audio help next to instructions",
+   "detail": "Low-literacy support: an audio button sits beside any instruction banner, plan explainer or coachmark (used in Onboarding, My Plans, Logistics, E-rickshaw).",
+   "evidence": [
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1348:25085",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1348-25085"
+    },
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "7469:20337",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=7469-20337"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "3149:60892",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3149-60892"
+    }
+   ]
+  },
+  {
+   "id": "R11",
+   "kind": "rule",
+   "title": "Every overlay can be dismissed",
+   "detail": "Success and not-eligible cards with no button and no × were found. Every overlay needs a way out (× or a button).",
+   "evidence": [
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "86:5367",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=86-5367"
+    },
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "4835:20442",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=4835-20442"
+    }
+   ]
+  },
+  {
+   "id": "C01",
+   "kind": "component",
+   "title": "Task row",
+   "detail": "Thumbnail 44, label 16 medium, status caption 14 (Verified green #058743 / Failed! Retry red #c42925), trailing arrow or check. 328w, pad 12, gap 8, radius 12, 1px Border/Neutral/Light, shadow. Exact values from Logistics.",
+   "evidence": [
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "4417:37326",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4417-37326"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "4421:38379",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4421-38379"
+    }
+   ]
+  },
+  {
+   "id": "C02",
+   "kind": "component",
+   "title": "List row family",
+   "detail": "One row with slots: leading (icon / avatar / thumbnail), title + caption, trailing (chevron / toggle / small button / amount / invite pill). Covers person, contact, offer, toggle and permission rows.",
+   "evidence": [
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "2071:3079",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=2071-3079"
+    },
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "1011:8468",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=1011-8468"
+    },
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "2508:63011",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=2508-63011"
+    }
+   ]
+  },
+  {
+   "id": "C03",
+   "kind": "component",
+   "title": "Inline alert",
+   "detail": "Info (blue), note/error (red), warning (orange); icon, title, body, optional audio button.",
+   "evidence": [
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1348:25085",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1348-25085"
+    },
+    {
+     "file": "Face Auth",
+     "code": "FA",
+     "node": "1305:3878",
+     "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1305-3878"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "2353:34368",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2353-34368"
+    }
+   ]
+  },
+  {
+   "id": "C04",
+   "kind": "component",
+   "title": "Audio explainer button and bar",
+   "detail": "Circular play/progress button; inline player with language switch.",
+   "evidence": [
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1348:25085",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1348-25085"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "3149:60892",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=3149-60892"
+    }
+   ]
+  },
+  {
+   "id": "C05",
+   "kind": "component",
+   "title": "Document upload tile",
+   "detail": "Dashed tile: side label, sample illustration, Upload; uploaded state with image + Retake; error state with red border.",
+   "evidence": [
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "3562:8829",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=3562-8829"
+    },
+    {
+     "file": "E-rickshaw",
+     "code": "ER",
+     "node": "4856:5256",
+     "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=4856-5256"
+    }
+   ]
+  },
+  {
+   "id": "C06",
+   "kind": "component",
+   "title": "Camera screens",
+   "detail": "Dark header, viewfinder with frame (card or circle), guidance panel, Gallery + shutter, preview with Retake/Submit, crop with Done.",
+   "evidence": [
+    {
+     "file": "Face Auth",
+     "code": "FA",
+     "node": "1542:1057",
+     "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1542-1057"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "4421:38348",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4421-38348"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1238:55820",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1238-55820"
+    }
+   ]
+  },
+  {
+   "id": "C07",
+   "kind": "component",
+   "title": "Status card overlay",
+   "detail": "Centred card on scrim: Please wait / Verifying (spinner), Success (check), Failed (! + Retry). Replaces Toast used as a modal.",
+   "evidence": [
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "3562:8956",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=3562-8956"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "4429:38652",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4429-38652"
+    }
+   ]
+  },
+  {
+   "id": "C08",
+   "kind": "component",
+   "title": "Consent checkbox row",
+   "detail": "Checkbox + multi-line legal text with inline link; drives the button's disabled state.",
+   "evidence": [
+    {
+     "file": "Face Auth",
+     "code": "FA",
+     "node": "1405:838",
+     "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1405-838"
+    }
+   ]
+  },
+  {
+   "id": "C09",
+   "kind": "component",
+   "title": "Sticky footer",
+   "detail": "Bottom bar: optional selection summary (label, name, price), helper text, primary button, optional text link.",
+   "evidence": [
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "4417:37326",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4417-37326"
+    },
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "7469:20337",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=7469-20337"
+    },
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "987:6275",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=987-6275"
+    }
+   ]
+  },
+  {
+   "id": "C10",
+   "kind": "component",
+   "title": "Selectable option card",
+   "detail": "Large radio card: illustration, title, subtitle, radio, optional video/audio link, info strip; disabled state.",
+   "evidence": [
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1348:24200",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1348-24200"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "2053:27217",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2053-27217"
+    }
+   ]
+  },
+  {
+   "id": "C11",
+   "kind": "component",
+   "title": "Coachmark",
+   "detail": "Scrim with cut-out, tooltip with step count, Skip/Next, optional audio tile.",
+   "evidence": [
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "514:1185",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=514-1185"
+    },
+    {
+     "file": "E-rickshaw",
+     "code": "ER",
+     "node": "3780:16234",
+     "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=3780-16234"
+    }
+   ]
+  },
+  {
+   "id": "C12",
+   "kind": "component",
+   "title": "Help button (Saathi)",
+   "detail": "Floating pill: collapsed, expanded, playing.",
+   "evidence": [
+    {
+     "file": "E-rickshaw",
+     "code": "ER",
+     "node": "6778:34908",
+     "url": "https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=6778-34908"
+    }
+   ]
+  },
+  {
+   "id": "C13",
+   "kind": "component",
+   "title": "Nudge card",
+   "detail": "Themed card with ×, illustration slot, title, body, one action.",
+   "evidence": [
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "5760:7665",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=5760-7665"
+    }
+   ]
+  },
+  {
+   "id": "C14",
+   "kind": "component",
+   "title": "Home status card",
+   "detail": "Card on home: title, status line, link, illustration with status badge (pending / failed / success).",
+   "evidence": [
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "4420:37619",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4420-37619"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1797:33036",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1797-33036"
+    }
+   ]
+  },
+  {
+   "id": "C15",
+   "kind": "component",
+   "title": "Filter pill with panel",
+   "detail": "Pill states and attached tinted panel with toggle rows and footer actions.",
+   "evidence": [
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "2508:63011",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=2508-63011"
+    }
+   ]
+  },
+  {
+   "id": "C16",
+   "kind": "component",
+   "title": "Empty state",
+   "detail": "Illustration/text, optional Refresh button (idle/spinning/done), optional 'or' + escalation action.",
+   "evidence": [
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "3879:31074",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=3879-31074"
+    },
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "1776:5117",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=1776-5117"
+    }
+   ]
+  },
+  {
+   "id": "C17",
+   "kind": "component",
+   "title": "Stepper / timeline",
+   "detail": "Vertical steps with done / current / locked / expired states, amounts and connector. Used for milestones, account check, Assure.",
+   "evidence": [
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "1018:8656",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=1018-8656"
+    },
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "3934:160839",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=3934-160839"
+    },
+    {
+     "file": "New Onboarding",
+     "code": "NO",
+     "node": "1014:23782",
+     "url": "https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1014-23782"
+    }
+   ]
+  },
+  {
+   "id": "C18",
+   "kind": "component",
+   "title": "Progress tracker card",
+   "detail": "Linear and segmented bars, status tag, status line.",
+   "evidence": [
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "7469:20601",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=7469-20601"
+    }
+   ]
+  },
+  {
+   "id": "C19",
+   "kind": "component",
+   "title": "Search field",
+   "detail": "TextField variant with leading search icon and clear.",
+   "evidence": [
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "2071:3079",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=2071-3079"
+    }
+   ]
+  },
+  {
+   "id": "C20",
+   "kind": "component",
+   "title": "Order card themes and tags",
+   "detail": "Theme variants per OA framework bucket; order tag chip; 72×82 service icon slot.",
+   "evidence": [
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "8890:7129",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=8890-7129"
+    },
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "9179:2771",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=9179-2771"
+    }
+   ]
+  },
+  {
+   "id": "C21",
+   "kind": "component",
+   "title": "Order controls",
+   "detail": "Side-bar order tab (timer + fare), Reject timer ring button, countdown chip, voice toggle.",
+   "evidence": [
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "7474:5481",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=7474-5481"
+    },
+    {
+     "file": "Bundle Orders",
+     "code": "BO",
+     "node": "2909:63027",
+     "url": "https://www.figma.com/design/9m56yKp10jrLoIzW1yRmQA/?node-id=2909-63027"
+    },
+    {
+     "file": "OA Revamp",
+     "code": "OA",
+     "node": "5097:6624",
+     "url": "https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=5097-6624"
+    }
+   ]
+  },
+  {
+   "id": "C22",
+   "kind": "component",
+   "title": "Bundle order card",
+   "detail": "Bundle header, stacked order stop cards, '+' connector.",
+   "evidence": [
+    {
+     "file": "Bundle Orders",
+     "code": "BO",
+     "node": "244:13289",
+     "url": "https://www.figma.com/design/9m56yKp10jrLoIzW1yRmQA/?node-id=244-13289"
+    }
+   ]
+  },
+  {
+   "id": "C23",
+   "kind": "component",
+   "title": "Celebration / success card",
+   "detail": "Gradient card with illustration, amount and in-card action; success variant with check badge.",
+   "evidence": [
+    {
+     "file": "Referral flow",
+     "code": "RF",
+     "node": "2372:13503",
+     "url": "https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=2372-13503"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "2303:5086",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2303-5086"
+    }
+   ]
+  },
+  {
+   "id": "C24",
+   "kind": "component",
+   "title": "Home modules",
+   "detail": "Map card + layer pill, Today's Earnings bar, performance banner, stories row, offer card, shortcut tile.",
+   "evidence": [
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "51:4186",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=51-4186"
+    },
+    {
+     "file": "Home Page 2026",
+     "code": "HP",
+     "node": "312:3669",
+     "url": "https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=312-3669"
+    }
+   ]
+  },
+  {
+   "id": "C25",
+   "kind": "component",
+   "title": "Plan card",
+   "detail": "Tag pill, eyebrow, big value + struck old value, plan type, video icon, View Details; active state.",
+   "evidence": [
+    {
+     "file": "My Plans 2.0",
+     "code": "MP",
+     "node": "3617:12919",
+     "url": "https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=3617-12919"
+    }
+   ]
+  },
+  {
+   "id": "C26",
+   "kind": "component",
+   "title": "Status illustration with badge",
+   "detail": "Circular illustration with red / green / blue badge for blocked, done, pending.",
+   "evidence": [
+    {
+     "file": "Face Auth",
+     "code": "FA",
+     "node": "1187:7110",
+     "url": "https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1187-7110"
+    },
+    {
+     "file": "Logistics",
+     "code": "LOG",
+     "node": "4420:37619",
+     "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4420-37619"
+    }
+   ]
+  },
+  {
+   "id": "C27",
+   "kind": "component",
+   "title": "Snackbar loading variant",
+   "detail": "Dark snackbar with spinner, then success/error.",
+   "evidence": [
+    {
+     "file": "Home of Orders",
+     "code": "HO",
+     "node": "2593:29393",
+     "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=2593-29393"
+    }
+   ]
+  }
+ ]
+}
