@@ -1,6 +1,6 @@
 {
  "source": "https://claude.ai/artifact/APRPyTzQQ1xbABibh4mcqo",
- "exported": "2026-11-16",
+ "exported": "2026-11-17",
  "answers": {
   "C01": {
    "verdict": "later",
@@ -148,13 +148,13 @@
   "C14": {
    "verdict": "build",
    "option": "",
-   "comment": "",
+   "comment": "just a status",
    "figmaRefs": [],
-   "understanding": "You chose to build the Home status card. So Runway will add it as a component in the design system, covering the title, status line, link, and an illustration with a status badge that comes in pending, failed, and success states.",
+   "understanding": "You chose to build the Home status card, as a status display only (e.g. 'Gear ✓ today', 'Verifying'). It never starts a blocking task; that is the BlockingSheet (D01).",
    "confirmed": "yes",
    "round": 1,
    "submittedAt": "2026-11-16T11:52:23.694Z",
-   "confirmedAt": "2026-11-16T11:52:26.806Z"
+   "confirmedAt": "2026-11-17T07:00:00.000Z"
   },
   "C15": {
    "verdict": "build",
@@ -414,13 +414,13 @@
   "D10": {
    "verdict": "",
    "option": "A",
-   "comment": "",
+   "comment": "any width is fine as far as it matches the canvas",
    "figmaRefs": [],
-   "understanding": "You chose Option A, to rebuild the Runway order alert card on the OA framework instead of keeping the per-vehicle cards. So Runway will move away from splitting cards by Bike, Auto, and Cab, and will follow the framework's order-type approach, with Base, sub-service, contextual, and preference buckets, theme variants, and a tag row. The card will also use a fixed width of 264 or 272, and it will follow the framework's limit of 2 signals. Which of the two widths, 264 or 272, should Runway use?",
+   "understanding": "You chose A: rebuild the Runway order alert card on the OA framework. Width is not fixed: the card takes whatever width fits the 360 screen it sits on (e.g. 272 beside the 64px side tab rail). Theme variants are left out for now (C20 skipped).",
    "confirmed": "yes",
    "round": 1,
    "submittedAt": "2026-11-16T10:15:48.689Z",
-   "confirmedAt": "2026-11-16T10:16:07.336Z"
+   "confirmedAt": "2026-11-17T07:00:00.000Z"
   },
   "D11": {
    "verdict": "",
@@ -998,15 +998,15 @@
    "confirmedAt": "2026-11-16T11:46:36.123Z"
   },
   "P47": {
-   "verdict": "maybe",
+   "verdict": "yes",
    "option": "",
-   "comment": "",
+   "comment": "keep it",
    "figmaRefs": [],
-   "understanding": "You chose \"Not sure\" on the Onboarding status checklist pattern, and you didn't add a comment explaining why. So Runway won't keep or remove this pattern for now. It stays as it is, undecided, until someone makes a call on it. What was the main thing that made you unsure: the banner colouring, the step cards, or whether the pattern is needed at all?",
+   "understanding": "You changed this from Not sure to Keep. So Runway keeps the Onboarding status checklist pattern as it is.",
    "confirmed": "yes",
    "round": 1,
    "submittedAt": "2026-11-16T11:46:45.148Z",
-   "confirmedAt": "2026-11-16T12:08:09.216Z"
+   "confirmedAt": "2026-11-17T06:30:00.000Z"
   },
   "P48": {
    "verdict": "maybe",
@@ -1139,6 +1139,193 @@
    "round": 1,
    "submittedAt": "2026-11-16T11:50:15.021Z",
    "confirmedAt": "2026-11-16T11:50:18.253Z"
+  },
+  "C28": {
+   "verdict": "",
+   "option": "",
+   "comment": "keep d02 option B slider option wherever swipe is required. that's the new component",
+   "figmaRefs": [],
+   "understanding": "You didn't pick Build, Skip, or Later, but your comment says the swipe-to-confirm slider is the new component and should be used wherever a swipe is required. So Runway will treat it as a component to add, based on the D02 option B slider, and use it across the bike, auto, and cab trip flows and any other place a swipe is needed. I'm not sure whether you want it built now or scheduled for later, so which should it be: Build or Later?",
+   "confirmed": "yes",
+   "round": 1,
+   "submittedAt": "2026-11-17T13:38:54.423Z",
+   "confirmedAt": "2026-11-17T13:38:57.666Z"
+  },
+  "C29": {
+   "verdict": "later",
+   "option": "",
+   "comment": "",
+   "figmaRefs": [],
+   "understanding": "You chose Later for the OTP input component, so Runway won't build it right now. The card's details (4 square digit boxes, focused and filled states, and helper text) stay noted as a candidate for the design system, and it will be picked up at a later point rather than dropped. You didn't leave a comment, so there's no timing or trigger recorded for when it should come back.",
+   "confirmed": "yes",
+   "round": 1,
+   "submittedAt": "2026-11-17T13:39:55.697Z",
+   "confirmedAt": "2026-11-17T13:39:58.836Z"
+  },
+  "C30": {
+   "verdict": "",
+   "option": "",
+   "comment": "dont make it collapsible ",
+   "figmaRefs": [],
+   "understanding": "You didn't pick Build, Skip, or Later, but your comment says the card shouldn't be collapsible. So I'm reading this as a change to the card rather than a decision to drop it. Runway would build the Stop details card as a non-collapsible card, with the section title, pin, name and address, the yellow Call customer button, the outline Go to location button, and the optional partner chip. Should I log this as Build with that change, or did you mean Later or Skip?",
+   "confirmed": "yes",
+   "round": 1,
+   "submittedAt": "2026-11-17T13:40:23.493Z",
+   "confirmedAt": "2026-11-17T13:40:26.778Z"
+  },
+  "C31": {
+   "verdict": "later",
+   "option": "",
+   "comment": "",
+   "figmaRefs": [],
+   "understanding": "You chose \"Later\" for the Items checklist card, the component with item and quantity rows, checkboxes, and a restricted-items consent line. So Runway will not build it right now, and it won't be dropped either. It stays on the list as a candidate to pick up in a future pass.",
+   "confirmed": "yes",
+   "round": 1,
+   "submittedAt": "2026-11-17T13:40:48.417Z",
+   "confirmedAt": "2026-11-17T13:40:50.733Z"
+  },
+  "C32": {
+   "verdict": "build",
+   "option": "",
+   "comment": "",
+   "figmaRefs": [],
+   "understanding": "You chose to build the Payment status card. So Runway will add it as a component with two states: a yellow \"Please collect payment ₹X\" state and a green \"Amount collected online\" state. You didn't add a comment, so nothing changes from what the card describes.",
+   "confirmed": "yes",
+   "round": 1,
+   "submittedAt": "2026-11-17T13:41:05.761Z",
+   "confirmedAt": "2026-11-17T13:41:08.289Z"
+  },
+  "C33": {
+   "verdict": "build",
+   "option": "",
+   "comment": "",
+   "figmaRefs": [],
+   "understanding": "You chose Build for the Earnings and wait timer card. So Runway will create this as a component in the design system, including the green earnings band, the three wait timer states (inactive, active, and earning), and the flip-digit food-prep countdown.",
+   "confirmed": "yes",
+   "round": 1,
+   "submittedAt": "2026-11-17T13:41:15.531Z",
+   "confirmedAt": "2026-11-17T13:41:18.132Z"
+  },
+  "C34": {
+   "verdict": "build",
+   "option": "",
+   "comment": "",
+   "figmaRefs": [],
+   "understanding": "You chose to build the Order ID band as a component. So Runway will add it as a reusable element: a black band under the header that shows the order ID, and on OTP screens also shows the sender or receiver name. You didn't add a comment, so I'm going only by the card's description and your pick.",
+   "confirmed": "yes",
+   "round": 1,
+   "submittedAt": "2026-11-17T13:41:28.075Z",
+   "confirmedAt": "2026-11-17T13:41:30.900Z"
+  },
+  "D16": {
+   "verdict": "",
+   "option": "B",
+   "comment": "",
+   "figmaRefs": [],
+   "understanding": "You chose Option B, so the delivery swipe button will keep its colour-by-step scheme from the file. So Runway will use blue for ARRIVED, black for PICKED and DELIVERED, and red for REACHED. This means the swipe won't follow the yellow primary from D05, and that is a deliberate exception for delivery swipes.",
+   "confirmed": "yes",
+   "round": 1,
+   "submittedAt": "2026-11-17T13:22:39.432Z",
+   "confirmedAt": "2026-11-17T13:22:42.475Z"
+  },
+  "D17": {
+   "verdict": "",
+   "option": "A",
+   "comment": "",
+   "figmaRefs": [],
+   "understanding": "You chose Option A: the swipe stays enabled even when the compulsory photo hasn't been taken. So Runway will follow the file's rule that 'Picked' is never disabled. If the photo is compulsory and missing, swiping will open the camera with a 'Photo is compulsory' sheet, and then the captain continues. This means the P01 checklist page, which keeps Complete disabled until every task is done, will behave differently from this delivery flow.",
+   "confirmed": "yes",
+   "round": 1,
+   "submittedAt": "2026-11-17T13:26:04.483Z",
+   "confirmedAt": "2026-11-17T13:26:07.735Z"
+  },
+  "D18": {
+   "verdict": "",
+   "option": "B",
+   "comment": "",
+   "figmaRefs": [],
+   "understanding": "You chose option B, adding a button to the \"Amount collected\" card instead of treating auto-advancing success cards as an exception. So Runway will give this card an \"Okay\" or \"Enter OTP\" button, like the Food-ready pop-up, so it can be dismissed and meets R11 (every overlay can be dismissed). This also means Claude's suggested option A, the auto-advance exception, won't be added to the rules.",
+   "confirmed": "yes",
+   "round": 1,
+   "submittedAt": "2026-11-17T13:27:09.220Z",
+   "confirmedAt": "2026-11-17T13:27:14.812Z"
+  },
+  "P49": {
+   "verdict": "yes",
+   "option": "",
+   "comment": "don't hid the order id and earning in parcel and delivery orders only hide in normal bike taxi order",
+   "figmaRefs": [],
+   "understanding": "You chose \"Yes, keep\" for the trip map pattern, with one change from your comment. So Runway will show the black Order ID band and green estimated-earnings band on parcel and delivery orders, not only on food. Only normal bike taxi orders will hide the order ID and earnings.\n\nShould the bands on parcel and delivery orders look the same as the food ones?",
+   "confirmed": "yes",
+   "round": 2,
+   "submittedAt": "2026-11-17T13:30:15.504Z",
+   "confirmedAt": "2026-11-17T13:30:20.868Z"
+  },
+  "P50": {
+   "verdict": "yes",
+   "option": "",
+   "comment": "Food pickup is title collect parcel is text mistake..correct it. payment status depends on the customer choice",
+   "figmaRefs": [],
+   "understanding": "You chose to keep the order stage page pattern as it is, shared by parcel and food orders. You also said the \"Collect Parcel\" title on food pickup is a text mistake, so Runway will correct it to fit food orders. On the two drop screens showing different payment status, you said it depends on the customer's choice, so Runway will treat both as valid states of the status card (for example, collect payment versus amount collected online) rather than as an inconsistency.\n\nDo you want the corrected food pickup title to read \"Collect Food\", or should I leave the exact wording to you?",
+   "confirmed": "yes",
+   "round": 1,
+   "submittedAt": "2026-11-17T13:31:25.581Z",
+   "confirmedAt": "2026-11-17T13:31:30.015Z"
+  },
+  "P51": {
+   "verdict": "yes",
+   "option": "",
+   "comment": "",
+   "figmaRefs": [],
+   "understanding": "You chose \"Yes, keep\" for the proof-of-delivery photo pattern, with no further comment. So Runway will keep P51 as written: an upload tile on the stage page, then the camera with no frame box, then the bottom instruction panel (showing the red \"Photo is compulsory for this order\" message when required), then Retry or Submit. After that comes the \"Uploading, please wait…\" card and a return to the page with the \"Upload successful\" snackbar, the photo, and a Delete photo option. It will also keep reusing the same camera, preview, and loader flow as P03 and P16, while what happens when the photo is missing stays with decision D17.",
+   "confirmed": "yes",
+   "round": 1,
+   "submittedAt": "2026-11-17T13:31:51.455Z",
+   "confirmedAt": "2026-11-17T13:31:54.727Z"
+  },
+  "P52": {
+   "verdict": "yes",
+   "option": "",
+   "comment": "",
+   "figmaRefs": [],
+   "understanding": "You chose \"Yes, keep\" for the OTP entry page pattern, with no comment added. So Runway will keep P52 as it is: a page for entering the 4-digit code from the sender or receiver, used only on orders that require it. It will keep the structure of header, black order band, four OTP boxes, helper text, numeric keyboard with ✓ to submit, and the \"Please wait…\" card, including no resend and no on-screen submit button.\n\nDo you also want the truncated title (\"Complete package pick…\") fixed, or kept as it appears in the file?",
+   "confirmed": "",
+   "round": 1,
+   "submittedAt": "2026-11-17T13:32:13.394Z",
+   "confirmedAt": null
+  },
+  "P53": {
+   "verdict": "yes",
+   "option": "",
+   "comment": "",
+   "figmaRefs": [],
+   "understanding": "You chose \"Yes, keep\" for the wait timer and food-prep countdown pattern, with no comment added. So Runway will keep P53 as it is: when a captain waits at the restaurant, the screen shows the green earnings header \"₹30 + wait charge\", the mm:ss wait timer with its info line, and the \"Please wait! Food will be ready in\" card with the flip-digit countdown. It will also keep the red delay strip when the food is overdue, which is replaced by the green \"Food order is ready!\" message.",
+   "confirmed": "yes",
+   "round": 1,
+   "submittedAt": "2026-11-17T13:32:25.775Z",
+   "confirmedAt": "2026-11-17T13:32:28.861Z"
+  },
+  "P54": {
+   "verdict": "yes",
+   "option": "",
+   "comment": "",
+   "figmaRefs": [],
+   "understanding": "You chose \"Yes, keep\" for the Collect payment at pickup pattern, so it stays in Runway as defined. Runway will keep it for cases where the sender pays at pickup on a parcel, with the amount card and yellow \"not your final earning\" note, then the QR option (Generate QR, generating, QR), the OR divider, and the yellow Collect cash button. After that, the centred \"Amount collected successfully\" card (decision D18) leads straight to OTP.",
+   "confirmed": "yes",
+   "round": 1,
+   "submittedAt": "2026-11-17T13:36:16.973Z",
+   "confirmedAt": "2026-11-17T13:36:20.355Z"
+  },
+  "P55": {
+   "verdict": "no",
+   "option": "",
+   "comment": "Dont keep this screen, we dont want this step",
+   "figmaRefs": [],
+   "understanding": "You chose \"No\" on the 'Use Rapido Maps' sheet (P55), and your comment says you don't want this step at all. So Runway will not keep this pattern: the post-pickup sheet offering in-app navigation to the drop, with its green tinted header, 'No, thanks' and 'Go to maps' buttons, will be left out of the design system. That also means it won't need the floating × (D09) for this sheet.",
+   "confirmed": "yes",
+   "round": 1,
+   "submittedAt": "2026-11-17T13:37:34.339Z",
+   "confirmedAt": "2026-11-17T13:37:37.600Z"
   }
  },
  "resolutions": {
@@ -1153,6 +1340,14 @@
   "R02": "Claude flags any text overflow (long Indian-language strings) during review; no note layer in Figma.",
   "D02": "E-rickshaw (incl. Post activation) = tap + confirm sheet; bike/auto/cab incl. Bundle Orders = swipe.",
   "D04": "The single confirm button for a radio selection sits in the sticky footer.",
-  "P31": "Programme entry points = Navigation (bottom nav), Storyly (stories row), Actions grid, Only for you carousel — as in Intercity 2072:113833 / HP 51:4186."
+  "P31": "Programme entry points = Navigation (bottom nav), Storyly (stories row), Actions grid, Only for you carousel — as in Intercity 2072:113833 / HP 51:4186.",
+  "P52": "Not ticked on the page; user said 'took all the decisions' → Keep. Title must not truncate (R02): 'Complete pickup' / 'Complete delivery' (note 1:3332).",
+  "C28": "Build: SwipeButton = D02 option B slider, used wherever a swipe is required (bike/auto/cab trips, delivery). Not for e-rickshaw (tap + confirm).",
+  "C30": "Build, not collapsible.",
+  "P49-bands": "Order ID band + earnings band shown on parcel and food/delivery orders; hidden only on normal bike-taxi orders. Same look as the food bands.",
+  "P50-title": "Food pickup page is titled 'Collect food' (file's 'Collect Parcel' was a mistake). Payment status card state follows the customer's payment choice.",
+  "D18": "'Amount collected' card gets a button ('Enter OTP') like the Food-ready pop-up; no auto-advance exception to R11.",
+  "D10-width": "OA card width follows the canvas it sits on (e.g. 272 beside the 64px tab rail); not fixed.",
+  "C14": "Home status card is a status display only; never starts a blocking task (that is BlockingSheet, D01)."
  }
 }

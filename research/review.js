@@ -11,6 +11,7 @@
     ["pattern", "home", "Home", "Patterns specific to the home screen."],
     ["pattern", "orders", "Orders", "Order alerts, order list and trip."],
     ["pattern", "progress", "Progress and status", "Showing how far along the captain is."],
+    ["pattern", "delivery", "Delivery (B2B parcel and food) — new", "From the B2B Delivery Flow page: map, collect, photo, payment, OTP, drop."],
     ["rule", null, "Rules", "Cross-cutting rules for copy, translation and components. Screens show where the problem was found."],
     ["component", null, "Missing components", "Built locally in the files but not in Runway. Screens show where each one is used."],
   ];

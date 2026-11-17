@@ -1,0 +1,1935 @@
+{
+ "file": {
+  "key": "BMJzeTVlQYTDjcmHERwgVy",
+  "name": "B2B Delivery UI (standardization + Localisation)",
+  "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/B2B-Delivery-UI"
+ },
+ "scope": "Flow page (0:1) only, per user. Reference for delivery captains (parcel + food B2B delivery).",
+ "pages": [
+  {
+   "id": "0:1",
+   "name": "Flow",
+   "tier": "B",
+   "frameCount": 49,
+   "summary": "One section FLOW (1:2783): parcel (top row) and food (bottom row) B2B delivery flows for delivery captains — 23 designed frames + 24 live-app screenshots + earnings instance + map-pin icon, 16 Specifics notes, CASES OF PHOTO UPLOAD rules, 10 labels, 24 connectors.",
+   "notes": "Reference flow (not named final). Mix of designs on a legacy, non-Runway library and screenshots of the current app."
+  },
+  {
+   "id": "1:6065",
+   "name": "Cover",
+   "tier": "divider",
+   "frameCount": null,
+   "summary": "Not reviewed (user: Flow page only).",
+   "notes": ""
+  },
+  {
+   "id": "24:10650",
+   "name": "Flow Hindi (India) 1",
+   "tier": "C",
+   "frameCount": null,
+   "summary": "Not reviewed (user: Flow page only).",
+   "notes": ""
+  },
+  {
+   "id": "24:15380",
+   "name": "Flow Kannada (India)",
+   "tier": "C",
+   "frameCount": null,
+   "summary": "Not reviewed (user: Flow page only).",
+   "notes": ""
+  },
+  {
+   "id": "24:24636",
+   "name": "Flow Bengali (India) 1",
+   "tier": "C",
+   "frameCount": null,
+   "summary": "Not reviewed (user: Flow page only).",
+   "notes": ""
+  },
+  {
+   "id": "24:27097",
+   "name": "Flow Tamil (India) 1",
+   "tier": "C",
+   "frameCount": null,
+   "summary": "Not reviewed (user: Flow page only).",
+   "notes": ""
+  },
+  {
+   "id": "24:29558",
+   "name": "Flow Telugu (India) 1",
+   "tier": "C",
+   "frameCount": null,
+   "summary": "Not reviewed (user: Flow page only).",
+   "notes": ""
+  },
+  {
+   "id": "33:32019",
+   "name": "Flow Marathi",
+   "tier": "C",
+   "frameCount": null,
+   "summary": "Not reviewed (user: Flow page only).",
+   "notes": ""
+  }
+ ],
+ "frames": [
+  {
+   "id": "1:2784",
+   "page": "Flow",
+   "name": "Local",
+   "size": "360x637",
+   "tier": "B",
+   "flow": "Parcel > 1 Order alert",
+   "task": "See parcel order alerts and accept one",
+   "container": "full-page",
+   "structure": "Header '2 Orders' > 64px side tab rail (ring timer + fare per order, auto icon) | stack of order cards: 'Parcel' service chip + ₹138 + parcel-bag illustration > pickup 1.2 km + address > drop 3.5 km + address > Reject ring (×) + yellow Accept; 2nd card pink header with heart pin (GTA-style theme)",
+   "components": {
+    "runway": [],
+    "other": [
+     "Spacer (legacy lib)",
+     "volume_up",
+     "X",
+     "X/Regular"
+    ]
+   },
+   "cta": "Yellow Accept, right of reject-timer ring",
+   "states": "2 alerts; second card themed pink",
+   "notes": "Designed (not a screenshot). Uses side-tab order list like Home of Orders.",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-2784"
+  },
+  {
+   "id": "1:3013",
+   "page": "Flow",
+   "name": "map",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Parcel > 2 Go to pickup",
+   "task": "Navigate to pickup zone",
+   "container": "full-page",
+   "structure": "Top header (hamburger, 'Go to Pickup Zone', yellow call button) > full map (route dashed green, pickup pin 'parcel' icon, '1.8 kms away' label, recenter FAB) > floating yellow 'Go to pickup' pill > white card: pin + sender name 'Henric Toby' + address > blue swipe 'ARRIVED'",
+   "components": {
+    "runway": [],
+    "other": [
+     "Top header",
+     "Button"
+    ]
+   },
+   "cta": "Blue swipe ARRIVED, full width, bottom",
+   "states": "Outside pickup zone",
+   "notes": "Specifics 1:3315: no Order ID / estimated earnings on parcel map; pickup icon on map to change (icon 1:3039).",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3013"
+  },
+  {
+   "id": "1:3025",
+   "page": "Flow",
+   "name": "map",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Parcel > 2b Inside pickup zone",
+   "task": "Find the exact pickup point",
+   "container": "full-page",
+   "structure": "Same as 1:3013, header 'Inside the Pickup Zone', zoomed map with 'Pick up here' pin",
+   "components": {
+    "runway": [],
+    "other": [
+     "Top header",
+     "Button"
+    ]
+   },
+   "cta": "Blue swipe ARRIVED",
+   "states": "Inside zone",
+   "notes": "",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3025"
+  },
+  {
+   "id": "1:3148",
+   "page": "Flow",
+   "name": "Collect package",
+   "size": "360x793",
+   "tier": "B",
+   "flow": "Parcel > 3 Collect parcel",
+   "task": "Check items, upload photo, collect payment and swipe Picked",
+   "container": "full-page (scroll) + sticky swipe",
+   "structure": "Top header (hamburger, 'Collect Parcel', call) > orange strip 'This order requires an OTP' > yellow payment card '₹ Please collect payment ₹130.0' > card 'Pickup Details' (pin, name, address, yellow 'Call customer', outline 'Go to location') > card 'Items To Pickup' (Item name, checkbox 'Other', info 'You agree that there are no restricted items in the package' with link) > card 'Upload Photo (Compulsory)' dashed tile > sticky black swipe 'PICKED'",
+   "components": {
+    "runway": [],
+    "other": [
+     "Top header",
+     "OTP card",
+     "payment card",
+     "details",
+     "Buttons/Small/Primary/Normal",
+     "items",
+     "checkbox",
+     "info",
+     "Upload Picture",
+     "cta holder",
+     "Button"
+    ]
+   },
+   "cta": "Black swipe PICKED (never disabled, per 1:3354)",
+   "states": "Photo compulsory variant; before upload",
+   "notes": "Specifics 1:3324 says order ID was added here, but no order-id row is visible in this frame.",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3148"
+  },
+  {
+   "id": "1:3167",
+   "page": "Flow",
+   "name": "image 24",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Shared > 4 Camera permission",
+   "task": "Allow camera",
+   "container": "fullscreen-takeover",
+   "structure": "Black camera screen, back arrow, empty frame box > Android system permission sheet (While using the app / Only this time / Don't allow)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "OS sheet",
+   "states": "First-time permission",
+   "notes": "screenshot of the live app (image fill). Specifics 1:3326: 'Remove bounding box for images'; mandatory photo → swipe Picked opens camera directly.",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3167"
+  },
+  {
+   "id": "1:3168",
+   "page": "Flow",
+   "name": "when photo is mandatory",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Shared > 5a Capture (mandatory)",
+   "task": "Take photo of package",
+   "container": "fullscreen-takeover",
+   "structure": "Camera (back arrow, white frame) > round shutter > bottom white panel: red title 'Photo is compulsory for this order' + 'Instructions:' + 2 bullets (Photo should be clear / Avoid flashlight while taking pictures)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Shutter centre, no label",
+   "states": "Capture",
+   "notes": "Mocked on a screenshot. Specifics 1:3336: 'When image is mandatory- New bottom sheet for instructions'.",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3168"
+  },
+  {
+   "id": "1:3185",
+   "page": "Flow",
+   "name": "when photo is mandatory",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Shared > 6a Preview (mandatory)",
+   "task": "Retry or submit photo",
+   "container": "fullscreen-takeover",
+   "structure": "Captured image in frame > Retry (circular) + Submit (tick) buttons, no labels > same red-title instruction panel",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Retry | Submit icon buttons side by side",
+   "states": "Preview",
+   "notes": "Labels missing here but present on 1:3194.",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3185"
+  },
+  {
+   "id": "1:3177",
+   "page": "Flow",
+   "name": "photo not mandatory",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Shared > 5b Capture (optional)",
+   "task": "Take photo of package",
+   "container": "fullscreen-takeover",
+   "structure": "As 1:3168 but shutter labelled 'Take Photo' and panel without red title (Instructions only)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Shutter 'Take Photo'",
+   "states": "Capture",
+   "notes": "",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3177"
+  },
+  {
+   "id": "1:3194",
+   "page": "Flow",
+   "name": "photo not mandatory",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Shared > 6b Preview (optional)",
+   "task": "Retry or submit photo",
+   "container": "fullscreen-takeover",
+   "structure": "Preview > 'Retry' + 'Submit' labelled circular buttons > instructions panel",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Retry | Submit",
+   "states": "Preview",
+   "notes": "",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3194"
+  },
+  {
+   "id": "1:3202",
+   "page": "Flow",
+   "name": "image 27",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Shared > 7 Uploading",
+   "task": "Wait for upload",
+   "container": "modal",
+   "structure": "Dimmed old 'Collect Package' page (OTP strip, cash card, sender details, items, upload picture) > centred white card: yellow ring spinner + 'Uploading, Please wait...'",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "none",
+   "states": "Loading",
+   "notes": "screenshot of the live app (image fill). Specifics 1:3334: 'Use the same loader'.",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3202"
+  },
+  {
+   "id": "1:3157",
+   "page": "Flow",
+   "name": "Collect package",
+   "size": "360x1024",
+   "tier": "B",
+   "flow": "Parcel > 8 Collect parcel, photo uploaded",
+   "task": "Swipe Picked after photo",
+   "container": "full-page + snackbar",
+   "structure": "Green snackbar at top '✓ Upload successful' > same as 1:3148 with item checkbox ticked and Upload Photo showing image + 'Delete Photo' link > swipe PICKED",
+   "components": {
+    "runway": [],
+    "other": [
+     "Top header",
+     "Snackbar",
+     "CheckCircle",
+     "payment card",
+     "OTP card",
+     "details",
+     "items",
+     "checkbox",
+     "Upload Picture",
+     "delete",
+     "cta holder",
+     "Button"
+    ]
+   },
+   "cta": "Black swipe PICKED",
+   "states": "Upload success",
+   "notes": "Specifics 1:3328 (verbatim) defines when this screen shows.",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3157"
+  },
+  {
+   "id": "1:3204",
+   "page": "Flow",
+   "name": "image 30",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Parcel > 9 Payment",
+   "task": "Collect payment from sender",
+   "container": "full-page",
+   "structure": "Header 'Payments' + ? help > card 'Amount to be Collected ₹130.0' + yellow note 'This is not your final earning, check order details' > 'QR Code / Generate your QR code below' blurred QR + black 'Generate QR Code' > OR > yellow 'Collect Cash'",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Yellow Collect Cash full width",
+   "states": "QR not generated",
+   "notes": "screenshot of the live app (image fill)",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3204"
+  },
+  {
+   "id": "1:3205",
+   "page": "Flow",
+   "name": "image 31",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Parcel > 9b Payment",
+   "task": "Wait for QR",
+   "container": "full-page",
+   "structure": "As 1:3204, QR blurred with spinner, 'Hold on! Generating QR Code for you'",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Yellow Collect Cash",
+   "states": "Generating",
+   "notes": "screenshot of the live app (image fill)",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3205"
+  },
+  {
+   "id": "1:3206",
+   "page": "Flow",
+   "name": "image 32",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Parcel > 9c Payment",
+   "task": "Show QR to customer",
+   "container": "full-page",
+   "structure": "As 1:3204 with real QR, 'Show this QR Code to your customer'",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Yellow Collect Cash",
+   "states": "QR shown",
+   "notes": "screenshot of the live app (image fill)",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3206"
+  },
+  {
+   "id": "1:3207",
+   "page": "Flow",
+   "name": "after payment pop-up",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Parcel > 10 Payment success",
+   "task": "See amount collected",
+   "container": "modal",
+   "structure": "Dimmed payments page > centred white card (empty illustration space) + bold 'Amount Collected Successfully'",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "none (auto-advance)",
+   "states": "Success",
+   "notes": "Specifics 1:3330: 'After payment show the pop-up and directly open OTP screen'. No × or button.",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3207"
+  },
+  {
+   "id": "1:3215",
+   "page": "Flow",
+   "name": "image 35",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Parcel > 11 Pickup OTP",
+   "task": "Enter OTP from sender",
+   "container": "full-page",
+   "structure": "Header (back, 'Complete package pick…' truncated, call) > black band 'Order ID: RD…' + 'Sender name: Henric Toby' > 'Enter Pickup OTP' + 4 boxes > 'Please ask customer for OTP'",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Keyboard ✓ (no on-screen button)",
+   "states": "Empty",
+   "notes": "screenshot of the live app (image fill). Specifics 1:3332: 'Change the heading  to complete pickup'. Title truncates (R02).",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3215"
+  },
+  {
+   "id": "1:3216",
+   "page": "Flow",
+   "name": "image 36",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Parcel > 11b Pickup OTP",
+   "task": "Type OTP",
+   "container": "full-page",
+   "structure": "As 1:3215 with numeric keyboard, first box focused",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Keyboard ✓",
+   "states": "Focused",
+   "notes": "screenshot of the live app (image fill)",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3216"
+  },
+  {
+   "id": "1:3217",
+   "page": "Flow",
+   "name": "image 37",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Parcel > 11c Pickup OTP",
+   "task": "Type OTP",
+   "container": "full-page",
+   "structure": "2 of 4 digits typed",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Keyboard ✓",
+   "states": "Partial",
+   "notes": "screenshot of the live app (image fill)",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3217"
+  },
+  {
+   "id": "1:3218",
+   "page": "Flow",
+   "name": "image 38",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Parcel > 11d Pickup OTP",
+   "task": "Verify OTP",
+   "container": "modal",
+   "structure": "4 digits filled, dimmed > centred 'Please wait...' card with yellow ring spinner",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "none",
+   "states": "Verifying",
+   "notes": "screenshot of the live app (image fill)",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3218"
+  },
+  {
+   "id": "1:3219",
+   "page": "Flow",
+   "name": "image 39",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Shared > 12 Start drop",
+   "task": "Choose navigation",
+   "container": "bottom-sheet",
+   "structure": "Go to drop map (order ID band, speed bubble) > sheet with green tinted top 'Perfect Pick-up! ✨ You started the ride at the right location.' (captain illustration) > map icon > 'Use Rapido Maps' + body > 'No, thanks' (outline) + 'Go To Maps' (yellow)",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Two buttons: outline No, thanks | yellow Go To Maps",
+   "states": "",
+   "notes": "screenshot of the live app (image fill). No × on sheet.",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3219"
+  },
+  {
+   "id": "1:3220",
+   "page": "Flow",
+   "name": "image 40",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Shared > 13 Go to drop",
+   "task": "Navigate to drop",
+   "container": "full-page",
+   "structure": "Header 'Go to drop' (hamburger, call) > black 'Order ID' band > map with 'Drop location' red pin, speed bubble, recenter > yellow 'Go to drop' pill > card: red pin + receiver 'Sneha' + address > red swipe 'REACHED'",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Red swipe REACHED",
+   "states": "",
+   "notes": "screenshot of the live app (image fill)",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3220"
+  },
+  {
+   "id": "1:3221",
+   "page": "Flow",
+   "name": "image 41",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Shared > 13b In-app turn-by-turn",
+   "task": "Navigate",
+   "container": "fullscreen-takeover",
+   "structure": "Dark nav map, green maneuver bar 'Head north', ETA '39 min' footer, × exit",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "× exit",
+   "states": "",
+   "notes": "screenshot of the live app (image fill)",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3221"
+  },
+  {
+   "id": "1:3222",
+   "page": "Flow",
+   "name": "image 42",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Shared > 13c Go to drop",
+   "task": "Navigate",
+   "container": "full-page",
+   "structure": "As 1:3220",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Red swipe REACHED",
+   "states": "",
+   "notes": "screenshot of the live app (image fill)",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3222"
+  },
+  {
+   "id": "1:3223",
+   "page": "Flow",
+   "name": "image 43",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Shared > 13d Go to drop",
+   "task": "Navigate",
+   "container": "full-page",
+   "structure": "As 1:3220, zoomed out with 'You are here'",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Red swipe REACHED",
+   "states": "",
+   "notes": "screenshot of the live app (image fill)",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3223"
+  },
+  {
+   "id": "1:3224",
+   "page": "Flow",
+   "name": "image 44",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Shared > 13e Nav with traffic alert",
+   "task": "Navigate",
+   "container": "fullscreen-takeover",
+   "structure": "Dark nav map + bottom 'Unusually heavy traffic on your route' + Dismiss",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Dismiss",
+   "states": "",
+   "notes": "screenshot of the live app (image fill)",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3224"
+  },
+  {
+   "id": "1:3225",
+   "page": "Flow",
+   "name": "image 46",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Shared > 13f At drop",
+   "task": "Arrive",
+   "container": "full-page",
+   "structure": "As 1:3220, captain on the drop pin",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Red swipe REACHED",
+   "states": "",
+   "notes": "screenshot of the live app (image fill)",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3225"
+  },
+  {
+   "id": "1:3226",
+   "page": "Flow",
+   "name": "image 47",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Shared > 14 Complete delivery map",
+   "task": "Confirm at drop",
+   "container": "full-page",
+   "structure": "Header 'Complete Delivery' > map with drop pin + 'You are here' > blank white area > black swipe with arrow at right",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Black swipe (label not visible)",
+   "states": "",
+   "notes": "screenshot of the live app (image fill)",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3226"
+  },
+  {
+   "id": "1:3227",
+   "page": "Flow",
+   "name": "parcel delivery/drop detail screen",
+   "size": "360x959",
+   "tier": "B",
+   "flow": "Parcel > 15 Complete delivery",
+   "task": "Check items, add note, upload photo, swipe Delivered",
+   "container": "full-page (scroll) + sticky swipe",
+   "structure": "Top header 'Complete Delivery' > orange OTP strip > green status 'Amount collected online' (check) > card Drop Details (receiver, address) > card Pickup Details expanded (sender, address) > card Items To Deliver (Item name: Other) > card Drop Off Notes (text field 'Add any note for the customer') > Upload Photo tile > black swipe 'DELIVERED'",
+   "components": {
+    "runway": [],
+    "other": [
+     "Top header",
+     "OTP card",
+     "payment card",
+     "details",
+     "pick up details collapsed",
+     "expand_less",
+     "items",
+     "Upload Picture",
+     "cta holder",
+     "Button"
+    ]
+   },
+   "cta": "Black swipe DELIVERED",
+   "states": "Pickup expanded; note empty",
+   "notes": "Specifics 1:3347 (verbatim).",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3227"
+  },
+  {
+   "id": "1:3241",
+   "page": "Flow",
+   "name": "parcel delivery/drop detail screen",
+   "size": "360x959",
+   "tier": "B",
+   "flow": "Parcel > 15b Complete delivery, note added",
+   "task": "Same",
+   "container": "full-page",
+   "structure": "As 1:3227 with Pickup Details collapsed and note 'Gave it to the watchman'; Upload tile 'Tap to add photo of the package'",
+   "components": {
+    "runway": [],
+    "other": [
+     "Top header",
+     "OTP card",
+     "payment card",
+     "details",
+     "pick up details collapsed",
+     "expand_more",
+     "items",
+     "Upload Picture",
+     "cta holder",
+     "Button"
+    ]
+   },
+   "cta": "Black swipe DELIVERED",
+   "states": "Note added",
+   "notes": "Label 'Drop off note added' (1:3307). Connector to 'Same image upload flow'.",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3241"
+  },
+  {
+   "id": "1:3255",
+   "page": "Flow",
+   "name": "parcel delivery/drop detail screen",
+   "size": "360x927",
+   "tier": "B",
+   "flow": "Parcel > 16 Complete delivery, photo uploaded",
+   "task": "Swipe Delivered",
+   "container": "full-page",
+   "structure": "As 1:3241 but yellow payment card 'Please collect payment ₹130.0' and uploaded photo with delete",
+   "components": {
+    "runway": [],
+    "other": [
+     "Top header",
+     "OTP card",
+     "payment card",
+     "details",
+     "pick up details collapsed",
+     "items",
+     "Upload Picture",
+     "delete",
+     "Button",
+     "cta holder"
+    ]
+   },
+   "cta": "Black swipe DELIVERED",
+   "states": "Photo uploaded; payment pending",
+   "notes": "Payment card says 'Please collect payment' while 1:3227/1:3241 say 'Amount collected online' for the same order: inconsistent. 'Drop off notes' casing differs.",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3255"
+  },
+  {
+   "id": "1:3278",
+   "page": "Flow",
+   "name": "image 59",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Parcel > 17 Drop OTP (when required)",
+   "task": "Enter OTP from receiver",
+   "container": "full-page",
+   "structure": "Header 'Complete Delivery' (back, call) > black band 'Order ID' + 'Receiver name: Sneha' > 'Enter Drop OTP' 4 boxes > 'Please ask customer for OTP'",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Keyboard ✓",
+   "states": "Empty",
+   "notes": "screenshot of the live app (image fill)",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3278"
+  },
+  {
+   "id": "1:3279",
+   "page": "Flow",
+   "name": "image 60",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Parcel > 17b Drop OTP",
+   "task": "Type OTP",
+   "container": "full-page",
+   "structure": "Keyboard open, first box focused",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Keyboard ✓",
+   "states": "Focused",
+   "notes": "screenshot of the live app (image fill)",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3279"
+  },
+  {
+   "id": "1:3280",
+   "page": "Flow",
+   "name": "image 61",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Parcel > 17c Drop OTP",
+   "task": "Verify",
+   "container": "modal",
+   "structure": "4 digits + 'Please wait...' card",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "none",
+   "states": "Verifying",
+   "notes": "screenshot of the live app (image fill)",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3280"
+  },
+  {
+   "id": "1:3302",
+   "page": "Flow",
+   "name": "image 62",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Shared > 18 Order complete",
+   "task": "Rate and finish",
+   "container": "full-page",
+   "structure": "Header 'Order Complete' + ? > card green check 'Amount Collected Online' + yellow note 'This is not your final earning…' > 'How was your ride?' Good / Bad > sticky yellow Done",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Yellow Done",
+   "states": "No rating",
+   "notes": "screenshot of the live app (image fill)",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3302"
+  },
+  {
+   "id": "1:3303",
+   "page": "Flow",
+   "name": "image 64",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Shared > 18b Order complete, Good chosen",
+   "task": "Pick feedback chips",
+   "container": "full-page",
+   "structure": "Black strip 'Complete the feedback to start next order' > card + 'Drop Distance 2.42 km' > Good selected (dark) > 'What did you like?' chips Polite / Timely / Friendly > Done",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Yellow Done",
+   "states": "Rated",
+   "notes": "screenshot of the live app (image fill)",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3303"
+  },
+  {
+   "id": "1:3305",
+   "page": "Flow",
+   "name": "image 17",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Shared > 18c Order complete (bike payment screen)",
+   "task": "Finish",
+   "container": "full-page",
+   "structure": "Notification 'Order Earnings Received' at top > card + 'Drop Distance 5.87 km' > Good/Bad > Done",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Yellow Done",
+   "states": "",
+   "notes": "screenshot of the live app (image fill). Label 1:3306: 'WE CAN EVEN USE THE SAME BIKE ORDER PAYMENT SCREEN'.",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3305"
+  },
+  {
+   "id": "1:2981",
+   "page": "Flow",
+   "name": "image 63",
+   "size": "360x780",
+   "tier": "B",
+   "flow": "Food > 1 Order alert (current app)",
+   "task": "Accept food delivery",
+   "container": "full-page",
+   "structure": "'3 Orders' header > side tab rail (ring + fare) | stack of 'Delivery' OA cards: service icon + ₹35 + ₹20 (Online) > Pickup / Drop addresses > Pickup 2.4 Km | Drop 3.1 Km > × + yellow 'Accept' with 19s ring",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "Yellow Accept with countdown ring",
+   "states": "3 alerts (2 delivery, 1 bike)",
+   "notes": "screenshot of the live app (image fill). Specifics 1:3321: show pickup info like bike order, only change icon.",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-2981"
+  },
+  {
+   "id": "1:2982",
+   "page": "Flow",
+   "name": "map",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Food > 2 Go to pickup",
+   "task": "Navigate to restaurant",
+   "container": "full-page",
+   "structure": "Top header 'Go to Pickup Zone' > black band 'Order ID : 122343221223****' > green band 'Estimated Earnings ₹30.00 + wait charge' > map with 'Pick up location' food pin, '43 mins' ring timer > 'Go to pickup' pill > address card > blue swipe ARRIVED",
+   "components": {
+    "runway": [],
+    "other": [
+     "Top header",
+     "order id",
+     "earnings card",
+     "Button"
+    ]
+   },
+   "cta": "Blue swipe ARRIVED",
+   "states": "Outside zone",
+   "notes": "Specifics 1:3319: order ID and estimated earnings shown on food map. Label 'Change pickup icon' (1:3352).",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-2982"
+  },
+  {
+   "id": "1:2999",
+   "page": "Flow",
+   "name": "map",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Food > 2b Near pickup",
+   "task": "Navigate",
+   "container": "full-page",
+   "structure": "As 1:2982 zoomed in, 'You are here', '40 mins'",
+   "components": {
+    "runway": [],
+    "other": [
+     "Top header",
+     "order id",
+     "earnings card",
+     "Button"
+    ]
+   },
+   "cta": "Blue swipe ARRIVED",
+   "states": "",
+   "notes": "",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-2999"
+  },
+  {
+   "id": "1:3044",
+   "page": "Flow",
+   "name": "Food delivery/pickup detail screen",
+   "size": "360x988",
+   "tier": "B",
+   "flow": "Food > 3a Collect food (wait charge + prep time)",
+   "task": "Wait for food",
+   "container": "full-page (scroll) + sticky swipe",
+   "structure": "Top header 'Collect Parcel' > order ID row (last 4 digits bold) > green 'Estimated Earnings ₹30 + wait charge' + Wait Timer 03:59 (disabled) + 'After 4 mins, you will get extra waiting charge' > card 'Please Wait! Food will be ready in 21:30' (flip-digit timer) > Pickup Details expanded > 'Swiggy' chip + Drop Details > Items To Pickup (checkbox, item, Quantity 1) > Upload Photo > black swipe PICKED",
+   "components": {
+    "runway": [],
+    "other": [
+     "Top header",
+     "order id",
+     "earnings",
+     "Food prep time",
+     "pick up details collapsed",
+     "expand_less",
+     "details",
+     "items",
+     "checkbox",
+     "Upload Picture",
+     "cta holder",
+     "Button"
+    ]
+   },
+   "cta": "Black swipe PICKED",
+   "states": "Prep running, wait timer not started",
+   "notes": "Specifics 1:3338 (verbatim). Specifics 1:3340 says pickup details collapsed here but this frame shows them expanded.",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3044"
+  },
+  {
+   "id": "1:3138",
+   "page": "Flow",
+   "name": "Food delivery/pickup detail screen",
+   "size": "360x838",
+   "tier": "B",
+   "flow": "Food > 3b Collect food (no wait charge, no prep time)",
+   "task": "Collect food",
+   "container": "full-page",
+   "structure": "Order ID > green 'Estimated Earnings ₹30' (no timer) > Pickup Details collapsed > Swiggy + Drop Details > Items > Upload Photo > swipe PICKED",
+   "components": {
+    "runway": [],
+    "other": [
+     "Top header",
+     "order id",
+     "earnings",
+     "pick up details collapsed",
+     "details",
+     "items",
+     "checkbox",
+     "Upload Picture",
+     "cta holder",
+     "Button"
+    ]
+   },
+   "cta": "Black swipe PICKED",
+   "states": "Variant",
+   "notes": "Specifics 1:3343: 'Food delivery without wait charge and prep time'.",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3138"
+  },
+  {
+   "id": "1:3055",
+   "page": "Flow",
+   "name": "Food delivery/pickup detail screen",
+   "size": "360x988",
+   "tier": "B",
+   "flow": "Food > 3c Wait timer active, prep over",
+   "task": "Wait at restaurant",
+   "container": "full-page",
+   "structure": "As 1:3044 with active wait timer 03:59, red strip 'Slight delay in food prep due to high demand', prep timer 00:00, Pickup Details collapsed",
+   "components": {
+    "runway": [],
+    "other": [
+     "Top header",
+     "order id",
+     "earnings",
+     "Food prep time",
+     "pick up details collapsed",
+     "expand_more",
+     "details",
+     "items",
+     "checkbox",
+     "Upload Picture",
+     "cta holder",
+     "Button"
+    ]
+   },
+   "cta": "Black swipe PICKED",
+   "states": "Prep overdue",
+   "notes": "Specifics 1:3345: 'With wait timer active / Prep time over'.",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3055"
+  },
+  {
+   "id": "1:3067",
+   "page": "Flow",
+   "name": "Food delivery/pickup detail screen",
+   "size": "360x1028",
+   "tier": "B",
+   "flow": "Food > 4 Food ready",
+   "task": "Collect food and upload photo",
+   "container": "full-page",
+   "structure": "As 1:3055 with wait timer greyed (inactive), green banner (cloche icon) 'Food order is Ready! Collect from restaurant', Upload Photo (Compulsory)",
+   "components": {
+    "runway": [],
+    "other": [
+     "Top header",
+     "order id",
+     "earnings/wait time inactive",
+     "Food prep time",
+     "pick up details collapsed",
+     "details",
+     "items",
+     "checkbox",
+     "Upload Picture",
+     "cta holder",
+     "Button"
+    ]
+   },
+   "cta": "Black swipe PICKED",
+   "states": "Ready",
+   "notes": "",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3067"
+  },
+  {
+   "id": "1:3078",
+   "page": "Flow",
+   "name": "Food delivery/pickup detail screen",
+   "size": "360x720",
+   "tier": "B",
+   "flow": "Food > 4b Food ready pop-up",
+   "task": "Acknowledge food is ready",
+   "container": "modal",
+   "structure": "Dimmed collect page > centred white card: cloche + green check illustration > 'Food is Ready!' > 'Please collect food from restaurant' > yellow 'Okay' pill",
+   "components": {
+    "runway": [],
+    "other": [
+     "Buttons/Small/Primary/Normal",
+     "Top header",
+     "earnings/wait time inactive"
+    ]
+   },
+   "cta": "Yellow Okay (small pill)",
+   "states": "Ready",
+   "notes": "Connector from here to camera (image 24).",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3078"
+  },
+  {
+   "id": "1:3115",
+   "page": "Flow",
+   "name": "Food delivery/pickup detail screen",
+   "size": "360x1029",
+   "tier": "B",
+   "flow": "Food > 5 Collect food, photo uploaded",
+   "task": "Swipe Picked",
+   "container": "full-page + snackbar",
+   "structure": "Green snackbar 'Upload successful' > order ID > earnings/inactive timer > Food order is Ready banner > Swiggy + Drop Details > Items (checked) > uploaded photo + delete > swipe PICKED",
+   "components": {
+    "runway": [],
+    "other": [
+     "Snackbar",
+     "CheckCircle",
+     "Top header",
+     "order id",
+     "earnings/wait time inactive",
+     "details",
+     "items",
+     "checkbox",
+     "Upload Picture",
+     "delete",
+     "cta holder",
+     "Button"
+    ]
+   },
+   "cta": "Black swipe PICKED",
+   "states": "Upload success",
+   "notes": "Pickup Details card absent here. Connector 1:3274 goes straight to drop nav (no payment/OTP for food pickup).",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3115"
+  },
+  {
+   "id": "1:3283",
+   "page": "Flow",
+   "name": "Food delivery/pickup detail screen",
+   "size": "360x815",
+   "tier": "B",
+   "flow": "Food > 6 Complete delivery",
+   "task": "Check items, upload photo, swipe Delivered",
+   "container": "full-page",
+   "structure": "Header 'Complete Delivery' > green earnings band > card Swiggy + Drop Details + yellow 'Call customer' + outline 'Go to location' > Items To Deliver > Upload Photo > black swipe DELIVERED",
+   "components": {
+    "runway": [],
+    "other": [
+     "Top header",
+     "earnings",
+     "details",
+     "Buttons/Small/Primary/Normal",
+     "items",
+     "checkbox",
+     "Upload Picture",
+     "cta holder",
+     "Button"
+    ]
+   },
+   "cta": "Black swipe DELIVERED",
+   "states": "Before photo",
+   "notes": "No order ID, no OTP strip, no drop-off notes (unlike parcel 1:3227).",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3283"
+  },
+  {
+   "id": "1:3291",
+   "page": "Flow",
+   "name": "Food delivery/pickup detail screen",
+   "size": "360x864",
+   "tier": "B",
+   "flow": "Food > 7 Complete delivery, photo uploaded",
+   "task": "Swipe Delivered",
+   "container": "full-page",
+   "structure": "As 1:3283 with items checked and photo uploaded",
+   "components": {
+    "runway": [],
+    "other": [
+     "Top header",
+     "earnings",
+     "details",
+     "items",
+     "checkbox",
+     "Upload Picture",
+     "delete",
+     "cta holder",
+     "Button"
+    ]
+   },
+   "cta": "Black swipe DELIVERED",
+   "states": "Uploaded",
+   "notes": "Then 'When OTP is not required' → Order complete (image 62).",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3291"
+  },
+  {
+   "id": "1:3066",
+   "page": "Flow",
+   "name": "earnings (instance)",
+   "size": "328x98",
+   "tier": "B",
+   "flow": "Food > 3d Wait charge running",
+   "task": "See wait charge earning",
+   "container": "other",
+   "structure": "Green header 'Estimated Earnings ₹30 + wait charge' > white body: 'Wait Timer 00:06' green + info 'You are now earning wait charges'",
+   "components": {
+    "runway": [],
+    "other": [
+     "earnings"
+    ]
+   },
+   "cta": "none",
+   "states": "Wait charge accruing",
+   "notes": "Label 'When 4 mins are over' (1:3349) points here.",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3066"
+  },
+  {
+   "id": "1:3039",
+   "page": "Flow",
+   "name": "icon for all delivery services",
+   "size": "83x104 (section)",
+   "tier": "B",
+   "flow": "Shared > map pin",
+   "task": "Pickup pin for all delivery services",
+   "container": "other",
+   "structure": "Green map pin with white parcel/box glyph",
+   "components": {
+    "runway": [],
+    "other": []
+   },
+   "cta": "",
+   "states": "",
+   "notes": "Referenced by 'Change pickup icon' and Specifics 1:3315.",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3039"
+  }
+ ],
+ "annotations": [
+  {
+   "id": "1:3354",
+   "name": "CASES OF PHOTO UPLOAD (frame)",
+   "text": "When photo upload is compulsory-\nUpload photo section stating compulsory\nIf the user has uploaded the photo and then clicks on picked> open the payment flow\nIf the user has not uploaded the photo when clicked on picked open camera directly> use bottom sheet stating photo is compulsory> normal flow.....\n\nWhen photo upload is not compulsory-\nOpen camera only when the user clicks on upload photo section> use bottom sheet stating only instructions> normal flow.....\n\nThe CTA “Picked” need not be disabled in any case",
+   "pointsTo": "Global rule",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3354"
+  },
+  {
+   "id": "1:3315",
+   "name": "Specifics",
+   "text": "Same header to be used in all the screens\nOrder ID and estimated earnings not needed for parcel order map view\nThe pickup icon on map needs to change",
+   "pointsTo": "1:3013 parcel map",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3315"
+  },
+  {
+   "id": "1:3317",
+   "name": "Specifics",
+   "text": "Show the pickup info in the same way it is shown in bike order ,only change the icon",
+   "pointsTo": "1:2784 / 1:3013 parcel",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3317"
+  },
+  {
+   "id": "1:3319",
+   "name": "Specifics",
+   "text": "Order ID and estimated earnings to be shown on food delivery map",
+   "pointsTo": "1:2982 food map",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3319"
+  },
+  {
+   "id": "1:3321",
+   "name": "Specifics",
+   "text": "Show the pickup info in the same way it is shown in bike order ,only change the icon",
+   "pointsTo": "1:2981 food OA",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3321"
+  },
+  {
+   "id": "1:3324",
+   "name": "Specifics",
+   "text": "Have added order ID detail on this screen-\nTo maintain consistency with food delivery screen\nCaptains might need this information while contacting the support team\nHave chosen not to emphasise the last for digits as it is not a primary info for the captains during parcel delivery",
+   "pointsTo": "1:3148 collect parcel",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3324"
+  },
+  {
+   "id": "1:3326",
+   "name": "Specifics",
+   "text": "Remove bounding box for images\nFor cases where image is mandatory when he swipes ‘picked’ directly open camera ",
+   "pointsTo": "1:3167 camera",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3326"
+  },
+  {
+   "id": "1:3328",
+   "name": "Specifics",
+   "text": "If the captain forgets to upload the photo in cases where photo is mandatory and directly swipes picked> directly open camera> directly open payment screen\nShow this screen If the captain uploads the photo first.",
+   "pointsTo": "1:3157 collect parcel uploaded",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3328"
+  },
+  {
+   "id": "1:3330",
+   "name": "Specifics",
+   "text": "After payment show the pop-up and directly open OTP screen",
+   "pointsTo": "1:3207 payment pop-up",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3330"
+  },
+  {
+   "id": "1:3332",
+   "name": "Specifics",
+   "text": "Change the heading  to complete pickup",
+   "pointsTo": "1:3215 pickup OTP",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3332"
+  },
+  {
+   "id": "1:3334",
+   "name": "Specifics",
+   "text": "Use the same loader",
+   "pointsTo": "1:3202 uploading",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3334"
+  },
+  {
+   "id": "1:3336",
+   "name": "Specifics",
+   "text": "When image is mandatory-\nNew bottom sheet for instructions",
+   "pointsTo": "1:3168 camera mandatory",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3336"
+  },
+  {
+   "id": "1:3338",
+   "name": "Specifics",
+   "text": "Food delivery with wait charge and prep time\nWait timer disabled",
+   "pointsTo": "1:3044",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3338"
+  },
+  {
+   "id": "1:3340",
+   "name": "Specifics",
+   "text": "Pickup details will be collapsed in this screen",
+   "pointsTo": "1:3044 (left of it)",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3340"
+  },
+  {
+   "id": "1:3343",
+   "name": "Specifics",
+   "text": "Food delivery without wait charge and prep time",
+   "pointsTo": "1:3138",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3343"
+  },
+  {
+   "id": "1:3345",
+   "name": "Specifics",
+   "text": "With wait timer active\nPrep time over",
+   "pointsTo": "1:3055",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3345"
+  },
+  {
+   "id": "1:3347",
+   "name": "Specifics",
+   "text": "1.Show pickup details here as well-\nAt times the receiver asks who has sent the parcel\nSince the payment was done show status here- amount collected",
+   "pointsTo": "1:3227 parcel drop",
+   "link": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3347"
+  }
+ ],
+ "labels": [
+  {
+   "id": "1:3037",
+   "text": "Parcel delivery",
+   "note": "Row label, parcel row (y≈1150–1940)"
+  },
+  {
+   "id": "1:3038",
+   "text": "Food delivery",
+   "note": "Row label, food row (y≈2260–3350)"
+  },
+  {
+   "id": "1:3313",
+   "text": "Use icon used in map here",
+   "note": "Arrow 1:3314 → map 1:3013"
+  },
+  {
+   "id": "1:3352",
+   "text": "Change pickup icon",
+   "note": "Arrow 1:3351 → icon 1:3039"
+  },
+  {
+   "id": "1:3349",
+   "text": "When 4 mins are over",
+   "note": "Arrow 1:3342 → earnings 1:3066"
+  },
+  {
+   "id": "1:3307",
+   "text": "Drop off note added",
+   "note": "Above 1:3241"
+  },
+  {
+   "id": "1:3301",
+   "text": "Same image upload flow",
+   "note": "Lines from 1:3241 and 1:3283 meet here, continue to 1:3255 / 1:3291"
+  },
+  {
+   "id": "1:3309",
+   "text": "OTP flow when required",
+   "note": "Arrow 1:3308 → drop OTP images 59–61"
+  },
+  {
+   "id": "1:3310",
+   "text": "When OTP is not required",
+   "note": "Arrow 1:3311 → image 62 Order complete"
+  },
+  {
+   "id": "1:3306",
+   "text": "WE CAN EVEN USE THE SAME BIKE ORDER PAYMENT SCREEN  ",
+   "note": "Above image 17 (1:3305)"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "1:3314",
+   "from": "1:3313 label",
+   "to": "1:3013",
+   "kind": "arrow"
+  },
+  {
+   "id": "1:3350",
+   "from": "1:3315 Specifics",
+   "to": "1:3013 header",
+   "kind": "bracket arrow"
+  },
+  {
+   "id": "1:3323",
+   "from": "1:3315 Specifics",
+   "to": "1:3039 icon",
+   "kind": "arrow"
+  },
+  {
+   "id": "1:3351",
+   "from": "1:3352 label",
+   "to": "1:3039 icon",
+   "kind": "arrow"
+  },
+  {
+   "id": "1:3269",
+   "from": "1:3148 Collect parcel",
+   "to": "1:3167 camera",
+   "kind": "arrow"
+  },
+  {
+   "id": "1:3270",
+   "from": "1:3078 Food ready pop-up",
+   "to": "1:3167 camera",
+   "kind": "arrow"
+  },
+  {
+   "id": "1:3203",
+   "from": "1:3168 camera",
+   "to": "1:3336 Specifics",
+   "kind": "arrow"
+  },
+  {
+   "id": "1:3271",
+   "from": "1:3202 uploading",
+   "to": "1:3157 parcel uploaded",
+   "kind": "line"
+  },
+  {
+   "id": "1:3272",
+   "from": "1:3202 uploading",
+   "to": "1:3115 food uploaded",
+   "kind": "line"
+  },
+  {
+   "id": "1:3353",
+   "from": "1:3328 Specifics",
+   "to": "1:3157",
+   "kind": "arrow"
+  },
+  {
+   "id": "1:3273",
+   "from": "1:3157",
+   "to": "1:3204 payment",
+   "kind": "line"
+  },
+  {
+   "id": "1:3312",
+   "from": "1:3215 pickup OTP",
+   "to": "1:3332 Specifics",
+   "kind": "arrow"
+  },
+  {
+   "id": "1:3275",
+   "from": "1:3218 OTP verifying",
+   "to": "1:3219 drop start",
+   "kind": "line"
+  },
+  {
+   "id": "1:3274",
+   "from": "1:3115 food uploaded",
+   "to": "1:3219 drop start",
+   "kind": "line"
+  },
+  {
+   "id": "1:3342",
+   "from": "1:3349 label",
+   "to": "1:3066 earnings",
+   "kind": "arrow"
+  },
+  {
+   "id": "1:3276",
+   "from": "1:3226 complete-delivery map",
+   "to": "1:3227 parcel drop",
+   "kind": "line"
+  },
+  {
+   "id": "1:3281",
+   "from": "1:3226",
+   "to": "1:3283 food drop",
+   "kind": "line"
+  },
+  {
+   "id": "1:3299",
+   "from": "1:3241",
+   "to": "1:3301 Same image upload flow",
+   "kind": "line"
+  },
+  {
+   "id": "1:3300",
+   "from": "1:3283",
+   "to": "1:3301",
+   "kind": "line"
+  },
+  {
+   "id": "1:3277",
+   "from": "1:3301",
+   "to": "1:3255",
+   "kind": "line"
+  },
+  {
+   "id": "1:3282",
+   "from": "1:3301",
+   "to": "1:3291",
+   "kind": "line"
+  },
+  {
+   "id": "1:3308",
+   "from": "1:3309 OTP when required",
+   "to": "1:3278 drop OTP",
+   "kind": "arrow"
+  },
+  {
+   "id": "1:3311",
+   "from": "1:3310 OTP not required",
+   "to": "1:3302 order complete",
+   "kind": "arrow"
+  },
+  {
+   "id": "1:3304",
+   "from": "1:3280 OTP verifying",
+   "to": "1:3302 order complete",
+   "kind": "line"
+  }
+ ],
+ "flows": {
+  "parcel": [
+   {
+    "step": "1",
+    "nodes": "1:2784",
+    "what": "Order alert list: Parcel card, Accept"
+   },
+   {
+    "step": "2",
+    "nodes": "1:3013 → 1:3025",
+    "what": "Go to Pickup Zone map → Inside the Pickup Zone; swipe ARRIVED (blue). No order ID / earnings on parcel map."
+   },
+   {
+    "step": "3",
+    "nodes": "1:3148",
+    "what": "Collect Parcel: OTP strip, 'Please collect payment ₹130', pickup details, items + restricted-items consent, Upload Photo (Compulsory), swipe PICKED (never disabled)."
+   },
+   {
+    "step": "4",
+    "nodes": "1:3167 → 1:3168/1:3177 → 1:3185/1:3194 → 1:3202",
+    "what": "Photo: camera permission → capture (mandatory: red 'Photo is compulsory' panel; optional: instructions only) → Retry/Submit → 'Uploading, Please wait…'.\n    Branch A (mandatory, photo first): tap Upload → camera → back to 1:3157 (Upload successful) → swipe PICKED → payment.\n    Branch B (mandatory, not uploaded): swipe PICKED → camera opens directly → compulsory sheet → payment directly (skips 1:3157).\n    Branch C (optional): camera only if captain taps Upload; swipe PICKED → payment."
+   },
+   {
+    "step": "5",
+    "nodes": "1:3204 → 1:3205 → 1:3206",
+    "what": "Payments: amount ₹130, Generate QR → QR shown, or Collect Cash."
+   },
+   {
+    "step": "6",
+    "nodes": "1:3207",
+    "what": "'Amount Collected Successfully' card → opens OTP directly."
+   },
+   {
+    "step": "7",
+    "nodes": "1:3215 → 1:3216 → 1:3217 → 1:3218",
+    "what": "Enter Pickup OTP (heading to become 'Complete pickup') → Please wait."
+   },
+   {
+    "step": "8",
+    "nodes": "1:3219 → 1:3220…1:3225",
+    "what": "Perfect Pick-up! + Use Rapido Maps sheet → Go to drop map / turn-by-turn; swipe REACHED (red)."
+   },
+   {
+    "step": "9",
+    "nodes": "1:3226",
+    "what": "Complete Delivery map, black swipe."
+   },
+   {
+    "step": "10",
+    "nodes": "1:3227 → 1:3241",
+    "what": "Complete Delivery details: 'Amount collected online', drop + pickup details, items, Drop Off Notes, Upload Photo, swipe DELIVERED."
+   },
+   {
+    "step": "11",
+    "nodes": "1:3255",
+    "what": "Same image upload flow → photo uploaded."
+   },
+   {
+    "step": "12",
+    "nodes": "1:3278 → 1:3279 → 1:3280",
+    "what": "If OTP required: Enter Drop OTP → Please wait. If not: skip."
+   },
+   {
+    "step": "13",
+    "nodes": "1:3302 → 1:3303 (1:3305)",
+    "what": "Order Complete: amount collected, rate Good/Bad, chips, Done. Could reuse bike end-of-order screen."
+   }
+  ],
+  "food": [
+   {
+    "step": "1",
+    "nodes": "1:2981",
+    "what": "Order alert list (current app): Delivery cards, Accept with 19s ring."
+   },
+   {
+    "step": "2",
+    "nodes": "1:2982 → 1:2999",
+    "what": "Go to Pickup Zone map with Order ID band, 'Estimated Earnings ₹30 + wait charge', 43-min ring; swipe ARRIVED."
+   },
+   {
+    "step": "3",
+    "nodes": "1:3044 | 1:3138",
+    "what": "Collect Parcel at restaurant. With prep time + wait charge (1:3044: wait timer disabled, 'Food will be ready in 21:30') or without (1:3138: earnings only)."
+   },
+   {
+    "step": "4",
+    "nodes": "1:3055 → 1:3066",
+    "what": "Prep time over: wait timer active, 'Slight delay in food prep…'. When 4 mins are over: 'You are now earning wait charges' (timer counts up)."
+   },
+   {
+    "step": "5",
+    "nodes": "1:3067 + 1:3078",
+    "what": "Food ready: 'Food order is Ready!' banner, timer inactive, Upload Photo (Compulsory); centred pop-up 'Food is Ready!' + Okay."
+   },
+   {
+    "step": "6",
+    "nodes": "1:3167 → … → 1:3202 → 1:3115",
+    "what": "Same photo flow and photo rules as parcel → Upload successful → swipe PICKED. No payment, no pickup OTP."
+   },
+   {
+    "step": "7",
+    "nodes": "1:3219 → 1:3226",
+    "what": "Shared drop navigation (same as parcel steps 8–9)."
+   },
+   {
+    "step": "8",
+    "nodes": "1:3283 → 1:3291",
+    "what": "Complete Delivery: Swiggy + drop details with Call customer / Go to location, items, Upload Photo → same image upload flow; swipe DELIVERED."
+   },
+   {
+    "step": "9",
+    "nodes": "1:3302",
+    "what": "OTP not required → Order Complete (OTP branch 1:3278 applies if required)."
+   }
+  ]
+ },
+ "patternCandidates": [
+  {
+   "name": "Trip map: go to pickup / drop",
+   "whenToUse": "Captain is travelling to a pickup or drop point.",
+   "structure": "Top header (menu, stage title 'Go to Pickup Zone' / 'Inside the Pickup Zone' / 'Go to drop', call) > [food only: black Order ID band + green Estimated Earnings band] > full map (stop pin by service, route, ETA ring, recenter) > floating yellow 'Go to pickup/drop' pill > white stop card (pin, name, address) > full-width swipe (ARRIVED / REACHED)",
+   "components": [
+    "Top header (legacy)",
+    "swipe CTA (missing)",
+    "order id",
+    "earnings card"
+   ],
+   "evidence": [
+    "1:3013",
+    "1:3025",
+    "1:2982",
+    "1:2999",
+    "1:3220",
+    "1:3222"
+   ],
+   "variations": "Parcel hides order ID and earnings; food shows both + countdown ring. Swipe colour blue (pickup) vs red (drop).",
+   "conflicts": "Swipe colours blue/red/black; header has hamburger instead of Runway Internal Page Header."
+  },
+  {
+   "name": "Order stage page (Collect / Complete delivery)",
+   "whenToUse": "At the pickup or drop: show everything needed to finish the stage and one swipe to confirm.",
+   "structure": "Top header (stage title, call) > [order ID row] > status strip(s) (orange 'requires an OTP', red delay) > status card (yellow 'Please collect payment ₹X' / green 'Amount collected online' / green 'Food order is Ready!') > [earnings + wait timer card] > collapsible Pickup Details card and Drop Details card (name, address, yellow Call customer + outline Go to location; partner chip e.g. Swiggy) > Items card (checkbox + qty + restricted-items consent) > [Drop Off Notes field] > Upload Photo tile (Compulsory tag) > sticky swipe (PICKED / DELIVERED)",
+   "components": [
+    "Top header",
+    "order id",
+    "payment card",
+    "OTP card",
+    "details",
+    "pick up details collapsed",
+    "items",
+    "checkbox",
+    "info",
+    "Upload Picture",
+    "cta holder",
+    "Snackbar"
+   ],
+   "evidence": [
+    "1:3148",
+    "1:3157",
+    "1:3044",
+    "1:3138",
+    "1:3055",
+    "1:3067",
+    "1:3115",
+    "1:3227",
+    "1:3241",
+    "1:3255",
+    "1:3283",
+    "1:3291"
+   ],
+   "variations": "Parcel vs food; with/without timers; photo compulsory or optional; pickup details expanded/collapsed; uploaded photo with Delete.",
+   "conflicts": "Swipe never disabled even when photo compulsory; inconsistent payment status between 1:3241 and 1:3255; 'Drop Off Notes' vs 'Drop off notes'."
+  },
+  {
+   "name": "Proof-of-delivery photo with mandatory/optional rule",
+   "whenToUse": "Package photo at pickup or drop.",
+   "structure": "Upload tile on stage page > camera (no frame box) > bottom instruction panel (mandatory: red title 'Photo is compulsory for this order') > Retry | Submit > 'Uploading, Please wait…' card > back to page with green 'Upload successful' snackbar + photo + Delete Photo. Mandatory + not uploaded: swiping opens camera directly then continues.",
+   "components": [
+    "camera (legacy)",
+    "Please wait card",
+    "Snackbar",
+    "Upload Picture"
+   ],
+   "evidence": [
+    "1:3354",
+    "1:3167",
+    "1:3168",
+    "1:3185",
+    "1:3177",
+    "1:3194",
+    "1:3202",
+    "1:3157",
+    "1:3115"
+   ],
+   "variations": "Mandatory vs optional; labelled vs unlabelled preview buttons.",
+   "conflicts": "Instructions panel is a fixed panel, not a dismissable sheet."
+  },
+  {
+   "name": "OTP entry page",
+   "whenToUse": "Handover needs a 4-digit code from sender/receiver.",
+   "structure": "Header (back, 'Complete pickup' / 'Complete Delivery', call) > black band: Order ID + Sender/Receiver name > 'Enter Pickup/Drop OTP' + 4 boxes > helper 'Please ask customer for OTP' > numeric keyboard (✓ submits) > 'Please wait…' card",
+   "components": [
+    "OTP input (missing)",
+    "Please wait card"
+   ],
+   "evidence": [
+    "1:3215",
+    "1:3216",
+    "1:3217",
+    "1:3218",
+    "1:3278",
+    "1:3279",
+    "1:3280"
+   ],
+   "variations": "Pickup vs drop; optional by order ('This order requires an OTP' strip on stage page).",
+   "conflicts": "Title truncates ('Complete package pick…', R02); no on-screen submit or resend."
+  },
+  {
+   "name": "Wait timer and food prep countdown",
+   "whenToUse": "Captain waits at restaurant; show when food is ready and when wait charge starts.",
+   "structure": "Green earnings header '₹30 + wait charge' + white body: Wait Timer mm:ss + info line ('After 4 mins, you will get extra waiting charge' → 'You are now earning wait charges') ; separate card 'Please Wait! Food will be ready in' + flip-digit mm:ss; red delay strip when overdue; replaced by green 'Food order is Ready!' banner",
+   "components": [
+    "earnings",
+    "earnings/wait time inactive",
+    "Food prep time"
+   ],
+   "evidence": [
+    "1:3044",
+    "1:3055",
+    "1:3066",
+    "1:3067",
+    "1:3138"
+   ],
+   "variations": "Disabled / active / earning / inactive; without prep time.",
+   "conflicts": ""
+  },
+  {
+   "name": "Payment collection at pickup",
+   "whenToUse": "Sender pays at pickup (parcel).",
+   "structure": "Payments header + ? > amount card + yellow 'not your final earning' note > QR section (Generate QR → generating → QR) > OR > yellow Collect Cash > centred 'Amount Collected Successfully' card, auto-advances to OTP",
+   "components": [],
+   "evidence": [
+    "1:3204",
+    "1:3205",
+    "1:3206",
+    "1:3207"
+   ],
+   "variations": "QR states.",
+   "conflicts": "Success card has no button or × (R11)."
+  },
+  {
+   "name": "Food is ready pop-up",
+   "whenToUse": "Restaurant marks food ready while captain waits.",
+   "structure": "Scrim > centred card: illustration with green check > 'Food is Ready!' > one line > yellow small 'Okay'",
+   "components": [
+    "Buttons/Small/Primary/Normal"
+   ],
+   "evidence": [
+    "1:3078"
+   ],
+   "variations": "",
+   "conflicts": ""
+  },
+  {
+   "name": "Navigation choice sheet after pickup",
+   "whenToUse": "Pickup done; offer in-app maps.",
+   "structure": "Sheet with green tinted top (illustration, 'Perfect Pick-up!') > icon > 'Use Rapido Maps' + body > outline 'No, thanks' + yellow 'Go To Maps'",
+   "components": [],
+   "evidence": [
+    "1:3219"
+   ],
+   "variations": "",
+   "conflicts": "No floating × (D09)."
+  },
+  {
+   "name": "End of order with feedback",
+   "whenToUse": "Delivery done.",
+   "structure": "Header 'Order Complete' + ? > card (green check, 'Amount Collected Online', not-final-earning note, drop distance) > 'How was your ride?' Good/Bad > chips > sticky yellow Done; black strip 'Complete the feedback to start next order'",
+   "components": [],
+   "evidence": [
+    "1:3302",
+    "1:3303",
+    "1:3305"
+   ],
+   "variations": "",
+   "conflicts": "'How was your ride?' copy on a delivery."
+  },
+  {
+   "name": "Parcel order alert in side-tab list",
+   "whenToUse": "Incoming parcel / food delivery order.",
+   "structure": "'N Orders' header > side tab rail | order cards: service chip 'Parcel'/'Delivery', fare, illustration, pickup/drop km + address, reject ring + yellow Accept",
+   "components": [
+    "Spacer (legacy)",
+    "X",
+    "volume_up"
+   ],
+   "evidence": [
+    "1:2784",
+    "1:2981"
+   ],
+   "variations": "Pink themed second card; current-app card with Pickup/Drop km split.",
+   "conflicts": "Not on OA framework card (D10)."
+  }
+ ],
+ "missingComponents": [
+  {
+   "name": "Swipe-to-confirm CTA",
+   "description": "Full-width slider with arrow knob, label; seen in blue (ARRIVED), black (PICKED/DELIVERED), red (REACHED). Not in Runway.",
+   "evidence": [
+    "1:3013",
+    "1:3148",
+    "1:3220",
+    "1:3227"
+   ]
+  },
+  {
+   "name": "OTP input",
+   "description": "4 square digit boxes, focused state, helper text.",
+   "evidence": [
+    "1:3215",
+    "1:3278"
+   ]
+  },
+  {
+   "name": "Order stop details card",
+   "description": "Collapsible card: section title, pin + name + address, Call customer (yellow) + Go to location (outline), optional partner chip.",
+   "evidence": [
+    "1:3148",
+    "1:3227",
+    "1:3283"
+   ]
+  },
+  {
+   "name": "Items checklist card",
+   "description": "Item name / Quantity table with checkboxes and restricted-items consent line.",
+   "evidence": [
+    "1:3148",
+    "1:3044"
+   ]
+  },
+  {
+   "name": "Photo upload tile",
+   "description": "Dashed tile 'Tap to add photo of the package', (Compulsory) tag, uploaded state with Delete Photo. Overlaps roadmap C05.",
+   "evidence": [
+    "1:3241",
+    "1:3157"
+   ]
+  },
+  {
+   "name": "Payment status card",
+   "description": "Yellow 'Please collect payment ₹X' / green 'Amount collected online'.",
+   "evidence": [
+    "1:3148",
+    "1:3227"
+   ]
+  },
+  {
+   "name": "Earnings + wait timer card / food prep countdown",
+   "description": "Green header band with earnings; wait timer states; flip-digit countdown.",
+   "evidence": [
+    "1:3044",
+    "1:3066"
+   ]
+  },
+  {
+   "name": "Order ID band",
+   "description": "Black band with order ID (+ sender/receiver name) under header.",
+   "evidence": [
+    "1:2982",
+    "1:3215"
+   ]
+  }
+ ],
+ "againstConfirmed": [
+  {
+   "candidate": "Trip map: go to pickup / drop",
+   "verdict": "New",
+   "detail": "No trip-map pattern exists. Swipe CTA agrees with D02 (bike = swipe). Conflicts: header has hamburger, not Runway Internal Page Header (D06); swipe colours blue/red/black, not yellow (D05 applies to buttons — needs a call on swipe colour)."
+  },
+  {
+   "candidate": "Order stage page (Collect / Complete delivery)",
+   "verdict": "New (partly P02 / P21)",
+   "detail": "Closest is P02 Document upload page (upload tile + sticky footer) and P21 consent line. Conflicts: D06 (non-Runway 'Top header'); D13 ('Swiggy' hand-made chip and red '(Compulsory)' text outside a ChecklistCard); R09 (all components from a legacy library). Status strips match P25 inline banners (orange/red). 'Upload successful' green snackbar agrees with D11."
+  },
+  {
+   "candidate": "Proof-of-delivery photo with mandatory/optional rule",
+   "verdict": "Matches P03 Camera capture → preview → verify",
+   "detail": "Same capture → Retry/Submit → status card; differs: no Gallery, no verify step (upload only), 'Uploading, Please wait…' = P16. Instruction panel is fixed, not a sheet, so D09/R11 do not apply. Mandatory title red agrees with D12 spirit. Header is plain back arrow, not dark Internal Page Header (D06)."
+  },
+  {
+   "candidate": "OTP entry page",
+   "verdict": "New",
+   "detail": "No OTP pattern. Conflicts: legacy header (D06); title truncation (R02); 'Please wait' card matches P16."
+  },
+  {
+   "candidate": "Wait timer and food prep countdown",
+   "verdict": "New (near P45)",
+   "detail": "Shares status-card idea with P45 Progress tracker card but is a timer; no conflict found. Red delay strip = P25."
+  },
+  {
+   "candidate": "Payment collection at pickup",
+   "verdict": "Matches P11 Payment collection page",
+   "detail": "Same header/QR/OR/Collect Cash. Differs: P11 ends with confirm sheet (Go back / Collected); here a centred 'Amount Collected Successfully' card (P17) with no button or × — conflicts R11; D03 allows centred card for short success."
+  },
+  {
+   "candidate": "Food is ready pop-up",
+   "verdict": "Matches P17 Success card on dim background",
+   "detail": "Centred card, check badge, title + line, Okay; agrees with D03 (short success = centred card) and D05 (yellow). Has no ×, but has Okay so R11 is met."
+  },
+  {
+   "candidate": "Navigation choice sheet after pickup",
+   "verdict": "Matches P18 Outcome sheet with tinted header (loosely)",
+   "detail": "Tinted green top + two CTAs (yellow forward, white secondary) agrees with D05 and D03 (decision = sheet). Conflicts D09: no floating ×."
+  },
+  {
+   "candidate": "End of order with feedback",
+   "verdict": "Matches P43 End of order",
+   "detail": "Stamp/check → amount → distance → one feedback question + chips → sticky Done. Agrees with D05."
+  },
+  {
+   "candidate": "Parcel order alert in side-tab list",
+   "verdict": "Matches P34 Order list with side tabs + P33 card",
+   "detail": "Conflicts D10: cards are legacy (1:2981) or local (1:2784), not on the OA framework; Specifics ask to reuse the bike card and only change the icon. No bottom nav shown, so D14 not tested."
+  }
+ ],
+ "openQuestions": [
+  "Swipe CTA colour: blue ARRIVED, black PICKED/DELIVERED, red REACHED. Which colour should the Runway swipe use given D05 (yellow primary)?",
+  "Specifics 1:3340 says pickup details collapsed on 1:3044, but the frame shows them expanded. Which is right?",
+  "Specifics 1:3324 says order ID was added to Collect Parcel (1:3148), but the frame has no order-ID row. Missing from the design?",
+  "1:3227/1:3241 show 'Amount collected online' but 1:3255 shows 'Please collect payment ₹130' for the same parcel drop. Is there a pay-on-delivery case?",
+  "Mandatory photo + swipe Picked without photo: rule says go camera → payment directly, skipping the 'Upload successful' page. Should the captain see the uploaded state at all?",
+  "Food flow has no payment and no pickup OTP; drop OTP 'when required'. Who decides OTP per order?",
+  "Order complete asks 'How was your ride?' on a delivery; label suggests reusing the bike end-of-order screen. Keep wording?",
+  "Food pickup page title is 'Collect Parcel' for food orders.",
+  "'Same header to be used in all the screens' (1:3315): the legacy 'Top header' with hamburger + call, or Runway Internal Page Header (D06)?"
+ ],
+ "notCovered": [
+  "Pages Cover (1:6065) and the 6 localisation pages (Flow Hindi/Kannada/Bengali/Tamil/Telugu/Marathi, 24:10650, 24:15380, 24:24636, 24:27097, 24:29558, 33:32019) — skipped on user instruction (Flow page only).",
+  "Text inside remote-component instances on designed screens could not be read by script (returned empty); structure taken from screenshots at 600px, so small copy may be paraphrased.",
+  "Remote component library not identified: none of the 19 component keys match Runway (GEdvNUzFqwB2gAbQKZRsIn) or any key in this repo; treated as a legacy captain-app library.",
+  "Bottom of tall screens (Upload Photo tile area under the sticky swipe) partly hidden by the swipe in screenshots."
+ ]
+}

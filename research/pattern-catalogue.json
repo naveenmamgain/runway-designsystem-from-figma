@@ -39,6 +39,10 @@
   "FA": {
    "name": "Face Auth",
    "key": "n6MeDvD6KOl4x8gdY7Lqmm"
+  },
+  "BD": {
+   "name": "B2B Delivery",
+   "key": "BMJzeTVlQYTDjcmHERwgVy"
   }
  },
  "items": [
@@ -3125,6 +3129,588 @@
      "code": "HO",
      "node": "2593:29393",
      "url": "https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=2593-29393"
+    }
+   ]
+  },
+  {
+   "id": "D16",
+   "kind": "decision",
+   "title": "Delivery: swipe button colour",
+   "context": "Every delivery step is a full-width swipe (bike-type mode, so swipe per D02). The file colours it by step: blue ARRIVED, black PICKED / DELIVERED, red REACHED. Your D05 says yellow is the primary.",
+   "options": [
+    {
+     "key": "A",
+     "label": "Yellow for every step",
+     "detail": "Swipe is the primary action, so it follows D05: always yellow.",
+     "evidence": []
+    },
+    {
+     "key": "B",
+     "label": "Colour by step",
+     "detail": "Keep the file: blue arrive, black picked/delivered, red reached.",
+     "evidence": [
+      {
+       "file": "B2B Delivery",
+       "code": "BD",
+       "node": "1:3013",
+       "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3013"
+      },
+      {
+       "file": "B2B Delivery",
+       "code": "BD",
+       "node": "1:3220",
+       "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3220"
+      },
+      {
+       "file": "B2B Delivery",
+       "code": "BD",
+       "node": "1:3227",
+       "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3227"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "label": "One dark colour for all",
+     "detail": "Black swipe on every step, yellow reserved for buttons.",
+     "evidence": []
+    }
+   ],
+   "recommend": "A",
+   "evidence": [
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3013",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3013"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3148",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3148"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3220",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3220"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3227",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3227"
+    }
+   ],
+   "image": "b2b-delivery/1-3148.png"
+  },
+  {
+   "id": "D17",
+   "kind": "decision",
+   "title": "Delivery: compulsory photo not taken yet",
+   "context": "The file's rule (CASES OF PHOTO UPLOAD): 'Picked' is never disabled; if the photo is compulsory and missing, swiping opens the camera with a 'Photo is compulsory' sheet, then continues. Your P01 checklist page instead keeps Complete disabled until every task is done.",
+   "options": [
+    {
+     "key": "A",
+     "label": "Swipe stays enabled, opens camera",
+     "detail": "As the file says: never block the swipe; take the captain straight to the camera.",
+     "evidence": [
+      {
+       "file": "B2B Delivery",
+       "code": "BD",
+       "node": "1:3354",
+       "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3354"
+      },
+      {
+       "file": "B2B Delivery",
+       "code": "BD",
+       "node": "1:3168",
+       "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3168"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "label": "Swipe disabled until photo",
+     "detail": "Same as P01: the swipe is greyed until the photo is uploaded.",
+     "evidence": [
+      {
+       "file": "Logistics",
+       "code": "LOG",
+       "node": "4417:37326",
+       "url": "https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4417-37326"
+      }
+     ]
+    }
+   ],
+   "recommend": "A",
+   "evidence": [
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3354",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3354"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3168",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3168"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3157",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3157"
+    }
+   ],
+   "image": "b2b-delivery/1-3354.png"
+  },
+  {
+   "id": "D18",
+   "kind": "decision",
+   "title": "Delivery: 'Amount collected' card with no button",
+   "context": "After payment a centred success card shows and auto-advances to the OTP screen. It has no button and no ×, which breaks R11 (every overlay can be dismissed).",
+   "options": [
+    {
+     "key": "A",
+     "label": "Allowed: auto-advancing success",
+     "detail": "Short success cards that move on by themselves are an exception to R11.",
+     "evidence": [
+      {
+       "file": "B2B Delivery",
+       "code": "BD",
+       "node": "1:3207",
+       "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3207"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "label": "Add a button",
+     "detail": "Card gets an 'Okay' / 'Enter OTP' button like the Food-ready pop-up.",
+     "evidence": [
+      {
+       "file": "B2B Delivery",
+       "code": "BD",
+       "node": "1:3078",
+       "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3078"
+      }
+     ]
+    }
+   ],
+   "recommend": "A",
+   "evidence": [
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3207",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3207"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3078",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3078"
+    }
+   ],
+   "image": "b2b-delivery/1-3207.png"
+  },
+  {
+   "id": "P49",
+   "kind": "pattern",
+   "group": "delivery",
+   "title": "Trip map: go to pickup / drop",
+   "when": "Captain is travelling to a pickup or drop point.",
+   "structure": "Header (stage title 'Go to Pickup Zone' / 'Inside the Pickup Zone' / 'Go to drop', call) → [food only: black Order ID band + green estimated-earnings band] → full map (stop pin by service, route, ETA ring, recenter) → floating 'Go to pickup/drop' pill → stop card (pin, name, address) → full-width swipe (ARRIVED / REACHED).",
+   "notes": "Notes: parcel map hides order ID and earnings; food map shows both. Pickup info 'the same way as bike order, only change the icon'.",
+   "evidence": [
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3013",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3013"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3025",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3025"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:2982",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-2982"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:2999",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-2999"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3220",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3220"
+    }
+   ],
+   "image": "b2b-delivery/1-3013.png"
+  },
+  {
+   "id": "P50",
+   "kind": "pattern",
+   "group": "delivery",
+   "title": "Order stage page (Collect / Complete delivery)",
+   "when": "At the pickup or drop: everything needed to finish the stage, and one swipe to confirm.",
+   "structure": "Header (stage title, call) → order ID row → status strips (orange 'requires an OTP', red delay) → status card (yellow 'Please collect payment ₹130' / green 'Amount collected online' / green 'Food is ready') → [earnings + wait timer] → collapsible Pickup and Drop details cards (name, address, Call customer + Go to location, partner chip) → Items card (checkbox, qty, restricted-items consent) → [Drop-off notes] → Upload photo tile ('Compulsory') → sticky swipe (PICKED / DELIVERED).",
+   "notes": "Parcel and food share it. File inconsistencies: food pickup is titled 'Collect Parcel'; two drop screens show different payment status.",
+   "evidence": [
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3148",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3148"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3157",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3157"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3044",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3044"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3227",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3227"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3283",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3283"
+    }
+   ],
+   "image": "b2b-delivery/1-3148.png"
+  },
+  {
+   "id": "P51",
+   "kind": "pattern",
+   "group": "delivery",
+   "title": "Proof-of-delivery photo",
+   "when": "Package photo at pickup or drop, compulsory or optional per order.",
+   "structure": "Upload tile on the stage page → camera (no frame box) → bottom instruction panel (compulsory: red 'Photo is compulsory for this order') → Retry | Submit → 'Uploading, please wait…' card → back to page with 'Upload successful' snackbar + photo + Delete photo.",
+   "notes": "Same camera → preview → loader as P03/P16 ('use the same loader'). Behaviour when the photo is missing is decision D17.",
+   "evidence": [
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3167",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3167"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3168",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3168"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3177",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3177"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3202",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3202"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3157",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3157"
+    }
+   ],
+   "image": "b2b-delivery/1-3168.png"
+  },
+  {
+   "id": "P52",
+   "kind": "pattern",
+   "group": "delivery",
+   "title": "OTP entry page",
+   "when": "Handover needs a 4-digit code from the sender or receiver (only on orders that require it).",
+   "structure": "Header (back, 'Complete pickup' / 'Complete delivery', call) → black band: order ID + sender/receiver name → 'Enter pickup/drop OTP' + 4 boxes → helper 'Please ask customer for OTP' → numeric keyboard (✓ submits) → 'Please wait…' card.",
+   "notes": "Title truncates in the file ('Complete package pick…', R02). No resend or on-screen submit.",
+   "evidence": [
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3215",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3215"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3216",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3216"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3218",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3218"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3278",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3278"
+    }
+   ],
+   "image": "b2b-delivery/1-3216.png"
+  },
+  {
+   "id": "P53",
+   "kind": "pattern",
+   "group": "delivery",
+   "title": "Wait timer and food-prep countdown",
+   "when": "Captain waits at the restaurant: show when food is ready and when the wait charge starts.",
+   "structure": "Green earnings header '₹30 + wait charge' → Wait timer mm:ss + info line ('After 4 mins you will get extra waiting charge' → 'You are now earning wait charges') → card 'Please wait! Food will be ready in' + flip-digit countdown → red delay strip when overdue → replaced by green 'Food order is ready!'.",
+   "evidence": [
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3044",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3044"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3055",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3055"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3066",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3066"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3067",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3067"
+    }
+   ],
+   "image": "b2b-delivery/1-3055.png"
+  },
+  {
+   "id": "P54",
+   "kind": "pattern",
+   "group": "delivery",
+   "title": "Collect payment at pickup",
+   "when": "Sender pays at pickup (parcel).",
+   "structure": "Payments header + ? → amount card + yellow 'not your final earning' note → QR (Generate QR → generating → QR) → OR → yellow Collect cash → centred 'Amount collected successfully' card → straight to OTP.",
+   "notes": "Close to P11. The success card is decision D18.",
+   "evidence": [
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3204",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3204"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3205",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3205"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3206",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3206"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3207",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3207"
+    }
+   ],
+   "image": "b2b-delivery/1-3204.png"
+  },
+  {
+   "id": "P55",
+   "kind": "pattern",
+   "group": "delivery",
+   "title": "'Use Rapido Maps' sheet after pickup",
+   "when": "Pickup is done; offer in-app navigation to the drop.",
+   "structure": "Sheet with green tinted top (illustration, 'Perfect pick-up!') → icon → 'Use Rapido Maps' + body → outline 'No, thanks' + yellow 'Go to maps'.",
+   "notes": "Like P18 (tinted header). Needs the floating × (D09).",
+   "evidence": [
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3219",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3219"
+    }
+   ],
+   "image": "b2b-delivery/1-3219.png"
+  },
+  {
+   "id": "C28",
+   "kind": "component",
+   "title": "Swipe-to-confirm button",
+   "detail": "Full-width slider with arrow knob and label (ARRIVED, PICKED, REACHED, DELIVERED). Not in Runway; also used by bike/auto/cab trips (D02). Colour is D16.",
+   "evidence": [
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3013",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3013"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3148",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3148"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3220",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3220"
+    }
+   ]
+  },
+  {
+   "id": "C29",
+   "kind": "component",
+   "title": "OTP input",
+   "detail": "4 square digit boxes, focused and filled states, helper text.",
+   "evidence": [
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3216",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3216"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3278",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3278"
+    }
+   ]
+  },
+  {
+   "id": "C30",
+   "kind": "component",
+   "title": "Stop details card",
+   "detail": "Collapsible: section title, pin + name + address, yellow Call customer + outline Go to location, optional partner chip.",
+   "evidence": [
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3148",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3148"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3227",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3227"
+    }
+   ]
+  },
+  {
+   "id": "C31",
+   "kind": "component",
+   "title": "Items checklist card",
+   "detail": "Item / quantity rows with checkboxes and a restricted-items consent line.",
+   "evidence": [
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3148",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3148"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3044",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3044"
+    }
+   ]
+  },
+  {
+   "id": "C32",
+   "kind": "component",
+   "title": "Payment status card",
+   "detail": "Yellow 'Please collect payment ₹X' / green 'Amount collected online'.",
+   "evidence": [
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3148",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3148"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3227",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3227"
+    }
+   ]
+  },
+  {
+   "id": "C33",
+   "kind": "component",
+   "title": "Earnings and wait timer card",
+   "detail": "Green earnings band, wait timer states (inactive / active / earning), flip-digit food-prep countdown.",
+   "evidence": [
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3044",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3044"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3066",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3066"
+    }
+   ]
+  },
+  {
+   "id": "C34",
+   "kind": "component",
+   "title": "Order ID band",
+   "detail": "Black band under the header: order ID, plus sender/receiver name on OTP screens.",
+   "evidence": [
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:2982",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-2982"
+    },
+    {
+     "file": "B2B Delivery",
+     "code": "BD",
+     "node": "1:3215",
+     "url": "https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3215"
     }
    ]
   }

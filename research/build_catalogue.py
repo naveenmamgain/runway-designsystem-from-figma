@@ -16,6 +16,7 @@ FILES = {
     "OA": ("OA Revamp", "NjrI5wZ8ztYRZmUWBAPuDy"),
     "HO": ("Home of Orders", "ytkTDONL0GBKq3mpKhZnve"),
     "FA": ("Face Auth", "n6MeDvD6KOl4x8gdY7Lqmm"),
+    "BD": ("B2B Delivery", "BMJzeTVlQYTDjcmHERwgVy"),
 }
 
 # kind: decision | pattern | rule | component
@@ -403,7 +404,77 @@ dict(id="C24", kind="component", title="Home modules", detail="Map card + layer 
 dict(id="C25", kind="component", title="Plan card", detail="Tag pill, eyebrow, big value + struck old value, plan type, video icon, View Details; active state.", evidence=["MP:3617:12919"]),
 dict(id="C26", kind="component", title="Status illustration with badge", detail="Circular illustration with red / green / blue badge for blocked, done, pending.", evidence=["FA:1187:7110", "LOG:4420:37619"]),
 dict(id="C27", kind="component", title="Snackbar loading variant", detail="Dark snackbar with spinner, then success/error.", evidence=["HO:2593:29393"]),
+# ---------------------------------------------------------------- B2B DELIVERY (Flow page, added 2026-11-17)
+dict(id="D16", kind="decision", title="Delivery: swipe button colour",
+  context="Every delivery step is a full-width swipe (bike-type mode, so swipe per D02). The file colours it by step: blue ARRIVED, black PICKED / DELIVERED, red REACHED. Your D05 says yellow is the primary.",
+  options=[
+    ("A", "Yellow for every step", "Swipe is the primary action, so it follows D05: always yellow."),
+    ("B", "Colour by step", "Keep the file: blue arrive, black picked/delivered, red reached."),
+    ("C", "One dark colour for all", "Black swipe on every step, yellow reserved for buttons."),
+  ],
+  recommend="A",
+  evidence=["BD:1:3013", "BD:1:3148", "BD:1:3220", "BD:1:3227"], image="b2b-delivery/1-3148.png"),
+dict(id="D17", kind="decision", title="Delivery: compulsory photo not taken yet",
+  context="The file's rule (CASES OF PHOTO UPLOAD): 'Picked' is never disabled; if the photo is compulsory and missing, swiping opens the camera with a 'Photo is compulsory' sheet, then continues. Your P01 checklist page instead keeps Complete disabled until every task is done.",
+  options=[
+    ("A", "Swipe stays enabled, opens camera", "As the file says: never block the swipe; take the captain straight to the camera."),
+    ("B", "Swipe disabled until photo", "Same as P01: the swipe is greyed until the photo is uploaded."),
+  ],
+  recommend="A",
+  evidence=["BD:1:3354", "BD:1:3168", "BD:1:3157"], image="b2b-delivery/1-3354.png"),
+dict(id="D18", kind="decision", title="Delivery: 'Amount collected' card with no button",
+  context="After payment a centred success card shows and auto-advances to the OTP screen. It has no button and no ×, which breaks R11 (every overlay can be dismissed).",
+  options=[
+    ("A", "Allowed: auto-advancing success", "Short success cards that move on by themselves are an exception to R11."),
+    ("B", "Add a button", "Card gets an 'Okay' / 'Enter OTP' button like the Food-ready pop-up."),
+  ],
+  recommend="A",
+  evidence=["BD:1:3207", "BD:1:3078"], image="b2b-delivery/1-3207.png"),
+
+dict(id="P49", kind="pattern", group="delivery", title="Trip map: go to pickup / drop",
+  when="Captain is travelling to a pickup or drop point.",
+  structure="Header (stage title 'Go to Pickup Zone' / 'Inside the Pickup Zone' / 'Go to drop', call) → [food only: black Order ID band + green estimated-earnings band] → full map (stop pin by service, route, ETA ring, recenter) → floating 'Go to pickup/drop' pill → stop card (pin, name, address) → full-width swipe (ARRIVED / REACHED).",
+  notes="Notes: parcel map hides order ID and earnings; food map shows both. Pickup info 'the same way as bike order, only change the icon'.",
+  evidence=["BD:1:3013", "BD:1:3025", "BD:1:2982", "BD:1:2999", "BD:1:3220"], image="b2b-delivery/1-3013.png"),
+dict(id="P50", kind="pattern", group="delivery", title="Order stage page (Collect / Complete delivery)",
+  when="At the pickup or drop: everything needed to finish the stage, and one swipe to confirm.",
+  structure="Header (stage title, call) → order ID row → status strips (orange 'requires an OTP', red delay) → status card (yellow 'Please collect payment ₹130' / green 'Amount collected online' / green 'Food is ready') → [earnings + wait timer] → collapsible Pickup and Drop details cards (name, address, Call customer + Go to location, partner chip) → Items card (checkbox, qty, restricted-items consent) → [Drop-off notes] → Upload photo tile ('Compulsory') → sticky swipe (PICKED / DELIVERED).",
+  notes="Parcel and food share it. File inconsistencies: food pickup is titled 'Collect Parcel'; two drop screens show different payment status.",
+  evidence=["BD:1:3148", "BD:1:3157", "BD:1:3044", "BD:1:3227", "BD:1:3283"], image="b2b-delivery/1-3148.png"),
+dict(id="P51", kind="pattern", group="delivery", title="Proof-of-delivery photo",
+  when="Package photo at pickup or drop, compulsory or optional per order.",
+  structure="Upload tile on the stage page → camera (no frame box) → bottom instruction panel (compulsory: red 'Photo is compulsory for this order') → Retry | Submit → 'Uploading, please wait…' card → back to page with 'Upload successful' snackbar + photo + Delete photo.",
+  notes="Same camera → preview → loader as P03/P16 ('use the same loader'). Behaviour when the photo is missing is decision D17.",
+  evidence=["BD:1:3167", "BD:1:3168", "BD:1:3177", "BD:1:3202", "BD:1:3157"], image="b2b-delivery/1-3168.png"),
+dict(id="P52", kind="pattern", group="delivery", title="OTP entry page",
+  when="Handover needs a 4-digit code from the sender or receiver (only on orders that require it).",
+  structure="Header (back, 'Complete pickup' / 'Complete delivery', call) → black band: order ID + sender/receiver name → 'Enter pickup/drop OTP' + 4 boxes → helper 'Please ask customer for OTP' → numeric keyboard (✓ submits) → 'Please wait…' card.",
+  notes="Title truncates in the file ('Complete package pick…', R02). No resend or on-screen submit.",
+  evidence=["BD:1:3215", "BD:1:3216", "BD:1:3218", "BD:1:3278"], image="b2b-delivery/1-3216.png"),
+dict(id="P53", kind="pattern", group="delivery", title="Wait timer and food-prep countdown",
+  when="Captain waits at the restaurant: show when food is ready and when the wait charge starts.",
+  structure="Green earnings header '₹30 + wait charge' → Wait timer mm:ss + info line ('After 4 mins you will get extra waiting charge' → 'You are now earning wait charges') → card 'Please wait! Food will be ready in' + flip-digit countdown → red delay strip when overdue → replaced by green 'Food order is ready!'.",
+  evidence=["BD:1:3044", "BD:1:3055", "BD:1:3066", "BD:1:3067"], image="b2b-delivery/1-3055.png"),
+dict(id="P54", kind="pattern", group="delivery", title="Collect payment at pickup",
+  when="Sender pays at pickup (parcel).",
+  structure="Payments header + ? → amount card + yellow 'not your final earning' note → QR (Generate QR → generating → QR) → OR → yellow Collect cash → centred 'Amount collected successfully' card → straight to OTP.",
+  notes="Close to P11. The success card is decision D18.",
+  evidence=["BD:1:3204", "BD:1:3205", "BD:1:3206", "BD:1:3207"], image="b2b-delivery/1-3204.png"),
+dict(id="P55", kind="pattern", group="delivery", title="'Use Rapido Maps' sheet after pickup",
+  when="Pickup is done; offer in-app navigation to the drop.",
+  structure="Sheet with green tinted top (illustration, 'Perfect pick-up!') → icon → 'Use Rapido Maps' + body → outline 'No, thanks' + yellow 'Go to maps'.",
+  notes="Like P18 (tinted header). Needs the floating × (D09).",
+  evidence=["BD:1:3219"], image="b2b-delivery/1-3219.png"),
+
+dict(id="C28", kind="component", title="Swipe-to-confirm button", detail="Full-width slider with arrow knob and label (ARRIVED, PICKED, REACHED, DELIVERED). Not in Runway; also used by bike/auto/cab trips (D02). Colour is D16.", evidence=["BD:1:3013", "BD:1:3148", "BD:1:3220"]),
+dict(id="C29", kind="component", title="OTP input", detail="4 square digit boxes, focused and filled states, helper text.", evidence=["BD:1:3216", "BD:1:3278"]),
+dict(id="C30", kind="component", title="Stop details card", detail="Collapsible: section title, pin + name + address, yellow Call customer + outline Go to location, optional partner chip.", evidence=["BD:1:3148", "BD:1:3227"]),
+dict(id="C31", kind="component", title="Items checklist card", detail="Item / quantity rows with checkboxes and a restricted-items consent line.", evidence=["BD:1:3148", "BD:1:3044"]),
+dict(id="C32", kind="component", title="Payment status card", detail="Yellow 'Please collect payment ₹X' / green 'Amount collected online'.", evidence=["BD:1:3148", "BD:1:3227"]),
+dict(id="C33", kind="component", title="Earnings and wait timer card", detail="Green earnings band, wait timer states (inactive / active / earning), flip-digit food-prep countdown.", evidence=["BD:1:3044", "BD:1:3066"]),
+dict(id="C34", kind="component", title="Order ID band", detail="Black band under the header: order ID, plus sender/receiver name on OTP screens.", evidence=["BD:1:2982", "BD:1:3215"]),
 ]
+
 
 
 # Per-option evidence for decisions: option key -> list of "CODE:node" or "repo:<path to png>"
@@ -421,6 +492,9 @@ OPTION_EV = {
     "D11": {"A": ["HO:2593:29393"], "B": ["HO:2593:34560"]},
     "D13": {"B": ["RF:2071:3079"]},
     "D14": {"A": ["HO:1281:33404"], "B": ["repo:components/BottomNavigation/preview.png"]},
+    "D16": {"B": ["BD:1:3013", "BD:1:3220", "BD:1:3227"]},
+    "D17": {"A": ["BD:1:3354", "BD:1:3168"], "B": ["LOG:4417:37326"]},
+    "D18": {"A": ["BD:1:3207"], "B": ["BD:1:3078"]},
 }
 
 

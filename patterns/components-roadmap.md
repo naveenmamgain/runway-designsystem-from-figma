@@ -2,7 +2,7 @@
 
 From the review. **Build** = add to Runway; **Later** = not now; **Skip** = never.
 
-Built from decisions: `ChecklistCard` (D08), `BlockingSheet` (D01), `BottomNavigation` v2 (D14).
+Built: `ChecklistCard` (D08), `BlockingSheet` (D01), `BottomNavigation` v2 (D14), `SwipeButton` (C28), `StopDetailsCard` (C30, not collapsible), `PaymentStatusCard` (C32), `EarningsWaitTimerCard` (C33), `OrderIdBand` (C34).
 
 ## Build
 
@@ -15,7 +15,7 @@ Built from decisions: `ChecklistCard` (D08), `BlockingSheet` (D01), `BottomNavig
 | C09 | Sticky footer | Bottom bar: optional selection summary (label, name, price), helper text, primary button, optional text link. | [Logistics 4417:37326](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4417-37326), [My Plans 2.0 7469:20337](https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=7469-20337) |
 | C10 | Selectable option card | Large radio card: illustration, title, subtitle, radio, optional video/audio link, info strip; disabled state. | [New Onboarding 1348:24200](https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1348-24200), [Logistics 2053:27217](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2053-27217) |
 | C13 | Nudge card | Themed card with ×, illustration slot, title, body, one action. | [Home of Orders 5760:7665](https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=5760-7665) |
-| C14 | Home status card | Card on home: title, status line, link, illustration with status badge (pending / failed / success). | [Logistics 4420:37619](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4420-37619), [New Onboarding 1797:33036](https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1797-33036) |
+| C14 | Home status card *(status display only)* | Card on home: title, status line, link, illustration with status badge (pending / failed / success). | [Logistics 4420:37619](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4420-37619), [New Onboarding 1797:33036](https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1797-33036) |
 | C15 | Filter pill with panel | Pill states and attached tinted panel with toggle rows and footer actions. | [Home of Orders 2508:63011](https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=2508-63011) |
 | C18 | Progress tracker card | Linear and segmented bars, status tag, status line. | [My Plans 2.0 7469:20601](https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=7469-20601) |
 | C19 | Search field | TextField variant with leading search icon and clear. | [Referral flow 2071:3079](https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=2071-3079) |
@@ -23,6 +23,11 @@ Built from decisions: `ChecklistCard` (D08), `BlockingSheet` (D01), `BottomNavig
 | C23 | Celebration / success card | Gradient card with illustration, amount and in-card action; success variant with check badge. | [Referral flow 2372:13503](https://www.figma.com/design/womPCP4eD8g7afb69X5f6v/?node-id=2372-13503), [Logistics 2303:5086](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=2303-5086) |
 | C24 | Home modules | Map card + layer pill, Today's Earnings bar, performance banner, stories row, offer card, shortcut tile. | [Home Page 2026 51:4186](https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=51-4186), [Home Page 2026 312:3669](https://www.figma.com/design/fxTUcpqbNtHknPclS6sJZg/?node-id=312-3669) |
 | C27 | Snackbar loading variant | Dark snackbar with spinner, then success/error. | [Home of Orders 2593:29393](https://www.figma.com/design/ytkTDONL0GBKq3mpKhZnve/?node-id=2593-29393) |
+| C28 | Swipe-to-confirm button ✅ built | Full-width slider with arrow knob and label (ARRIVED, PICKED, REACHED, DELIVERED). Not in Runway; also used by bike/auto/cab trips (D02). Colour is D16. | [B2B Delivery 1:3013](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3013), [B2B Delivery 1:3148](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3148) |
+| C30 | Stop details card ✅ built (not collapsible) | Collapsible: section title, pin + name + address, yellow Call customer + outline Go to location, optional partner chip. | [B2B Delivery 1:3148](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3148), [B2B Delivery 1:3227](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3227) |
+| C32 | Payment status card ✅ built | Yellow 'Please collect payment ₹X' / green 'Amount collected online'. | [B2B Delivery 1:3148](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3148), [B2B Delivery 1:3227](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3227) |
+| C33 | Earnings and wait timer card ✅ built | Green earnings band, wait timer states (inactive / active / earning), flip-digit food-prep countdown. | [B2B Delivery 1:3044](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3044), [B2B Delivery 1:3066](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3066) |
+| C34 | Order ID band ✅ built | Black band under the header: order ID, plus sender/receiver name on OTP screens. | [B2B Delivery 1:2982](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-2982), [B2B Delivery 1:3215](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3215) |
 
 ## Later
 
@@ -37,6 +42,8 @@ Built from decisions: `ChecklistCard` (D08), `BlockingSheet` (D01), `BottomNavig
 | C21 | Order controls | Side-bar order tab (timer + fare), Reject timer ring button, countdown chip, voice toggle. | [OA Revamp 7474:5481](https://www.figma.com/design/NjrI5wZ8ztYRZmUWBAPuDy/?node-id=7474-5481), [Bundle Orders 2909:63027](https://www.figma.com/design/9m56yKp10jrLoIzW1yRmQA/?node-id=2909-63027) |
 | C25 | Plan card | Tag pill, eyebrow, big value + struck old value, plan type, video icon, View Details; active state. | [My Plans 2.0 3617:12919](https://www.figma.com/design/6QRvGOUAYtTm6T6L6VTnxR/?node-id=3617-12919) |
 | C26 | Status illustration with badge | Circular illustration with red / green / blue badge for blocked, done, pending. | [Face Auth 1187:7110](https://www.figma.com/design/n6MeDvD6KOl4x8gdY7Lqmm/?node-id=1187-7110), [Logistics 4420:37619](https://www.figma.com/design/nJVb4xUWWcmIUArw5sAxIv/?node-id=4420-37619) |
+| C29 | OTP input | 4 square digit boxes, focused and filled states, helper text. | [B2B Delivery 1:3216](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3216), [B2B Delivery 1:3278](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3278) |
+| C31 | Items checklist card | Item / quantity rows with checkboxes and a restricted-items consent line. | [B2B Delivery 1:3148](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3148), [B2B Delivery 1:3044](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3044) |
 
 ## Skip
 

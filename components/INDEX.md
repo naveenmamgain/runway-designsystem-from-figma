@@ -42,6 +42,7 @@ Base URL: `https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=`
 |---|---|---|---|
 | Buttons → **Button** | [671:83990](https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=671-83990) | 288 | ✅ [Button](Button/spec.md) |
 | Icon Only Button | [1760:6878](https://www.figma.com/design/GEdvNUzFqwB2gAbQKZRsIn/?node-id=1760-6878) | 18 | ✅ in [Button](Button/spec.md) (`IconOnlyButton`) |
+| Swipe-to-confirm → **SwipeButton** (C28; not in Runway: E-rickshaw `Buttons` set, D02 option B) | [ER 433:38829](https://www.figma.com/design/Mtv6LZ3AG2DqZmJp6S9KMv/?node-id=433-38829) | 3 (animation frames) | ✅ [SwipeButton](SwipeButton/spec.md). Tones per D16 (B2B Delivery [1:3013](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3013)); not for e-rickshaw (D02) |
 
 ### Header components
 | Component | Node | Variants | Status |
@@ -100,6 +101,16 @@ Not a component in Figma — built from loose step-card frames; chosen in design
 | Component | Figma frames | Status |
 |---|---|---|
 | ChecklistCard (icon tile or thumbnail, label, status line, trailing pill / glyph) | [1348:25620](https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1348-25620), [1348:25756](https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=1348-25756), [2663:2420](https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=2663-2420), [2594:2355](https://www.figma.com/design/ziTJqlUlTBuE27ZytNvCTi/?node-id=2594-2355) | ✅ [ChecklistCard](ChecklistCard/spec.md) |
+
+## Delivery (from the B2B Delivery file `BMJzeTVlQYTDjcmHERwgVy`)
+Not Runway components in Figma: instances of a legacy captain-app library on the Flow page, rebuilt on Runway tokens and `Button`.
+
+| Component | Figma frames | Status |
+|---|---|---|
+| StopDetailsCard (C30; pickup / drop details, Call customer + Go to location, partner chip; always expanded) | [1:3148](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3148), [1:3227](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3227), [1:3283](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3283), [1:3044](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3044) | ✅ [StopDetailsCard](StopDetailsCard/spec.md) |
+| PaymentStatusCard (C32; collect ₹X / collected online) | [1:3148](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3148), [1:3227](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3227), [1:3241](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3241), [1:3255](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3255) | ✅ [PaymentStatusCard](PaymentStatusCard/spec.md) |
+| EarningsWaitTimerCard (C33; earnings band + wait timer inactive / active / earning; `FoodPrepCountdown`) | [1:3044](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3044), [1:3055](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3055), [1:3066](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3066), [1:3067](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3067), [1:3138](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3138) | ✅ [EarningsWaitTimerCard](EarningsWaitTimerCard/spec.md) |
+| OrderIdBand (C34; order ID + sender / receiver name; shown on parcel and delivery orders, P49) | [1:2982](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-2982), [1:3215](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3215), [1:3278](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3278), [1:3148](https://www.figma.com/design/BMJzeTVlQYTDjcmHERwgVy/?node-id=1-3148) | ✅ [OrderIdBand](OrderIdBand/spec.md) |
 
 ## Other
 | Page | Component | Node | Variants | Status |

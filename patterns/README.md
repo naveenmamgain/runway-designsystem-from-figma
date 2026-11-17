@@ -13,6 +13,7 @@ How Runway components are put together into captain-app screens. Derived from a 
 | [home.md](home.md) | Home: 6 patterns |
 | [orders.md](orders.md) | Orders: 12 patterns |
 | [progress.md](progress.md) | Progress and status: 4 patterns |
+| [delivery.md](delivery.md) | Delivery (B2B parcel and food): 7 patterns |
 | [components-roadmap.md](components-roadmap.md) | Which new components to build, defer or skip |
 
 ## Quick index
@@ -67,9 +68,20 @@ How Runway components are put together into captain-app screens. Derived from a 
 | [P46](progress.md#p46) | Milestone timeline | Keep |
 | [P47](progress.md#p47) | Onboarding status checklist | Keep |
 | [P48](progress.md#p48) | Earning-loss nudge inside a card | Undecided |
+| [P49](delivery.md#p49) | Trip map: go to pickup / drop | Keep |
+| [P50](delivery.md#p50) | Order stage page (Collect / Complete delivery) | Keep |
+| [P51](delivery.md#p51) | Proof-of-delivery photo | Keep |
+| [P52](delivery.md#p52) | OTP entry page | Keep |
+| [P53](delivery.md#p53) | Wait timer and food-prep countdown | Keep |
+| [P54](delivery.md#p54) | Collect payment at pickup | Keep |
+| [P55](delivery.md#p55) | 'Use Rapido Maps' sheet after pickup | Rejected |
 
 ## Example: Verify Merch
 
 Captain taps **Go on duty** while merch is unverified → [BlockingSheet](../components/BlockingSheet/spec.md) (image, "Verify your merch", one-line reason, yellow **Verify now**) → [P01 Task checklist page](pages.md#p01): Internal Page Header with Help, hero image, three ChecklistCards (T-shirt selfie, Bag, Raincoat), sticky disabled **Complete** until all are verified, tertiary link "Apply for merch →".
+
+## Example: parcel delivery
+
+Order alert → [P49 trip map](delivery.md#p49) with order ID + earnings bands, blue **Arrived** swipe → [P50 Collect parcel](delivery.md#p50) (payment status, pickup details, items, photo tile, black **Picked** swipe) → [P51 photo](delivery.md#p51) → [P54 payment](delivery.md#p54) → "Amount collected" card with **Enter OTP** → [P52 OTP](delivery.md#p52) → trip map to drop, red **Reached** swipe → Complete delivery, black **Delivered** swipe → drop OTP if required → [P43 end of order](orders.md#p43). Food: same, with [P53 wait timer](delivery.md#p53), no payment or pickup OTP.
 
 Sources: `research/pattern-catalogue.json`, `research/decisions.json`. Regenerate: `python3 research/build_patterns.py`.

@@ -82,8 +82,9 @@ Component: [`ChecklistCard`](../components/ChecklistCard/spec.md).
 <a id="d10"></a>
 ## D10 · Order alert card: follow the OA framework?
 
-**Rebuild the Runway order card on the OA framework:** base / sub-service / contextual / preference buckets, theme
-variants, tag row, fixed width 264 or 272.
+**Rebuild the Runway order card on the OA framework:** base / sub-service / contextual / preference buckets and
+tag row. **Width follows the canvas** it sits on (e.g. 272 beside the 64px tab rail), not a fixed value. Theme variants are
+left out for now (C20 skipped).
 
 *Why it came up:* Runway's OA cards are split by vehicle (Bike/Auto/Cab) with no themes. The OA framework (May '26) splits by order type with themes and a max of 2 signals.
 
@@ -124,3 +125,27 @@ The second tab is labelled **"Jobs"**. Component: [`BottomNavigation`](../compon
 **Sentence case** for all button labels.
 
 *Why it came up:* Opt-out buttons say 'I do not have a license' / 'I Do Not Have A License' / 'Upload later'.
+
+<a id="d16"></a>
+## D16 · Delivery: swipe button colour
+
+**Delivery swipes are coloured by step:** blue **Arrived**, black **Picked** / **Delivered**, red **Reached**.
+A deliberate exception to D05's yellow primary, for delivery swipes only. Component: [`SwipeButton`](../components/SwipeButton/spec.md).
+
+*Why it came up:* Every delivery step is a full-width swipe (bike-type mode, so swipe per D02). The file colours it by step: blue ARRIVED, black PICKED / DELIVERED, red REACHED. Your D05 says yellow is the primary.
+
+<a id="d17"></a>
+## D17 · Delivery: compulsory photo not taken yet
+
+**The swipe is never disabled.** If the photo is compulsory and missing, swiping **Picked** opens the camera with a
+"Photo is compulsory" panel, then continues. (Unlike the P01 checklist page, where Complete stays disabled.)
+
+*Why it came up:* The file's rule (CASES OF PHOTO UPLOAD): 'Picked' is never disabled; if the photo is compulsory and missing, swiping opens the camera with a 'Photo is compulsory' sheet, then continues. Your P01 checklist page instead keeps Complete disabled until every task is done.
+
+<a id="d18"></a>
+## D18 · Delivery: 'Amount collected' card with no button
+
+**The "Amount collected" card gets a button** ("Enter OTP"), like the Food-ready pop-up. No auto-advancing overlays:
+R11 holds.
+
+*Why it came up:* After payment a centred success card shows and auto-advances to the OTP screen. It has no button and no ×, which breaks R11 (every overlay can be dismissed).

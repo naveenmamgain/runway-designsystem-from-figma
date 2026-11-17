@@ -12,7 +12,7 @@ import base64, json, os, subprocess, sys, tempfile
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INV = os.path.join(ROOT, "research", "figma-inventory")
 SLUG = {"LOG": "logistics", "ER": "e-rickshaw", "HP": "home-page-2026", "NO": "new-onboarding", "RF": "referral-flow",
-        "MP": "my-plans-2", "BO": "bundle-orders", "OA": "oa-revamp", "HO": "home-of-orders", "FA": "face-auth"}
+        "MP": "my-plans-2", "BO": "bundle-orders", "OA": "oa-revamp", "HO": "home-of-orders", "FA": "face-auth", "BD": "b2b-delivery"}
 
 
 def png_for(ev):

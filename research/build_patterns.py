@@ -58,8 +58,9 @@ dismisses it, the page shows the **inline** error (red-bordered image, "Upload a
 trailing pill/action) replaces the Logistics task row, home nudge rows and Document Centre cards.
 Component: [`ChecklistCard`](../components/ChecklistCard/spec.md).""",
     "D09": """**Floating ×.** Round close button on the scrim, top-right, above the sheet.""",
-    "D10": """**Rebuild the Runway order card on the OA framework:** base / sub-service / contextual / preference buckets, theme
-variants, tag row, fixed width 264 or 272.""",
+    "D10": """**Rebuild the Runway order card on the OA framework:** base / sub-service / contextual / preference buckets and
+tag row. **Width follows the canvas** it sits on (e.g. 272 beside the 64px tab rail), not a fixed value. Theme variants are
+left out for now (C20 skipped).""",
     "D11": """**Neutral/dark snackbar** after turning a setting off. Success of any action is neutral or green; red only for failure.""",
     "D12": """**Red title** on every error sheet.""",
     "D13": """**Runway `Tag`** for standalone status labels (success / warning / error / neutral). Coloured caption text only
@@ -68,6 +69,12 @@ inside a ChecklistCard row. No hand-made pills.""",
 mode-switch button on the left + floating pill with **Home · Jobs · Credit · Orders** (count badge on Orders).
 The second tab is labelled **"Jobs"**. Component: [`BottomNavigation`](../components/BottomNavigation/spec.md).""",
     "D15": """**Sentence case** for all button labels.""",
+    "D16": """**Delivery swipes are coloured by step:** blue **Arrived**, black **Picked** / **Delivered**, red **Reached**.
+A deliberate exception to D05's yellow primary, for delivery swipes only. Component: [`SwipeButton`](../components/SwipeButton/spec.md).""",
+    "D17": """**The swipe is never disabled.** If the photo is compulsory and missing, swiping **Picked** opens the camera with a
+"Photo is compulsory" panel, then continues. (Unlike the P01 checklist page, where Complete stays disabled.)""",
+    "D18": """**The "Amount collected" card gets a button** ("Enter OTP"), like the Food-ready pop-up. No auto-advancing overlays:
+R11 holds.""",
 }
 
 RULE = {
@@ -89,6 +96,12 @@ PATTERN_NOTE = {  # comments / resolutions that change a pattern
     "P27": f"Reference for on-duty home: {fig('HP', '51:4186')}. Off-duty: {fig('IC', '2072:113833')} (Actions grid instead of map).",
     "P31": "Entry points are **Navigation** (bottom nav), **Storyly** (stories row), **Actions** grid and **Only for you** carousel — see the two home frames above.",
     "P47": "Confirmed as the onboarding use of the ChecklistCard (D08).",
+    "P49": "Order ID band and earnings band are shown on **parcel and food delivery** orders (same look); hidden only on normal bike-taxi orders. Swipe colours per D16. Components: [`OrderIdBand`](../components/OrderIdBand/spec.md), [`SwipeButton`](../components/SwipeButton/spec.md).",
+    "P50": "Food pickup is titled **\"Collect food\"** (\"Collect Parcel\" in the file is a mistake). The payment status card shows *collect payment* or *amount collected online* depending on the customer's payment choice. Stop details cards are **not collapsible**. Components: [`StopDetailsCard`](../components/StopDetailsCard/spec.md), [`PaymentStatusCard`](../components/PaymentStatusCard/spec.md), [`EarningsWaitTimerCard`](../components/EarningsWaitTimerCard/spec.md), [`SwipeButton`](../components/SwipeButton/spec.md).",
+    "P51": "If the photo is compulsory and missing, the swipe opens the camera (D17).",
+    "P52": "Title must not truncate (R02): \"Complete pickup\" / \"Complete delivery\". OTP input component is deferred (C29 Later).",
+    "P53": "Component: [`EarningsWaitTimerCard`](../components/EarningsWaitTimerCard/spec.md).",
+    "P54": "The \"Amount collected successfully\" card has an **Enter OTP** button (D18).",
 }
 VERD = {"yes": "Keep", "no": "Rejected", "maybe": "Undecided", "": "Keep, with changes"}
 
@@ -108,7 +121,7 @@ for it in cat["items"]:
         groups.setdefault(it["group"], []).append(it)
 
 GROUP_TITLE = {"pages": "Pages", "overlays": "Overlays (sheets, cards, snackbars)", "home": "Home", "orders": "Orders",
-               "progress": "Progress and status"}
+               "progress": "Progress and status", "delivery": "Delivery (B2B parcel and food)"}
 
 for g, items in groups.items():
     lines = [f"# Patterns: {GROUP_TITLE.get(g, g)}", "",
@@ -150,14 +163,17 @@ EXISTS = {"C01": None}
 buckets = {"build": [], "later": [], "skip": []}
 for it in cat["items"]:
     if it["kind"] == "component":
-        buckets[ans[it["id"]]["verdict"]].append(it)
+        v = ans[it["id"]]["verdict"] or {"C28": "build", "C30": "build"}[it["id"]]
+        buckets[v].append(it)
 DONE = {"ChecklistCard": "D08", "BlockingSheet": "D01", "BottomNavigation": "D14"}
 L = ["# Component roadmap", "", "From the review. **Build** = add to Runway; **Later** = not now; **Skip** = never.", "",
-     "Built from decisions: `ChecklistCard` (D08), `BlockingSheet` (D01), `BottomNavigation` v2 (D14).", ""]
+     "Built: `ChecklistCard` (D08), `BlockingSheet` (D01), `BottomNavigation` v2 (D14), `SwipeButton` (C28), "
+     "`StopDetailsCard` (C30, not collapsible), `PaymentStatusCard` (C32), `EarningsWaitTimerCard` (C33), `OrderIdBand` (C34).", ""]
 for b, title in [("build", "Build"), ("later", "Later"), ("skip", "Skip")]:
     L += [f"## {title}", "", "| ID | Component | Detail | Figma |", "|---|---|---|---|"]
     for it in buckets[b]:
-        note = " *(replaced by ChecklistCard, D08)*" if it["id"] == "C01" else ""
+        note = {"C01": " *(replaced by ChecklistCard, D08)*", "C28": " ✅ built", "C30": " ✅ built (not collapsible)",
+                "C32": " ✅ built", "C33": " ✅ built", "C34": " ✅ built", "C14": " *(status display only)*"}.get(it["id"], "")
         L += [f"| {it['id']} | {it['title']}{note} | {it.get('detail', '')} | {ev_links(it.get('evidence', []), 2)} |"]
     L += [""]
 open(os.path.join(OUT, "components-roadmap.md"), "w").write("\n".join(L))
@@ -183,6 +199,12 @@ L += ["", "## Example: Verify Merch", "",
       "(image, \"Verify your merch\", one-line reason, yellow **Verify now**) → [P01 Task checklist page](pages.md#p01): "
       "Internal Page Header with Help, hero image, three ChecklistCards (T-shirt selfie, Bag, Raincoat), sticky disabled "
       "**Complete** until all are verified, tertiary link \"Apply for merch →\".", "",
+      "## Example: parcel delivery", "",
+      "Order alert → [P49 trip map](delivery.md#p49) with order ID + earnings bands, blue **Arrived** swipe → "
+      "[P50 Collect parcel](delivery.md#p50) (payment status, pickup details, items, photo tile, black **Picked** swipe) → "
+      "[P51 photo](delivery.md#p51) → [P54 payment](delivery.md#p54) → \"Amount collected\" card with **Enter OTP** → "
+      "[P52 OTP](delivery.md#p52) → trip map to drop, red **Reached** swipe → Complete delivery, black **Delivered** swipe → "
+      "drop OTP if required → [P43 end of order](orders.md#p43). Food: same, with [P53 wait timer](delivery.md#p53), no payment or pickup OTP.", "",
       "Sources: `research/pattern-catalogue.json`, `research/decisions.json`. Regenerate: `python3 research/build_patterns.py`."]
 open(os.path.join(OUT, "README.md"), "w").write("\n".join(L) + "\n")
 print("wrote", sorted(os.listdir(OUT)))
